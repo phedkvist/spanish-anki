@@ -1,154 +1,156 @@
 #separator:tab
 #html:true
-¿Qué tal?	How's it going?<br><span style="color:#888;font-size:0.85em">qué tal = how goes it &middot; the everyday informal greeting</span>	A1::sentences A1::saludos
-Mucho gusto.	Nice to meet you.<br><span style="color:#888;font-size:0.85em">lit. much pleasure</span>	A1::sentences A1::saludos
-¿Cómo te llamas?	What's your name?<br><span style="color:#888;font-size:0.85em">cómo = how &middot; te llamas = you call yourself</span>	A1::sentences A1::saludos
-Encantado de conocerte.	Pleased to meet you.<br><span style="color:#888;font-size:0.85em">encantado = delighted (encantada if you're female) &middot; conocerte = to meet you</span>	A1::sentences A1::saludos
-Hasta luego.	See you later.<br><span style="color:#888;font-size:0.85em">hasta = until &middot; luego = later</span>	A1::sentences A1::saludos
-Nos vemos mañana.	See you tomorrow.<br><span style="color:#888;font-size:0.85em">nos vemos = we see each other</span>	A1::sentences A1::saludos
-¿De dónde eres?	Where are you from?<br><span style="color:#888;font-size:0.85em">de dónde = from where &middot; eres = you are</span>	A1::sentences A1::saludos
-Soy de Suecia.	I'm from Sweden.<br><span style="color:#888;font-size:0.85em">ser de = to be from</span>	A1::sentences A1::saludos
-Buenos días, ¿cómo está usted?	Good morning, how are you?<br><span style="color:#888;font-size:0.85em">usted = formal you &middot; está, not estás</span>	A1::sentences A1::saludos
-Lo siento mucho.	I'm very sorry.<br><span style="color:#888;font-size:0.85em">lo siento = lit. I feel it</span>	A1::sentences A1::saludos
-No pasa nada.	It's no problem.<br><span style="color:#888;font-size:0.85em">lit. nothing happens</span>	A1::sentences A1::saludos
-Muchas gracias por todo.	Thank you very much for everything.<br><span style="color:#888;font-size:0.85em">por todo = for everything</span>	A1::sentences A1::saludos
-De nada.	You're welcome.<br><span style="color:#888;font-size:0.85em">lit. of nothing</span>	A1::sentences A1::saludos
-Perdona, ¿puedo pasar?	Excuse me, can I get by?<br><span style="color:#888;font-size:0.85em">perdona = excuse me (informal) &middot; pasar = to pass</span>	A1::sentences A1::saludos
-¿Qué tal el fin de semana?	How was your weekend?<br><span style="color:#888;font-size:0.85em">fin de semana = weekend</span>	A1::sentences A1::saludos
-Te presento a mi amigo Juan.	Let me introduce you to my friend Juan.<br><span style="color:#888;font-size:0.85em">te presento a = I introduce to you</span>	A1::sentences A1::saludos
-¿Cuántos años tienes?	How old are you?<br><span style="color:#888;font-size:0.85em">lit. how many years do you have</span>	A1::sentences A1::saludos
-Tengo treinta y dos años.	I'm thirty-two.<br><span style="color:#888;font-size:0.85em">age with tener + años</span>	A1::sentences A1::saludos
-¿Qué te parece?	What do you think?<br><span style="color:#888;font-size:0.85em">te parece = it seems to you</span>	A1::sentences A1::opiniones
-Me parece bien.	Sounds good to me.<br><span style="color:#888;font-size:0.85em">me parece = it seems to me</span>	A1::sentences A1::opiniones
-Creo que sí.	I think so.<br><span style="color:#888;font-size:0.85em">creer que = to think that</span>	A1::sentences A1::opiniones
-No estoy seguro.	I'm not sure.<br><span style="color:#888;font-size:0.85em">segura if you're female</span>	A1::sentences A1::opiniones
-Estoy de acuerdo contigo.	I agree with you.<br><span style="color:#888;font-size:0.85em">estar de acuerdo = to agree &middot; contigo = with you</span>	A1::sentences A1::opiniones
-Depende del día.	It depends on the day.<br><span style="color:#888;font-size:0.85em">depender de &middot; de + el = del</span>	A1::sentences A1::opiniones
-Más o menos.	More or less.<br><span style="color:#888;font-size:0.85em">the standard lukewarm answer to ¿qué tal?</span>	A1::sentences A1::opiniones
-¡Qué bien!	How great!<br><span style="color:#888;font-size:0.85em">qué + adjective = how ...!</span>	A1::sentences A1::opiniones
-¡Qué pena!	What a shame!<br><span style="color:#888;font-size:0.85em">la pena = pity, shame</span>	A1::sentences A1::opiniones
-Tienes razón.	You're right.<br><span style="color:#888;font-size:0.85em">lit. you have reason</span>	A1::sentences A1::opiniones
-No tengo ni idea.	I have no idea.<br><span style="color:#888;font-size:0.85em">ni adds emphasis to the negative</span>	A1::sentences A1::opiniones
-Me da igual.	I don't mind.<br><span style="color:#888;font-size:0.85em">lit. it gives me the same</span>	A1::sentences A1::opiniones
-Claro que sí.	Of course.<br><span style="color:#888;font-size:0.85em">claro = clear, obviously</span>	A1::sentences A1::opiniones
-A mí también.	Me too.<br><span style="color:#888;font-size:0.85em">agreeing with a positive statement</span>	A1::sentences A1::opiniones
-A mí tampoco.	Me neither.<br><span style="color:#888;font-size:0.85em">agreeing with a negative statement</span>	A1::sentences A1::opiniones
-¿A qué hora te levantas normalmente?	What time do you normally get up?<br><span style="color:#888;font-size:0.85em">a qué hora = at what time &middot; te levantas = you get up</span>	A1::sentences A1::rutina
-Me despierto a las siete.	I wake up at seven.<br><span style="color:#888;font-size:0.85em">despertarse = to wake up (different from levantarse)</span>	A1::sentences A1::rutina
-Desayuno café con leche.	I have coffee with milk for breakfast.<br><span style="color:#888;font-size:0.85em">desayunar = to have breakfast</span>	A1::sentences A1::rutina
-Salgo de casa a las ocho y media.	I leave the house at half past eight.<br><span style="color:#888;font-size:0.85em">salir de = to leave &middot; y media = half past</span>	A1::sentences A1::rutina
-Voy al trabajo en metro.	I go to work by metro.<br><span style="color:#888;font-size:0.85em">en + transport = by</span>	A1::sentences A1::rutina
-Como con mis compañeros.	I have lunch with my colleagues.<br><span style="color:#888;font-size:0.85em">comer at midday = to have lunch</span>	A1::sentences A1::rutina
-Por la tarde hago deporte.	In the afternoon I do sport.<br><span style="color:#888;font-size:0.85em">hacer deporte = to exercise</span>	A1::sentences A1::rutina
-Ceno sobre las nueve.	I have dinner around nine.<br><span style="color:#888;font-size:0.85em">sobre + time = around</span>	A1::sentences A1::rutina
-Antes de dormir leo un poco.	Before sleeping I read a bit.<br><span style="color:#888;font-size:0.85em">antes de + infinitive</span>	A1::sentences A1::rutina
-Los fines de semana duermo más.	On weekends I sleep more.<br><span style="color:#888;font-size:0.85em">dormir: o &rarr; ue</span>	A1::sentences A1::rutina
-Siempre tengo prisa por la mañana.	I'm always in a hurry in the morning.<br><span style="color:#888;font-size:0.85em">tener prisa = to be in a hurry</span>	A1::sentences A1::rutina
-Nunca desayuno en casa.	I never have breakfast at home.<br><span style="color:#888;font-size:0.85em">nunca before the verb</span>	A1::sentences A1::rutina
-Hoy tengo mucho que hacer.	Today I have a lot to do.<br><span style="color:#888;font-size:0.85em">mucho que hacer = a lot to do</span>	A1::sentences A1::rutina
-Estoy muy ocupado esta semana.	I'm very busy this week.<br><span style="color:#888;font-size:0.85em">ocupada if you're female</span>	A1::sentences A1::rutina
-Normalmente llego a casa a las seis.	I normally get home at six.<br><span style="color:#888;font-size:0.85em">llegar a casa = to get home</span>	A1::sentences A1::rutina
-¿Cuánto cuesta esto?	How much does this cost?<br><span style="color:#888;font-size:0.85em">costar: o &rarr; ue</span>	A1::sentences A1::compras
-¿Me puede ayudar?	Can you help me?<br><span style="color:#888;font-size:0.85em">formal usted form</span>	A1::sentences A1::compras
-Solo estoy mirando, gracias.	I'm just looking, thanks.<br><span style="color:#888;font-size:0.85em">solo = only, just</span>	A1::sentences A1::compras
-¿Tiene esto en otra talla?	Do you have this in another size?<br><span style="color:#888;font-size:0.85em">la talla = clothing size</span>	A1::sentences A1::compras
-Me lo llevo.	I'll take it.<br><span style="color:#888;font-size:0.85em">lit. I carry it away - what you say at the till</span>	A1::sentences A1::compras
-¿Puedo pagar con tarjeta?	Can I pay by card?<br><span style="color:#888;font-size:0.85em">con tarjeta = by card</span>	A1::sentences A1::compras
-Es demasiado caro para mí.	It's too expensive for me.<br><span style="color:#888;font-size:0.85em">para mí = for me</span>	A1::sentences A1::compras
-¿Está en oferta?	Is it on sale?<br><span style="color:#888;font-size:0.85em">la oferta = special offer</span>	A1::sentences A1::compras
-¿Dónde están los probadores?	Where are the fitting rooms?<br><span style="color:#888;font-size:0.85em">el probador, from probar = to try on</span>	A1::sentences A1::compras
-Quiero devolver esto.	I want to return this.<br><span style="color:#888;font-size:0.85em">devolver = to return an item</span>	A1::sentences A1::compras
-¿Tiene cambio de veinte euros?	Do you have change for twenty euros?<br><span style="color:#888;font-size:0.85em">el cambio = change</span>	A1::sentences A1::compras
-¿A qué hora cierran?	What time do you close?<br><span style="color:#888;font-size:0.85em">cierran = they close (cerrar: e &rarr; ie)</span>	A1::sentences A1::compras
-Necesito una bolsa, por favor.	I need a bag, please.<br><span style="color:#888;font-size:0.85em">la bolsa = bag</span>	A1::sentences A1::compras
-¿Algo más?	Anything else?<br><span style="color:#888;font-size:0.85em">what the cashier asks you</span>	A1::sentences A1::compras
-Nada más, gracias.	That's all, thanks.<br><span style="color:#888;font-size:0.85em">nada más = nothing more</span>	A1::sentences A1::compras
-Una mesa para dos, por favor.	A table for two, please.<br><span style="color:#888;font-size:0.85em">para dos = for two</span>	A1::sentences A1::restaurante
-¿Qué me recomienda?	What do you recommend?<br><span style="color:#888;font-size:0.85em">formal &middot; recomendar: e &rarr; ie</span>	A1::sentences A1::restaurante
-Para mí, la sopa.	For me, the soup.<br><span style="color:#888;font-size:0.85em">how you order at the table</span>	A1::sentences A1::restaurante
-¿Qué lleva este plato?	What's in this dish?<br><span style="color:#888;font-size:0.85em">llevar here = to contain</span>	A1::sentences A1::restaurante
-Soy vegetariano.	I'm vegetarian.<br><span style="color:#888;font-size:0.85em">vegetariana if you're female</span>	A1::sentences A1::restaurante
-No como carne ni pescado.	I don't eat meat or fish.<br><span style="color:#888;font-size:0.85em">ni = nor, after a negative</span>	A1::sentences A1::restaurante
-¿Me trae la carta, por favor?	Could you bring me the menu, please?<br><span style="color:#888;font-size:0.85em">la carta = menu &middot; traer = to bring</span>	A1::sentences A1::restaurante
-Está muy rico.	It's delicious.<br><span style="color:#888;font-size:0.85em">rico with estar = tasty</span>	A1::sentences A1::restaurante
-La cuenta, por favor.	The bill, please.<br><span style="color:#888;font-size:0.85em">la cuenta = the bill</span>	A1::sentences A1::restaurante
-¿Está incluida la propina?	Is the tip included?<br><span style="color:#888;font-size:0.85em">la propina = tip</span>	A1::sentences A1::restaurante
-Otra cerveza, por favor.	Another beer, please.<br><span style="color:#888;font-size:0.85em">otra = another (never 'una otra')</span>	A1::sentences A1::restaurante
-Sin hielo, por favor.	Without ice, please.<br><span style="color:#888;font-size:0.85em">sin = without &middot; el hielo = ice</span>	A1::sentences A1::restaurante
-Tengo una reserva a nombre de Pierre.	I have a reservation under the name Pierre.<br><span style="color:#888;font-size:0.85em">a nombre de = under the name of</span>	A1::sentences A1::restaurante
-¿Tienen wifi?	Do you have wifi?<br><span style="color:#888;font-size:0.85em">tienen = you (plural/formal) have</span>	A1::sentences A1::restaurante
-Perdone, falta un plato.	Excuse me, one dish is missing.<br><span style="color:#888;font-size:0.85em">faltar = to be missing</span>	A1::sentences A1::restaurante
-¿Dónde está la estación, por favor?	Where is the station, please?<br><span style="color:#888;font-size:0.85em">estar for location</span>	A1::sentences A1::viajes
-¿Está lejos de aquí?	Is it far from here?<br><span style="color:#888;font-size:0.85em">lejos de = far from</span>	A1::sentences A1::viajes
-Está a diez minutos andando.	It's ten minutes on foot.<br><span style="color:#888;font-size:0.85em">andando = walking</span>	A1::sentences A1::viajes
-Siga todo recto y gire a la izquierda.	Go straight on and turn left.<br><span style="color:#888;font-size:0.85em">siga, gire = formal commands</span>	A1::sentences A1::viajes
-Está al lado del banco.	It's next to the bank.<br><span style="color:#888;font-size:0.85em">al lado de = next to</span>	A1::sentences A1::viajes
-Está enfrente del parque.	It's opposite the park.<br><span style="color:#888;font-size:0.85em">enfrente de = opposite</span>	A1::sentences A1::viajes
-¿Qué autobús va al centro?	Which bus goes to the center?<br><span style="color:#888;font-size:0.85em">qué + noun = which</span>	A1::sentences A1::viajes
-¿Este tren para en Sevilla?	Does this train stop in Sevilla?<br><span style="color:#888;font-size:0.85em">parar = to stop</span>	A1::sentences A1::viajes
-¿A qué hora sale el próximo tren?	What time does the next train leave?<br><span style="color:#888;font-size:0.85em">próximo = next</span>	A1::sentences A1::viajes
-Un billete de ida y vuelta, por favor.	A round-trip ticket, please.<br><span style="color:#888;font-size:0.85em">ida y vuelta = there and back</span>	A1::sentences A1::viajes
-¿Dónde puedo coger un taxi?	Where can I get a taxi?<br><span style="color:#888;font-size:0.85em">coger (Spain) &middot; use tomar in Latin America</span>	A1::sentences A1::viajes
-Estoy buscando esta dirección.	I'm looking for this address.<br><span style="color:#888;font-size:0.85em">la dirección = address</span>	A1::sentences A1::viajes
-Creo que estoy perdido.	I think I'm lost.<br><span style="color:#888;font-size:0.85em">perdida if you're female</span>	A1::sentences A1::viajes
-¿Me puede llevar al aeropuerto?	Can you take me to the airport?<br><span style="color:#888;font-size:0.85em">llevar a = to take someone to</span>	A1::sentences A1::viajes
-¿Cuánto se tarda en llegar?	How long does it take to get there?<br><span style="color:#888;font-size:0.85em">tardar en = to take (time) to</span>	A1::sentences A1::viajes
-No me encuentro bien.	I don't feel well.<br><span style="color:#888;font-size:0.85em">encontrarse = to feel (health)</span>	A1::sentences A1::salud
-Me duele la cabeza.	My head hurts.<br><span style="color:#888;font-size:0.85em">doler works like gustar &middot; la, not 'my'</span>	A1::sentences A1::salud
-Me duelen los pies.	My feet hurt.<br><span style="color:#888;font-size:0.85em">plural subject &rarr; duelen</span>	A1::sentences A1::salud
-Necesito ir al médico.	I need to go to the doctor.<br><span style="color:#888;font-size:0.85em">el médico = doctor</span>	A1::sentences A1::salud
-¿Hay una farmacia cerca?	Is there a pharmacy nearby?<br><span style="color:#888;font-size:0.85em">cerca = nearby</span>	A1::sentences A1::salud
-Estoy resfriado.	I have a cold.<br><span style="color:#888;font-size:0.85em">resfriada if you're female</span>	A1::sentences A1::salud
-Tengo fiebre.	I have a fever.<br><span style="color:#888;font-size:0.85em">symptoms use tener</span>	A1::sentences A1::salud
-¿Está usted bien?	Are you okay?<br><span style="color:#888;font-size:0.85em">formal usted</span>	A1::sentences A1::salud
-Soy alérgico a los frutos secos.	I'm allergic to nuts.<br><span style="color:#888;font-size:0.85em">alérgico a &middot; frutos secos = nuts</span>	A1::sentences A1::salud
-Llame a una ambulancia.	Call an ambulance.<br><span style="color:#888;font-size:0.85em">llame = formal command from llamar</span>	A1::sentences A1::salud
-¿Cómo se dice 'table' en español?	How do you say 'table' in Spanish?<br><span style="color:#888;font-size:0.85em">se dice = one says</span>	A1::sentences A1::clase
-¿Qué significa esta palabra?	What does this word mean?<br><span style="color:#888;font-size:0.85em">significar = to mean</span>	A1::sentences A1::clase
-¿Puede hablar más despacio, por favor?	Can you speak more slowly, please?<br><span style="color:#888;font-size:0.85em">despacio = slowly</span>	A1::sentences A1::clase
-No entiendo nada.	I don't understand anything.<br><span style="color:#888;font-size:0.85em">double negative is correct here</span>	A1::sentences A1::clase
-¿Puede repetir, por favor?	Can you repeat, please?<br><span style="color:#888;font-size:0.85em">formal puede + infinitive</span>	A1::sentences A1::clase
-Estoy aprendiendo español.	I'm learning Spanish.<br><span style="color:#888;font-size:0.85em">estar + gerund</span>	A1::sentences A1::clase
-Hablo un poco de español.	I speak a little Spanish.<br><span style="color:#888;font-size:0.85em">un poco de = a little</span>	A1::sentences A1::clase
-¿Cómo se escribe?	How do you spell it?<br><span style="color:#888;font-size:0.85em">lit. how is it written</span>	A1::sentences A1::clase
-No sé cómo se dice.	I don't know how to say it.<br><span style="color:#888;font-size:0.85em">no sé = I don't know</span>	A1::sentences A1::clase
-¿Está bien así?	Is this right?<br><span style="color:#888;font-size:0.85em">así = like this</span>	A1::sentences A1::clase
-Tengo una pregunta.	I have a question.<br><span style="color:#888;font-size:0.85em">la pregunta = question</span>	A1::sentences A1::clase
-Perdón por mi español.	Sorry for my Spanish.<br><span style="color:#888;font-size:0.85em">perdón por = sorry for</span>	A1::sentences A1::clase
-¿Quieres tomar algo?	Do you want to grab a drink?<br><span style="color:#888;font-size:0.85em">tomar algo = to have something to drink</span>	A1::sentences A1::planes
-¿Qué haces esta noche?	What are you doing tonight?<br><span style="color:#888;font-size:0.85em">esta noche = tonight</span>	A1::sentences A1::planes
-¿Nos vemos el sábado?	Shall we meet on Saturday?<br><span style="color:#888;font-size:0.85em">nos vemos = we see each other</span>	A1::sentences A1::planes
-Vale, perfecto.	Okay, perfect.<br><span style="color:#888;font-size:0.85em">vale = okay (very common in Spain)</span>	A1::sentences A1::planes
-Lo siento, no puedo.	Sorry, I can't.<br><span style="color:#888;font-size:0.85em">no puedo = I can't</span>	A1::sentences A1::planes
-Quizás otro día.	Maybe another day.<br><span style="color:#888;font-size:0.85em">quizás = maybe</span>	A1::sentences A1::planes
-¿A qué hora quedamos?	What time shall we meet?<br><span style="color:#888;font-size:0.85em">quedar = to arrange to meet</span>	A1::sentences A1::planes
-Quedamos a las ocho en la plaza.	Let's meet at eight in the square.<br><span style="color:#888;font-size:0.85em">la plaza = square</span>	A1::sentences A1::planes
-Voy a llegar un poco tarde.	I'm going to arrive a bit late.<br><span style="color:#888;font-size:0.85em">un poco tarde = a bit late</span>	A1::sentences A1::planes
-Estoy en camino.	I'm on my way.<br><span style="color:#888;font-size:0.85em">el camino = the way</span>	A1::sentences A1::planes
-¿Vienes con nosotros?	Are you coming with us?<br><span style="color:#888;font-size:0.85em">con nosotros = with us</span>	A1::sentences A1::planes
-Tengo otros planes.	I have other plans.<br><span style="color:#888;font-size:0.85em">otros = other (no 'unos otros')</span>	A1::sentences A1::planes
-¿Puedo usar el baño?	Can I use the bathroom?<br><span style="color:#888;font-size:0.85em">usar = to use</span>	A1::sentences A1::practico
-No funciona la ducha.	The shower doesn't work.<br><span style="color:#888;font-size:0.85em">funcionar = to work (machines)</span>	A1::sentences A1::practico
-¿Dónde está la llave?	Where's the key?<br><span style="color:#888;font-size:0.85em">la llave = key</span>	A1::sentences A1::practico
-Hace mucho calor aquí.	It's very hot here.<br><span style="color:#888;font-size:0.85em">weather uses hacer + noun</span>	A1::sentences A1::practico
-Hace frío fuera.	It's cold outside.<br><span style="color:#888;font-size:0.85em">fuera = outside</span>	A1::sentences A1::practico
-¿Puedes abrir la ventana?	Can you open the window?<br><span style="color:#888;font-size:0.85em">abrir = to open</span>	A1::sentences A1::practico
-Voy a hacer la compra.	I'm going to do the grocery shopping.<br><span style="color:#888;font-size:0.85em">hacer la compra = to do the food shop</span>	A1::sentences A1::practico
-La lavadora está rota.	The washing machine is broken.<br><span style="color:#888;font-size:0.85em">roto/rota = broken</span>	A1::sentences A1::practico
-Vivo aquí desde hace dos años.	I've lived here for two years.<br><span style="color:#888;font-size:0.85em">desde hace = for (a duration), with present tense</span>	A1::sentences A1::practico
-Comparto piso con dos amigos.	I share a flat with two friends.<br><span style="color:#888;font-size:0.85em">compartir = to share</span>	A1::sentences A1::practico
-¿Me das tu número?	Can you give me your number?<br><span style="color:#888;font-size:0.85em">present tense as a request</span>	A1::sentences A1::movil
-Te escribo luego.	I'll text you later.<br><span style="color:#888;font-size:0.85em">present tense covers the near future</span>	A1::sentences A1::movil
-No tengo cobertura.	I have no signal.<br><span style="color:#888;font-size:0.85em">la cobertura = phone signal</span>	A1::sentences A1::movil
-¿Cuál es la contraseña del wifi?	What's the wifi password?<br><span style="color:#888;font-size:0.85em">la contraseña = password</span>	A1::sentences A1::movil
-No tengo batería.	My battery is dead.<br><span style="color:#888;font-size:0.85em">lit. I don't have battery</span>	A1::sentences A1::movil
-¿Puedes llamarme más tarde?	Can you call me later?<br><span style="color:#888;font-size:0.85em">llamarme = to call me</span>	A1::sentences A1::movil
-¿Estás en WhatsApp?	Are you on WhatsApp?<br><span style="color:#888;font-size:0.85em">estar en = to be on</span>	A1::sentences A1::movil
-Te mando la dirección.	I'll send you the address.<br><span style="color:#888;font-size:0.85em">mandar = to send</span>	A1::sentences A1::movil
-¿Puedo pedirte un favor?	Can I ask you a favor?<br><span style="color:#888;font-size:0.85em">pedir = to ask for</span>	A1::sentences A1::expresiones
-Un momento, por favor.	One moment, please.<br><span style="color:#888;font-size:0.85em">el momento = moment</span>	A1::sentences A1::expresiones
-Ya está.	That's it / it's done.<br><span style="color:#888;font-size:0.85em">ya = already, now</span>	A1::sentences A1::expresiones
-Todavía no.	Not yet.<br><span style="color:#888;font-size:0.85em">todavía = still, yet</span>	A1::sentences A1::expresiones
-Otra vez, por favor.	Again, please.<br><span style="color:#888;font-size:0.85em">otra vez = another time</span>	A1::sentences A1::expresiones
-Poco a poco.	Little by little.<br><span style="color:#888;font-size:0.85em">the language learner's motto</span>	A1::sentences A1::expresiones
-¡Buen provecho!	Enjoy your meal!<br><span style="color:#888;font-size:0.85em">said before eating</span>	A1::sentences A1::expresiones
+#notetype:Spanish Comprehension
+#tags column:4
+¿Qué tal?	How's it going?	qué tal = how goes it &middot; the everyday informal greeting	A1::sentences A1::saludos
+Mucho gusto.	Nice to meet you.	lit. much pleasure	A1::sentences A1::saludos
+¿Cómo te llamas?	What's your name?	cómo = how &middot; te llamas = you call yourself	A1::sentences A1::saludos
+Encantado de conocerte.	Pleased to meet you.	encantado = delighted (encantada if you're female) &middot; conocerte = to meet you	A1::sentences A1::saludos
+Hasta luego.	See you later.	hasta = until &middot; luego = later	A1::sentences A1::saludos
+Nos vemos mañana.	See you tomorrow.	nos vemos = we see each other	A1::sentences A1::saludos
+¿De dónde eres?	Where are you from?	de dónde = from where &middot; eres = you are	A1::sentences A1::saludos
+Soy de Suecia.	I'm from Sweden.	ser de = to be from	A1::sentences A1::saludos
+Buenos días, ¿cómo está usted?	Good morning, how are you?	usted = formal you &middot; está, not estás	A1::sentences A1::saludos
+Lo siento mucho.	I'm very sorry.	lo siento = lit. I feel it	A1::sentences A1::saludos
+No pasa nada.	It's no problem.	lit. nothing happens	A1::sentences A1::saludos
+Muchas gracias por todo.	Thank you very much for everything.	por todo = for everything	A1::sentences A1::saludos
+De nada.	You're welcome.	lit. of nothing	A1::sentences A1::saludos
+Perdona, ¿puedo pasar?	Excuse me, can I get by?	perdona = excuse me (informal) &middot; pasar = to pass	A1::sentences A1::saludos
+¿Qué tal el fin de semana?	How was your weekend?	fin de semana = weekend	A1::sentences A1::saludos
+Te presento a mi amigo Juan.	Let me introduce you to my friend Juan.	te presento a = I introduce to you	A1::sentences A1::saludos
+¿Cuántos años tienes?	How old are you?	lit. how many years do you have	A1::sentences A1::saludos
+Tengo treinta y dos años.	I'm thirty-two.	age with tener + años	A1::sentences A1::saludos
+¿Qué te parece?	What do you think?	te parece = it seems to you	A1::sentences A1::opiniones
+Me parece bien.	Sounds good to me.	me parece = it seems to me	A1::sentences A1::opiniones
+Creo que sí.	I think so.	creer que = to think that	A1::sentences A1::opiniones
+No estoy seguro.	I'm not sure.	segura if you're female	A1::sentences A1::opiniones
+Estoy de acuerdo contigo.	I agree with you.	estar de acuerdo = to agree &middot; contigo = with you	A1::sentences A1::opiniones
+Depende del día.	It depends on the day.	depender de &middot; de + el = del	A1::sentences A1::opiniones
+Más o menos.	More or less.	the standard lukewarm answer to ¿qué tal?	A1::sentences A1::opiniones
+¡Qué bien!	How great!	qué + adjective = how ...!	A1::sentences A1::opiniones
+¡Qué pena!	What a shame!	la pena = pity, shame	A1::sentences A1::opiniones
+Tienes razón.	You're right.	lit. you have reason	A1::sentences A1::opiniones
+No tengo ni idea.	I have no idea.	ni adds emphasis to the negative	A1::sentences A1::opiniones
+Me da igual.	I don't mind.	lit. it gives me the same	A1::sentences A1::opiniones
+Claro que sí.	Of course.	claro = clear, obviously	A1::sentences A1::opiniones
+A mí también.	Me too.	agreeing with a positive statement	A1::sentences A1::opiniones
+A mí tampoco.	Me neither.	agreeing with a negative statement	A1::sentences A1::opiniones
+¿A qué hora te levantas normalmente?	What time do you normally get up?	a qué hora = at what time &middot; te levantas = you get up	A1::sentences A1::rutina
+Me despierto a las siete.	I wake up at seven.	despertarse = to wake up (different from levantarse)	A1::sentences A1::rutina
+Desayuno café con leche.	I have coffee with milk for breakfast.	desayunar = to have breakfast	A1::sentences A1::rutina
+Salgo de casa a las ocho y media.	I leave the house at half past eight.	salir de = to leave &middot; y media = half past	A1::sentences A1::rutina
+Voy al trabajo en metro.	I go to work by metro.	en + transport = by	A1::sentences A1::rutina
+Como con mis compañeros.	I have lunch with my colleagues.	comer at midday = to have lunch	A1::sentences A1::rutina
+Por la tarde hago deporte.	In the afternoon I do sport.	hacer deporte = to exercise	A1::sentences A1::rutina
+Ceno sobre las nueve.	I have dinner around nine.	sobre + time = around	A1::sentences A1::rutina
+Antes de dormir leo un poco.	Before sleeping I read a bit.	antes de + infinitive	A1::sentences A1::rutina
+Los fines de semana duermo más.	On weekends I sleep more.	dormir: o &rarr; ue	A1::sentences A1::rutina
+Siempre tengo prisa por la mañana.	I'm always in a hurry in the morning.	tener prisa = to be in a hurry	A1::sentences A1::rutina
+Nunca desayuno en casa.	I never have breakfast at home.	nunca before the verb	A1::sentences A1::rutina
+Hoy tengo mucho que hacer.	Today I have a lot to do.	mucho que hacer = a lot to do	A1::sentences A1::rutina
+Estoy muy ocupado esta semana.	I'm very busy this week.	ocupada if you're female	A1::sentences A1::rutina
+Normalmente llego a casa a las seis.	I normally get home at six.	llegar a casa = to get home	A1::sentences A1::rutina
+¿Cuánto cuesta esto?	How much does this cost?	costar: o &rarr; ue	A1::sentences A1::compras
+¿Me puede ayudar?	Can you help me?	formal usted form	A1::sentences A1::compras
+Solo estoy mirando, gracias.	I'm just looking, thanks.	solo = only, just	A1::sentences A1::compras
+¿Tiene esto en otra talla?	Do you have this in another size?	la talla = clothing size	A1::sentences A1::compras
+Me lo llevo.	I'll take it.	lit. I carry it away - what you say at the till	A1::sentences A1::compras
+¿Puedo pagar con tarjeta?	Can I pay by card?	con tarjeta = by card	A1::sentences A1::compras
+Es demasiado caro para mí.	It's too expensive for me.	para mí = for me	A1::sentences A1::compras
+¿Está en oferta?	Is it on sale?	la oferta = special offer	A1::sentences A1::compras
+¿Dónde están los probadores?	Where are the fitting rooms?	el probador, from probar = to try on	A1::sentences A1::compras
+Quiero devolver esto.	I want to return this.	devolver = to return an item	A1::sentences A1::compras
+¿Tiene cambio de veinte euros?	Do you have change for twenty euros?	el cambio = change	A1::sentences A1::compras
+¿A qué hora cierran?	What time do you close?	cierran = they close (cerrar: e &rarr; ie)	A1::sentences A1::compras
+Necesito una bolsa, por favor.	I need a bag, please.	la bolsa = bag	A1::sentences A1::compras
+¿Algo más?	Anything else?	what the cashier asks you	A1::sentences A1::compras
+Nada más, gracias.	That's all, thanks.	nada más = nothing more	A1::sentences A1::compras
+Una mesa para dos, por favor.	A table for two, please.	para dos = for two	A1::sentences A1::restaurante
+¿Qué me recomienda?	What do you recommend?	formal &middot; recomendar: e &rarr; ie	A1::sentences A1::restaurante
+Para mí, la sopa.	For me, the soup.	how you order at the table	A1::sentences A1::restaurante
+¿Qué lleva este plato?	What's in this dish?	llevar here = to contain	A1::sentences A1::restaurante
+Soy vegetariano.	I'm vegetarian.	vegetariana if you're female	A1::sentences A1::restaurante
+No como carne ni pescado.	I don't eat meat or fish.	ni = nor, after a negative	A1::sentences A1::restaurante
+¿Me trae la carta, por favor?	Could you bring me the menu, please?	la carta = menu &middot; traer = to bring	A1::sentences A1::restaurante
+Está muy rico.	It's delicious.	rico with estar = tasty	A1::sentences A1::restaurante
+La cuenta, por favor.	The bill, please.	la cuenta = the bill	A1::sentences A1::restaurante
+¿Está incluida la propina?	Is the tip included?	la propina = tip	A1::sentences A1::restaurante
+Otra cerveza, por favor.	Another beer, please.	otra = another (never 'una otra')	A1::sentences A1::restaurante
+Sin hielo, por favor.	Without ice, please.	sin = without &middot; el hielo = ice	A1::sentences A1::restaurante
+Tengo una reserva a nombre de Pierre.	I have a reservation under the name Pierre.	a nombre de = under the name of	A1::sentences A1::restaurante
+¿Tienen wifi?	Do you have wifi?	tienen = you (plural/formal) have	A1::sentences A1::restaurante
+Perdone, falta un plato.	Excuse me, one dish is missing.	faltar = to be missing	A1::sentences A1::restaurante
+¿Dónde está la estación, por favor?	Where is the station, please?	estar for location	A1::sentences A1::viajes
+¿Está lejos de aquí?	Is it far from here?	lejos de = far from	A1::sentences A1::viajes
+Está a diez minutos andando.	It's ten minutes on foot.	andando = walking	A1::sentences A1::viajes
+Siga todo recto y gire a la izquierda.	Go straight on and turn left.	siga, gire = formal commands	A1::sentences A1::viajes
+Está al lado del banco.	It's next to the bank.	al lado de = next to	A1::sentences A1::viajes
+Está enfrente del parque.	It's opposite the park.	enfrente de = opposite	A1::sentences A1::viajes
+¿Qué autobús va al centro?	Which bus goes to the center?	qué + noun = which	A1::sentences A1::viajes
+¿Este tren para en Sevilla?	Does this train stop in Sevilla?	parar = to stop	A1::sentences A1::viajes
+¿A qué hora sale el próximo tren?	What time does the next train leave?	próximo = next	A1::sentences A1::viajes
+Un billete de ida y vuelta, por favor.	A round-trip ticket, please.	ida y vuelta = there and back	A1::sentences A1::viajes
+¿Dónde puedo coger un taxi?	Where can I get a taxi?	coger (Spain) &middot; use tomar in Latin America	A1::sentences A1::viajes
+Estoy buscando esta dirección.	I'm looking for this address.	la dirección = address	A1::sentences A1::viajes
+Creo que estoy perdido.	I think I'm lost.	perdida if you're female	A1::sentences A1::viajes
+¿Me puede llevar al aeropuerto?	Can you take me to the airport?	llevar a = to take someone to	A1::sentences A1::viajes
+¿Cuánto se tarda en llegar?	How long does it take to get there?	tardar en = to take (time) to	A1::sentences A1::viajes
+No me encuentro bien.	I don't feel well.	encontrarse = to feel (health)	A1::sentences A1::salud
+Me duele la cabeza.	My head hurts.	doler works like gustar &middot; la, not 'my'	A1::sentences A1::salud
+Me duelen los pies.	My feet hurt.	plural subject &rarr; duelen	A1::sentences A1::salud
+Necesito ir al médico.	I need to go to the doctor.	el médico = doctor	A1::sentences A1::salud
+¿Hay una farmacia cerca?	Is there a pharmacy nearby?	cerca = nearby	A1::sentences A1::salud
+Estoy resfriado.	I have a cold.	resfriada if you're female	A1::sentences A1::salud
+Tengo fiebre.	I have a fever.	symptoms use tener	A1::sentences A1::salud
+¿Está usted bien?	Are you okay?	formal usted	A1::sentences A1::salud
+Soy alérgico a los frutos secos.	I'm allergic to nuts.	alérgico a &middot; frutos secos = nuts	A1::sentences A1::salud
+Llame a una ambulancia.	Call an ambulance.	llame = formal command from llamar	A1::sentences A1::salud
+¿Cómo se dice 'table' en español?	How do you say 'table' in Spanish?	se dice = one says	A1::sentences A1::clase
+¿Qué significa esta palabra?	What does this word mean?	significar = to mean	A1::sentences A1::clase
+¿Puede hablar más despacio, por favor?	Can you speak more slowly, please?	despacio = slowly	A1::sentences A1::clase
+No entiendo nada.	I don't understand anything.	double negative is correct here	A1::sentences A1::clase
+¿Puede repetir, por favor?	Can you repeat, please?	formal puede + infinitive	A1::sentences A1::clase
+Estoy aprendiendo español.	I'm learning Spanish.	estar + gerund	A1::sentences A1::clase
+Hablo un poco de español.	I speak a little Spanish.	un poco de = a little	A1::sentences A1::clase
+¿Cómo se escribe?	How do you spell it?	lit. how is it written	A1::sentences A1::clase
+No sé cómo se dice.	I don't know how to say it.	no sé = I don't know	A1::sentences A1::clase
+¿Está bien así?	Is this right?	así = like this	A1::sentences A1::clase
+Tengo una pregunta.	I have a question.	la pregunta = question	A1::sentences A1::clase
+Perdón por mi español.	Sorry for my Spanish.	perdón por = sorry for	A1::sentences A1::clase
+¿Quieres tomar algo?	Do you want to grab a drink?	tomar algo = to have something to drink	A1::sentences A1::planes
+¿Qué haces esta noche?	What are you doing tonight?	esta noche = tonight	A1::sentences A1::planes
+¿Nos vemos el sábado?	Shall we meet on Saturday?	nos vemos = we see each other	A1::sentences A1::planes
+Vale, perfecto.	Okay, perfect.	vale = okay (very common in Spain)	A1::sentences A1::planes
+Lo siento, no puedo.	Sorry, I can't.	no puedo = I can't	A1::sentences A1::planes
+Quizás otro día.	Maybe another day.	quizás = maybe	A1::sentences A1::planes
+¿A qué hora quedamos?	What time shall we meet?	quedar = to arrange to meet	A1::sentences A1::planes
+Quedamos a las ocho en la plaza.	Let's meet at eight in the square.	la plaza = square	A1::sentences A1::planes
+Voy a llegar un poco tarde.	I'm going to arrive a bit late.	un poco tarde = a bit late	A1::sentences A1::planes
+Estoy en camino.	I'm on my way.	el camino = the way	A1::sentences A1::planes
+¿Vienes con nosotros?	Are you coming with us?	con nosotros = with us	A1::sentences A1::planes
+Tengo otros planes.	I have other plans.	otros = other (no 'unos otros')	A1::sentences A1::planes
+¿Puedo usar el baño?	Can I use the bathroom?	usar = to use	A1::sentences A1::practico
+No funciona la ducha.	The shower doesn't work.	funcionar = to work (machines)	A1::sentences A1::practico
+¿Dónde está la llave?	Where's the key?	la llave = key	A1::sentences A1::practico
+Hace mucho calor aquí.	It's very hot here.	weather uses hacer + noun	A1::sentences A1::practico
+Hace frío fuera.	It's cold outside.	fuera = outside	A1::sentences A1::practico
+¿Puedes abrir la ventana?	Can you open the window?	abrir = to open	A1::sentences A1::practico
+Voy a hacer la compra.	I'm going to do the grocery shopping.	hacer la compra = to do the food shop	A1::sentences A1::practico
+La lavadora está rota.	The washing machine is broken.	roto/rota = broken	A1::sentences A1::practico
+Vivo aquí desde hace dos años.	I've lived here for two years.	desde hace = for (a duration), with present tense	A1::sentences A1::practico
+Comparto piso con dos amigos.	I share a flat with two friends.	compartir = to share	A1::sentences A1::practico
+¿Me das tu número?	Can you give me your number?	present tense as a request	A1::sentences A1::movil
+Te escribo luego.	I'll text you later.	present tense covers the near future	A1::sentences A1::movil
+No tengo cobertura.	I have no signal.	la cobertura = phone signal	A1::sentences A1::movil
+¿Cuál es la contraseña del wifi?	What's the wifi password?	la contraseña = password	A1::sentences A1::movil
+No tengo batería.	My battery is dead.	lit. I don't have battery	A1::sentences A1::movil
+¿Puedes llamarme más tarde?	Can you call me later?	llamarme = to call me	A1::sentences A1::movil
+¿Estás en WhatsApp?	Are you on WhatsApp?	estar en = to be on	A1::sentences A1::movil
+Te mando la dirección.	I'll send you the address.	mandar = to send	A1::sentences A1::movil
+¿Puedo pedirte un favor?	Can I ask you a favor?	pedir = to ask for	A1::sentences A1::expresiones
+Un momento, por favor.	One moment, please.	el momento = moment	A1::sentences A1::expresiones
+Ya está.	That's it / it's done.	ya = already, now	A1::sentences A1::expresiones
+Todavía no.	Not yet.	todavía = still, yet	A1::sentences A1::expresiones
+Otra vez, por favor.	Again, please.	otra vez = another time	A1::sentences A1::expresiones
+Poco a poco.	Little by little.	the language learner's motto	A1::sentences A1::expresiones
+¡Buen provecho!	Enjoy your meal!	said before eating	A1::sentences A1::expresiones

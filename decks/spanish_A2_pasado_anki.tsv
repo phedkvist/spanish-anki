@@ -1,81 +1,83 @@
 #separator:tab
 #html:true
-Ayer ___ con María. (hablar — yo)	hablé<br><span style="color:#888;font-size:0.85em">Yesterday I spoke with María &middot; -ar yo: -é, and the stress lands on it</span>	A2::verbs A2::pasado A2::hablar
-La semana pasada ___ mucho. (trabajar — nosotros)	trabajamos<br><span style="color:#888;font-size:0.85em">Last week we worked a lot &middot; -ar nosotros is identical to the present: only the time word tells you which</span>	A2::verbs A2::pasado A2::trabajar
-¿A qué hora ___ la clase ayer? (empezar)	empezó<br><span style="color:#888;font-size:0.85em">What time did the class start yesterday? &middot; él: -ó, with the accent</span>	A2::verbs A2::pasado A2::empezar
-Anoche ___ al fútbol. (jugar — yo)	jugué<br><span style="color:#888;font-size:0.85em">Last night I played football &middot; g &rarr; gu before é, to keep the hard sound</span>	A2::verbs A2::pasado A2::jugar
-Ayer ___ las llaves media hora. (buscar — yo)	busqué<br><span style="color:#888;font-size:0.85em">Yesterday I looked for the keys for half an hour &middot; c &rarr; qu before é</span>	A2::verbs A2::pasado A2::buscar
-El lunes ___ el piano. (tocar — yo)	toqué<br><span style="color:#888;font-size:0.85em">On Monday I played the piano &middot; c &rarr; qu before é, same as busqué</span>	A2::verbs A2::pasado A2::tocar
-¿___ tú el libro? (encontrar)	encontraste<br><span style="color:#888;font-size:0.85em">Did you find the book? &middot; no stem change in the past: encontraste, never encuentraste</span>	A2::verbs A2::pasado A2::encontrar
-Ellos ___ más tiempo. (necesitar)	necesitaron<br><span style="color:#888;font-size:0.85em">They needed more time &middot; -ar ellos: -aron</span>	A2::verbs A2::pasado A2::necesitar
-Yo ___ una camiseta negra. (llevar)	llevé<br><span style="color:#888;font-size:0.85em">I wore a black T-shirt &middot; regular -ar</span>	A2::verbs A2::pasado A2::llevar
-¿En qué ___ tú? (pensar)	pensaste<br><span style="color:#888;font-size:0.85em">What were you thinking about? &middot; pensar loses its ie in the past: pensaste</span>	A2::verbs A2::pasado A2::pensar
-Ayer ___ paella. (comer — yo)	comí<br><span style="color:#888;font-size:0.85em">Yesterday I ate paella &middot; -er/-ir yo: -í</span>	A2::verbs A2::pasado A2::comer
-¿Qué ___ anoche? (beber — tú)	bebiste<br><span style="color:#888;font-size:0.85em">What did you drink last night? &middot; -iste for tú, with no accent</span>	A2::verbs A2::pasado A2::beber
-Ella ___ dos años en Sevilla. (vivir)	vivió<br><span style="color:#888;font-size:0.85em">She lived in Seville for two years &middot; él: -ió</span>	A2::verbs A2::pasado A2::vivir
-Nosotros ___ a casa tarde. (volver)	volvimos<br><span style="color:#888;font-size:0.85em">We came home late &middot; volver drops its ue here: volvimos</span>	A2::verbs A2::pasado A2::volver
-Ellos ___ de casa a las ocho. (salir)	salieron<br><span style="color:#888;font-size:0.85em">They left home at eight &middot; -ieron for ellos</span>	A2::verbs A2::pasado A2::salir
-Yo ___ el tren. (perder)	perdí<br><span style="color:#888;font-size:0.85em">I missed the train &middot; perder is regular in the past: perdí</span>	A2::verbs A2::pasado A2::perder
-Él ___ ocho horas. (dormir)	durmió<br><span style="color:#888;font-size:0.85em">He slept for eight hours &middot; o &rarr; u in él and ellos only: durmió, durmieron</span>	A2::verbs A2::pasado A2::dormir
-Ellos ___ la cuenta. (pedir)	pidieron<br><span style="color:#888;font-size:0.85em">They asked for the bill &middot; e &rarr; i in él and ellos only: pidió, pidieron</span>	A2::verbs A2::pasado A2::pedir
-¿___ vosotros el partido? (ver)	visteis<br><span style="color:#888;font-size:0.85em">Did you all see the match? &middot; ver takes the plain endings with no accents</span>	A2::verbs A2::pasado A2::ver
-Yo ___ a Ana en 2020. (conocer)	conocí<br><span style="color:#888;font-size:0.85em">I met Ana in 2020 &middot; conocer in the past means met for the first time</span>	A2::verbs A2::pasado A2::conocer
-Ayer ___ un examen. (tener — yo)	tuve<br><span style="color:#888;font-size:0.85em">Yesterday I had an exam &middot; tuv- + e &middot; no accent: tuve, never tuvé</span>	A2::verbs A2::pasado A2::tener
-Ella ___ que trabajar el domingo. (tener)	tuvo<br><span style="color:#888;font-size:0.85em">She had to work on Sunday &middot; tuvo que + infinitive</span>	A2::verbs A2::pasado A2::tener
-¿Dónde ___ tú anoche? (estar)	estuviste<br><span style="color:#888;font-size:0.85em">Where were you last night? &middot; estuv- + iste</span>	A2::verbs A2::pasado A2::estar
-Nosotros ___ tres días en Madrid. (estar)	estuvimos<br><span style="color:#888;font-size:0.85em">We were in Madrid for three days &middot; a finished stretch of time &rarr; estar in the preterite</span>	A2::verbs A2::pasado A2::estar
-Nosotros no ___ ir. (poder)	pudimos<br><span style="color:#888;font-size:0.85em">We couldn't go &middot; pud- + imos</span>	A2::verbs A2::pasado A2::poder
-Ellos ___ la verdad. (decir)	dijeron<br><span style="color:#888;font-size:0.85em">They told the truth &middot; a j stem takes -eron, not -ieron: dijeron</span>	A2::verbs A2::pasado A2::decir
-¿Qué ___ el sábado? (hacer — tú)	hiciste<br><span style="color:#888;font-size:0.85em">What did you do on Saturday? &middot; hic- + iste</span>	A2::verbs A2::pasado A2::hacer
-Él ___ la cena anoche. (hacer)	hizo<br><span style="color:#888;font-size:0.85em">He made dinner last night &middot; c &rarr; z in él only: hizo</span>	A2::verbs A2::pasado A2::hacer
-Ella ___ la mesa. (poner)	puso<br><span style="color:#888;font-size:0.85em">She set the table &middot; pus- + o, with no accent</span>	A2::verbs A2::pasado A2::poner
-Mis amigos ___ a la fiesta. (venir)	vinieron<br><span style="color:#888;font-size:0.85em">My friends came to the party &middot; vin- + ieron</span>	A2::verbs A2::pasado A2::venir
-Yo no ___ nada de eso. (saber)	supe<br><span style="color:#888;font-size:0.85em">I didn't know any of that &middot; sup- + e &middot; in the past supe often means I found out</span>	A2::verbs A2::pasado A2::saber
-Él ___ el postre. (traer)	trajo<br><span style="color:#888;font-size:0.85em">He brought the dessert &middot; traj- + o &middot; ellos: trajeron, not trajieron</span>	A2::verbs A2::pasado A2::traer
-Yo ___ ir, pero no pude. (querer)	quise<br><span style="color:#888;font-size:0.85em">I wanted to go, but I couldn't &middot; quis- + e</span>	A2::verbs A2::pasado A2::querer
-___ mucha gente en la fiesta. (haber)	Hubo<br><span style="color:#888;font-size:0.85em">There were a lot of people at the party &middot; hubo is the past of hay, and never goes plural</span>	A2::verbs A2::pasado A2::haber
-Ayer ___ un día perfecto. (ser)	fue<br><span style="color:#888;font-size:0.85em">Yesterday was a perfect day &middot; ser: fui, fuiste, fue</span>	A2::verbs A2::pasado A2::ser
-El año pasado ___ a México. (ir — nosotros)	fuimos<br><span style="color:#888;font-size:0.85em">Last year we went to Mexico &middot; ser and ir share this form; only the sentence tells you which</span>	A2::verbs A2::pasado A2::ir
-¿Cuándo ___ tú a España? (ir)	fuiste<br><span style="color:#888;font-size:0.85em">When did you go to Spain? &middot; fuiste is both you went and you were</span>	A2::verbs A2::pasado A2::ir
-Yo ___ la televisión anoche. (ver)	vi<br><span style="color:#888;font-size:0.85em">I watched TV last night &middot; vi, with no accent - one syllable needs none</span>	A2::verbs A2::pasado A2::ver
-Mi padre me ___ un libro. (dar)	dio<br><span style="color:#888;font-size:0.85em">My father gave me a book &middot; dar borrows the -er endings: di, diste, dio</span>	A2::verbs A2::pasado A2::dar
-Me ___ mucho la película. (gustar)	gustó<br><span style="color:#888;font-size:0.85em">I really liked the film &middot; me gustó + one thing</span>	A2::verbs A2::pasado A2::gustar
-Nos ___ mucho las tapas. (gustar)	gustaron<br><span style="color:#888;font-size:0.85em">We really liked the tapas &middot; a plural thing &rarr; gustaron</span>	A2::verbs A2::pasado A2::gustar
-Yesterday I worked from home.	Ayer trabajé desde casa.<br><span style="color:#888;font-size:0.85em">ayer marks a finished moment &rarr; preterite</span>	A2::translation A2::pasado A2::trabajar
-Last night we ate at a restaurant.	Anoche comimos en un restaurante.<br><span style="color:#888;font-size:0.85em">anoche = last night</span>	A2::translation A2::pasado A2::comer
-Last week I saw my friends.	La semana pasada vi a mis amigos.<br><span style="color:#888;font-size:0.85em">la semana pasada &middot; the personal a before people</span>	A2::translation A2::pasado A2::ver
-Last year they went to Spain.	El año pasado fueron a España.<br><span style="color:#888;font-size:0.85em">fueron = they went, and also they were</span>	A2::translation A2::pasado A2::ir
-What did you do yesterday?	¿Qué hiciste ayer?<br><span style="color:#888;font-size:0.85em">no helper verb: the past is in hiciste alone</span>	A2::translation A2::pasado A2::hacer
-I couldn't come.	No pude venir.<br><span style="color:#888;font-size:0.85em">pude + infinitive &middot; no goes before the verb</span>	A2::translation A2::pasado A2::poder
-She told me the truth.	Me dijo la verdad.<br><span style="color:#888;font-size:0.85em">me dijo = she told me &middot; the pronoun still comes first</span>	A2::translation A2::pasado A2::decir
-They had a problem.	Tuvieron un problema.<br><span style="color:#888;font-size:0.85em">tuv- + ieron &middot; problema is masculine</span>	A2::translation A2::pasado A2::tener
-It was a very good day.	Fue un día muy bueno.<br><span style="color:#888;font-size:0.85em">fue for a finished whole: the day is over</span>	A2::translation A2::pasado A2::ser
-I met my wife in 2015.	Conocí a mi mujer en 2015.<br><span style="color:#888;font-size:0.85em">conocí = I met (for the first time)</span>	A2::translation A2::pasado A2::conocer
-We got up early.	Nos levantamos temprano.<br><span style="color:#888;font-size:0.85em">the reflexive pronoun stays in front: nos levantamos</span>	A2::translation A2::pasado A2::reflexivos
-Did you like the food?	¿Te gustó la comida?<br><span style="color:#888;font-size:0.85em">te gustó + one thing</span>	A2::translation A2::pasado A2::gustar
-I gave him the keys.	Le di las llaves.<br><span style="color:#888;font-size:0.85em">le = to him &middot; di, with no accent</span>	A2::translation A2::pasado A2::dar
-Two years ago I lived in Barcelona.	Hace dos años viví en Barcelona.<br><span style="color:#888;font-size:0.85em">hace + time = ago</span>	A2::translation A2::pasado A2::vivir
-He came home late.	Volvió a casa tarde.<br><span style="color:#888;font-size:0.85em">volvió, not vuelvió</span>	A2::translation A2::pasado A2::volver
-I started work at eight.	Empecé a trabajar a las ocho.<br><span style="color:#888;font-size:0.85em">z &rarr; c before é: empecé</span>	A2::translation A2::pasado A2::empezar
-They asked for the bill.	Pidieron la cuenta.<br><span style="color:#888;font-size:0.85em">pedir: pidió, pidieron in the third person</span>	A2::translation A2::pasado A2::pedir
-I played tennis on Saturday.	Jugué al tenis el sábado.<br><span style="color:#888;font-size:0.85em">jugué &middot; jugar a + sport</span>	A2::translation A2::pasado A2::jugar
-We slept very well.	Dormimos muy bien.<br><span style="color:#888;font-size:0.85em">dormimos is both we sleep and we slept</span>	A2::translation A2::pasado A2::dormir
-I was at home all day.	Estuve en casa todo el día.<br><span style="color:#888;font-size:0.85em">a finished stretch &rarr; estuve &middot; todo el día = all day</span>	A2::translation A2::pasado A2::estar
-Ayer ___ diez kilómetros. (correr — yo)	corrí<br><span style="color:#888;font-size:0.85em">Yesterday I ran ten kilometres &middot; regular -er: corrí</span>	A2::verbs A2::pasado A2::correr
-El verano pasado ___ mucho. (nadar — yo)	nadé<br><span style="color:#888;font-size:0.85em">Last summer I swam a lot &middot; regular -ar: nadé</span>	A2::verbs A2::pasado A2::nadar
-Ayer te ___ tres veces. (llamar — yo)	llamé<br><span style="color:#888;font-size:0.85em">I called you three times yesterday &middot; tres veces = three times</span>	A2::verbs A2::pasado A2::llamar
-Yo ___ tarde a la reunión. (llegar)	llegué<br><span style="color:#888;font-size:0.85em">I arrived late to the meeting &middot; g &rarr; gu before é: llegué</span>	A2::verbs A2::pasado A2::llegar
-¿A qué hora ___ vosotros? (llegar)	llegasteis<br><span style="color:#888;font-size:0.85em">What time did you all arrive? &middot; only the yo form changes its spelling</span>	A2::verbs A2::pasado A2::llegar
-Ellos ___ las fotos toda la tarde. (mirar)	miraron<br><span style="color:#888;font-size:0.85em">They looked at the photos all afternoon &middot; regular -ar: miraron</span>	A2::verbs A2::pasado A2::mirar
-Nadie ___ mi historia. (creer)	creyó<br><span style="color:#888;font-size:0.85em">Nobody believed my story &middot; i &rarr; y between vowels: creyó, creyeron</span>	A2::verbs A2::pasado A2::creer
-Nosotros no ___ nada. (creer)	creímos<br><span style="color:#888;font-size:0.85em">We didn't believe any of it &middot; the í keeps its accent: creí, creímos</span>	A2::verbs A2::pasado A2::creer
-Yo ___ mucho en España. (aprender)	aprendí<br><span style="color:#888;font-size:0.85em">I learnt a lot in Spain &middot; regular -er</span>	A2::verbs A2::pasado A2::aprender
-¿___ tú el ruido anoche? (oír)	Oíste<br><span style="color:#888;font-size:0.85em">Did you hear the noise last night? &middot; oíste, with the accent</span>	A2::verbs A2::pasado A2::oir
-Ellos no ___ nada. (oír)	oyeron<br><span style="color:#888;font-size:0.85em">They didn't hear anything &middot; i &rarr; y: oyó, oyeron</span>	A2::verbs A2::pasado A2::oir
-Él ___ estudiando en Madrid. (seguir)	siguió<br><span style="color:#888;font-size:0.85em">He kept studying in Madrid &middot; e &rarr; i in él and ellos: siguió, siguieron</span>	A2::verbs A2::pasado A2::seguir
-Yo ___ dos libros el mes pasado. (leer)	leí<br><span style="color:#888;font-size:0.85em">I read two books last month &middot; leí, with the accent</span>	A2::verbs A2::pasado A2::leer
-Ella ___ la carta dos veces. (leer)	leyó<br><span style="color:#888;font-size:0.85em">She read the letter twice &middot; leyó, leyeron with a y</span>	A2::verbs A2::pasado A2::leer
-I ran five kilometres yesterday.	Ayer corrí cinco kilómetros.<br><span style="color:#888;font-size:0.85em">ayer + preterite</span>	A2::translation A2::pasado A2::correr
-She called me last night.	Anoche me llamó.<br><span style="color:#888;font-size:0.85em">me llamó &middot; the pronoun stays before the verb</span>	A2::translation A2::pasado A2::llamar
-They arrived late.	Llegaron tarde.<br><span style="color:#888;font-size:0.85em">llegaron &middot; only llegué changes its spelling</span>	A2::translation A2::pasado A2::llegar
-I read that book last year.	Leí ese libro el año pasado.<br><span style="color:#888;font-size:0.85em">leí = I read (past) &middot; leo = I read (present)</span>	A2::translation A2::pasado A2::leer
+#notetype:Spanish Production
+#tags column:4
+Ayer ___ con María. (hablar — yo)	hablé	Yesterday I spoke with María &middot; -ar yo: -é, and the stress lands on it	A2::verbs A2::pasado A2::hablar
+La semana pasada ___ mucho. (trabajar — nosotros)	trabajamos	Last week we worked a lot &middot; -ar nosotros is identical to the present: only the time word tells you which	A2::verbs A2::pasado A2::trabajar
+¿A qué hora ___ la clase ayer? (empezar)	empezó	What time did the class start yesterday? &middot; él: -ó, with the accent	A2::verbs A2::pasado A2::empezar
+Anoche ___ al fútbol. (jugar — yo)	jugué	Last night I played football &middot; g &rarr; gu before é, to keep the hard sound	A2::verbs A2::pasado A2::jugar
+Ayer ___ las llaves media hora. (buscar — yo)	busqué	Yesterday I looked for the keys for half an hour &middot; c &rarr; qu before é	A2::verbs A2::pasado A2::buscar
+El lunes ___ el piano. (tocar — yo)	toqué	On Monday I played the piano &middot; c &rarr; qu before é, same as busqué	A2::verbs A2::pasado A2::tocar
+¿___ tú el libro? (encontrar)	encontraste	Did you find the book? &middot; no stem change in the past: encontraste, never encuentraste	A2::verbs A2::pasado A2::encontrar
+Ellos ___ más tiempo. (necesitar)	necesitaron	They needed more time &middot; -ar ellos: -aron	A2::verbs A2::pasado A2::necesitar
+Yo ___ una camiseta negra. (llevar)	llevé	I wore a black T-shirt &middot; regular -ar	A2::verbs A2::pasado A2::llevar
+¿En qué ___ tú? (pensar)	pensaste	What were you thinking about? &middot; pensar loses its ie in the past: pensaste	A2::verbs A2::pasado A2::pensar
+Ayer ___ paella. (comer — yo)	comí	Yesterday I ate paella &middot; -er/-ir yo: -í	A2::verbs A2::pasado A2::comer
+¿Qué ___ anoche? (beber — tú)	bebiste	What did you drink last night? &middot; -iste for tú, with no accent	A2::verbs A2::pasado A2::beber
+Ella ___ dos años en Sevilla. (vivir)	vivió	She lived in Seville for two years &middot; él: -ió	A2::verbs A2::pasado A2::vivir
+Nosotros ___ a casa tarde. (volver)	volvimos	We came home late &middot; volver drops its ue here: volvimos	A2::verbs A2::pasado A2::volver
+Ellos ___ de casa a las ocho. (salir)	salieron	They left home at eight &middot; -ieron for ellos	A2::verbs A2::pasado A2::salir
+Yo ___ el tren. (perder)	perdí	I missed the train &middot; perder is regular in the past: perdí	A2::verbs A2::pasado A2::perder
+Él ___ ocho horas. (dormir)	durmió	He slept for eight hours &middot; o &rarr; u in él and ellos only: durmió, durmieron	A2::verbs A2::pasado A2::dormir
+Ellos ___ la cuenta. (pedir)	pidieron	They asked for the bill &middot; e &rarr; i in él and ellos only: pidió, pidieron	A2::verbs A2::pasado A2::pedir
+¿___ vosotros el partido? (ver)	visteis	Did you all see the match? &middot; ver takes the plain endings with no accents	A2::verbs A2::pasado A2::ver
+Yo ___ a Ana en 2020. (conocer)	conocí	I met Ana in 2020 &middot; conocer in the past means met for the first time	A2::verbs A2::pasado A2::conocer
+Ayer ___ un examen. (tener — yo)	tuve	Yesterday I had an exam &middot; tuv- + e &middot; no accent: tuve, never tuvé	A2::verbs A2::pasado A2::tener
+Ella ___ que trabajar el domingo. (tener)	tuvo	She had to work on Sunday &middot; tuvo que + infinitive	A2::verbs A2::pasado A2::tener
+¿Dónde ___ tú anoche? (estar)	estuviste	Where were you last night? &middot; estuv- + iste	A2::verbs A2::pasado A2::estar
+Nosotros ___ tres días en Madrid. (estar)	estuvimos	We were in Madrid for three days &middot; a finished stretch of time &rarr; estar in the preterite	A2::verbs A2::pasado A2::estar
+Nosotros no ___ ir. (poder)	pudimos	We couldn't go &middot; pud- + imos	A2::verbs A2::pasado A2::poder
+Ellos ___ la verdad. (decir)	dijeron	They told the truth &middot; a j stem takes -eron, not -ieron: dijeron	A2::verbs A2::pasado A2::decir
+¿Qué ___ el sábado? (hacer — tú)	hiciste	What did you do on Saturday? &middot; hic- + iste	A2::verbs A2::pasado A2::hacer
+Él ___ la cena anoche. (hacer)	hizo	He made dinner last night &middot; c &rarr; z in él only: hizo	A2::verbs A2::pasado A2::hacer
+Ella ___ la mesa. (poner)	puso	She set the table &middot; pus- + o, with no accent	A2::verbs A2::pasado A2::poner
+Mis amigos ___ a la fiesta. (venir)	vinieron	My friends came to the party &middot; vin- + ieron	A2::verbs A2::pasado A2::venir
+Yo no ___ nada de eso. (saber)	supe	I didn't know any of that &middot; sup- + e &middot; in the past supe often means I found out	A2::verbs A2::pasado A2::saber
+Él ___ el postre. (traer)	trajo	He brought the dessert &middot; traj- + o &middot; ellos: trajeron, not trajieron	A2::verbs A2::pasado A2::traer
+Yo ___ ir, pero no pude. (querer)	quise	I wanted to go, but I couldn't &middot; quis- + e	A2::verbs A2::pasado A2::querer
+___ mucha gente en la fiesta. (haber)	Hubo	There were a lot of people at the party &middot; hubo is the past of hay, and never goes plural	A2::verbs A2::pasado A2::haber
+Ayer ___ un día perfecto. (ser)	fue	Yesterday was a perfect day &middot; ser: fui, fuiste, fue	A2::verbs A2::pasado A2::ser
+El año pasado ___ a México. (ir — nosotros)	fuimos	Last year we went to Mexico &middot; ser and ir share this form; only the sentence tells you which	A2::verbs A2::pasado A2::ir
+¿Cuándo ___ tú a España? (ir)	fuiste	When did you go to Spain? &middot; fuiste is both you went and you were	A2::verbs A2::pasado A2::ir
+Yo ___ la televisión anoche. (ver)	vi	I watched TV last night &middot; vi, with no accent - one syllable needs none	A2::verbs A2::pasado A2::ver
+Mi padre me ___ un libro. (dar)	dio	My father gave me a book &middot; dar borrows the -er endings: di, diste, dio	A2::verbs A2::pasado A2::dar
+Me ___ mucho la película. (gustar)	gustó	I really liked the film &middot; me gustó + one thing	A2::verbs A2::pasado A2::gustar
+Nos ___ mucho las tapas. (gustar)	gustaron	We really liked the tapas &middot; a plural thing &rarr; gustaron	A2::verbs A2::pasado A2::gustar
+Yesterday I worked from home.	Ayer trabajé desde casa.	ayer marks a finished moment &rarr; preterite	A2::translation A2::pasado A2::trabajar
+Last night we ate at a restaurant.	Anoche comimos en un restaurante.	anoche = last night	A2::translation A2::pasado A2::comer
+Last week I saw my friends.	La semana pasada vi a mis amigos.	la semana pasada &middot; the personal a before people	A2::translation A2::pasado A2::ver
+Last year they went to Spain.	El año pasado fueron a España.	fueron = they went, and also they were	A2::translation A2::pasado A2::ir
+What did you do yesterday?	¿Qué hiciste ayer?	no helper verb: the past is in hiciste alone	A2::translation A2::pasado A2::hacer
+I couldn't come.	No pude venir.	pude + infinitive &middot; no goes before the verb	A2::translation A2::pasado A2::poder
+She told me the truth.	Me dijo la verdad.	me dijo = she told me &middot; the pronoun still comes first	A2::translation A2::pasado A2::decir
+They had a problem.	Tuvieron un problema.	tuv- + ieron &middot; problema is masculine	A2::translation A2::pasado A2::tener
+It was a very good day.	Fue un día muy bueno.	fue for a finished whole: the day is over	A2::translation A2::pasado A2::ser
+I met my wife in 2015.	Conocí a mi mujer en 2015.	conocí = I met (for the first time)	A2::translation A2::pasado A2::conocer
+We got up early.	Nos levantamos temprano.	the reflexive pronoun stays in front: nos levantamos	A2::translation A2::pasado A2::reflexivos
+Did you like the food?	¿Te gustó la comida?	te gustó + one thing	A2::translation A2::pasado A2::gustar
+I gave him the keys.	Le di las llaves.	le = to him &middot; di, with no accent	A2::translation A2::pasado A2::dar
+Two years ago I lived in Barcelona.	Hace dos años viví en Barcelona.	hace + time = ago	A2::translation A2::pasado A2::vivir
+He came home late.	Volvió a casa tarde.	volvió, not vuelvió	A2::translation A2::pasado A2::volver
+I started work at eight.	Empecé a trabajar a las ocho.	z &rarr; c before é: empecé	A2::translation A2::pasado A2::empezar
+They asked for the bill.	Pidieron la cuenta.	pedir: pidió, pidieron in the third person	A2::translation A2::pasado A2::pedir
+I played tennis on Saturday.	Jugué al tenis el sábado.	jugué &middot; jugar a + sport	A2::translation A2::pasado A2::jugar
+We slept very well.	Dormimos muy bien.	dormimos is both we sleep and we slept	A2::translation A2::pasado A2::dormir
+I was at home all day.	Estuve en casa todo el día.	a finished stretch &rarr; estuve &middot; todo el día = all day	A2::translation A2::pasado A2::estar
+Ayer ___ diez kilómetros. (correr — yo)	corrí	Yesterday I ran ten kilometres &middot; regular -er: corrí	A2::verbs A2::pasado A2::correr
+El verano pasado ___ mucho. (nadar — yo)	nadé	Last summer I swam a lot &middot; regular -ar: nadé	A2::verbs A2::pasado A2::nadar
+Ayer te ___ tres veces. (llamar — yo)	llamé	I called you three times yesterday &middot; tres veces = three times	A2::verbs A2::pasado A2::llamar
+Yo ___ tarde a la reunión. (llegar)	llegué	I arrived late to the meeting &middot; g &rarr; gu before é: llegué	A2::verbs A2::pasado A2::llegar
+¿A qué hora ___ vosotros? (llegar)	llegasteis	What time did you all arrive? &middot; only the yo form changes its spelling	A2::verbs A2::pasado A2::llegar
+Ellos ___ las fotos toda la tarde. (mirar)	miraron	They looked at the photos all afternoon &middot; regular -ar: miraron	A2::verbs A2::pasado A2::mirar
+Nadie ___ mi historia. (creer)	creyó	Nobody believed my story &middot; i &rarr; y between vowels: creyó, creyeron	A2::verbs A2::pasado A2::creer
+Nosotros no ___ nada. (creer)	creímos	We didn't believe any of it &middot; the í keeps its accent: creí, creímos	A2::verbs A2::pasado A2::creer
+Yo ___ mucho en España. (aprender)	aprendí	I learnt a lot in Spain &middot; regular -er	A2::verbs A2::pasado A2::aprender
+¿___ tú el ruido anoche? (oír)	Oíste	Did you hear the noise last night? &middot; oíste, with the accent	A2::verbs A2::pasado A2::oir
+Ellos no ___ nada. (oír)	oyeron	They didn't hear anything &middot; i &rarr; y: oyó, oyeron	A2::verbs A2::pasado A2::oir
+Él ___ estudiando en Madrid. (seguir)	siguió	He kept studying in Madrid &middot; e &rarr; i in él and ellos: siguió, siguieron	A2::verbs A2::pasado A2::seguir
+Yo ___ dos libros el mes pasado. (leer)	leí	I read two books last month &middot; leí, with the accent	A2::verbs A2::pasado A2::leer
+Ella ___ la carta dos veces. (leer)	leyó	She read the letter twice &middot; leyó, leyeron with a y	A2::verbs A2::pasado A2::leer
+I ran five kilometres yesterday.	Ayer corrí cinco kilómetros.	ayer + preterite	A2::translation A2::pasado A2::correr
+She called me last night.	Anoche me llamó.	me llamó &middot; the pronoun stays before the verb	A2::translation A2::pasado A2::llamar
+They arrived late.	Llegaron tarde.	llegaron &middot; only llegué changes its spelling	A2::translation A2::pasado A2::llegar
+I read that book last year.	Leí ese libro el año pasado.	leí = I read (past) &middot; leo = I read (present)	A2::translation A2::pasado A2::leer

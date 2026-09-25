@@ -6,15 +6,21 @@
 build_anki.py        one source of truth for every card; run it to rebuild
 CONTENT.MD           what's covered, and what to add when the course gets there
 decks/               the .tsv files you import into Anki
+notetypes/           the two note types: fields, templates, styling
 posters/             wall charts: .html source next to its .pdf and .png
 render_posters.sh    re-renders the posters and checks they still fit A4
+backups/             point-in-time Anki collection exports (scheduling)
 ```
 
-Six `.tsv` files in `decks/`, all the same shape as the original verb deck:
+Six `.tsv` files in `decks/`, four columns each:
 
 ```
-Front <TAB> Back <TAB> Tags
+Front <TAB> Back <TAB> Note <TAB> Tags
 ```
+
+`Note` is the grey gloss under the answer — a translation, then the rule. It
+sits in its own field so `{{tts}}` can read the Spanish without reading the
+English explanation after it. See `notetypes/`.
 
 | File | Cards | Card type | Direction |
 |---|---|---|---|
@@ -41,17 +47,15 @@ deliberately Spanish → English because its job is building comprehension.
 
 ## Importing
 
-1. **Tools → Manage Note Types → Add → Basic**, name it whatever you like
-   (the stock `Basic` works fine — these files use only Front/Back).
-2. **File → Import**, pick a `.tsv` from `decks/`.
-3. Set **Type** to Basic and **Deck** to the subdeck you want, e.g.
-   `Spanish A1::Vocabulary`.
-4. Field mapping is positional: Field 1 → Front, Field 2 → Back, Field 3 → Tags.
-5. Leave **Allow HTML in fields** ticked — the grey hint line under each
-   answer uses `<br>` and `<span>`.
+The files carry `#separator:tab`, `#html:true`, `#notetype:` and
+`#tags column:4` headers, so recent Anki versions need nothing set by hand.
 
-The files carry `#separator:tab` and `#html:true` headers, so recent Anki
-versions get the parsing right without you touching the dialog.
+1. Create the two note types first — see `notetypes/README.md`.
+2. **File → Import**, pick a `.tsv` from `decks/`, choose the deck.
+3. Leave **Existing notes: Update** selected. Anki matches on the first field,
+   so re-importing updates cards in place and never touches their scheduling.
+
+Columns map positionally: 1 → Front, 2 → Back, 3 → Note, 4 → Tags.
 
 ## Tags
 
@@ -84,18 +88,17 @@ refuses to stick.
 
 ## Audio
 
-Don't record anything — use Anki's built-in TTS. Edit the card template
-(**Cards…** on the note type) and add to the back template:
+No recordings and no media files: Anki speaks the Spanish with the system
+voice, through the `{{tts}}` tag already in the templates in `notetypes/`.
 
 ```
-{{Back}}
-{{tts es_ES voices=Apple_Mónica:Front}}
+{{tts es_ES voices=Apple_Mónica:Back}}     production cards - Spanish is the answer
+{{tts es_ES voices=Apple_Mónica:Front}}    sentence cards - Spanish is the question
 ```
 
-On the sentence deck the Spanish is on the *front*, so put the tag in the
-front template there instead. Run **Tools → Check Media** if a voice is
-missing; macOS ships Mónica (Spain) and Paulina (Mexico) under
-System Settings → Accessibility → Spoken Content → System Voice → Manage.
+macOS ships Mónica (Spain) and Paulina (Mexico) under System Settings →
+Accessibility → Spoken Content → System Voice → Manage Voices. AnkiMobile and
+AnkiDroid use their own voices with the same tag.
 
 ## Pacing
 

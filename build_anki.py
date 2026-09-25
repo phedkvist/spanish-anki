@@ -1,10 +1,15 @@
 #!/usr/bin/env python3
 """Build Anki-importable .tsv files into decks/ for a Spanish A1 deck.
 
-Matches the format of spanish_A1_verbs_anki.tsv:  Front <TAB> Back <TAB> Tags
+Four columns:  Front <TAB> Back <TAB> Note <TAB> Tags
 
-Notes/breakdowns live inside the Back field, separated by <br>, so the
-files import into the stock Basic note type with no extra setup.
+The gloss lives in its own Note field rather than inside Back, so that
+{{tts es_ES:Back}} reads the Spanish and nothing else. Grey styling for the
+gloss belongs in the note type's CSS, not in the data.
+
+Two note types, because the two directions need the speaker on opposite
+sides: everything is "Spanish Production" (English prompt -> Spanish answer)
+except the sentence deck, which is "Spanish Comprehension".
 
 Add cards to the lists below and re-run:  python3 build_anki.py
 """
@@ -12,13 +17,16 @@ import os
 
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "decks")
 
+PRODUCTION = "Spanish Production"      # Front = English, Back = Spanish
+COMPREHENSION = "Spanish Comprehension"  # Front = Spanish, Back = English
+
 
 # Fronts in the verb deck, filled in once it is written, so the other files
 # never collide with it (Anki flags same-first-field notes as duplicates).
 EXISTING = set()
 
 
-def write(filename, rows, guard=True):
+def write(filename, rows, notetype, guard=True):
     kept, dropped = [], []
     seen = set()
     for row in rows:
@@ -34,43 +42,43 @@ def write(filename, rows, guard=True):
               + "; ".join(dropped))
     path = os.path.join(OUT, filename)
     with open(path, "w", encoding="utf-8", newline="\n") as f:
+        # these headers tell Anki which note type to use and where the tags
+        # are, so the import dialog needs no fiddling
         f.write("#separator:tab\n")
         f.write("#html:true\n")
-        for front, back, tags in rows:
-            for cell in (front, back, tags):
+        f.write(f"#notetype:{notetype}\n")
+        f.write("#tags column:4\n")
+        for front, back, note, tags in rows:
+            for cell in (front, back, note, tags):
                 if "\t" in cell or "\n" in cell:
                     raise SystemExit(f"tab/newline in cell: {cell!r}")
-            f.write("\t".join([front, back, tags]) + "\n")
+            f.write("\t".join([front, back, note, tags]) + "\n")
     print(f"{filename}: {len(rows)} cards")
     return len(rows)
 
 
-def hint(text):
-    return f'<br><span style="color:#888;font-size:0.85em">{text}</span>'
-
-
 def vocab(en, es, note, tags):
     """Core vocabulary: English prompt -> Spanish production."""
-    return (en, es + hint(note), tags)
+    return (en, es, note, tags)
 
 
 def grammar(task, answer, note, tags):
     """Transformation drill: instruction -> Spanish answer."""
-    return (task, answer + hint(note), tags)
+    return (task, answer, note, tags)
 
 
 def sentence(es, en, note, tags):
     """Comprehension: Spanish sentence -> English + word breakdown."""
-    return (es, en + hint(note), tags)
+    return (es, en, note, tags)
 
 
 def verb(prompt, answer, note, tags):
-    """Verb drill: fill-in-the-blank or EN->ES, answer + a greyed-out gloss.
+    """Verb drill: fill-in-the-blank or EN->ES, with the gloss in Note.
 
     On the fill-in cards the gloss translates the whole sentence, so the form
     is never drilled without knowing what it means.
     """
-    return (prompt, answer + hint(note), tags)
+    return (prompt, answer, note, tags)
 
 
 VERBS = [
@@ -1110,11 +1118,11 @@ TOPICS = [
 
 if __name__ == "__main__":
     total = 0
-    total += write("spanish_A1_verbs_anki.tsv", VERBS, guard=False)
+    total += write("spanish_A1_verbs_anki.tsv", VERBS, PRODUCTION, guard=False)
     EXISTING.update(row[0] for row in VERBS)
-    total += write("spanish_A1_vocab_anki.tsv", VOCAB)
-    total += write("spanish_A1_grammar_anki.tsv", GRAMMAR)
-    total += write("spanish_A1_sentences_anki.tsv", SENTENCES)
-    total += write("spanish_A1_topics_anki.tsv", TOPICS)
-    total += write("spanish_A2_pasado_anki.tsv", PAST)
+    total += write("spanish_A1_vocab_anki.tsv", VOCAB, PRODUCTION)
+    total += write("spanish_A1_grammar_anki.tsv", GRAMMAR, PRODUCTION)
+    total += write("spanish_A1_sentences_anki.tsv", SENTENCES, COMPREHENSION)
+    total += write("spanish_A1_topics_anki.tsv", TOPICS, PRODUCTION)
+    total += write("spanish_A2_pasado_anki.tsv", PAST, PRODUCTION)
     print(f"total: {total} cards")

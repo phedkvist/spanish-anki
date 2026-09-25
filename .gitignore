@@ -1,0 +1,5 @@
+# Anki collection exports: your review history and scheduling, not card content.
+# Kept locally, never pushed - the decks in decks/ are the shareable half.
+backups/*.colpkg
+backups/*.apkg
+.DS_Store

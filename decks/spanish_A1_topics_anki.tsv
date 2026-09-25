@@ -1,139 +1,141 @@
 #separator:tab
 #html:true
-It's sunny and it's twenty-five degrees.	Hace sol y estamos a veinticinco grados.<br><span style="color:#888;font-size:0.85em">both at once: impersonal hace + noun, and estar a + temperature (literally we are at)</span>	A1::topics A1::clima
-Today it's five degrees below zero.	Hoy estamos a cinco grados bajo cero.<br><span style="color:#888;font-size:0.85em">bajo cero = below zero &middot; estar a puts us on the thermometer: Spanish says we where English says it</span>	A1::topics A1::clima
-In Stockholm it's ten degrees below zero.	En Estocolmo hace diez grados bajo cero.<br><span style="color:#888;font-size:0.85em">hace + degrees is the fully impersonal alternative to estamos a - both are correct</span>	A1::topics A1::clima
-Today's high is twenty-eight degrees.	La máxima de hoy es de veintiocho grados.<br><span style="color:#888;font-size:0.85em">la máxima / la mínima &middot; measurements take ser de</span>	A1::topics A1::clima
-What's the temperature?	¿A cuántos grados estamos?<br><span style="color:#888;font-size:0.85em">lit. at how many degrees are we</span>	A1::topics A1::clima
-It's three degrees above zero.	Estamos a tres grados sobre cero.<br><span style="color:#888;font-size:0.85em">sobre cero = above zero &middot; the same estamos a as with dates: estamos a 15 de mayo</span>	A1::topics A1::clima
-Today it's colder than yesterday.	Hoy hace más frío que ayer.<br><span style="color:#888;font-size:0.85em">más frío que = colder than</span>	A1::topics A1::clima
-It's cloudy but it isn't cold.	Está nublado pero no hace frío.<br><span style="color:#888;font-size:0.85em">estar + adjective vs hacer + noun, side by side</span>	A1::topics A1::clima
-It's foggy and very windy.	Hay niebla y hace mucho viento.<br><span style="color:#888;font-size:0.85em">hay + noun vs hacer + noun &middot; mucho viento, not muy viento</span>	A1::topics A1::clima
-Tomorrow it's going to snow.	Mañana va a nevar.<br><span style="color:#888;font-size:0.85em">nevar is impersonal - always third person singular</span>	A1::topics A1::clima
-The score is two to zero.	El resultado es dos a cero.<br><span style="color:#888;font-size:0.85em">cero = zero</span>	A1::topics A1::numeros-100
-There are fifteen students in the class.	Hay quince estudiantes en la clase.<br><span style="color:#888;font-size:0.85em">11-15 are one word: once, doce, trece, catorce, quince</span>	A1::topics A1::numeros-100
-My brother is sixteen years old.	Mi hermano tiene dieciséis años.<br><span style="color:#888;font-size:0.85em">16-19 contract: dieciséis, diecisiete...</span>	A1::topics A1::numeros-100
-There are twenty-one days left.	Quedan veintiún días.<br><span style="color:#888;font-size:0.85em">veintiuno drops to veintiún before a masculine noun</span>	A1::topics A1::numeros-100
-She has thirty-one books.	Tiene treinta y un libros.<br><span style="color:#888;font-size:0.85em">from 31 up it's three words, and uno &rarr; un</span>	A1::topics A1::numeros-100
-There are thirty-one girls at the school.	Hay treinta y una chicas en el colegio.<br><span style="color:#888;font-size:0.85em">feminine noun &rarr; treinta y una</span>	A1::topics A1::numeros-100
-I work forty hours a week.	Trabajo cuarenta horas por semana.<br><span style="color:#888;font-size:0.85em">cuarenta = 40</span>	A1::topics A1::numeros-100
-There are fifty people at the party.	Hay cincuenta personas en la fiesta.<br><span style="color:#888;font-size:0.85em">cincuenta = 50</span>	A1::topics A1::numeros-100
-I need seventy-five euros.	Necesito setenta y cinco euros.<br><span style="color:#888;font-size:0.85em">setenta y cinco = 75</span>	A1::topics A1::numeros-100
-My grandfather is eighty-seven.	Mi abuelo tiene ochenta y siete años.<br><span style="color:#888;font-size:0.85em">ochenta y siete = 87</span>	A1::topics A1::numeros-100
-The flight costs one hundred euros.	El vuelo cuesta cien euros.<br><span style="color:#888;font-size:0.85em">exactly 100 before a noun is cien, never ciento</span>	A1::topics A1::numeros-grandes
-There are one hundred and twenty people.	Hay ciento veinte personas.<br><span style="color:#888;font-size:0.85em">101-199 use ciento, and there is no y after it</span>	A1::topics A1::numeros-grandes
-The hotel has two hundred rooms.	El hotel tiene doscientas habitaciones.<br><span style="color:#888;font-size:0.85em">the hundreds agree in gender: doscientas habitaciones</span>	A1::topics A1::numeros-grandes
-This book has five hundred pages.	Este libro tiene quinientas páginas.<br><span style="color:#888;font-size:0.85em">500 is quinientos, not 'cincocientos'</span>	A1::topics A1::numeros-grandes
-The car costs seven hundred euros.	El coche cuesta setecientos euros.<br><span style="color:#888;font-size:0.85em">700 is setecientos, not 'sietecientos'</span>	A1::topics A1::numeros-grandes
-There are nine hundred students.	Hay novecientos estudiantes.<br><span style="color:#888;font-size:0.85em">900 is novecientos, not 'nuevecientos'</span>	A1::topics A1::numeros-grandes
-I earn one thousand five hundred euros a month.	Gano mil quinientos euros al mes.<br><span style="color:#888;font-size:0.85em">mil stands alone - never un mil</span>	A1::topics A1::numeros-grandes
-The town has two thousand inhabitants.	El pueblo tiene dos mil habitantes.<br><span style="color:#888;font-size:0.85em">mil never pluralises as a number: dos mil</span>	A1::topics A1::numeros-grandes
-The house costs three hundred thousand euros.	La casa cuesta trescientos mil euros.<br><span style="color:#888;font-size:0.85em">trescientos mil = 300,000</span>	A1::topics A1::numeros-grandes
-Madrid has more than three million inhabitants.	Madrid tiene más de tres millones de habitantes.<br><span style="color:#888;font-size:0.85em">millón/millones always takes de before the noun</span>	A1::topics A1::numeros-grandes
-It's a quarter past four.	Son las cuatro y cuarto.<br><span style="color:#888;font-size:0.85em">y cuarto = quarter past</span>	A1::topics A1::hora
-It's ten to eight.	Son las ocho menos diez.<br><span style="color:#888;font-size:0.85em">menos + minutes counts back from the next hour</span>	A1::topics A1::hora
-It's exactly six o'clock.	Son las seis en punto.<br><span style="color:#888;font-size:0.85em">en punto = on the dot</span>	A1::topics A1::hora
-It's midday.	Es mediodía.<br><span style="color:#888;font-size:0.85em">singular es, and no article</span>	A1::topics A1::hora
-It's midnight.	Es medianoche.<br><span style="color:#888;font-size:0.85em">singular es, like es la una</span>	A1::topics A1::hora
-The shop opens at nine thirty.	La tienda abre a las nueve y media.<br><span style="color:#888;font-size:0.85em">a las + hour for 'at'</span>	A1::topics A1::hora
-The film starts at eight in the evening.	La película empieza a las ocho de la tarde.<br><span style="color:#888;font-size:0.85em">la tarde runs until about 9pm in Spain</span>	A1::topics A1::hora
-See you at half past one.	Nos vemos a la una y media.<br><span style="color:#888;font-size:0.85em">a la una - singular, because it's one o'clock</span>	A1::topics A1::hora
-It's almost three o'clock.	Son casi las tres.<br><span style="color:#888;font-size:0.85em">casi goes before las</span>	A1::topics A1::hora
-The bus arrives in twenty minutes.	El autobús llega en veinte minutos.<br><span style="color:#888;font-size:0.85em">en + time = in (how long from now)</span>	A1::topics A1::hora
-A coffee with milk, please.	Un café con leche, por favor.<br><span style="color:#888;font-size:0.85em">the default coffee order in Spain</span>	A1::topics A1::cafe
-Can we sit on the terrace?	¿Podemos sentarnos en la terraza?<br><span style="color:#888;font-size:0.85em">sentarse = to sit down; la terraza = outdoor seating</span>	A1::topics A1::cafe
-Could we order, please?	¿Podemos pedir, por favor?<br><span style="color:#888;font-size:0.85em">pedir = to order; e &rarr; i</span>	A1::topics A1::cafe
-What's the dish of the day?	¿Cuál es el plato del día?<br><span style="color:#888;font-size:0.85em">el plato del día = daily special</span>	A1::topics A1::cafe
-I'll have the same.	Para mí lo mismo.<br><span style="color:#888;font-size:0.85em">lo mismo = the same thing</span>	A1::topics A1::cafe
-Is there a set menu?	¿Hay menú del día?<br><span style="color:#888;font-size:0.85em">menú del día = fixed-price lunch, usually three courses</span>	A1::topics A1::cafe
-Could you bring a little more water?	¿Me pone un poco más de agua?<br><span style="color:#888;font-size:0.85em">me pone = the standard way to order in Spain</span>	A1::topics A1::cafe
-We're going to share a dessert.	Vamos a compartir un postre.<br><span style="color:#888;font-size:0.85em">compartir = to share</span>	A1::topics A1::cafe
-Can we pay separately?	¿Podemos pagar por separado?<br><span style="color:#888;font-size:0.85em">por separado = separately</span>	A1::topics A1::cafe
-Everything is delicious, thank you.	Todo está buenísimo, gracias.<br><span style="color:#888;font-size:0.85em">-ísimo = really, extremely</span>	A1::topics A1::cafe
-I'm coming right now!	¡Voy ahora mismo!<br><span style="color:#888;font-size:0.85em">ahora = now &middot; mismo sharpens it to right now, this very moment</span>	A1::topics A1::expresiones-tiempo
-The waiter brings the bill straight away.	El camarero trae la cuenta enseguida.<br><span style="color:#888;font-size:0.85em">enseguida = immediately, in a moment (also spelt en seguida)</span>	A1::topics A1::expresiones-tiempo
-Summer arrives soon.	El verano llega pronto.<br><span style="color:#888;font-size:0.85em">pronto = soon &middot; it can also mean early: me levanto pronto</span>	A1::topics A1::expresiones-tiempo
-First I have breakfast and then I have a shower.	Primero desayuno y después me ducho.<br><span style="color:#888;font-size:0.85em">primero... después = first... then, for putting a routine in order</span>	A1::topics A1::expresiones-tiempo
-I study in the morning.	Estudio por la mañana.<br><span style="color:#888;font-size:0.85em">por la mañana with no clock time &middot; with a time it's de: a las ocho de la mañana</span>	A1::topics A1::expresiones-tiempo
-In the afternoon I work and at night I rest.	Por la tarde trabajo y por la noche descanso.<br><span style="color:#888;font-size:0.85em">por la tarde / por la noche &middot; la tarde lasts until dinner, around 9pm in Spain</span>	A1::topics A1::expresiones-tiempo
-I always drink coffee with milk.	Siempre bebo café con leche.<br><span style="color:#888;font-size:0.85em">siempre usually goes before the verb</span>	A1::topics A1::expresiones-tiempo
-I never eat meat.	Nunca como carne.<br><span style="color:#888;font-size:0.85em">nunca before the verb needs no no &middot; after it, it does: no como carne nunca</span>	A1::topics A1::expresiones-tiempo
-Sometimes I walk to work.	A veces voy al trabajo a pie.<br><span style="color:#888;font-size:0.85em">a veces = sometimes (vez &rarr; veces) &middot; a pie = on foot</span>	A1::topics A1::expresiones-tiempo
-I speak Spanish every day.	Hablo español todos los días.<br><span style="color:#888;font-size:0.85em">todos los días = every day, plural with the article &middot; cada día also works</span>	A1::topics A1::expresiones-tiempo
-What subjects do you have today?	¿Qué asignaturas tienes hoy?<br><span style="color:#888;font-size:0.85em">la asignatura = school subject</span>	A1::topics A1::asignaturas
-On Mondays I have maths.	Los lunes tengo matemáticas.<br><span style="color:#888;font-size:0.85em">las matemáticas is plural &middot; los lunes = on Mondays (every week)</span>	A1::topics A1::asignaturas
-History is very interesting.	La historia es muy interesante.<br><span style="color:#888;font-size:0.85em">a subject as the subject of the sentence takes the article: la historia</span>	A1::topics A1::asignaturas
-Physical education is my favourite subject.	La educación física es mi asignatura favorita.<br><span style="color:#888;font-size:0.85em">favorita agrees with asignatura, not with the sport</span>	A1::topics A1::asignaturas
-I study French at school.	Estudio francés en el colegio.<br><span style="color:#888;font-size:0.85em">languages are lowercase and take no article after estudiar</span>	A1::topics A1::asignaturas
-My English teacher is from London.	Mi profesor de inglés es de Londres.<br><span style="color:#888;font-size:0.85em">profesor de + subject = the teacher of that subject</span>	A1::topics A1::asignaturas
-The Spanish class starts at nine.	La clase de español empieza a las nueve.<br><span style="color:#888;font-size:0.85em">la clase de español &middot; empezar e &rarr; ie</span>	A1::topics A1::asignaturas
-Philosophy is difficult, but I like it.	La filosofía es difícil, pero me gusta.<br><span style="color:#888;font-size:0.85em">gusta singular because la filosofía is one thing</span>	A1::topics A1::asignaturas
-I like maths, but I don't like history.	Me gustan las matemáticas, pero no me gusta la historia.<br><span style="color:#888;font-size:0.85em">gustan for the plural matemáticas, gusta for la historia</span>	A1::topics A1::asignaturas
-Break is at eleven.	El recreo es a las once.<br><span style="color:#888;font-size:0.85em">el recreo = break / playtime &middot; events take ser + a las</span>	A1::topics A1::asignaturas
-My friends like music.	A mis amigos les gusta la música.<br><span style="color:#888;font-size:0.85em">naming the person takes both halves: a + person, and the pronoun stays &middot; les matches mis amigos, gusta matches la música</span>	A1::topics A1::gustar-personas
-Ana likes coffee.	A Ana le gusta el café.<br><span style="color:#888;font-size:0.85em">one person &rarr; le &middot; a Ana, never just Ana</span>	A1::topics A1::gustar-personas
-My parents like to travel.	A mis padres les gusta viajar.<br><span style="color:#888;font-size:0.85em">les for the people, gusta for the infinitive (an infinitive counts as singular)</span>	A1::topics A1::gustar-personas
-I like this restaurant.	A mí me gusta este restaurante.<br><span style="color:#888;font-size:0.85em">a mí adds emphasis (I'm the one who likes it) &middot; me still can't be dropped</span>	A1::topics A1::gustar-personas
-Do you like Spanish films?	¿A ti te gustan las películas españolas?<br><span style="color:#888;font-size:0.85em">a plural thing &rarr; gustan, whoever is doing the liking</span>	A1::topics A1::gustar-personas
-My brother doesn't like fish.	A mi hermano no le gusta el pescado.<br><span style="color:#888;font-size:0.85em">no goes before the pronoun: no le gusta</span>	A1::topics A1::gustar-personas
-The children like animals.	A los niños les gustan los animales.<br><span style="color:#888;font-size:0.85em">plural people &rarr; les, plural thing &rarr; gustan: both change here</span>	A1::topics A1::gustar-personas
-My sister likes dogs, but I don't.	A mi hermana le gustan los perros, pero a mí no.<br><span style="color:#888;font-size:0.85em">a mí no is the whole answer - the verb isn't repeated</span>	A1::topics A1::gustar-personas
-Everyone likes the beach.	A todos les gusta la playa.<br><span style="color:#888;font-size:0.85em">todos is plural &rarr; les</span>	A1::topics A1::gustar-personas
-Who likes chocolate?	¿A quién le gusta el chocolate?<br><span style="color:#888;font-size:0.85em">even a question word takes a + le</span>	A1::topics A1::gustar-personas
-I was born in 1985.	Nací en mil novecientos ochenta y cinco.<br><span style="color:#888;font-size:0.85em">a year is read as one whole number, never split in two like nineteen eighty-five &middot; nacer = to be born</span>	A1::topics A1::fechas
-She was born in 1995.	Nació en mil novecientos noventa y cinco.<br><span style="color:#888;font-size:0.85em">mil stands alone: never un mil</span>	A1::topics A1::fechas
-What year were you born?	¿En qué año naciste?<br><span style="color:#888;font-size:0.85em">en qué año &middot; naciste = you were born</span>	A1::topics A1::fechas
-In the year 2000 I lived in Madrid.	En el año dos mil viví en Madrid.<br><span style="color:#888;font-size:0.85em">2000 = dos mil &middot; el año is usual before a round year</span>	A1::topics A1::fechas
-We're in 2025.	Estamos en dos mil veinticinco.<br><span style="color:#888;font-size:0.85em">estamos en + year, the same estamos as with dates and temperatures</span>	A1::topics A1::fechas
-Columbus arrived in 1492.	Colón llegó en mil cuatrocientos noventa y dos.<br><span style="color:#888;font-size:0.85em">the 1400s start with mil cuatrocientos &middot; en + year, with no article</span>	A1::topics A1::fechas
-I have lived here since 2019.	Vivo aquí desde dos mil diecinueve.<br><span style="color:#888;font-size:0.85em">desde + year &middot; the plain present covers English's have lived</span>	A1::topics A1::fechas
-The course starts in 2026.	El curso empieza en dos mil veintiséis.<br><span style="color:#888;font-size:0.85em">dos mil veintiséis &middot; veintiséis keeps its accent</span>	A1::topics A1::fechas
-My daughter was born on the 3rd of May 2010.	Mi hija nació el tres de mayo de dos mil diez.<br><span style="color:#888;font-size:0.85em">a full date is el + number + de + month + de + year &middot; months are lowercase</span>	A1::topics A1::fechas
-In the nineties there was no internet.	En los años noventa no había internet.<br><span style="color:#888;font-size:0.85em">los años noventa = the nineties &middot; había = there was / there were</span>	A1::topics A1::fechas
-Do you see the book? - Yes, I see it.	¿Ves el libro? - Sí, lo veo.<br><span style="color:#888;font-size:0.85em">lo stands in for el libro &middot; the pronoun goes before the verb</span>	A1::topics A1::pronombres-objeto
-Do you have the keys? - Yes, I have them.	¿Tienes las llaves? - Sí, las tengo.<br><span style="color:#888;font-size:0.85em">las llaves is feminine plural &rarr; las</span>	A1::topics A1::pronombres-objeto
-Do you buy the newspaper? - Yes, I buy it every day.	¿Compras el periódico? - Sí, lo compro todos los días.<br><span style="color:#888;font-size:0.85em">lo = el periódico &middot; it never disappears the way English drops it</span>	A1::topics A1::pronombres-objeto
-I don't know her.	No la conozco.<br><span style="color:#888;font-size:0.85em">no goes first, then the pronoun, then the verb</span>	A1::topics A1::pronombres-objeto
-She calls me every Sunday.	Me llama todos los domingos.<br><span style="color:#888;font-size:0.85em">me = me &middot; still in front of the verb</span>	A1::topics A1::pronombres-objeto
-Do you eat meat? - No, I don't eat it.	¿Comes carne? - No, no la como.<br><span style="color:#888;font-size:0.85em">la = la carne &middot; the gender comes from the noun, not from the thing</span>	A1::topics A1::pronombres-objeto
-Do you know my sister? - Yes, I know her.	¿Conoces a mi hermana? - Sí, la conozco.<br><span style="color:#888;font-size:0.85em">the personal a in the question, la for her in the answer</span>	A1::topics A1::pronombres-objeto
-I'm going to do it tomorrow.	Voy a hacerlo mañana.<br><span style="color:#888;font-size:0.85em">with an infinitive you may also say lo voy a hacer - both are correct</span>	A1::topics A1::pronombres-objeto
-Can you call me tomorrow?	¿Puedes llamarme mañana?<br><span style="color:#888;font-size:0.85em">attached to the infinitive: llamarme &middot; ¿me puedes llamar? works just as well</span>	A1::topics A1::pronombres-objeto
-I don't want to see it.	No quiero verlo.<br><span style="color:#888;font-size:0.85em">no + conjugated verb, and the pronoun rides on the infinitive</span>	A1::topics A1::pronombres-objeto
-Where are the tickets? I don't have them.	¿Dónde están las entradas? No las tengo.<br><span style="color:#888;font-size:0.85em">la entrada = ticket &middot; las tengo, never tengo las</span>	A1::topics A1::pronombres-objeto
-I give him the book.	Le doy el libro.<br><span style="color:#888;font-size:0.85em">le is for the person receiving it</span>	A1::topics A1::pronombres-objeto
-I give it to him.	Se lo doy.<br><span style="color:#888;font-size:0.85em">le + lo is impossible, so le becomes se: se lo doy</span>	A1::topics A1::pronombres-objeto
-They invite us to the party.	Nos invitan a la fiesta.<br><span style="color:#888;font-size:0.85em">nos = us</span>	A1::topics A1::pronombres-objeto
-I'm listening to you.	Te escucho.<br><span style="color:#888;font-size:0.85em">escuchar takes the object directly: no a, no to</span>	A1::topics A1::pronombres-objeto
-The book is on the table.	El libro está encima de la mesa.<br><span style="color:#888;font-size:0.85em">encima de = on top of &middot; sobre la mesa works too</span>	A1::topics A1::lugar
-The cat is under the chair.	El gato está debajo de la silla.<br><span style="color:#888;font-size:0.85em">debajo de = under</span>	A1::topics A1::lugar
-The pharmacy is next to the bank.	La farmacia está al lado del banco.<br><span style="color:#888;font-size:0.85em">al lado de + el &rarr; del</span>	A1::topics A1::lugar
-The supermarket is opposite the school.	El supermercado está enfrente del colegio.<br><span style="color:#888;font-size:0.85em">enfrente de = opposite, facing</span>	A1::topics A1::lugar
-My house is between the park and the church.	Mi casa está entre el parque y la iglesia.<br><span style="color:#888;font-size:0.85em">entre takes no de</span>	A1::topics A1::lugar
-The car is in front of the house.	El coche está delante de la casa.<br><span style="color:#888;font-size:0.85em">delante de = in front of</span>	A1::topics A1::lugar
-The garden is behind the house.	El jardín está detrás de la casa.<br><span style="color:#888;font-size:0.85em">detrás de = behind</span>	A1::topics A1::lugar
-The bathroom is at the end of the corridor.	El baño está al final del pasillo.<br><span style="color:#888;font-size:0.85em">al final de = at the end of &middot; el pasillo = corridor</span>	A1::topics A1::lugar
-The station is far from the centre.	La estación está lejos del centro.<br><span style="color:#888;font-size:0.85em">lejos de &harr; cerca de</span>	A1::topics A1::lugar
-The keys are inside the bag.	Las llaves están dentro del bolso.<br><span style="color:#888;font-size:0.85em">dentro de = inside &middot; el bolso = bag</span>	A1::topics A1::lugar
-The children are outside.	Los niños están fuera.<br><span style="color:#888;font-size:0.85em">fuera on its own needs no de</span>	A1::topics A1::lugar
-Is there a pharmacy near here?	¿Hay una farmacia por aquí cerca?<br><span style="color:#888;font-size:0.85em">hay to ask whether something exists &middot; por aquí cerca = round here</span>	A1::topics A1::lugar
-My head hurts.	Me duele la cabeza.<br><span style="color:#888;font-size:0.85em">doler works backwards like gustar &middot; la cabeza, not mi cabeza</span>	A1::topics A1::salud
-My feet hurt.	Me duelen los pies.<br><span style="color:#888;font-size:0.85em">a plural body part &rarr; duelen</span>	A1::topics A1::salud
-I have a sore throat.	Me duele la garganta.<br><span style="color:#888;font-size:0.85em">Spanish says the throat hurts me</span>	A1::topics A1::salud
-My stomach hurts.	Me duele el estómago.<br><span style="color:#888;font-size:0.85em">el estómago keeps its accent</span>	A1::topics A1::salud
-I have a temperature.	Tengo fiebre.<br><span style="color:#888;font-size:0.85em">tener + fiebre, with no article</span>	A1::topics A1::salud
-I have a cold.	Estoy resfriado/a.<br><span style="color:#888;font-size:0.85em">estar for a passing state &middot; resfriada if you're female</span>	A1::topics A1::salud
-I don't feel well.	No me encuentro bien.<br><span style="color:#888;font-size:0.85em">encontrarse = to feel &middot; no me siento bien also works</span>	A1::topics A1::salud
-How are you feeling?	¿Cómo te encuentras?<br><span style="color:#888;font-size:0.85em">the everyday question when someone is ill</span>	A1::topics A1::salud
-What's wrong?	¿Qué te pasa?<br><span style="color:#888;font-size:0.85em">lit. what happens to you</span>	A1::topics A1::salud
-I need to go to the doctor.	Necesito ir al médico.<br><span style="color:#888;font-size:0.85em">ir al médico = to go to the doctor's</span>	A1::topics A1::salud
-I have a red car.	Tengo un coche rojo.<br><span style="color:#888;font-size:0.85em">the colour follows the noun and agrees with it</span>	A1::topics A1::colores
-She's wearing a white shirt.	Lleva una camisa blanca.<br><span style="color:#888;font-size:0.85em">blanco &rarr; blanca for a feminine noun</span>	A1::topics A1::colores
-I have two white cats.	Tengo dos gatos blancos.<br><span style="color:#888;font-size:0.85em">masculine plural: blancos</span>	A1::topics A1::colores
-The walls are green.	Las paredes son verdes.<br><span style="color:#888;font-size:0.85em">verde has no separate feminine: just add -s</span>	A1::topics A1::colores
-I like blue shoes.	Me gustan los zapatos azules.<br><span style="color:#888;font-size:0.85em">azul &rarr; azules &middot; gustan for a plural thing</span>	A1::topics A1::colores
-The house is grey.	La casa es gris.<br><span style="color:#888;font-size:0.85em">gris is the same for both genders</span>	A1::topics A1::colores
-I want a brown coat.	Quiero un abrigo marrón.<br><span style="color:#888;font-size:0.85em">marrón &rarr; marrones in the plural</span>	A1::topics A1::colores
-The black trousers are on the bed.	Los pantalones negros están encima de la cama.<br><span style="color:#888;font-size:0.85em">pantalones is plural in Spanish &rarr; negros</span>	A1::topics A1::colores
-My favourite colour is yellow.	Mi color favorito es el amarillo.<br><span style="color:#888;font-size:0.85em">a colour on its own takes el: el amarillo</span>	A1::topics A1::colores
-What colour is your car?	¿De qué color es tu coche?<br><span style="color:#888;font-size:0.85em">de qué color, with de</span>	A1::topics A1::colores
+#notetype:Spanish Production
+#tags column:4
+It's sunny and it's twenty-five degrees.	Hace sol y estamos a veinticinco grados.	both at once: impersonal hace + noun, and estar a + temperature (literally we are at)	A1::topics A1::clima
+Today it's five degrees below zero.	Hoy estamos a cinco grados bajo cero.	bajo cero = below zero &middot; estar a puts us on the thermometer: Spanish says we where English says it	A1::topics A1::clima
+In Stockholm it's ten degrees below zero.	En Estocolmo hace diez grados bajo cero.	hace + degrees is the fully impersonal alternative to estamos a - both are correct	A1::topics A1::clima
+Today's high is twenty-eight degrees.	La máxima de hoy es de veintiocho grados.	la máxima / la mínima &middot; measurements take ser de	A1::topics A1::clima
+What's the temperature?	¿A cuántos grados estamos?	lit. at how many degrees are we	A1::topics A1::clima
+It's three degrees above zero.	Estamos a tres grados sobre cero.	sobre cero = above zero &middot; the same estamos a as with dates: estamos a 15 de mayo	A1::topics A1::clima
+Today it's colder than yesterday.	Hoy hace más frío que ayer.	más frío que = colder than	A1::topics A1::clima
+It's cloudy but it isn't cold.	Está nublado pero no hace frío.	estar + adjective vs hacer + noun, side by side	A1::topics A1::clima
+It's foggy and very windy.	Hay niebla y hace mucho viento.	hay + noun vs hacer + noun &middot; mucho viento, not muy viento	A1::topics A1::clima
+Tomorrow it's going to snow.	Mañana va a nevar.	nevar is impersonal - always third person singular	A1::topics A1::clima
+The score is two to zero.	El resultado es dos a cero.	cero = zero	A1::topics A1::numeros-100
+There are fifteen students in the class.	Hay quince estudiantes en la clase.	11-15 are one word: once, doce, trece, catorce, quince	A1::topics A1::numeros-100
+My brother is sixteen years old.	Mi hermano tiene dieciséis años.	16-19 contract: dieciséis, diecisiete...	A1::topics A1::numeros-100
+There are twenty-one days left.	Quedan veintiún días.	veintiuno drops to veintiún before a masculine noun	A1::topics A1::numeros-100
+She has thirty-one books.	Tiene treinta y un libros.	from 31 up it's three words, and uno &rarr; un	A1::topics A1::numeros-100
+There are thirty-one girls at the school.	Hay treinta y una chicas en el colegio.	feminine noun &rarr; treinta y una	A1::topics A1::numeros-100
+I work forty hours a week.	Trabajo cuarenta horas por semana.	cuarenta = 40	A1::topics A1::numeros-100
+There are fifty people at the party.	Hay cincuenta personas en la fiesta.	cincuenta = 50	A1::topics A1::numeros-100
+I need seventy-five euros.	Necesito setenta y cinco euros.	setenta y cinco = 75	A1::topics A1::numeros-100
+My grandfather is eighty-seven.	Mi abuelo tiene ochenta y siete años.	ochenta y siete = 87	A1::topics A1::numeros-100
+The flight costs one hundred euros.	El vuelo cuesta cien euros.	exactly 100 before a noun is cien, never ciento	A1::topics A1::numeros-grandes
+There are one hundred and twenty people.	Hay ciento veinte personas.	101-199 use ciento, and there is no y after it	A1::topics A1::numeros-grandes
+The hotel has two hundred rooms.	El hotel tiene doscientas habitaciones.	the hundreds agree in gender: doscientas habitaciones	A1::topics A1::numeros-grandes
+This book has five hundred pages.	Este libro tiene quinientas páginas.	500 is quinientos, not 'cincocientos'	A1::topics A1::numeros-grandes
+The car costs seven hundred euros.	El coche cuesta setecientos euros.	700 is setecientos, not 'sietecientos'	A1::topics A1::numeros-grandes
+There are nine hundred students.	Hay novecientos estudiantes.	900 is novecientos, not 'nuevecientos'	A1::topics A1::numeros-grandes
+I earn one thousand five hundred euros a month.	Gano mil quinientos euros al mes.	mil stands alone - never un mil	A1::topics A1::numeros-grandes
+The town has two thousand inhabitants.	El pueblo tiene dos mil habitantes.	mil never pluralises as a number: dos mil	A1::topics A1::numeros-grandes
+The house costs three hundred thousand euros.	La casa cuesta trescientos mil euros.	trescientos mil = 300,000	A1::topics A1::numeros-grandes
+Madrid has more than three million inhabitants.	Madrid tiene más de tres millones de habitantes.	millón/millones always takes de before the noun	A1::topics A1::numeros-grandes
+It's a quarter past four.	Son las cuatro y cuarto.	y cuarto = quarter past	A1::topics A1::hora
+It's ten to eight.	Son las ocho menos diez.	menos + minutes counts back from the next hour	A1::topics A1::hora
+It's exactly six o'clock.	Son las seis en punto.	en punto = on the dot	A1::topics A1::hora
+It's midday.	Es mediodía.	singular es, and no article	A1::topics A1::hora
+It's midnight.	Es medianoche.	singular es, like es la una	A1::topics A1::hora
+The shop opens at nine thirty.	La tienda abre a las nueve y media.	a las + hour for 'at'	A1::topics A1::hora
+The film starts at eight in the evening.	La película empieza a las ocho de la tarde.	la tarde runs until about 9pm in Spain	A1::topics A1::hora
+See you at half past one.	Nos vemos a la una y media.	a la una - singular, because it's one o'clock	A1::topics A1::hora
+It's almost three o'clock.	Son casi las tres.	casi goes before las	A1::topics A1::hora
+The bus arrives in twenty minutes.	El autobús llega en veinte minutos.	en + time = in (how long from now)	A1::topics A1::hora
+A coffee with milk, please.	Un café con leche, por favor.	the default coffee order in Spain	A1::topics A1::cafe
+Can we sit on the terrace?	¿Podemos sentarnos en la terraza?	sentarse = to sit down; la terraza = outdoor seating	A1::topics A1::cafe
+Could we order, please?	¿Podemos pedir, por favor?	pedir = to order; e &rarr; i	A1::topics A1::cafe
+What's the dish of the day?	¿Cuál es el plato del día?	el plato del día = daily special	A1::topics A1::cafe
+I'll have the same.	Para mí lo mismo.	lo mismo = the same thing	A1::topics A1::cafe
+Is there a set menu?	¿Hay menú del día?	menú del día = fixed-price lunch, usually three courses	A1::topics A1::cafe
+Could you bring a little more water?	¿Me pone un poco más de agua?	me pone = the standard way to order in Spain	A1::topics A1::cafe
+We're going to share a dessert.	Vamos a compartir un postre.	compartir = to share	A1::topics A1::cafe
+Can we pay separately?	¿Podemos pagar por separado?	por separado = separately	A1::topics A1::cafe
+Everything is delicious, thank you.	Todo está buenísimo, gracias.	-ísimo = really, extremely	A1::topics A1::cafe
+I'm coming right now!	¡Voy ahora mismo!	ahora = now &middot; mismo sharpens it to right now, this very moment	A1::topics A1::expresiones-tiempo
+The waiter brings the bill straight away.	El camarero trae la cuenta enseguida.	enseguida = immediately, in a moment (also spelt en seguida)	A1::topics A1::expresiones-tiempo
+Summer arrives soon.	El verano llega pronto.	pronto = soon &middot; it can also mean early: me levanto pronto	A1::topics A1::expresiones-tiempo
+First I have breakfast and then I have a shower.	Primero desayuno y después me ducho.	primero... después = first... then, for putting a routine in order	A1::topics A1::expresiones-tiempo
+I study in the morning.	Estudio por la mañana.	por la mañana with no clock time &middot; with a time it's de: a las ocho de la mañana	A1::topics A1::expresiones-tiempo
+In the afternoon I work and at night I rest.	Por la tarde trabajo y por la noche descanso.	por la tarde / por la noche &middot; la tarde lasts until dinner, around 9pm in Spain	A1::topics A1::expresiones-tiempo
+I always drink coffee with milk.	Siempre bebo café con leche.	siempre usually goes before the verb	A1::topics A1::expresiones-tiempo
+I never eat meat.	Nunca como carne.	nunca before the verb needs no no &middot; after it, it does: no como carne nunca	A1::topics A1::expresiones-tiempo
+Sometimes I walk to work.	A veces voy al trabajo a pie.	a veces = sometimes (vez &rarr; veces) &middot; a pie = on foot	A1::topics A1::expresiones-tiempo
+I speak Spanish every day.	Hablo español todos los días.	todos los días = every day, plural with the article &middot; cada día also works	A1::topics A1::expresiones-tiempo
+What subjects do you have today?	¿Qué asignaturas tienes hoy?	la asignatura = school subject	A1::topics A1::asignaturas
+On Mondays I have maths.	Los lunes tengo matemáticas.	las matemáticas is plural &middot; los lunes = on Mondays (every week)	A1::topics A1::asignaturas
+History is very interesting.	La historia es muy interesante.	a subject as the subject of the sentence takes the article: la historia	A1::topics A1::asignaturas
+Physical education is my favourite subject.	La educación física es mi asignatura favorita.	favorita agrees with asignatura, not with the sport	A1::topics A1::asignaturas
+I study French at school.	Estudio francés en el colegio.	languages are lowercase and take no article after estudiar	A1::topics A1::asignaturas
+My English teacher is from London.	Mi profesor de inglés es de Londres.	profesor de + subject = the teacher of that subject	A1::topics A1::asignaturas
+The Spanish class starts at nine.	La clase de español empieza a las nueve.	la clase de español &middot; empezar e &rarr; ie	A1::topics A1::asignaturas
+Philosophy is difficult, but I like it.	La filosofía es difícil, pero me gusta.	gusta singular because la filosofía is one thing	A1::topics A1::asignaturas
+I like maths, but I don't like history.	Me gustan las matemáticas, pero no me gusta la historia.	gustan for the plural matemáticas, gusta for la historia	A1::topics A1::asignaturas
+Break is at eleven.	El recreo es a las once.	el recreo = break / playtime &middot; events take ser + a las	A1::topics A1::asignaturas
+My friends like music.	A mis amigos les gusta la música.	naming the person takes both halves: a + person, and the pronoun stays &middot; les matches mis amigos, gusta matches la música	A1::topics A1::gustar-personas
+Ana likes coffee.	A Ana le gusta el café.	one person &rarr; le &middot; a Ana, never just Ana	A1::topics A1::gustar-personas
+My parents like to travel.	A mis padres les gusta viajar.	les for the people, gusta for the infinitive (an infinitive counts as singular)	A1::topics A1::gustar-personas
+I like this restaurant.	A mí me gusta este restaurante.	a mí adds emphasis (I'm the one who likes it) &middot; me still can't be dropped	A1::topics A1::gustar-personas
+Do you like Spanish films?	¿A ti te gustan las películas españolas?	a plural thing &rarr; gustan, whoever is doing the liking	A1::topics A1::gustar-personas
+My brother doesn't like fish.	A mi hermano no le gusta el pescado.	no goes before the pronoun: no le gusta	A1::topics A1::gustar-personas
+The children like animals.	A los niños les gustan los animales.	plural people &rarr; les, plural thing &rarr; gustan: both change here	A1::topics A1::gustar-personas
+My sister likes dogs, but I don't.	A mi hermana le gustan los perros, pero a mí no.	a mí no is the whole answer - the verb isn't repeated	A1::topics A1::gustar-personas
+Everyone likes the beach.	A todos les gusta la playa.	todos is plural &rarr; les	A1::topics A1::gustar-personas
+Who likes chocolate?	¿A quién le gusta el chocolate?	even a question word takes a + le	A1::topics A1::gustar-personas
+I was born in 1985.	Nací en mil novecientos ochenta y cinco.	a year is read as one whole number, never split in two like nineteen eighty-five &middot; nacer = to be born	A1::topics A1::fechas
+She was born in 1995.	Nació en mil novecientos noventa y cinco.	mil stands alone: never un mil	A1::topics A1::fechas
+What year were you born?	¿En qué año naciste?	en qué año &middot; naciste = you were born	A1::topics A1::fechas
+In the year 2000 I lived in Madrid.	En el año dos mil viví en Madrid.	2000 = dos mil &middot; el año is usual before a round year	A1::topics A1::fechas
+We're in 2025.	Estamos en dos mil veinticinco.	estamos en + year, the same estamos as with dates and temperatures	A1::topics A1::fechas
+Columbus arrived in 1492.	Colón llegó en mil cuatrocientos noventa y dos.	the 1400s start with mil cuatrocientos &middot; en + year, with no article	A1::topics A1::fechas
+I have lived here since 2019.	Vivo aquí desde dos mil diecinueve.	desde + year &middot; the plain present covers English's have lived	A1::topics A1::fechas
+The course starts in 2026.	El curso empieza en dos mil veintiséis.	dos mil veintiséis &middot; veintiséis keeps its accent	A1::topics A1::fechas
+My daughter was born on the 3rd of May 2010.	Mi hija nació el tres de mayo de dos mil diez.	a full date is el + number + de + month + de + year &middot; months are lowercase	A1::topics A1::fechas
+In the nineties there was no internet.	En los años noventa no había internet.	los años noventa = the nineties &middot; había = there was / there were	A1::topics A1::fechas
+Do you see the book? - Yes, I see it.	¿Ves el libro? - Sí, lo veo.	lo stands in for el libro &middot; the pronoun goes before the verb	A1::topics A1::pronombres-objeto
+Do you have the keys? - Yes, I have them.	¿Tienes las llaves? - Sí, las tengo.	las llaves is feminine plural &rarr; las	A1::topics A1::pronombres-objeto
+Do you buy the newspaper? - Yes, I buy it every day.	¿Compras el periódico? - Sí, lo compro todos los días.	lo = el periódico &middot; it never disappears the way English drops it	A1::topics A1::pronombres-objeto
+I don't know her.	No la conozco.	no goes first, then the pronoun, then the verb	A1::topics A1::pronombres-objeto
+She calls me every Sunday.	Me llama todos los domingos.	me = me &middot; still in front of the verb	A1::topics A1::pronombres-objeto
+Do you eat meat? - No, I don't eat it.	¿Comes carne? - No, no la como.	la = la carne &middot; the gender comes from the noun, not from the thing	A1::topics A1::pronombres-objeto
+Do you know my sister? - Yes, I know her.	¿Conoces a mi hermana? - Sí, la conozco.	the personal a in the question, la for her in the answer	A1::topics A1::pronombres-objeto
+I'm going to do it tomorrow.	Voy a hacerlo mañana.	with an infinitive you may also say lo voy a hacer - both are correct	A1::topics A1::pronombres-objeto
+Can you call me tomorrow?	¿Puedes llamarme mañana?	attached to the infinitive: llamarme &middot; ¿me puedes llamar? works just as well	A1::topics A1::pronombres-objeto
+I don't want to see it.	No quiero verlo.	no + conjugated verb, and the pronoun rides on the infinitive	A1::topics A1::pronombres-objeto
+Where are the tickets? I don't have them.	¿Dónde están las entradas? No las tengo.	la entrada = ticket &middot; las tengo, never tengo las	A1::topics A1::pronombres-objeto
+I give him the book.	Le doy el libro.	le is for the person receiving it	A1::topics A1::pronombres-objeto
+I give it to him.	Se lo doy.	le + lo is impossible, so le becomes se: se lo doy	A1::topics A1::pronombres-objeto
+They invite us to the party.	Nos invitan a la fiesta.	nos = us	A1::topics A1::pronombres-objeto
+I'm listening to you.	Te escucho.	escuchar takes the object directly: no a, no to	A1::topics A1::pronombres-objeto
+The book is on the table.	El libro está encima de la mesa.	encima de = on top of &middot; sobre la mesa works too	A1::topics A1::lugar
+The cat is under the chair.	El gato está debajo de la silla.	debajo de = under	A1::topics A1::lugar
+The pharmacy is next to the bank.	La farmacia está al lado del banco.	al lado de + el &rarr; del	A1::topics A1::lugar
+The supermarket is opposite the school.	El supermercado está enfrente del colegio.	enfrente de = opposite, facing	A1::topics A1::lugar
+My house is between the park and the church.	Mi casa está entre el parque y la iglesia.	entre takes no de	A1::topics A1::lugar
+The car is in front of the house.	El coche está delante de la casa.	delante de = in front of	A1::topics A1::lugar
+The garden is behind the house.	El jardín está detrás de la casa.	detrás de = behind	A1::topics A1::lugar
+The bathroom is at the end of the corridor.	El baño está al final del pasillo.	al final de = at the end of &middot; el pasillo = corridor	A1::topics A1::lugar
+The station is far from the centre.	La estación está lejos del centro.	lejos de &harr; cerca de	A1::topics A1::lugar
+The keys are inside the bag.	Las llaves están dentro del bolso.	dentro de = inside &middot; el bolso = bag	A1::topics A1::lugar
+The children are outside.	Los niños están fuera.	fuera on its own needs no de	A1::topics A1::lugar
+Is there a pharmacy near here?	¿Hay una farmacia por aquí cerca?	hay to ask whether something exists &middot; por aquí cerca = round here	A1::topics A1::lugar
+My head hurts.	Me duele la cabeza.	doler works backwards like gustar &middot; la cabeza, not mi cabeza	A1::topics A1::salud
+My feet hurt.	Me duelen los pies.	a plural body part &rarr; duelen	A1::topics A1::salud
+I have a sore throat.	Me duele la garganta.	Spanish says the throat hurts me	A1::topics A1::salud
+My stomach hurts.	Me duele el estómago.	el estómago keeps its accent	A1::topics A1::salud
+I have a temperature.	Tengo fiebre.	tener + fiebre, with no article	A1::topics A1::salud
+I have a cold.	Estoy resfriado/a.	estar for a passing state &middot; resfriada if you're female	A1::topics A1::salud
+I don't feel well.	No me encuentro bien.	encontrarse = to feel &middot; no me siento bien also works	A1::topics A1::salud
+How are you feeling?	¿Cómo te encuentras?	the everyday question when someone is ill	A1::topics A1::salud
+What's wrong?	¿Qué te pasa?	lit. what happens to you	A1::topics A1::salud
+I need to go to the doctor.	Necesito ir al médico.	ir al médico = to go to the doctor's	A1::topics A1::salud
+I have a red car.	Tengo un coche rojo.	the colour follows the noun and agrees with it	A1::topics A1::colores
+She's wearing a white shirt.	Lleva una camisa blanca.	blanco &rarr; blanca for a feminine noun	A1::topics A1::colores
+I have two white cats.	Tengo dos gatos blancos.	masculine plural: blancos	A1::topics A1::colores
+The walls are green.	Las paredes son verdes.	verde has no separate feminine: just add -s	A1::topics A1::colores
+I like blue shoes.	Me gustan los zapatos azules.	azul &rarr; azules &middot; gustan for a plural thing	A1::topics A1::colores
+The house is grey.	La casa es gris.	gris is the same for both genders	A1::topics A1::colores
+I want a brown coat.	Quiero un abrigo marrón.	marrón &rarr; marrones in the plural	A1::topics A1::colores
+The black trousers are on the bed.	Los pantalones negros están encima de la cama.	pantalones is plural in Spanish &rarr; negros	A1::topics A1::colores
+My favourite colour is yellow.	Mi color favorito es el amarillo.	a colour on its own takes el: el amarillo	A1::topics A1::colores
+What colour is your car?	¿De qué color es tu coche?	de qué color, with de	A1::topics A1::colores

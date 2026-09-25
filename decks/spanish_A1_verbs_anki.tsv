@@ -1,171 +1,173 @@
 #separator:tab
 #html:true
-Yo ___ de Suecia. (ser)	soy<br><span style="color:#888;font-size:0.85em">I'm from Sweden &middot; ser for origin</span>	A1::verbs A1::ser
-María ___ muy simpática. (ser)	es<br><span style="color:#888;font-size:0.85em">María is very nice &middot; ser for what someone is like</span>	A1::verbs A1::ser
-Nosotros ___ estudiantes. (ser)	somos<br><span style="color:#888;font-size:0.85em">We're students &middot; no un/una before a role or job</span>	A1::verbs A1::ser
-¿De dónde ___ tú? (ser)	eres<br><span style="color:#888;font-size:0.85em">Where are you from? &middot; de dónde + ser for origin</span>	A1::verbs A1::ser
-Ellos ___ españoles. (ser)	son<br><span style="color:#888;font-size:0.85em">They're Spanish &middot; nationalities are lowercase</span>	A1::verbs A1::ser
-Yo ___ cansado hoy. (estar)	estoy<br><span style="color:#888;font-size:0.85em">I'm tired today &middot; estar for how you feel right now</span>	A1::verbs A1::estar
-¿Dónde ___ el baño? (estar)	está<br><span style="color:#888;font-size:0.85em">Where's the bathroom? &middot; estar for location</span>	A1::verbs A1::estar
-Madrid ___ en España. (estar)	está<br><span style="color:#888;font-size:0.85em">Madrid is in Spain &middot; even permanent locations take estar</span>	A1::verbs A1::estar
-Nosotros ___ en casa. (estar)	estamos<br><span style="color:#888;font-size:0.85em">We're at home &middot; en casa = at home, no article</span>	A1::verbs A1::estar
-¿Cómo ___ tú? (estar)	estás<br><span style="color:#888;font-size:0.85em">How are you? &middot; cómo + estar asks how you feel; cómo + ser asks what you're like</span>	A1::verbs A1::estar
-Yo ___ treinta y dos años. (tener)	tengo<br><span style="color:#888;font-size:0.85em">I'm thirty-two &middot; age uses tener, not ser</span>	A1::verbs A1::tener
-¿Cuántos años ___ tú? (tener)	tienes<br><span style="color:#888;font-size:0.85em">How old are you? &middot; lit. how many years do you have</span>	A1::verbs A1::tener
-Nosotros ___ dos hermanos. (tener)	tenemos<br><span style="color:#888;font-size:0.85em">We have two brothers &middot; nosotros keeps the plain stem: tenemos</span>	A1::verbs A1::tener
-Ella ___ un coche. (tener)	tiene<br><span style="color:#888;font-size:0.85em">She has a car &middot; e &rarr; ie in all but nosotros / vosotros</span>	A1::verbs A1::tener
-Ellos ___ mucho trabajo. (tener)	tienen<br><span style="color:#888;font-size:0.85em">They have a lot of work &middot; mucho agrees with trabajo</span>	A1::verbs A1::tener
-___ un supermercado cerca de aquí. (haber)	Hay<br><span style="color:#888;font-size:0.85em">There's a supermarket near here &middot; hay never changes</span>	A1::verbs A1::haber
-___ muchas personas en el restaurante. (haber)	Hay<br><span style="color:#888;font-size:0.85em">There are a lot of people in the restaurant &middot; same hay for the plural</span>	A1::verbs A1::haber
-¿___ un banco cerca? (haber)	Hay<br><span style="color:#888;font-size:0.85em">Is there a bank nearby? &middot; hay + un/una to ask if something exists</span>	A1::verbs A1::haber
-En mi ciudad ___ muchos parques. (haber)	hay<br><span style="color:#888;font-size:0.85em">There are a lot of parks in my city &middot; hay introduces something new, está locates something known</span>	A1::verbs A1::haber
-No ___ leche en la nevera. (haber)	hay<br><span style="color:#888;font-size:0.85em">There's no milk in the fridge &middot; no hay + noun, with no article</span>	A1::verbs A1::haber
-¿Qué ___ tú los fines de semana? (hacer)	haces<br><span style="color:#888;font-size:0.85em">What do you do at weekends? &middot; los fines de semana = at weekends, as a habit</span>	A1::verbs A1::hacer
-Yo ___ ejercicio todos los días. (hacer)	hago<br><span style="color:#888;font-size:0.85em">I exercise every day &middot; hacer ejercicio &middot; irregular yo: hago</span>	A1::verbs A1::hacer
-Ella ___ la comida. (hacer)	hace<br><span style="color:#888;font-size:0.85em">She makes the food &middot; hacer la comida = to cook</span>	A1::verbs A1::hacer
-Nosotros ___ muchas cosas hoy. (hacer)	hacemos<br><span style="color:#888;font-size:0.85em">We're doing a lot of things today &middot; the present covers what's happening now</span>	A1::verbs A1::hacer
-¿Qué ___ ahora? (hacer)	haces<br><span style="color:#888;font-size:0.85em">What are you doing now? &middot; Spanish uses the plain present where English uses -ing</span>	A1::verbs A1::hacer
-Yo ___ al trabajo a las ocho. (ir)	voy<br><span style="color:#888;font-size:0.85em">I go to work at eight &middot; a + el contracts to al</span>	A1::verbs A1::ir
-¿Adónde ___ vosotros? (ir)	vais<br><span style="color:#888;font-size:0.85em">Where are you all going? &middot; adónde with verbs of movement</span>	A1::verbs A1::ir
-Mi amigo ___ mañana a Estocolmo. (venir)	viene<br><span style="color:#888;font-size:0.85em">My friend is coming to Stockholm tomorrow &middot; e &rarr; ie: vengo, vienes, viene</span>	A1::verbs A1::venir
-¿Quieres ___ conmigo? (venir)	venir<br><span style="color:#888;font-size:0.85em">Do you want to come with me? &middot; after another verb the infinitive stays &middot; conmigo = with me</span>	A1::verbs A1::venir
-Yo ___ aprender español. (querer)	quiero<br><span style="color:#888;font-size:0.85em">I want to learn Spanish &middot; querer + infinitive</span>	A1::verbs A1::querer
-¿___ un café, por favor? (querer)	Quieres<br><span style="color:#888;font-size:0.85em">Would you like a coffee, please? &middot; querer + noun to offer something</span>	A1::verbs A1::querer
-No ___ ir hoy. Estoy enfermo. (poder)	puedo<br><span style="color:#888;font-size:0.85em">I can't go today. I'm ill. &middot; o &rarr; ue: puedo, puedes, puede</span>	A1::verbs A1::poder
-¿___ hablar español? (poder)	Puedes<br><span style="color:#888;font-size:0.85em">Can you speak Spanish? &middot; poder = be able to; saber = know how to</span>	A1::verbs A1::poder
-Yo ___ nadar muy bien. (saber)	sé<br><span style="color:#888;font-size:0.85em">I can swim very well &middot; saber + infinitive = know how to do something</span>	A1::verbs A1::saber
-¿___ dónde está el restaurante? (saber)	Sabes<br><span style="color:#888;font-size:0.85em">Do you know where the restaurant is? &middot; saber for facts</span>	A1::verbs A1::saber
-Yo ___ a Ana. Es mi amiga. (conocer)	conozco<br><span style="color:#888;font-size:0.85em">I know Ana. She's my friend. &middot; conocer for people, with the personal a</span>	A1::verbs A1::conocer
-¿___ Madrid? (conocer)	Conoces<br><span style="color:#888;font-size:0.85em">Do you know Madrid? &middot; conocer for places you're familiar with</span>	A1::verbs A1::conocer
-Me ___ mucho el chocolate. (gustar)	gusta<br><span style="color:#888;font-size:0.85em">I really like chocolate &middot; lit. chocolate pleases me, so the thing liked is the subject</span>	A1::verbs A1::gustar
-Me ___ los perros. (gustar)	gustan<br><span style="color:#888;font-size:0.85em">I like dogs &middot; a plural thing &rarr; gustan</span>	A1::verbs A1::gustar
-¿Te ___ la música española? (gustar)	gusta<br><span style="color:#888;font-size:0.85em">Do you like Spanish music? &middot; te = to you</span>	A1::verbs A1::gustar
-Yo ___ español todos los días. (hablar)	hablo<br><span style="color:#888;font-size:0.85em">I speak Spanish every day &middot; regular -ar: -o, -as, -a</span>	A1::verbs A1::hablar
-¿___ inglés? (hablar — tú)	hablas<br><span style="color:#888;font-size:0.85em">Do you speak English? &middot; the pronoun is usually left out</span>	A1::verbs A1::hablar
-Mi madre ___ español y francés. (hablar)	habla<br><span style="color:#888;font-size:0.85em">My mother speaks Spanish and French &middot; languages are lowercase</span>	A1::verbs A1::hablar
-Nosotros ___ en un restaurante. (comer)	comemos<br><span style="color:#888;font-size:0.85em">We're eating at a restaurant &middot; regular -er nosotros: -emos</span>	A1::verbs A1::comer
-Yo ___ pizza los viernes. (comer)	como<br><span style="color:#888;font-size:0.85em">I eat pizza on Fridays &middot; los viernes = on Fridays</span>	A1::verbs A1::comer
-¿Qué ___ normalmente para desayunar? (comer — tú)	comes<br><span style="color:#888;font-size:0.85em">What do you normally eat for breakfast? &middot; para + infinitive = for doing something</span>	A1::verbs A1::comer
-Yo ___ en Estocolmo. (vivir)	vivo<br><span style="color:#888;font-size:0.85em">I live in Stockholm &middot; -ir and -er share the yo / tú / él endings</span>	A1::verbs A1::vivir
-¿Dónde ___ tú? (vivir)	vives<br><span style="color:#888;font-size:0.85em">Where do you live? &middot; dónde takes an accent in a question</span>	A1::verbs A1::vivir
-Mis padres ___ en Suecia. (vivir)	viven<br><span style="color:#888;font-size:0.85em">My parents live in Sweden &middot; padres = parents as well as fathers</span>	A1::verbs A1::vivir
-Yo ___ en una empresa tecnológica. (trabajar)	trabajo<br><span style="color:#888;font-size:0.85em">I work at a tech company &middot; trabajar en for a workplace</span>	A1::verbs A1::trabajar
-¿Dónde ___ tú? (trabajar)	trabajas<br><span style="color:#888;font-size:0.85em">Where do you work? &middot; regular -ar tú ending: -as</span>	A1::verbs A1::trabajar
-Mi hermana ___ en un hospital. (trabajar)	trabaja<br><span style="color:#888;font-size:0.85em">My sister works at a hospital</span>	A1::verbs A1::trabajar
-Yo ___ un nuevo ordenador. (necesitar)	necesito<br><span style="color:#888;font-size:0.85em">I need a new computer &middot; ordenador in Spain, computadora in Latin America</span>	A1::verbs A1::necesitar
-¿___ ayuda? (necesitar — tú)	necesitas<br><span style="color:#888;font-size:0.85em">Do you need help? &middot; ayuda takes no article here</span>	A1::verbs A1::necesitar
-Nosotros ___ más tiempo. (necesitar)	necesitamos<br><span style="color:#888;font-size:0.85em">We need more time &middot; más + noun = more</span>	A1::verbs A1::necesitar
-Yo ___ una camiseta azul. (llevar)	llevo<br><span style="color:#888;font-size:0.85em">I'm wearing a blue T-shirt &middot; llevar = wear as well as carry</span>	A1::verbs A1::llevar
-Ella ___ gafas. (llevar)	lleva<br><span style="color:#888;font-size:0.85em">She wears glasses &middot; gafas is always plural</span>	A1::verbs A1::llevar
-¿Qué ropa ___ hoy? (llevar — tú)	llevas<br><span style="color:#888;font-size:0.85em">What are you wearing today? &middot; la ropa is singular in Spanish</span>	A1::verbs A1::llevar
-Yo ___ las llaves sobre la mesa. (poner)	pongo<br><span style="color:#888;font-size:0.85em">I put the keys on the table &middot; irregular yo: pongo</span>	A1::verbs A1::poner
-¿Dónde ___ el teléfono? (poner — tú)	pones<br><span style="color:#888;font-size:0.85em">Where do you put the phone?</span>	A1::verbs A1::poner
-Ella ___ la comida en la mesa. (poner)	pone<br><span style="color:#888;font-size:0.85em">She puts the food on the table</span>	A1::verbs A1::poner
-Yo ___ la televisión por la noche. (ver)	veo<br><span style="color:#888;font-size:0.85em">I watch TV in the evening &middot; ver = both see and watch</span>	A1::verbs A1::ver
-¿Qué ___ tú en la televisión? (ver)	ves<br><span style="color:#888;font-size:0.85em">What do you watch on TV? &middot; en la televisión = on TV</span>	A1::verbs A1::ver
-Nosotros ___ una película. (ver)	vemos<br><span style="color:#888;font-size:0.85em">We're watching a film &middot; ver is regular apart from veo</span>	A1::verbs A1::ver
-Yo ___ a casa a las seis. (volver)	vuelvo<br><span style="color:#888;font-size:0.85em">I come home at six &middot; o &rarr; ue: vuelvo, but volvemos</span>	A1::verbs A1::volver
-¿Cuándo ___ tú de Madrid? (volver)	vuelves<br><span style="color:#888;font-size:0.85em">When do you come back from Madrid? &middot; volver de = come back from</span>	A1::verbs A1::volver
-Nosotros ___ mañana. (volver)	volvemos<br><span style="color:#888;font-size:0.85em">We come back tomorrow &middot; no stem change in nosotros</span>	A1::verbs A1::volver
-La clase ___ a las nueve. (empezar)	empieza<br><span style="color:#888;font-size:0.85em">The class starts at nine &middot; e &rarr; ie: empieza</span>	A1::verbs A1::empezar
-Yo ___ a trabajar a las ocho. (empezar)	empiezo<br><span style="color:#888;font-size:0.85em">I start work at eight &middot; empezar a + infinitive</span>	A1::verbs A1::empezar
-Nosotros ___ hoy. (empezar)	empezamos<br><span style="color:#888;font-size:0.85em">We start today &middot; z &rarr; c only in the yo preterite, not here</span>	A1::verbs A1::empezar
-Yo ___ al fútbol los sábados. (jugar)	juego<br><span style="color:#888;font-size:0.85em">I play football on Saturdays &middot; jugar a + sport: juego al fútbol</span>	A1::verbs A1::jugar
-Los niños ___ en el parque. (jugar)	juegan<br><span style="color:#888;font-size:0.85em">The children play in the park &middot; u &rarr; ue, unique to jugar</span>	A1::verbs A1::jugar
-Nosotros ___ a las cartas. (jugar)	jugamos<br><span style="color:#888;font-size:0.85em">We play cards &middot; jugar a las cartas</span>	A1::verbs A1::jugar
-Yo ___ de casa a las ocho. (salir)	salgo<br><span style="color:#888;font-size:0.85em">I leave home at eight &middot; irregular yo: salgo &middot; salir de = leave a place</span>	A1::verbs A1::salir
-El tren ___ a las diez. (salir)	sale<br><span style="color:#888;font-size:0.85em">The train leaves at ten &middot; salir for departures</span>	A1::verbs A1::salir
-¿Vosotros ___ esta noche? (salir)	salís<br><span style="color:#888;font-size:0.85em">Are you all going out tonight? &middot; salir = go out socially too</span>	A1::verbs A1::salir
-Yo siempre ___ la verdad. (decir)	digo<br><span style="color:#888;font-size:0.85em">I always tell the truth &middot; e &rarr; i, plus an irregular yo: digo</span>	A1::verbs A1::decir
-¿Cómo se ___ "apple" en español? (decir)	dice<br><span style="color:#888;font-size:0.85em">How do you say apple in Spanish? &middot; se dice = one says</span>	A1::verbs A1::decir
-Ellos ___ que no. (decir)	dicen<br><span style="color:#888;font-size:0.85em">They say no &middot; decir que = to say that</span>	A1::verbs A1::decir
-I am Swedish.	Soy sueco/a.<br><span style="color:#888;font-size:0.85em">ser for a lasting trait &middot; sueca if you're female</span>	A1::translation A1::ser
-I am tired.	Estoy cansado/a.<br><span style="color:#888;font-size:0.85em">estar for a passing state</span>	A1::translation A1::estar
-I have a car.	Tengo un coche.<br><span style="color:#888;font-size:0.85em">coche in Spain, carro or auto in Latin America</span>	A1::translation A1::tener
-There is a restaurant here.	Hay un restaurante aquí.<br><span style="color:#888;font-size:0.85em">hay for existence, está for location</span>	A1::translation A1::haber
-There are many people here.	Hay muchas personas aquí.<br><span style="color:#888;font-size:0.85em">hay is the same in the plural</span>	A1::translation A1::haber
-What are you doing?	¿Qué haces?<br><span style="color:#888;font-size:0.85em">no -ing form and no helper verb</span>	A1::translation A1::hacer
-I am going home.	Voy a casa.<br><span style="color:#888;font-size:0.85em">a casa = home(wards), with no article</span>	A1::translation A1::ir
-I want to learn Spanish.	Quiero aprender español.<br><span style="color:#888;font-size:0.85em">querer + infinitive</span>	A1::translation A1::querer
-I can speak Spanish.	Puedo hablar español.<br><span style="color:#888;font-size:0.85em">poder = be able to (saber = know how to)</span>	A1::translation A1::poder
-I don't know.	No sé.<br><span style="color:#888;font-size:0.85em">sé takes an accent to keep it apart from se</span>	A1::translation A1::saber
-I know Madrid.	Conozco Madrid.<br><span style="color:#888;font-size:0.85em">conocer = be familiar with &middot; irregular yo: conozco</span>	A1::translation A1::conocer
-I like coffee.	Me gusta el café.<br><span style="color:#888;font-size:0.85em">the article stays: el café</span>	A1::translation A1::gustar
-I like Spanish food.	Me gusta la comida española.<br><span style="color:#888;font-size:0.85em">nationality adjectives follow the noun and stay lowercase</span>	A1::translation A1::gustar
-I speak English.	Hablo inglés.<br><span style="color:#888;font-size:0.85em">drop yo unless you're stressing it</span>	A1::translation A1::hablar
-I eat breakfast at eight.	Desayuno a las ocho.<br><span style="color:#888;font-size:0.85em">desayunar is a single verb for have breakfast</span>	A1::translation A1::comer
-I live in Stockholm.	Vivo en Estocolmo.<br><span style="color:#888;font-size:0.85em">cities have Spanish names: Estocolmo</span>	A1::translation A1::vivir
-I work from home.	Trabajo desde casa.<br><span style="color:#888;font-size:0.85em">desde casa = from home</span>	A1::translation A1::trabajar
-I need some water.	Necesito agua.<br><span style="color:#888;font-size:0.85em">no word for some &middot; agua is feminine but takes el</span>	A1::translation A1::necesitar
-I have a blue shirt.	Tengo una camisa azul.<br><span style="color:#888;font-size:0.85em">the colour follows the noun and agrees with it</span>	A1::translation A1::tener
-I put my keys on the table.	Pongo mis llaves en la mesa.<br><span style="color:#888;font-size:0.85em">en covers both on and in</span>	A1::translation A1::poner
-I watch TV every evening.	Veo la televisión todas las noches.<br><span style="color:#888;font-size:0.85em">todas las noches = every night</span>	A1::translation A1::ver
-I am at home because I am tired.	Estoy en casa porque estoy cansado/a.<br><span style="color:#888;font-size:0.85em">porque = because &middot; ¿por qué? = why</span>	A1::mixed A1::estar
-I am Swedish, but I live in Spain.	Soy sueco/a, pero vivo en España.<br><span style="color:#888;font-size:0.85em">ser for who you are, a separate verb for where you live</span>	A1::mixed A1::ser A1::vivir
-There is a restaurant near my house.	Hay un restaurante cerca de mi casa.<br><span style="color:#888;font-size:0.85em">cerca de = near</span>	A1::mixed A1::haber
-I have to work tomorrow.	Tengo que trabajar mañana.<br><span style="color:#888;font-size:0.85em">tener que + infinitive = have to</span>	A1::mixed A1::tener A1::trabajar
-I want to go to Spain.	Quiero ir a España.<br><span style="color:#888;font-size:0.85em">two verbs: the second stays in the infinitive</span>	A1::mixed A1::querer A1::ir
-I can't go today.	No puedo ir hoy.<br><span style="color:#888;font-size:0.85em">no goes in front of the verb</span>	A1::mixed A1::poder A1::ir
-Do you know where the bathroom is?	¿Sabes dónde está el baño?<br><span style="color:#888;font-size:0.85em">saber for the fact, estar for the location &middot; dónde keeps its accent</span>	A1::mixed A1::saber A1::estar
-Do you know Madrid?	¿Conoces Madrid?<br><span style="color:#888;font-size:0.85em">conocer, not saber, for places</span>	A1::mixed A1::conocer
-I like Spanish music.	Me gusta la música española.<br><span style="color:#888;font-size:0.85em">a singular thing &rarr; gusta</span>	A1::mixed A1::gustar
-I like Spanish movies.	Me gustan las películas españolas.<br><span style="color:#888;font-size:0.85em">a plural thing &rarr; gustan</span>	A1::mixed A1::gustar
-What do you want to eat?	¿Qué quieres comer?<br><span style="color:#888;font-size:0.85em">querer + infinitive, with qué in front</span>	A1::mixed A1::querer A1::comer
-What are you going to do tomorrow?	¿Qué vas a hacer mañana?<br><span style="color:#888;font-size:0.85em">ir a + infinitive = going to</span>	A1::mixed A1::ir A1::hacer
-I am going to work.	Voy a trabajar.<br><span style="color:#888;font-size:0.85em">also I'm going to work (the place): context decides</span>	A1::mixed A1::ir A1::trabajar
-My friend is coming tomorrow.	Mi amigo/a viene mañana.<br><span style="color:#888;font-size:0.85em">the present covers a planned future</span>	A1::mixed A1::venir
-I need to speak Spanish.	Necesito hablar español.<br><span style="color:#888;font-size:0.85em">necesitar + infinitive</span>	A1::mixed A1::necesitar A1::hablar
-I work in Stockholm but live outside Stockholm.	Trabajo en Estocolmo pero vivo fuera de Estocolmo.<br><span style="color:#888;font-size:0.85em">fuera de = outside</span>	A1::mixed A1::trabajar A1::vivir
-There are three people in my family.	Hay tres personas en mi familia.<br><span style="color:#888;font-size:0.85em">persona is feminine, even for a man</span>	A1::mixed A1::haber
-I have two brothers.	Tengo dos hermanos.<br><span style="color:#888;font-size:0.85em">hermanos = brothers, or siblings of mixed gender</span>	A1::mixed A1::tener
-I don't have a car.	No tengo coche.<br><span style="color:#888;font-size:0.85em">no article after a negative tener</span>	A1::mixed A1::tener
-I don't want to eat.	No quiero comer.<br><span style="color:#888;font-size:0.85em">no + querer + infinitive</span>	A1::mixed A1::querer A1::comer
-I can't speak Spanish very well.	No puedo hablar español muy bien.<br><span style="color:#888;font-size:0.85em">muy bien goes at the end</span>	A1::mixed A1::poder A1::hablar
-I see my friends every weekend.	Veo a mis amigos todos los fines de semana.<br><span style="color:#888;font-size:0.85em">the personal a before people</span>	A1::mixed A1::ver
-I put my phone on the table.	Pongo mi teléfono en la mesa.<br><span style="color:#888;font-size:0.85em">no article with a possessive: mi teléfono</span>	A1::mixed A1::poner
-I wear glasses.	Llevo gafas.<br><span style="color:#888;font-size:0.85em">llevar for wearing &middot; gafas is plural</span>	A1::mixed A1::llevar
-I come back home late.	Vuelvo a casa tarde.<br><span style="color:#888;font-size:0.85em">volver a casa = go back home</span>	A1::translation A1::volver
-When do you start work?	¿Cuándo empiezas a trabajar?<br><span style="color:#888;font-size:0.85em">empezar a + infinitive</span>	A1::translation A1::empezar
-We play football on Sundays.	Jugamos al fútbol los domingos.<br><span style="color:#888;font-size:0.85em">jugar al + sport &middot; los domingos = on Sundays</span>	A1::translation A1::jugar
-I go out with my friends on Fridays.	Salgo con mis amigos los viernes.<br><span style="color:#888;font-size:0.85em">salir con = go out with</span>	A1::translation A1::salir
-What are you saying?	¿Qué dices?<br><span style="color:#888;font-size:0.85em">dices for tú &middot; decís is vosotros</span>	A1::translation A1::decir
-Yo ___ todos los días. (correr)	corro<br><span style="color:#888;font-size:0.85em">I run every day &middot; regular -er, like comer</span>	A1::verbs A1::correr
-Ella ___ muy rápido. (correr)	corre<br><span style="color:#888;font-size:0.85em">She runs very fast &middot; rápido works as an adverb here</span>	A1::verbs A1::correr
-Nosotros ___ en el parque. (correr)	corremos<br><span style="color:#888;font-size:0.85em">We run in the park &middot; -er nosotros: -emos</span>	A1::verbs A1::correr
-Yo ___ muy bien. (nadar)	nado<br><span style="color:#888;font-size:0.85em">I swim very well &middot; regular -ar</span>	A1::verbs A1::nadar
-¿___ tú en el mar? (nadar)	Nadas<br><span style="color:#888;font-size:0.85em">Do you swim in the sea? &middot; el mar = the sea</span>	A1::verbs A1::nadar
-Los niños ___ en la piscina. (nadar)	nadan<br><span style="color:#888;font-size:0.85em">The children swim in the pool &middot; la piscina = swimming pool</span>	A1::verbs A1::nadar
-Yo te ___ mañana. (llamar)	llamo<br><span style="color:#888;font-size:0.85em">I'll call you tomorrow &middot; the plain present covers a near-future plan</span>	A1::verbs A1::llamar
-Mi madre me ___ todos los domingos. (llamar)	llama<br><span style="color:#888;font-size:0.85em">My mother calls me every Sunday &middot; todos los domingos = every Sunday</span>	A1::verbs A1::llamar
-¿Cómo se ___ tu hermano? (llamar)	llama<br><span style="color:#888;font-size:0.85em">What's your brother's name? &middot; llamarse = to be called, so the se stays</span>	A1::verbs A1::llamar
-El tren ___ a las ocho. (llegar)	llega<br><span style="color:#888;font-size:0.85em">The train arrives at eight &middot; llegar a + time or place</span>	A1::verbs A1::llegar
-Yo siempre ___ tarde. (llegar)	llego<br><span style="color:#888;font-size:0.85em">I always arrive late &middot; llegar tarde = to be late</span>	A1::verbs A1::llegar
-Nosotros ___ mañana a Madrid. (llegar)	llegamos<br><span style="color:#888;font-size:0.85em">We arrive in Madrid tomorrow &middot; llegar a, never llegar en</span>	A1::verbs A1::llegar
-Yo ___ por la ventana. (mirar)	miro<br><span style="color:#888;font-size:0.85em">I look out of the window &middot; mirar por la ventana</span>	A1::verbs A1::mirar
-¿Qué ___ tú? (mirar)	miras<br><span style="color:#888;font-size:0.85em">What are you looking at? &middot; mirar needs no preposition: miro la tele</span>	A1::verbs A1::mirar
-Ellos ___ el menú. (mirar)	miran<br><span style="color:#888;font-size:0.85em">They're looking at the menu &middot; mirar = look at, ver = see</span>	A1::verbs A1::mirar
-Yo ___ que sí. (creer)	creo<br><span style="color:#888;font-size:0.85em">I think so &middot; creer que = to think / believe that</span>	A1::verbs A1::creer
-¿___ tú en la suerte? (creer)	Crees<br><span style="color:#888;font-size:0.85em">Do you believe in luck? &middot; creer en = to believe in</span>	A1::verbs A1::creer
-Nosotros ___ que es verdad. (creer)	creemos<br><span style="color:#888;font-size:0.85em">We think it's true &middot; regular -er: creemos</span>	A1::verbs A1::creer
-Yo ___ español en una academia. (aprender)	aprendo<br><span style="color:#888;font-size:0.85em">I learn Spanish at a language school &middot; regular -er</span>	A1::verbs A1::aprender
-¿Dónde ___ tú español? (aprender)	aprendes<br><span style="color:#888;font-size:0.85em">Where do you learn Spanish?</span>	A1::verbs A1::aprender
-Los niños ___ muy rápido. (aprender)	aprenden<br><span style="color:#888;font-size:0.85em">Children learn very fast</span>	A1::verbs A1::aprender
-Yo no ___ nada. (oír)	oigo<br><span style="color:#888;font-size:0.85em">I can't hear anything &middot; irregular yo: oigo &middot; Spanish needs no can here</span>	A1::verbs A1::oir
-¿___ tú la música? (oír)	Oyes<br><span style="color:#888;font-size:0.85em">Can you hear the music? &middot; i &rarr; y between vowels: oyes, oye, oyen</span>	A1::verbs A1::oir
-Nosotros ___ un ruido. (oír)	oímos<br><span style="color:#888;font-size:0.85em">We hear a noise &middot; the í keeps its accent: oímos, oís</span>	A1::verbs A1::oir
-Yo ___ en Madrid. (seguir)	sigo<br><span style="color:#888;font-size:0.85em">I'm still in Madrid &middot; seguir + place = to still be there &middot; e &rarr; i: sigo</span>	A1::verbs A1::seguir
-¿___ tú trabajando aquí? (seguir)	Sigues<br><span style="color:#888;font-size:0.85em">Are you still working here? &middot; seguir + -ando/-iendo = to keep on doing</span>	A1::verbs A1::seguir
-Ellos ___ el mismo camino. (seguir)	siguen<br><span style="color:#888;font-size:0.85em">They follow the same road &middot; siguen, but seguimos with no change</span>	A1::verbs A1::seguir
-Yo ___ un libro cada mes. (leer)	leo<br><span style="color:#888;font-size:0.85em">I read a book every month &middot; cada mes = every month</span>	A1::verbs A1::leer
-¿Qué ___ tú ahora? (leer)	lees<br><span style="color:#888;font-size:0.85em">What are you reading now?</span>	A1::verbs A1::leer
-Nosotros ___ el periódico. (leer)	leemos<br><span style="color:#888;font-size:0.85em">We read the newspaper &middot; el periódico</span>	A1::verbs A1::leer
-I run in the mornings.	Corro por las mañanas.<br><span style="color:#888;font-size:0.85em">por las mañanas = in the mornings, as a habit</span>	A1::translation A1::correr
-We swim in the sea in summer.	Nadamos en el mar en verano.<br><span style="color:#888;font-size:0.85em">en verano = in summer, with no article</span>	A1::translation A1::nadar
-I'll call you later.	Te llamo luego.<br><span style="color:#888;font-size:0.85em">the present does the job of will here &middot; te goes before the verb</span>	A1::translation A1::llamar
-I always arrive on time.	Siempre llego a tiempo.<br><span style="color:#888;font-size:0.85em">a tiempo = on time &middot; a la hora also works</span>	A1::translation A1::llegar
-I'm looking at the photos.	Miro las fotos.<br><span style="color:#888;font-size:0.85em">mirar takes the object directly, with no a</span>	A1::translation A1::mirar
-I don't think so.	Creo que no.<br><span style="color:#888;font-size:0.85em">lit. I believe that no &middot; the opposite is creo que sí</span>	A1::translation A1::creer
-I'm learning to cook.	Aprendo a cocinar.<br><span style="color:#888;font-size:0.85em">aprender a + infinitive</span>	A1::translation A1::aprender
-I can't hear you.	No te oigo.<br><span style="color:#888;font-size:0.85em">no can needed: no te oigo says it</span>	A1::translation A1::oir
-I keep studying every day.	Sigo estudiando todos los días.<br><span style="color:#888;font-size:0.85em">seguir + gerund = to keep on doing</span>	A1::translation A1::seguir
-I read before going to sleep.	Leo antes de dormir.<br><span style="color:#888;font-size:0.85em">antes de + infinitive</span>	A1::translation A1::leer
+#notetype:Spanish Production
+#tags column:4
+Yo ___ de Suecia. (ser)	soy	I'm from Sweden &middot; ser for origin	A1::verbs A1::ser
+María ___ muy simpática. (ser)	es	María is very nice &middot; ser for what someone is like	A1::verbs A1::ser
+Nosotros ___ estudiantes. (ser)	somos	We're students &middot; no un/una before a role or job	A1::verbs A1::ser
+¿De dónde ___ tú? (ser)	eres	Where are you from? &middot; de dónde + ser for origin	A1::verbs A1::ser
+Ellos ___ españoles. (ser)	son	They're Spanish &middot; nationalities are lowercase	A1::verbs A1::ser
+Yo ___ cansado hoy. (estar)	estoy	I'm tired today &middot; estar for how you feel right now	A1::verbs A1::estar
+¿Dónde ___ el baño? (estar)	está	Where's the bathroom? &middot; estar for location	A1::verbs A1::estar
+Madrid ___ en España. (estar)	está	Madrid is in Spain &middot; even permanent locations take estar	A1::verbs A1::estar
+Nosotros ___ en casa. (estar)	estamos	We're at home &middot; en casa = at home, no article	A1::verbs A1::estar
+¿Cómo ___ tú? (estar)	estás	How are you? &middot; cómo + estar asks how you feel; cómo + ser asks what you're like	A1::verbs A1::estar
+Yo ___ treinta y dos años. (tener)	tengo	I'm thirty-two &middot; age uses tener, not ser	A1::verbs A1::tener
+¿Cuántos años ___ tú? (tener)	tienes	How old are you? &middot; lit. how many years do you have	A1::verbs A1::tener
+Nosotros ___ dos hermanos. (tener)	tenemos	We have two brothers &middot; nosotros keeps the plain stem: tenemos	A1::verbs A1::tener
+Ella ___ un coche. (tener)	tiene	She has a car &middot; e &rarr; ie in all but nosotros / vosotros	A1::verbs A1::tener
+Ellos ___ mucho trabajo. (tener)	tienen	They have a lot of work &middot; mucho agrees with trabajo	A1::verbs A1::tener
+___ un supermercado cerca de aquí. (haber)	Hay	There's a supermarket near here &middot; hay never changes	A1::verbs A1::haber
+___ muchas personas en el restaurante. (haber)	Hay	There are a lot of people in the restaurant &middot; same hay for the plural	A1::verbs A1::haber
+¿___ un banco cerca? (haber)	Hay	Is there a bank nearby? &middot; hay + un/una to ask if something exists	A1::verbs A1::haber
+En mi ciudad ___ muchos parques. (haber)	hay	There are a lot of parks in my city &middot; hay introduces something new, está locates something known	A1::verbs A1::haber
+No ___ leche en la nevera. (haber)	hay	There's no milk in the fridge &middot; no hay + noun, with no article	A1::verbs A1::haber
+¿Qué ___ tú los fines de semana? (hacer)	haces	What do you do at weekends? &middot; los fines de semana = at weekends, as a habit	A1::verbs A1::hacer
+Yo ___ ejercicio todos los días. (hacer)	hago	I exercise every day &middot; hacer ejercicio &middot; irregular yo: hago	A1::verbs A1::hacer
+Ella ___ la comida. (hacer)	hace	She makes the food &middot; hacer la comida = to cook	A1::verbs A1::hacer
+Nosotros ___ muchas cosas hoy. (hacer)	hacemos	We're doing a lot of things today &middot; the present covers what's happening now	A1::verbs A1::hacer
+¿Qué ___ ahora? (hacer)	haces	What are you doing now? &middot; Spanish uses the plain present where English uses -ing	A1::verbs A1::hacer
+Yo ___ al trabajo a las ocho. (ir)	voy	I go to work at eight &middot; a + el contracts to al	A1::verbs A1::ir
+¿Adónde ___ vosotros? (ir)	vais	Where are you all going? &middot; adónde with verbs of movement	A1::verbs A1::ir
+Mi amigo ___ mañana a Estocolmo. (venir)	viene	My friend is coming to Stockholm tomorrow &middot; e &rarr; ie: vengo, vienes, viene	A1::verbs A1::venir
+¿Quieres ___ conmigo? (venir)	venir	Do you want to come with me? &middot; after another verb the infinitive stays &middot; conmigo = with me	A1::verbs A1::venir
+Yo ___ aprender español. (querer)	quiero	I want to learn Spanish &middot; querer + infinitive	A1::verbs A1::querer
+¿___ un café, por favor? (querer)	Quieres	Would you like a coffee, please? &middot; querer + noun to offer something	A1::verbs A1::querer
+No ___ ir hoy. Estoy enfermo. (poder)	puedo	I can't go today. I'm ill. &middot; o &rarr; ue: puedo, puedes, puede	A1::verbs A1::poder
+¿___ hablar español? (poder)	Puedes	Can you speak Spanish? &middot; poder = be able to; saber = know how to	A1::verbs A1::poder
+Yo ___ nadar muy bien. (saber)	sé	I can swim very well &middot; saber + infinitive = know how to do something	A1::verbs A1::saber
+¿___ dónde está el restaurante? (saber)	Sabes	Do you know where the restaurant is? &middot; saber for facts	A1::verbs A1::saber
+Yo ___ a Ana. Es mi amiga. (conocer)	conozco	I know Ana. She's my friend. &middot; conocer for people, with the personal a	A1::verbs A1::conocer
+¿___ Madrid? (conocer)	Conoces	Do you know Madrid? &middot; conocer for places you're familiar with	A1::verbs A1::conocer
+Me ___ mucho el chocolate. (gustar)	gusta	I really like chocolate &middot; lit. chocolate pleases me, so the thing liked is the subject	A1::verbs A1::gustar
+Me ___ los perros. (gustar)	gustan	I like dogs &middot; a plural thing &rarr; gustan	A1::verbs A1::gustar
+¿Te ___ la música española? (gustar)	gusta	Do you like Spanish music? &middot; te = to you	A1::verbs A1::gustar
+Yo ___ español todos los días. (hablar)	hablo	I speak Spanish every day &middot; regular -ar: -o, -as, -a	A1::verbs A1::hablar
+¿___ inglés? (hablar — tú)	hablas	Do you speak English? &middot; the pronoun is usually left out	A1::verbs A1::hablar
+Mi madre ___ español y francés. (hablar)	habla	My mother speaks Spanish and French &middot; languages are lowercase	A1::verbs A1::hablar
+Nosotros ___ en un restaurante. (comer)	comemos	We're eating at a restaurant &middot; regular -er nosotros: -emos	A1::verbs A1::comer
+Yo ___ pizza los viernes. (comer)	como	I eat pizza on Fridays &middot; los viernes = on Fridays	A1::verbs A1::comer
+¿Qué ___ normalmente para desayunar? (comer — tú)	comes	What do you normally eat for breakfast? &middot; para + infinitive = for doing something	A1::verbs A1::comer
+Yo ___ en Estocolmo. (vivir)	vivo	I live in Stockholm &middot; -ir and -er share the yo / tú / él endings	A1::verbs A1::vivir
+¿Dónde ___ tú? (vivir)	vives	Where do you live? &middot; dónde takes an accent in a question	A1::verbs A1::vivir
+Mis padres ___ en Suecia. (vivir)	viven	My parents live in Sweden &middot; padres = parents as well as fathers	A1::verbs A1::vivir
+Yo ___ en una empresa tecnológica. (trabajar)	trabajo	I work at a tech company &middot; trabajar en for a workplace	A1::verbs A1::trabajar
+¿Dónde ___ tú? (trabajar)	trabajas	Where do you work? &middot; regular -ar tú ending: -as	A1::verbs A1::trabajar
+Mi hermana ___ en un hospital. (trabajar)	trabaja	My sister works at a hospital	A1::verbs A1::trabajar
+Yo ___ un nuevo ordenador. (necesitar)	necesito	I need a new computer &middot; ordenador in Spain, computadora in Latin America	A1::verbs A1::necesitar
+¿___ ayuda? (necesitar — tú)	necesitas	Do you need help? &middot; ayuda takes no article here	A1::verbs A1::necesitar
+Nosotros ___ más tiempo. (necesitar)	necesitamos	We need more time &middot; más + noun = more	A1::verbs A1::necesitar
+Yo ___ una camiseta azul. (llevar)	llevo	I'm wearing a blue T-shirt &middot; llevar = wear as well as carry	A1::verbs A1::llevar
+Ella ___ gafas. (llevar)	lleva	She wears glasses &middot; gafas is always plural	A1::verbs A1::llevar
+¿Qué ropa ___ hoy? (llevar — tú)	llevas	What are you wearing today? &middot; la ropa is singular in Spanish	A1::verbs A1::llevar
+Yo ___ las llaves sobre la mesa. (poner)	pongo	I put the keys on the table &middot; irregular yo: pongo	A1::verbs A1::poner
+¿Dónde ___ el teléfono? (poner — tú)	pones	Where do you put the phone?	A1::verbs A1::poner
+Ella ___ la comida en la mesa. (poner)	pone	She puts the food on the table	A1::verbs A1::poner
+Yo ___ la televisión por la noche. (ver)	veo	I watch TV in the evening &middot; ver = both see and watch	A1::verbs A1::ver
+¿Qué ___ tú en la televisión? (ver)	ves	What do you watch on TV? &middot; en la televisión = on TV	A1::verbs A1::ver
+Nosotros ___ una película. (ver)	vemos	We're watching a film &middot; ver is regular apart from veo	A1::verbs A1::ver
+Yo ___ a casa a las seis. (volver)	vuelvo	I come home at six &middot; o &rarr; ue: vuelvo, but volvemos	A1::verbs A1::volver
+¿Cuándo ___ tú de Madrid? (volver)	vuelves	When do you come back from Madrid? &middot; volver de = come back from	A1::verbs A1::volver
+Nosotros ___ mañana. (volver)	volvemos	We come back tomorrow &middot; no stem change in nosotros	A1::verbs A1::volver
+La clase ___ a las nueve. (empezar)	empieza	The class starts at nine &middot; e &rarr; ie: empieza	A1::verbs A1::empezar
+Yo ___ a trabajar a las ocho. (empezar)	empiezo	I start work at eight &middot; empezar a + infinitive	A1::verbs A1::empezar
+Nosotros ___ hoy. (empezar)	empezamos	We start today &middot; z &rarr; c only in the yo preterite, not here	A1::verbs A1::empezar
+Yo ___ al fútbol los sábados. (jugar)	juego	I play football on Saturdays &middot; jugar a + sport: juego al fútbol	A1::verbs A1::jugar
+Los niños ___ en el parque. (jugar)	juegan	The children play in the park &middot; u &rarr; ue, unique to jugar	A1::verbs A1::jugar
+Nosotros ___ a las cartas. (jugar)	jugamos	We play cards &middot; jugar a las cartas	A1::verbs A1::jugar
+Yo ___ de casa a las ocho. (salir)	salgo	I leave home at eight &middot; irregular yo: salgo &middot; salir de = leave a place	A1::verbs A1::salir
+El tren ___ a las diez. (salir)	sale	The train leaves at ten &middot; salir for departures	A1::verbs A1::salir
+¿Vosotros ___ esta noche? (salir)	salís	Are you all going out tonight? &middot; salir = go out socially too	A1::verbs A1::salir
+Yo siempre ___ la verdad. (decir)	digo	I always tell the truth &middot; e &rarr; i, plus an irregular yo: digo	A1::verbs A1::decir
+¿Cómo se ___ "apple" en español? (decir)	dice	How do you say apple in Spanish? &middot; se dice = one says	A1::verbs A1::decir
+Ellos ___ que no. (decir)	dicen	They say no &middot; decir que = to say that	A1::verbs A1::decir
+I am Swedish.	Soy sueco/a.	ser for a lasting trait &middot; sueca if you're female	A1::translation A1::ser
+I am tired.	Estoy cansado/a.	estar for a passing state	A1::translation A1::estar
+I have a car.	Tengo un coche.	coche in Spain, carro or auto in Latin America	A1::translation A1::tener
+There is a restaurant here.	Hay un restaurante aquí.	hay for existence, está for location	A1::translation A1::haber
+There are many people here.	Hay muchas personas aquí.	hay is the same in the plural	A1::translation A1::haber
+What are you doing?	¿Qué haces?	no -ing form and no helper verb	A1::translation A1::hacer
+I am going home.	Voy a casa.	a casa = home(wards), with no article	A1::translation A1::ir
+I want to learn Spanish.	Quiero aprender español.	querer + infinitive	A1::translation A1::querer
+I can speak Spanish.	Puedo hablar español.	poder = be able to (saber = know how to)	A1::translation A1::poder
+I don't know.	No sé.	sé takes an accent to keep it apart from se	A1::translation A1::saber
+I know Madrid.	Conozco Madrid.	conocer = be familiar with &middot; irregular yo: conozco	A1::translation A1::conocer
+I like coffee.	Me gusta el café.	the article stays: el café	A1::translation A1::gustar
+I like Spanish food.	Me gusta la comida española.	nationality adjectives follow the noun and stay lowercase	A1::translation A1::gustar
+I speak English.	Hablo inglés.	drop yo unless you're stressing it	A1::translation A1::hablar
+I eat breakfast at eight.	Desayuno a las ocho.	desayunar is a single verb for have breakfast	A1::translation A1::comer
+I live in Stockholm.	Vivo en Estocolmo.	cities have Spanish names: Estocolmo	A1::translation A1::vivir
+I work from home.	Trabajo desde casa.	desde casa = from home	A1::translation A1::trabajar
+I need some water.	Necesito agua.	no word for some &middot; agua is feminine but takes el	A1::translation A1::necesitar
+I have a blue shirt.	Tengo una camisa azul.	the colour follows the noun and agrees with it	A1::translation A1::tener
+I put my keys on the table.	Pongo mis llaves en la mesa.	en covers both on and in	A1::translation A1::poner
+I watch TV every evening.	Veo la televisión todas las noches.	todas las noches = every night	A1::translation A1::ver
+I am at home because I am tired.	Estoy en casa porque estoy cansado/a.	porque = because &middot; ¿por qué? = why	A1::mixed A1::estar
+I am Swedish, but I live in Spain.	Soy sueco/a, pero vivo en España.	ser for who you are, a separate verb for where you live	A1::mixed A1::ser A1::vivir
+There is a restaurant near my house.	Hay un restaurante cerca de mi casa.	cerca de = near	A1::mixed A1::haber
+I have to work tomorrow.	Tengo que trabajar mañana.	tener que + infinitive = have to	A1::mixed A1::tener A1::trabajar
+I want to go to Spain.	Quiero ir a España.	two verbs: the second stays in the infinitive	A1::mixed A1::querer A1::ir
+I can't go today.	No puedo ir hoy.	no goes in front of the verb	A1::mixed A1::poder A1::ir
+Do you know where the bathroom is?	¿Sabes dónde está el baño?	saber for the fact, estar for the location &middot; dónde keeps its accent	A1::mixed A1::saber A1::estar
+Do you know Madrid?	¿Conoces Madrid?	conocer, not saber, for places	A1::mixed A1::conocer
+I like Spanish music.	Me gusta la música española.	a singular thing &rarr; gusta	A1::mixed A1::gustar
+I like Spanish movies.	Me gustan las películas españolas.	a plural thing &rarr; gustan	A1::mixed A1::gustar
+What do you want to eat?	¿Qué quieres comer?	querer + infinitive, with qué in front	A1::mixed A1::querer A1::comer
+What are you going to do tomorrow?	¿Qué vas a hacer mañana?	ir a + infinitive = going to	A1::mixed A1::ir A1::hacer
+I am going to work.	Voy a trabajar.	also I'm going to work (the place): context decides	A1::mixed A1::ir A1::trabajar
+My friend is coming tomorrow.	Mi amigo/a viene mañana.	the present covers a planned future	A1::mixed A1::venir
+I need to speak Spanish.	Necesito hablar español.	necesitar + infinitive	A1::mixed A1::necesitar A1::hablar
+I work in Stockholm but live outside Stockholm.	Trabajo en Estocolmo pero vivo fuera de Estocolmo.	fuera de = outside	A1::mixed A1::trabajar A1::vivir
+There are three people in my family.	Hay tres personas en mi familia.	persona is feminine, even for a man	A1::mixed A1::haber
+I have two brothers.	Tengo dos hermanos.	hermanos = brothers, or siblings of mixed gender	A1::mixed A1::tener
+I don't have a car.	No tengo coche.	no article after a negative tener	A1::mixed A1::tener
+I don't want to eat.	No quiero comer.	no + querer + infinitive	A1::mixed A1::querer A1::comer
+I can't speak Spanish very well.	No puedo hablar español muy bien.	muy bien goes at the end	A1::mixed A1::poder A1::hablar
+I see my friends every weekend.	Veo a mis amigos todos los fines de semana.	the personal a before people	A1::mixed A1::ver
+I put my phone on the table.	Pongo mi teléfono en la mesa.	no article with a possessive: mi teléfono	A1::mixed A1::poner
+I wear glasses.	Llevo gafas.	llevar for wearing &middot; gafas is plural	A1::mixed A1::llevar
+I come back home late.	Vuelvo a casa tarde.	volver a casa = go back home	A1::translation A1::volver
+When do you start work?	¿Cuándo empiezas a trabajar?	empezar a + infinitive	A1::translation A1::empezar
+We play football on Sundays.	Jugamos al fútbol los domingos.	jugar al + sport &middot; los domingos = on Sundays	A1::translation A1::jugar
+I go out with my friends on Fridays.	Salgo con mis amigos los viernes.	salir con = go out with	A1::translation A1::salir
+What are you saying?	¿Qué dices?	dices for tú &middot; decís is vosotros	A1::translation A1::decir
+Yo ___ todos los días. (correr)	corro	I run every day &middot; regular -er, like comer	A1::verbs A1::correr
+Ella ___ muy rápido. (correr)	corre	She runs very fast &middot; rápido works as an adverb here	A1::verbs A1::correr
+Nosotros ___ en el parque. (correr)	corremos	We run in the park &middot; -er nosotros: -emos	A1::verbs A1::correr
+Yo ___ muy bien. (nadar)	nado	I swim very well &middot; regular -ar	A1::verbs A1::nadar
+¿___ tú en el mar? (nadar)	Nadas	Do you swim in the sea? &middot; el mar = the sea	A1::verbs A1::nadar
+Los niños ___ en la piscina. (nadar)	nadan	The children swim in the pool &middot; la piscina = swimming pool	A1::verbs A1::nadar
+Yo te ___ mañana. (llamar)	llamo	I'll call you tomorrow &middot; the plain present covers a near-future plan	A1::verbs A1::llamar
+Mi madre me ___ todos los domingos. (llamar)	llama	My mother calls me every Sunday &middot; todos los domingos = every Sunday	A1::verbs A1::llamar
+¿Cómo se ___ tu hermano? (llamar)	llama	What's your brother's name? &middot; llamarse = to be called, so the se stays	A1::verbs A1::llamar
+El tren ___ a las ocho. (llegar)	llega	The train arrives at eight &middot; llegar a + time or place	A1::verbs A1::llegar
+Yo siempre ___ tarde. (llegar)	llego	I always arrive late &middot; llegar tarde = to be late	A1::verbs A1::llegar
+Nosotros ___ mañana a Madrid. (llegar)	llegamos	We arrive in Madrid tomorrow &middot; llegar a, never llegar en	A1::verbs A1::llegar
+Yo ___ por la ventana. (mirar)	miro	I look out of the window &middot; mirar por la ventana	A1::verbs A1::mirar
+¿Qué ___ tú? (mirar)	miras	What are you looking at? &middot; mirar needs no preposition: miro la tele	A1::verbs A1::mirar
+Ellos ___ el menú. (mirar)	miran	They're looking at the menu &middot; mirar = look at, ver = see	A1::verbs A1::mirar
+Yo ___ que sí. (creer)	creo	I think so &middot; creer que = to think / believe that	A1::verbs A1::creer
+¿___ tú en la suerte? (creer)	Crees	Do you believe in luck? &middot; creer en = to believe in	A1::verbs A1::creer
+Nosotros ___ que es verdad. (creer)	creemos	We think it's true &middot; regular -er: creemos	A1::verbs A1::creer
+Yo ___ español en una academia. (aprender)	aprendo	I learn Spanish at a language school &middot; regular -er	A1::verbs A1::aprender
+¿Dónde ___ tú español? (aprender)	aprendes	Where do you learn Spanish?	A1::verbs A1::aprender
+Los niños ___ muy rápido. (aprender)	aprenden	Children learn very fast	A1::verbs A1::aprender
+Yo no ___ nada. (oír)	oigo	I can't hear anything &middot; irregular yo: oigo &middot; Spanish needs no can here	A1::verbs A1::oir
+¿___ tú la música? (oír)	Oyes	Can you hear the music? &middot; i &rarr; y between vowels: oyes, oye, oyen	A1::verbs A1::oir
+Nosotros ___ un ruido. (oír)	oímos	We hear a noise &middot; the í keeps its accent: oímos, oís	A1::verbs A1::oir
+Yo ___ en Madrid. (seguir)	sigo	I'm still in Madrid &middot; seguir + place = to still be there &middot; e &rarr; i: sigo	A1::verbs A1::seguir
+¿___ tú trabajando aquí? (seguir)	Sigues	Are you still working here? &middot; seguir + -ando/-iendo = to keep on doing	A1::verbs A1::seguir
+Ellos ___ el mismo camino. (seguir)	siguen	They follow the same road &middot; siguen, but seguimos with no change	A1::verbs A1::seguir
+Yo ___ un libro cada mes. (leer)	leo	I read a book every month &middot; cada mes = every month	A1::verbs A1::leer
+¿Qué ___ tú ahora? (leer)	lees	What are you reading now?	A1::verbs A1::leer
+Nosotros ___ el periódico. (leer)	leemos	We read the newspaper &middot; el periódico	A1::verbs A1::leer
+I run in the mornings.	Corro por las mañanas.	por las mañanas = in the mornings, as a habit	A1::translation A1::correr
+We swim in the sea in summer.	Nadamos en el mar en verano.	en verano = in summer, with no article	A1::translation A1::nadar
+I'll call you later.	Te llamo luego.	the present does the job of will here &middot; te goes before the verb	A1::translation A1::llamar
+I always arrive on time.	Siempre llego a tiempo.	a tiempo = on time &middot; a la hora also works	A1::translation A1::llegar
+I'm looking at the photos.	Miro las fotos.	mirar takes the object directly, with no a	A1::translation A1::mirar
+I don't think so.	Creo que no.	lit. I believe that no &middot; the opposite is creo que sí	A1::translation A1::creer
+I'm learning to cook.	Aprendo a cocinar.	aprender a + infinitive	A1::translation A1::aprender
+I can't hear you.	No te oigo.	no can needed: no te oigo says it	A1::translation A1::oir
+I keep studying every day.	Sigo estudiando todos los días.	seguir + gerund = to keep on doing	A1::translation A1::seguir
+I read before going to sleep.	Leo antes de dormir.	antes de + infinitive	A1::translation A1::leer

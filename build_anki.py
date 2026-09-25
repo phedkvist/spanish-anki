@@ -1038,6 +1038,18 @@ TOPICS = [
     vocab("My sister likes dogs, but I don't.", "A mi hermana le gustan los perros, pero a mí no.", "a mí no is the whole answer - the verb isn't repeated", "A1::topics A1::gustar-personas"),
     vocab("Everyone likes the beach.", "A todos les gusta la playa.", "todos is plural &rarr; les", "A1::topics A1::gustar-personas"),
     vocab("Who likes chocolate?", "¿A quién le gusta el chocolate?", "even a question word takes a + le", "A1::topics A1::gustar-personas"),
+
+    # ---- years and dates -------------------------------------------------
+    vocab("I was born in 1985.", "Nací en mil novecientos ochenta y cinco.", "a year is read as one whole number, never split in two like nineteen eighty-five &middot; nacer = to be born", "A1::topics A1::fechas"),
+    vocab("She was born in 1995.", "Nació en mil novecientos noventa y cinco.", "mil stands alone: never un mil", "A1::topics A1::fechas"),
+    vocab("What year were you born?", "¿En qué año naciste?", "en qué año &middot; naciste = you were born", "A1::topics A1::fechas"),
+    vocab("In the year 2000 I lived in Madrid.", "En el año dos mil viví en Madrid.", "2000 = dos mil &middot; el año is usual before a round year", "A1::topics A1::fechas"),
+    vocab("We're in 2025.", "Estamos en dos mil veinticinco.", "estamos en + year, the same estamos as with dates and temperatures", "A1::topics A1::fechas"),
+    vocab("Columbus arrived in 1492.", "Colón llegó en mil cuatrocientos noventa y dos.", "the 1400s start with mil cuatrocientos &middot; en + year, with no article", "A1::topics A1::fechas"),
+    vocab("I have lived here since 2019.", "Vivo aquí desde dos mil diecinueve.", "desde + year &middot; the plain present covers English's have lived", "A1::topics A1::fechas"),
+    vocab("The course starts in 2026.", "El curso empieza en dos mil veintiséis.", "dos mil veintiséis &middot; veintiséis keeps its accent", "A1::topics A1::fechas"),
+    vocab("My daughter was born on the 3rd of May 2010.", "Mi hija nació el tres de mayo de dos mil diez.", "a full date is el + number + de + month + de + year &middot; months are lowercase", "A1::topics A1::fechas"),
+    vocab("In the nineties there was no internet.", "En los años noventa no había internet.", "los años noventa = the nineties &middot; había = there was / there were", "A1::topics A1::fechas"),
 ]
 
 

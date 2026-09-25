@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build Anki-importable .tsv files for a Spanish A1 deck.
+"""Build Anki-importable .tsv files into decks/ for a Spanish A1 deck.
 
 Matches the format of spanish_A1_verbs_anki.tsv:  Front <TAB> Back <TAB> Tags
 
@@ -10,7 +10,7 @@ Add cards to the lists below and re-run:  python3 build_anki.py
 """
 import os
 
-OUT = os.path.dirname(os.path.abspath(__file__))
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "decks")
 
 
 # Fronts in the verb deck, filled in once it is written, so the other files

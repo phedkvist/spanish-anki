@@ -1,8 +1,16 @@
 # Spanish A1 — Anki deck system
 
-`content.md` tracks what's covered and what to add when your course reaches it.
+`CONTENT.MD` tracks what's covered and what to add when your course reaches it.
 
-Six `.tsv` files, all the same shape as the original verb deck:
+```
+build_anki.py        one source of truth for every card; run it to rebuild
+CONTENT.MD           what's covered, and what to add when the course gets there
+decks/               the .tsv files you import into Anki
+posters/             wall charts: .html source next to its .pdf and .png
+render_posters.sh    re-renders the posters and checks they still fit A4
+```
+
+Six `.tsv` files in `decks/`, all the same shape as the original verb deck:
 
 ```
 Front <TAB> Back <TAB> Tags
@@ -35,7 +43,7 @@ deliberately Spanish → English because its job is building comprehension.
 
 1. **Tools → Manage Note Types → Add → Basic**, name it whatever you like
    (the stock `Basic` works fine — these files use only Front/Back).
-2. **File → Import**, pick a `.tsv`.
+2. **File → Import**, pick a `.tsv` from `decks/`.
 3. Set **Type** to Basic and **Deck** to the subdeck you want, e.g.
    `Spanish A1::Vocabulary`.
 4. Field mapping is positional: Field 1 → Front, Field 2 → Back, Field 3 → Tags.
@@ -103,10 +111,14 @@ Edit `build_anki.py` and re-run:
 python3 build_anki.py
 ```
 
-It regenerates all six files, the verb deck included. The verb deck is written
-first, and any later card whose Front repeats one of its Fronts is skipped, so
+It regenerates all six files in `decks/`, the verb deck included. The verb deck
+is written first, and any later card whose Front repeats one of its Fronts is skipped, so
 the decks can't collide.
-`poster.html` / `poster.pdf` are separate and built by hand.
+The posters live in `posters/` and are rendered by `./render_posters.sh`.
+
+`CONTENT.MD` is the running inventory: every block that exists, with its tag and
+card count, and the blocks queued up for when the course reaches them. Update it
+whenever cards are added.
 
 ## Posters
 
@@ -118,26 +130,27 @@ mirar, creer, aprender, oír, seguir, leer):
 
 | File | Tense | Structure |
 |---|---|---|
-| `poster.pdf` / `.png` | present indicative | 45 conjugation tables |
-| `poster-futuro.pdf` / `.png` | futuro simple | 45 conjugation tables |
-| `poster-futuro-proximo.pdf` / `.png` | futuro próximo | `ir` conjugated once + 45 example sentences |
-| `poster-pasado.pdf` / `.png` | pretérito indefinido | 45 conjugation tables |
-| `poster-pronombres.pdf` / `.png` | — | articles and pronouns: el/los, me/nos/le, lo/la, se |
+| `posters/poster.pdf` / `.png` | present indicative | 45 conjugation tables |
+| `posters/poster-futuro.pdf` / `.png` | futuro simple | 45 conjugation tables |
+| `posters/poster-futuro-proximo.pdf` / `.png` | futuro próximo | `ir` conjugated once + 45 example sentences |
+| `posters/poster-pasado.pdf` / `.png` | pretérito indefinido | 45 conjugation tables |
+| `posters/poster-pronombres.pdf` / `.png` | — | articles and pronouns: el/los, me/nos/le, lo/la, se |
 
 The near-future poster is deliberately shaped differently: that tense has no
 per-verb conjugation to learn (only `ir` changes), so the page spends its
 space on usage examples instead of thirty near-identical tables.
 
-Re-render either after editing its `.html`:
+Re-render after editing a `.html`:
 
 ```bash
-"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" --headless \
-  --disable-gpu --no-pdf-header-footer --virtual-time-budget=8000 \
-  --print-to-pdf=poster-futuro.pdf poster-futuro.html
+./render_posters.sh                # all of them
+./render_posters.sh poster-pasado  # just one
 ```
+
+The script writes the `.pdf` and `.png` next to the source and reports the page
+count, so a poster that has outgrown A4 shows up as `SPILLS TO 2 PAGES` instead
+of quietly losing its footer.
 
 Each page is sized to fill A4 exactly with no slack — add a verb or lengthen
 a gloss and it spills to a second page. Pull it back by reducing `.verb`
-padding or the table `line-height`. To check a page still fits, re-render and
-compare `document.body.scrollHeight` with `clientHeight`, and make sure the
-footer's own bounding box ends above 1123px.
+padding or the table `line-height`.

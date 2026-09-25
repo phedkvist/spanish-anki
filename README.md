@@ -8,13 +8,13 @@ Front <TAB> Back <TAB> Tags
 
 | File | Cards | Card type | Direction |
 |---|---|---|---|
-| `spanish_A1_verbs_anki.tsv` | 129 | 2. Verb drills | fill-in-the-blank + EN→ES |
+| `spanish_A1_verbs_anki.tsv` | 169 | 2. Verb drills | fill-in-the-blank + EN→ES |
 | `spanish_A1_vocab_anki.tsv` | 201 | 1. Core vocabulary | **EN → ES** (production) |
 | `spanish_A1_grammar_anki.tsv` | 135 | 3. Transformations | instruction → ES |
 | `spanish_A1_sentences_anki.tsv` | 152 | 4. Understand the sentence | **ES → EN** + breakdown |
 | `spanish_A1_topics_anki.tsv` | 80 | 1. Core vocabulary (topic sets) | **EN → ES** (production) |
-| `spanish_A2_pasado_anki.tsv` | 61 | 2. Verb drills (pretérito) | fill-in-the-blank + EN→ES |
-| | **758** | | |
+| `spanish_A2_pasado_anki.tsv` | 79 | 2. Verb drills (pretérito) | fill-in-the-blank + EN→ES |
+| | **816** | | |
 
 `spanish_A1_topics_anki.tsv` is eight themed blocks of ten, meant to be
 imported as one batch: `A1::clima` (weather), `A1::numeros-100` (0–100),
@@ -104,17 +104,18 @@ the decks can't collide.
 
 ## Posters
 
-Five A4 wall charts. The verb charts share the same 30 verbs in the same
-grid order (rows 1–4 are the 20 core A1 verbs); the present-tense and past-tense
-posters have those 30 plus a 7th row of stem-changers (volver, empezar, jugar,
-pensar, pedir), so they have 35:
+Five A4 wall charts. The four verb charts carry the same 45 verbs in the same
+grid order, so they read as a set: rows 1–4 are the 20 core A1 verbs, rows 5–6
+ten more high-frequency ones, row 7 the stem-changers (volver, empezar, jugar,
+pensar, pedir) and rows 8–9 ten everyday verbs (correr, nadar, llamar, llegar,
+mirar, creer, aprender, oír, seguir, leer):
 
 | File | Tense | Structure |
 |---|---|---|
-| `poster.pdf` / `.png` | present indicative | 35 conjugation tables |
-| `poster-futuro.pdf` / `.png` | futuro simple | 30 conjugation tables |
-| `poster-futuro-proximo.pdf` / `.png` | futuro próximo | `ir` conjugated once + 30 example sentences |
-| `poster-pasado.pdf` / `.png` | pretérito indefinido | 35 conjugation tables |
+| `poster.pdf` / `.png` | present indicative | 45 conjugation tables |
+| `poster-futuro.pdf` / `.png` | futuro simple | 45 conjugation tables |
+| `poster-futuro-proximo.pdf` / `.png` | futuro próximo | `ir` conjugated once + 45 example sentences |
+| `poster-pasado.pdf` / `.png` | pretérito indefinido | 45 conjugation tables |
 | `poster-pronombres.pdf` / `.png` | — | articles and pronouns: el/los, me/nos/le, lo/la, se |
 
 The near-future poster is deliberately shaped differently: that tense has no
@@ -131,4 +132,6 @@ Re-render either after editing its `.html`:
 
 Each page is sized to fill A4 exactly with no slack — add a verb or lengthen
 a gloss and it spills to a second page. Pull it back by reducing `.verb`
-padding or the table `line-height`.
+padding or the table `line-height`. To check a page still fits, re-render and
+compare `document.body.scrollHeight` with `clientHeight`, and make sure the
+footer's own bounding box ends above 1123px.

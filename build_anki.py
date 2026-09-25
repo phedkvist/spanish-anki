@@ -228,6 +228,51 @@ VERBS = [
     verb("We play football on Sundays.", "Jugamos al fútbol los domingos.", "jugar al + sport &middot; los domingos = on Sundays", "A1::translation A1::jugar"),
     verb("I go out with my friends on Fridays.", "Salgo con mis amigos los viernes.", "salir con = go out with", "A1::translation A1::salir"),
     verb("What are you saying?", "¿Qué dices?", "dices for tú &middot; decís is vosotros", "A1::translation A1::decir"),
+
+    # ---- correr / nadar / llamar / llegar / mirar ------------------------
+    verb("Yo ___ todos los días. (correr)", "corro", "I run every day &middot; regular -er, like comer", "A1::verbs A1::correr"),
+    verb("Ella ___ muy rápido. (correr)", "corre", "She runs very fast &middot; rápido works as an adverb here", "A1::verbs A1::correr"),
+    verb("Nosotros ___ en el parque. (correr)", "corremos", "We run in the park &middot; -er nosotros: -emos", "A1::verbs A1::correr"),
+    verb("Yo ___ muy bien. (nadar)", "nado", "I swim very well &middot; regular -ar", "A1::verbs A1::nadar"),
+    verb("¿___ tú en el mar? (nadar)", "Nadas", "Do you swim in the sea? &middot; el mar = the sea", "A1::verbs A1::nadar"),
+    verb("Los niños ___ en la piscina. (nadar)", "nadan", "The children swim in the pool &middot; la piscina = swimming pool", "A1::verbs A1::nadar"),
+    verb("Yo te ___ mañana. (llamar)", "llamo", "I'll call you tomorrow &middot; the plain present covers a near-future plan", "A1::verbs A1::llamar"),
+    verb("Mi madre me ___ todos los domingos. (llamar)", "llama", "My mother calls me every Sunday &middot; todos los domingos = every Sunday", "A1::verbs A1::llamar"),
+    verb("¿Cómo se ___ tu hermano? (llamar)", "llama", "What's your brother's name? &middot; llamarse = to be called, so the se stays", "A1::verbs A1::llamar"),
+    verb("El tren ___ a las ocho. (llegar)", "llega", "The train arrives at eight &middot; llegar a + time or place", "A1::verbs A1::llegar"),
+    verb("Yo siempre ___ tarde. (llegar)", "llego", "I always arrive late &middot; llegar tarde = to be late", "A1::verbs A1::llegar"),
+    verb("Nosotros ___ mañana a Madrid. (llegar)", "llegamos", "We arrive in Madrid tomorrow &middot; llegar a, never llegar en", "A1::verbs A1::llegar"),
+    verb("Yo ___ por la ventana. (mirar)", "miro", "I look out of the window &middot; mirar por la ventana", "A1::verbs A1::mirar"),
+    verb("¿Qué ___ tú? (mirar)", "miras", "What are you looking at? &middot; mirar needs no preposition: miro la tele", "A1::verbs A1::mirar"),
+    verb("Ellos ___ el menú. (mirar)", "miran", "They're looking at the menu &middot; mirar = look at, ver = see", "A1::verbs A1::mirar"),
+
+    # ---- creer / aprender / oír / seguir / leer --------------------------
+    verb("Yo ___ que sí. (creer)", "creo", "I think so &middot; creer que = to think / believe that", "A1::verbs A1::creer"),
+    verb("¿___ tú en la suerte? (creer)", "Crees", "Do you believe in luck? &middot; creer en = to believe in", "A1::verbs A1::creer"),
+    verb("Nosotros ___ que es verdad. (creer)", "creemos", "We think it's true &middot; regular -er: creemos", "A1::verbs A1::creer"),
+    verb("Yo ___ español en una academia. (aprender)", "aprendo", "I learn Spanish at a language school &middot; regular -er", "A1::verbs A1::aprender"),
+    verb("¿Dónde ___ tú español? (aprender)", "aprendes", "Where do you learn Spanish?", "A1::verbs A1::aprender"),
+    verb("Los niños ___ muy rápido. (aprender)", "aprenden", "Children learn very fast", "A1::verbs A1::aprender"),
+    verb("Yo no ___ nada. (oír)", "oigo", "I can't hear anything &middot; irregular yo: oigo &middot; Spanish needs no can here", "A1::verbs A1::oir"),
+    verb("¿___ tú la música? (oír)", "Oyes", "Can you hear the music? &middot; i &rarr; y between vowels: oyes, oye, oyen", "A1::verbs A1::oir"),
+    verb("Nosotros ___ un ruido. (oír)", "oímos", "We hear a noise &middot; the í keeps its accent: oímos, oís", "A1::verbs A1::oir"),
+    verb("Yo ___ en Madrid. (seguir)", "sigo", "I'm still in Madrid &middot; seguir + place = to still be there &middot; e &rarr; i: sigo", "A1::verbs A1::seguir"),
+    verb("¿___ tú trabajando aquí? (seguir)", "Sigues", "Are you still working here? &middot; seguir + -ando/-iendo = to keep on doing", "A1::verbs A1::seguir"),
+    verb("Ellos ___ el mismo camino. (seguir)", "siguen", "They follow the same road &middot; siguen, but seguimos with no change", "A1::verbs A1::seguir"),
+    verb("Yo ___ un libro cada mes. (leer)", "leo", "I read a book every month &middot; cada mes = every month", "A1::verbs A1::leer"),
+    verb("¿Qué ___ tú ahora? (leer)", "lees", "What are you reading now?", "A1::verbs A1::leer"),
+    verb("Nosotros ___ el periódico. (leer)", "leemos", "We read the newspaper &middot; el periódico", "A1::verbs A1::leer"),
+
+    verb("I run in the mornings.", "Corro por las mañanas.", "por las mañanas = in the mornings, as a habit", "A1::translation A1::correr"),
+    verb("We swim in the sea in summer.", "Nadamos en el mar en verano.", "en verano = in summer, with no article", "A1::translation A1::nadar"),
+    verb("I'll call you later.", "Te llamo luego.", "the present does the job of will here &middot; te goes before the verb", "A1::translation A1::llamar"),
+    verb("I always arrive on time.", "Siempre llego a tiempo.", "a tiempo = on time &middot; a la hora also works", "A1::translation A1::llegar"),
+    verb("I'm looking at the photos.", "Miro las fotos.", "mirar takes the object directly, with no a", "A1::translation A1::mirar"),
+    verb("I don't think so.", "Creo que no.", "lit. I believe that no &middot; the opposite is creo que sí", "A1::translation A1::creer"),
+    verb("I'm learning to cook.", "Aprendo a cocinar.", "aprender a + infinitive", "A1::translation A1::aprender"),
+    verb("I can't hear you.", "No te oigo.", "no can needed: no te oigo says it", "A1::translation A1::oir"),
+    verb("I keep studying every day.", "Sigo estudiando todos los días.", "seguir + gerund = to keep on doing", "A1::translation A1::seguir"),
+    verb("I read before going to sleep.", "Leo antes de dormir.", "antes de + infinitive", "A1::translation A1::leer"),
 ]
 
 
@@ -304,6 +349,27 @@ PAST = [
     verb("I played tennis on Saturday.", "Jugué al tenis el sábado.", "jugué &middot; jugar a + sport", "A2::translation A2::pasado A2::jugar"),
     verb("We slept very well.", "Dormimos muy bien.", "dormimos is both we sleep and we slept", "A2::translation A2::pasado A2::dormir"),
     verb("I was at home all day.", "Estuve en casa todo el día.", "a finished stretch &rarr; estuve &middot; todo el día = all day", "A2::translation A2::pasado A2::estar"),
+
+    # ---- the ten everyday verbs in the past -------------------------------
+    verb("Ayer ___ diez kilómetros. (correr — yo)", "corrí", "Yesterday I ran ten kilometres &middot; regular -er: corrí", "A2::verbs A2::pasado A2::correr"),
+    verb("El verano pasado ___ mucho. (nadar — yo)", "nadé", "Last summer I swam a lot &middot; regular -ar: nadé", "A2::verbs A2::pasado A2::nadar"),
+    verb("Ayer te ___ tres veces. (llamar — yo)", "llamé", "I called you three times yesterday &middot; tres veces = three times", "A2::verbs A2::pasado A2::llamar"),
+    verb("Yo ___ tarde a la reunión. (llegar)", "llegué", "I arrived late to the meeting &middot; g &rarr; gu before é: llegué", "A2::verbs A2::pasado A2::llegar"),
+    verb("¿A qué hora ___ vosotros? (llegar)", "llegasteis", "What time did you all arrive? &middot; only the yo form changes its spelling", "A2::verbs A2::pasado A2::llegar"),
+    verb("Ellos ___ las fotos toda la tarde. (mirar)", "miraron", "They looked at the photos all afternoon &middot; regular -ar: miraron", "A2::verbs A2::pasado A2::mirar"),
+    verb("Nadie ___ mi historia. (creer)", "creyó", "Nobody believed my story &middot; i &rarr; y between vowels: creyó, creyeron", "A2::verbs A2::pasado A2::creer"),
+    verb("Nosotros no ___ nada. (creer)", "creímos", "We didn't believe any of it &middot; the í keeps its accent: creí, creímos", "A2::verbs A2::pasado A2::creer"),
+    verb("Yo ___ mucho en España. (aprender)", "aprendí", "I learnt a lot in Spain &middot; regular -er", "A2::verbs A2::pasado A2::aprender"),
+    verb("¿___ tú el ruido anoche? (oír)", "Oíste", "Did you hear the noise last night? &middot; oíste, with the accent", "A2::verbs A2::pasado A2::oir"),
+    verb("Ellos no ___ nada. (oír)", "oyeron", "They didn't hear anything &middot; i &rarr; y: oyó, oyeron", "A2::verbs A2::pasado A2::oir"),
+    verb("Él ___ estudiando en Madrid. (seguir)", "siguió", "He kept studying in Madrid &middot; e &rarr; i in él and ellos: siguió, siguieron", "A2::verbs A2::pasado A2::seguir"),
+    verb("Yo ___ dos libros el mes pasado. (leer)", "leí", "I read two books last month &middot; leí, with the accent", "A2::verbs A2::pasado A2::leer"),
+    verb("Ella ___ la carta dos veces. (leer)", "leyó", "She read the letter twice &middot; leyó, leyeron with a y", "A2::verbs A2::pasado A2::leer"),
+
+    verb("I ran five kilometres yesterday.", "Ayer corrí cinco kilómetros.", "ayer + preterite", "A2::translation A2::pasado A2::correr"),
+    verb("She called me last night.", "Anoche me llamó.", "me llamó &middot; the pronoun stays before the verb", "A2::translation A2::pasado A2::llamar"),
+    verb("They arrived late.", "Llegaron tarde.", "llegaron &middot; only llegué changes its spelling", "A2::translation A2::pasado A2::llegar"),
+    verb("I read that book last year.", "Leí ese libro el año pasado.", "leí = I read (past) &middot; leo = I read (present)", "A2::translation A2::pasado A2::leer"),
 ]
 
 

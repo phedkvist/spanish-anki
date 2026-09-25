@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>30 Most Used Spanish Verbs — Future</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4 portrait; margin: 0; }
+  :root{
+    --navy:#151d38;
+    --orange:#f4642a;
+    --muted:#7b8194;
+    --band:#f4f5f8;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{ width:210mm; height:297mm; overflow:hidden; }
+  body{
+    font-family:'Poppins','Helvetica Neue',Arial,sans-serif;
+    color:var(--navy);
+    background:#fff;
+    -webkit-font-smoothing:antialiased;
+    display:flex; flex-direction:column;
+  }
+
+  header{
+    padding:10mm 12mm 4.5mm;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:8mm;
+  }
+  h1{
+    font-weight:800;
+    font-size:31pt;
+    line-height:1.02;
+    letter-spacing:-0.8pt;
+    text-transform:uppercase;
+  }
+  h1 .num{ color:var(--orange); }
+  .sub{
+    margin-top:3.5mm;
+    color:var(--orange);
+    font-weight:700;
+    font-size:14pt;
+    letter-spacing:-0.2pt;
+  }
+
+  .rule{
+    flex:0 0 75mm;
+    border:0.5mm solid var(--navy);
+    border-radius:2mm;
+    padding:4mm 4.5mm;
+  }
+  .rule-h{
+    font-size:7pt;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:0.6pt;
+    color:var(--orange);
+  }
+  .rule-b{
+    margin-top:2mm;
+    font-size:9.6pt;
+    font-weight:500;
+    line-height:1.35;
+  }
+  .rule-b b{ font-weight:700; color:var(--orange); letter-spacing:0.3pt; }
+  .rule-n{
+    margin-top:2.5mm;
+    font-size:6.8pt;
+    line-height:1.45;
+    color:var(--muted);
+  }
+
+  main{ flex:1; display:flex; flex-direction:column; }
+  .band{
+    flex:1;
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    padding:0 12mm;
+    align-items:start;
+  }
+  .band.alt{ background:var(--band); }
+
+  .verb{ padding:3.1mm 3mm 3.1mm 0; }
+  .verb h2{
+    font-weight:700;
+    font-size:11.8pt;
+    letter-spacing:-0.3pt;
+    line-height:1.1;
+  }
+  .verb .en{
+    font-weight:400;
+    font-size:8.3pt;
+    color:#4a5165;
+    margin-top:0.6mm;
+  }
+  .verb .en .stem{
+    color:var(--orange);
+    font-weight:600;
+  }
+  table{
+    margin-top:2.2mm;
+    margin-left:auto;
+    border-collapse:collapse;
+    font-size:6.6pt;
+    line-height:1.38;
+  }
+  td{ padding:0; white-space:nowrap; vertical-align:baseline; }
+  td.p{ text-align:right; color:var(--muted); font-weight:400; padding-right:1.1mm; }
+  td.c{ text-align:right; color:var(--orange); font-weight:600; }
+  td.c i{ font-style:normal; color:var(--navy); font-weight:500; }
+
+  footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:8mm;
+    padding:3mm 12mm 5mm;
+    font-size:6.8pt;
+    line-height:1.45;
+    color:var(--muted);
+  }
+  footer .note b{ color:var(--navy); font-weight:600; }
+  footer .tag{ text-align:right; white-space:nowrap; }
+  footer .tag strong{ color:var(--navy); font-weight:700; }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1><span class="num">30</span> Most Used<br>Spanish Verbs</h1>
+    <div class="sub">in the future tense:</div>
+  </div>
+  <div class="rule">
+    <div class="rule-h">The whole tense in one rule</div>
+    <div class="rule-b">infinitive + <b>é&nbsp; ás&nbsp; á&nbsp; emos&nbsp; éis&nbsp; án</b></div>
+    <div class="rule-n">The same six endings for <b>-ar</b>, <b>-er</b> and <b>-ir</b> verbs &mdash; no exceptions. You keep the full infinitive and just add them: <i>hablar</i> &rarr; <i>hablaré</i>. Only the ten verbs marked in orange swap the infinitive for a short stem first.</div>
+  </div>
+</header>
+<main id="grid"></main>
+<footer>
+  <div class="note">
+    <b>ser, estar, ir, ver</b> and <b>dar</b> are wildly irregular in the present, but perfectly regular here.<br>
+    <b>haber</b>: <i>habrá</i> = there will be. &nbsp;&middot;&nbsp; <b>gustar</b>: <i>me gustará</i> + singular, <i>me gustarán</i> + plural.
+  </div>
+  <div class="tag">Futuro simple<br><strong>Rows 1–4 = the 20 core A1 verbs</strong></div>
+</footer>
+
+<script>
+const P = ['yo','tú','él / ella','nosotros','vosotros','ellos'];
+const G = ['me','te','le','nos','os','les'];
+const E = ['é','ás','á','emos','éis','án'];
+
+// [infinitive, english, stem (null = regular, uses the infinitive), pronouns?]
+const V = [
+ // Rows 1-4: the 20 core A1 verbs (same set and order as the present-tense poster)
+ ['Ser','to be',null],
+ ['Estar','to be',null],
+ ['Tener','to have','tendr'],
+ ['Haber','to have (aux.)','habr'],
+ ['Hacer','to do / make','har'],
+
+ ['Ir','to go',null],
+ ['Venir','to come','vendr'],
+ ['Querer','to want','querr'],
+ ['Poder','to be able to','podr'],
+ ['Saber','to know (facts)','sabr'],
+
+ ['Conocer','to know (people)',null],
+ ['Gustar','to like',null,G,['gustará','gustará','gustará','gustará','gustará','gustará']],
+ ['Hablar','to speak',null],
+ ['Comer','to eat',null],
+ ['Vivir','to live',null],
+
+ ['Trabajar','to work',null],
+ ['Necesitar','to need',null],
+ ['Llevar','to carry / wear',null],
+ ['Poner','to put','pondr'],
+ ['Ver','to see',null],
+
+ // Rows 5-6: ten more high-frequency verbs
+ ['Decir','to say','dir'],
+ ['Dar','to give',null],
+ ['Salir','to go out','saldr'],
+ ['Dormir','to sleep',null],
+ ['Buscar','to look for',null],
+
+ ['Encontrar','to find',null],
+ ['Perder','to lose',null],
+ ['Traer','to bring',null],
+ ['Beber','to drink',null],
+ ['Tocar','to touch / play',null]
+];
+
+const grid = document.getElementById('grid');
+for (let r = 0; r < 6; r++) {
+  const band = document.createElement('div');
+  band.className = 'band' + (r % 2 === 0 ? ' alt' : '');
+  for (let c = 0; c < 5; c++) {
+    const [inf, en, stem, pro, forms] = V[r * 5 + c];
+    const pron = pro || P;
+    const base = stem || inf.toLowerCase();
+    const gloss = stem
+      ? `${en} <span class="stem">${stem}-</span>`
+      : en;
+    const rows = (forms || E).map((x, i) =>
+      `<tr><td class="p">${pron[i]}</td><td class="c">${forms ? x : `<i>${base}</i>${x}`}</td></tr>`).join('');
+    band.insertAdjacentHTML('beforeend',
+      `<div class="verb"><h2>${inf}</h2><div class="en">${gloss}</div><table>${rows}</table></div>`);
+  }
+  grid.appendChild(band);
+}
+</script>
+</body>
+</html>

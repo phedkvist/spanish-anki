@@ -1,0 +1,203 @@
+#separator:tab
+#html:true
+There are three rooms in the house.	Hay tres habitaciones en la casa.<br><span style="color:#888;font-size:0.85em">hay = there is / there are (never changes)</span>	A1::vocab A1::numeros
+The coffee costs one euro.	El café cuesta un euro.<br><span style="color:#888;font-size:0.85em">uno drops to un before a masculine noun</span>	A1::vocab A1::numeros
+I work eight hours a day.	Trabajo ocho horas al día.<br><span style="color:#888;font-size:0.85em">al día = per day</span>	A1::vocab A1::numeros
+My sister is twenty years old.	Mi hermana tiene veinte años.<br><span style="color:#888;font-size:0.85em">age uses tener, not ser</span>	A1::vocab A1::numeros
+I live on the fourth floor.	Vivo en el cuarto piso.<br><span style="color:#888;font-size:0.85em">cuarto = fourth (ordinal)</span>	A1::vocab A1::numeros
+The book has one hundred pages.	El libro tiene cien páginas.<br><span style="color:#888;font-size:0.85em">cien before a noun, ciento in 101-199</span>	A1::vocab A1::numeros
+I need five minutes.	Necesito cinco minutos.<br><span style="color:#888;font-size:0.85em">cinco = five</span>	A1::vocab A1::numeros
+There are seven days in a week.	Hay siete días en una semana.<br><span style="color:#888;font-size:0.85em">el día is masculine despite the -a</span>	A1::vocab A1::numeros
+It costs thirty-five euros.	Cuesta treinta y cinco euros.<br><span style="color:#888;font-size:0.85em">31-99 are written as three words: treinta y cinco</span>	A1::vocab A1::numeros
+There are four of us at home.	Somos cuatro en casa.<br><span style="color:#888;font-size:0.85em">somos cuatro = lit. we are four</span>	A1::vocab A1::numeros
+I buy a dozen eggs.	Compro una docena de huevos.<br><span style="color:#888;font-size:0.85em">una docena de = a dozen</span>	A1::vocab A1::numeros
+I have ten fingers.	Tengo diez dedos.<br><span style="color:#888;font-size:0.85em">diez = ten</span>	A1::vocab A1::numeros
+There are twelve months in a year.	Hay doce meses en un año.<br><span style="color:#888;font-size:0.85em">doce = twelve</span>	A1::vocab A1::numeros
+The room number is two hundred.	La habitación es la doscientos.<br><span style="color:#888;font-size:0.85em">numbering keeps the article: la doscientos</span>	A1::vocab A1::numeros
+Today is Monday.	Hoy es lunes.<br><span style="color:#888;font-size:0.85em">weekdays are lowercase in Spanish</span>	A1::vocab A1::tiempo
+Tomorrow is Tuesday.	Mañana es martes.<br><span style="color:#888;font-size:0.85em">mañana = tomorrow (and also 'morning')</span>	A1::vocab A1::tiempo
+I work from Monday to Friday.	Trabajo de lunes a viernes.<br><span style="color:#888;font-size:0.85em">de ... a ... = from ... to ...</span>	A1::vocab A1::tiempo
+On Saturdays I don't work.	Los sábados no trabajo.<br><span style="color:#888;font-size:0.85em">los + day = habitually, every ...</span>	A1::vocab A1::tiempo
+Sunday is my favorite day.	El domingo es mi día favorito.<br><span style="color:#888;font-size:0.85em">el domingo = on Sunday / Sunday (specific)</span>	A1::vocab A1::tiempo
+My birthday is in January.	Mi cumpleaños es en enero.<br><span style="color:#888;font-size:0.85em">months are lowercase too</span>	A1::vocab A1::tiempo
+In August we go on vacation.	En agosto vamos de vacaciones.<br><span style="color:#888;font-size:0.85em">ir de vacaciones = to go on holiday</span>	A1::vocab A1::tiempo
+It's three o'clock.	Son las tres.<br><span style="color:#888;font-size:0.85em">plural son for 2 o'clock onward</span>	A1::vocab A1::tiempo
+It's one o'clock.	Es la una.<br><span style="color:#888;font-size:0.85em">only 1 o'clock takes singular es la</span>	A1::vocab A1::tiempo
+It's half past seven.	Son las siete y media.<br><span style="color:#888;font-size:0.85em">y media = half past</span>	A1::vocab A1::tiempo
+It's a quarter to nine.	Son las nueve menos cuarto.<br><span style="color:#888;font-size:0.85em">menos cuarto = quarter to</span>	A1::vocab A1::tiempo
+The train leaves at ten in the morning.	El tren sale a las diez de la mañana.<br><span style="color:#888;font-size:0.85em">de la mañana with a stated hour; por la mañana on its own</span>	A1::vocab A1::tiempo
+I have lunch at two in the afternoon.	Como a las dos de la tarde.<br><span style="color:#888;font-size:0.85em">comer = both 'to eat' and 'to have lunch' in Spain</span>	A1::vocab A1::tiempo
+I go to bed at eleven at night.	Me acuesto a las once de la noche.<br><span style="color:#888;font-size:0.85em">acostarse is reflexive: me acuesto</span>	A1::vocab A1::tiempo
+What time is it?	¿Qué hora es?<br><span style="color:#888;font-size:0.85em">always singular qué hora es</span>	A1::vocab A1::tiempo
+Today is the fifteenth of May.	Hoy es quince de mayo.<br><span style="color:#888;font-size:0.85em">dates use plain numbers, not ordinals</span>	A1::vocab A1::tiempo
+Next week I travel to Madrid.	La semana que viene viajo a Madrid.<br><span style="color:#888;font-size:0.85em">la semana que viene = next week</span>	A1::vocab A1::tiempo
+I always arrive early.	Siempre llego temprano.<br><span style="color:#888;font-size:0.85em">siempre goes before the verb</span>	A1::vocab A1::tiempo
+Sometimes I arrive late.	A veces llego tarde.<br><span style="color:#888;font-size:0.85em">a veces = sometimes</span>	A1::vocab A1::tiempo
+Right now I'm busy.	Ahora mismo estoy ocupado.<br><span style="color:#888;font-size:0.85em">ahora mismo = right now</span>	A1::vocab A1::tiempo
+My mother is a teacher.	Mi madre es profesora.<br><span style="color:#888;font-size:0.85em">no article before a profession after ser</span>	A1::vocab A1::familia
+My father works in an office.	Mi padre trabaja en una oficina.<br><span style="color:#888;font-size:0.85em">trabajar en = to work at</span>	A1::vocab A1::familia
+I have an older sister.	Tengo una hermana mayor.<br><span style="color:#888;font-size:0.85em">mayor = older (not 'más viejo' for people)</span>	A1::vocab A1::familia
+My younger brother is twelve.	Mi hermano menor tiene doce años.<br><span style="color:#888;font-size:0.85em">menor = younger</span>	A1::vocab A1::familia
+My grandparents live in the countryside.	Mis abuelos viven en el campo.<br><span style="color:#888;font-size:0.85em">abuelos = grandparents (mixed group takes masculine plural)</span>	A1::vocab A1::familia
+My grandmother cooks very well.	Mi abuela cocina muy bien.<br><span style="color:#888;font-size:0.85em">muy bien = very well</span>	A1::vocab A1::familia
+My son goes to school.	Mi hijo va al colegio.<br><span style="color:#888;font-size:0.85em">a + el = al</span>	A1::vocab A1::familia
+My daughter is three years old.	Mi hija tiene tres años.<br><span style="color:#888;font-size:0.85em">tener ... años for age</span>	A1::vocab A1::familia
+My wife works at a hospital.	Mi mujer trabaja en un hospital.<br><span style="color:#888;font-size:0.85em">mujer or esposa = wife</span>	A1::vocab A1::familia
+My husband speaks English.	Mi marido habla inglés.<br><span style="color:#888;font-size:0.85em">marido or esposo = husband</span>	A1::vocab A1::familia
+I have two cousins in Mexico.	Tengo dos primos en México.<br><span style="color:#888;font-size:0.85em">primos = cousins</span>	A1::vocab A1::familia
+My aunt and uncle live in Seville.	Mis tíos viven en Sevilla.<br><span style="color:#888;font-size:0.85em">tíos covers 'aunt and uncle' together</span>	A1::vocab A1::familia
+My family is very big.	Mi familia es muy grande.<br><span style="color:#888;font-size:0.85em">familia is singular in Spanish</span>	A1::vocab A1::familia
+I live with my parents.	Vivo con mis padres.<br><span style="color:#888;font-size:0.85em">padres = parents; padre = father</span>	A1::vocab A1::familia
+My nephew is a baby.	Mi sobrino es un bebé.<br><span style="color:#888;font-size:0.85em">sobrino = nephew, sobrina = niece</span>	A1::vocab A1::familia
+Do you have children?	¿Tienes hijos?<br><span style="color:#888;font-size:0.85em">no article in this kind of yes/no question</span>	A1::vocab A1::familia
+My girlfriend is Spanish.	Mi novia es española.<br><span style="color:#888;font-size:0.85em">nationalities are lowercase</span>	A1::vocab A1::familia
+I don't have any siblings.	No tengo hermanos.<br><span style="color:#888;font-size:0.85em">plural hermanos with no article = any siblings</span>	A1::vocab A1::familia
+I drink coffee every morning.	Bebo café todas las mañanas.<br><span style="color:#888;font-size:0.85em">todas las mañanas = every morning</span>	A1::vocab A1::comida
+I want a glass of water.	Quiero un vaso de agua.<br><span style="color:#888;font-size:0.85em">un vaso de = a glass of</span>	A1::vocab A1::comida
+I'm having breakfast now.	Estoy desayunando ahora.<br><span style="color:#888;font-size:0.85em">estar + -ando = right now</span>	A1::vocab A1::comida
+We have lunch at two.	Comemos a las dos.<br><span style="color:#888;font-size:0.85em">comer at midday = to have lunch</span>	A1::vocab A1::comida
+I have dinner with my family.	Ceno con mi familia.<br><span style="color:#888;font-size:0.85em">cenar = to have dinner</span>	A1::vocab A1::comida
+The bread is fresh.	El pan está fresco.<br><span style="color:#888;font-size:0.85em">estar for a current condition of food</span>	A1::vocab A1::comida
+I'd like a beer, please.	Quiero una cerveza, por favor.<br><span style="color:#888;font-size:0.85em">quiero is the normal polite order in Spain</span>	A1::vocab A1::comida
+I don't eat meat.	No como carne.<br><span style="color:#888;font-size:0.85em">la carne = meat</span>	A1::vocab A1::comida
+The fish is delicious.	El pescado está delicioso.<br><span style="color:#888;font-size:0.85em">pescado = fish as food, pez = live fish</span>	A1::vocab A1::comida
+I like fruit a lot.	Me gusta mucho la fruta.<br><span style="color:#888;font-size:0.85em">gustar takes the definite article: la fruta</span>	A1::vocab A1::comida
+I buy vegetables at the market.	Compro verduras en el mercado.<br><span style="color:#888;font-size:0.85em">verduras = vegetables</span>	A1::vocab A1::comida
+Can you pass me the salt?	¿Me pasas la sal?<br><span style="color:#888;font-size:0.85em">present tense as a polite request</span>	A1::vocab A1::comida
+The soup is very hot.	La sopa está muy caliente.<br><span style="color:#888;font-size:0.85em">caliente = hot to the touch</span>	A1::vocab A1::comida
+I prefer tea.	Prefiero el té.<br><span style="color:#888;font-size:0.85em">preferir: e -> ie in yo/tú/él</span>	A1::vocab A1::comida
+I need milk and eggs.	Necesito leche y huevos.<br><span style="color:#888;font-size:0.85em">la leche, el huevo</span>	A1::vocab A1::comida
+The restaurant is closed.	El restaurante está cerrado.<br><span style="color:#888;font-size:0.85em">estar for a temporary state</span>	A1::vocab A1::comida
+The chicken with rice is very good.	El pollo con arroz está muy bueno.<br><span style="color:#888;font-size:0.85em">está bueno = tastes good; es bueno = is good quality</span>	A1::vocab A1::comida
+I eat a sandwich for lunch.	Como un bocadillo al mediodía.<br><span style="color:#888;font-size:0.85em">bocadillo = baguette sandwich (Spain) &middot; al mediodía = at midday</span>	A1::vocab A1::comida
+Do you want dessert?	¿Quieres postre?<br><span style="color:#888;font-size:0.85em">el postre = dessert</span>	A1::vocab A1::comida
+The cheese is from Spain.	El queso es de España.<br><span style="color:#888;font-size:0.85em">ser de = origin</span>	A1::vocab A1::comida
+I don't drink alcohol.	No bebo alcohol.<br><span style="color:#888;font-size:0.85em">beber or tomar = to drink</span>	A1::vocab A1::comida
+We cook at home every day.	Cocinamos en casa todos los días.<br><span style="color:#888;font-size:0.85em">en casa without an article = at home</span>	A1::vocab A1::comida
+I'm hungry.	Tengo hambre.<br><span style="color:#888;font-size:0.85em">hunger uses tener, not ser/estar</span>	A1::vocab A1::comida
+I'm thirsty.	Tengo sed.<br><span style="color:#888;font-size:0.85em">tener sed = to be thirsty</span>	A1::vocab A1::comida
+The bill, please.	La cuenta, por favor.<br><span style="color:#888;font-size:0.85em">la cuenta = the bill</span>	A1::vocab A1::comida
+I live in a small apartment.	Vivo en un piso pequeño.<br><span style="color:#888;font-size:0.85em">piso = apartment in Spain</span>	A1::vocab A1::casa
+My house has three bedrooms.	Mi casa tiene tres dormitorios.<br><span style="color:#888;font-size:0.85em">dormitorio or habitación = bedroom</span>	A1::vocab A1::casa
+The kitchen is very bright.	La cocina es muy luminosa.<br><span style="color:#888;font-size:0.85em">ser for a permanent quality of a room</span>	A1::vocab A1::casa
+There's a table in the living room.	Hay una mesa en el salón.<br><span style="color:#888;font-size:0.85em">hay + indefinite article</span>	A1::vocab A1::casa
+The bathroom is at the end of the hallway.	El baño está al final del pasillo.<br><span style="color:#888;font-size:0.85em">de + el = del</span>	A1::vocab A1::casa
+I put the keys on the table.	Pongo las llaves en la mesa.<br><span style="color:#888;font-size:0.85em">poner: yo pongo (irregular)</span>	A1::vocab A1::casa
+The window is open.	La ventana está abierta.<br><span style="color:#888;font-size:0.85em">estar + participle for a resulting state</span>	A1::vocab A1::casa
+Please close the door.	Cierra la puerta, por favor.<br><span style="color:#888;font-size:0.85em">cierra = informal command from cerrar</span>	A1::vocab A1::casa
+My bed is very comfortable.	Mi cama es muy cómoda.<br><span style="color:#888;font-size:0.85em">cómodo/cómoda = comfortable</span>	A1::vocab A1::casa
+I clean the house on Saturdays.	Limpio la casa los sábados.<br><span style="color:#888;font-size:0.85em">limpiar = to clean</span>	A1::vocab A1::casa
+The fridge is empty.	La nevera está vacía.<br><span style="color:#888;font-size:0.85em">nevera (Spain) / refrigerador (Latin America)</span>	A1::vocab A1::casa
+I wash the dishes after dinner.	Lavo los platos después de la cena.<br><span style="color:#888;font-size:0.85em">después de = after</span>	A1::vocab A1::casa
+There are two chairs in the kitchen.	Hay dos sillas en la cocina.<br><span style="color:#888;font-size:0.85em">la silla = chair</span>	A1::vocab A1::casa
+I watch TV on the sofa.	Veo la tele en el sofá.<br><span style="color:#888;font-size:0.85em">la tele = TV (short for televisión)</span>	A1::vocab A1::casa
+The light doesn't work.	La luz no funciona.<br><span style="color:#888;font-size:0.85em">funcionar = to work (of machines)</span>	A1::vocab A1::casa
+My room is on the second floor.	Mi habitación está en el segundo piso.<br><span style="color:#888;font-size:0.85em">estar for location</span>	A1::vocab A1::casa
+We have a small garden.	Tenemos un jardín pequeño.<br><span style="color:#888;font-size:0.85em">adjectives normally follow the noun</span>	A1::vocab A1::casa
+I'm looking for my phone.	Busco mi móvil.<br><span style="color:#888;font-size:0.85em">buscar already means 'look for' - no preposition</span>	A1::vocab A1::casa
+The rent is very expensive.	El alquiler es muy caro.<br><span style="color:#888;font-size:0.85em">el alquiler = rent</span>	A1::vocab A1::casa
+I live near the center.	Vivo cerca del centro.<br><span style="color:#888;font-size:0.85em">cerca de = near</span>	A1::vocab A1::casa
+The building has an elevator.	El edificio tiene ascensor.<br><span style="color:#888;font-size:0.85em">no article after tener in this pattern</span>	A1::vocab A1::casa
+I put my clothes in the closet.	Pongo la ropa en el armario.<br><span style="color:#888;font-size:0.85em">la ropa is singular and uncountable</span>	A1::vocab A1::casa
+I work in an office.	Trabajo en una oficina.<br><span style="color:#888;font-size:0.85em">trabajar en = to work in</span>	A1::vocab A1::trabajo
+I'm a programmer.	Soy programador.<br><span style="color:#888;font-size:0.85em">no un/una before a profession</span>	A1::vocab A1::trabajo
+I study Spanish.	Estudio español.<br><span style="color:#888;font-size:0.85em">languages are lowercase</span>	A1::vocab A1::trabajo
+I have a meeting at ten.	Tengo una reunión a las diez.<br><span style="color:#888;font-size:0.85em">la reunión = meeting</span>	A1::vocab A1::trabajo
+My boss is very nice.	Mi jefe es muy simpático.<br><span style="color:#888;font-size:0.85em">simpático = nice/friendly (not 'sympathetic')</span>	A1::vocab A1::trabajo
+I start work at nine.	Empiezo a trabajar a las nueve.<br><span style="color:#888;font-size:0.85em">empezar a + infinitive</span>	A1::vocab A1::trabajo
+I need to finish this today.	Necesito terminar esto hoy.<br><span style="color:#888;font-size:0.85em">necesitar + infinitive, no preposition</span>	A1::vocab A1::trabajo
+My colleagues speak English.	Mis compañeros hablan inglés.<br><span style="color:#888;font-size:0.85em">compañero de trabajo = colleague</span>	A1::vocab A1::trabajo
+I go to class twice a week.	Voy a clase dos veces por semana.<br><span style="color:#888;font-size:0.85em">dos veces por semana = twice a week</span>	A1::vocab A1::trabajo
+My teacher is from Argentina.	Mi profesora es de Argentina.<br><span style="color:#888;font-size:0.85em">ser de for origin</span>	A1::vocab A1::trabajo
+I have a lot of work.	Tengo mucho trabajo.<br><span style="color:#888;font-size:0.85em">mucho agrees with the noun it modifies</span>	A1::vocab A1::trabajo
+I don't work on weekends.	No trabajo los fines de semana.<br><span style="color:#888;font-size:0.85em">fin de semana pluralises the first word</span>	A1::vocab A1::trabajo
+I'm learning Spanish.	Estoy aprendiendo español.<br><span style="color:#888;font-size:0.85em">estar + gerund for in-progress action</span>	A1::vocab A1::trabajo
+I write emails every day.	Escribo correos todos los días.<br><span style="color:#888;font-size:0.85em">correo = email (Spain)</span>	A1::vocab A1::trabajo
+The office is closed today.	La oficina está cerrada hoy.<br><span style="color:#888;font-size:0.85em">cerrada agrees with oficina</span>	A1::vocab A1::trabajo
+I want to change jobs.	Quiero cambiar de trabajo.<br><span style="color:#888;font-size:0.85em">cambiar de = to change (one's) ...</span>	A1::vocab A1::trabajo
+I take notes in class.	Tomo apuntes en clase.<br><span style="color:#888;font-size:0.85em">apuntes = class notes</span>	A1::vocab A1::trabajo
+I have an exam on Friday.	Tengo un examen el viernes.<br><span style="color:#888;font-size:0.85em">el viernes = on Friday</span>	A1::vocab A1::trabajo
+What do you do for a living?	¿A qué te dedicas?<br><span style="color:#888;font-size:0.85em">dedicarse a = to do for a living</span>	A1::vocab A1::trabajo
+I'm traveling to Spain in June.	Viajo a España en junio.<br><span style="color:#888;font-size:0.85em">present tense covers near-future plans</span>	A1::vocab A1::viajes
+Where's the train station?	¿Dónde está la estación de tren?<br><span style="color:#888;font-size:0.85em">estar for location</span>	A1::vocab A1::viajes
+I'd like a ticket to Barcelona.	Quiero un billete para Barcelona.<br><span style="color:#888;font-size:0.85em">billete (Spain) / boleto (Latin America)</span>	A1::vocab A1::viajes
+The plane leaves at six.	El avión sale a las seis.<br><span style="color:#888;font-size:0.85em">salir = to leave/depart</span>	A1::vocab A1::viajes
+I'm staying at a hotel.	Me quedo en un hotel.<br><span style="color:#888;font-size:0.85em">quedarse = to stay</span>	A1::vocab A1::viajes
+How much does the room cost?	¿Cuánto cuesta la habitación?<br><span style="color:#888;font-size:0.85em">costar: o -> ue</span>	A1::vocab A1::viajes
+I don't have a reservation.	No tengo reserva.<br><span style="color:#888;font-size:0.85em">reserva = booking</span>	A1::vocab A1::viajes
+Is there a bus to the airport?	¿Hay un autobús al aeropuerto?<br><span style="color:#888;font-size:0.85em">hay for existence</span>	A1::vocab A1::viajes
+I'm lost.	Estoy perdido.<br><span style="color:#888;font-size:0.85em">estar perdida if you're female</span>	A1::vocab A1::viajes
+Can you help me?	¿Me puedes ayudar?<br><span style="color:#888;font-size:0.85em">me goes before the conjugated verb</span>	A1::vocab A1::viajes
+The beach is far from here.	La playa está lejos de aquí.<br><span style="color:#888;font-size:0.85em">lejos de = far from</span>	A1::vocab A1::viajes
+Turn right at the corner.	Gira a la derecha en la esquina.<br><span style="color:#888;font-size:0.85em">a la derecha = to the right</span>	A1::vocab A1::viajes
+It's on the left.	Está a la izquierda.<br><span style="color:#888;font-size:0.85em">a la izquierda = on the left</span>	A1::vocab A1::viajes
+Go straight ahead.	Sigue todo recto.<br><span style="color:#888;font-size:0.85em">todo recto = straight on</span>	A1::vocab A1::viajes
+I go on foot.	Voy a pie.<br><span style="color:#888;font-size:0.85em">a pie = on foot</span>	A1::vocab A1::viajes
+I take the metro every day.	Cojo el metro todos los días.<br><span style="color:#888;font-size:0.85em">coger (Spain); use tomar in Latin America</span>	A1::vocab A1::viajes
+My suitcase is very heavy.	Mi maleta es muy pesada.<br><span style="color:#888;font-size:0.85em">la maleta = suitcase</span>	A1::vocab A1::viajes
+I need a map.	Necesito un mapa.<br><span style="color:#888;font-size:0.85em">el mapa is masculine despite the -a</span>	A1::vocab A1::viajes
+Do you speak English?	¿Hablas inglés?<br><span style="color:#888;font-size:0.85em">informal tú form</span>	A1::vocab A1::viajes
+I don't understand.	No entiendo.<br><span style="color:#888;font-size:0.85em">entender: e -> ie</span>	A1::vocab A1::viajes
+Can you repeat, please?	¿Puedes repetir, por favor?<br><span style="color:#888;font-size:0.85em">poder + infinitive</span>	A1::vocab A1::viajes
+I'm on vacation.	Estoy de vacaciones.<br><span style="color:#888;font-size:0.85em">estar de vacaciones = to be on holiday</span>	A1::vocab A1::viajes
+I like to read.	Me gusta leer.<br><span style="color:#888;font-size:0.85em">gustar + infinitive stays singular</span>	A1::vocab A1::ocio
+I play football on Sundays.	Juego al fútbol los domingos.<br><span style="color:#888;font-size:0.85em">jugar a + sport</span>	A1::vocab A1::ocio
+I listen to music while I work.	Escucho música mientras trabajo.<br><span style="color:#888;font-size:0.85em">escuchar needs no 'to'</span>	A1::vocab A1::ocio
+We watch a movie on Friday.	Vemos una película el viernes.<br><span style="color:#888;font-size:0.85em">ver = to watch/see</span>	A1::vocab A1::ocio
+I run in the park.	Corro en el parque.<br><span style="color:#888;font-size:0.85em">correr = to run</span>	A1::vocab A1::ocio
+I don't like dancing.	No me gusta bailar.<br><span style="color:#888;font-size:0.85em">the infinitive translates the English -ing here</span>	A1::vocab A1::ocio
+My friends play guitar.	Mis amigos tocan la guitarra.<br><span style="color:#888;font-size:0.85em">tocar for instruments, jugar for games</span>	A1::vocab A1::ocio
+I swim twice a week.	Nado dos veces por semana.<br><span style="color:#888;font-size:0.85em">nadar = to swim</span>	A1::vocab A1::ocio
+I like traveling a lot.	Me gusta mucho viajar.<br><span style="color:#888;font-size:0.85em">mucho goes after gusta</span>	A1::vocab A1::ocio
+We go to the movies on Saturday.	Vamos al cine el sábado.<br><span style="color:#888;font-size:0.85em">el cine = the cinema</span>	A1::vocab A1::ocio
+I take photos with my phone.	Hago fotos con el móvil.<br><span style="color:#888;font-size:0.85em">hacer fotos = to take photos</span>	A1::vocab A1::ocio
+I go for a walk in the evening.	Doy un paseo por la tarde.<br><span style="color:#888;font-size:0.85em">dar un paseo = to take a walk</span>	A1::vocab A1::ocio
+I like cooking.	Me gusta cocinar.<br><span style="color:#888;font-size:0.85em">cocinar = to cook</span>	A1::vocab A1::ocio
+I play video games.	Juego a los videojuegos.<br><span style="color:#888;font-size:0.85em">jugar a + los videojuegos</span>	A1::vocab A1::ocio
+Do you want to go out tonight?	¿Quieres salir esta noche?<br><span style="color:#888;font-size:0.85em">esta noche = tonight</span>	A1::vocab A1::ocio
+I go to the gym in the morning.	Voy al gimnasio por la mañana.<br><span style="color:#888;font-size:0.85em">por la mañana with no stated hour</span>	A1::vocab A1::ocio
+We meet at the cafe.	Nos vemos en la cafetería.<br><span style="color:#888;font-size:0.85em">nos vemos = we meet / see you</span>	A1::vocab A1::ocio
+I read the news every day.	Leo las noticias todos los días.<br><span style="color:#888;font-size:0.85em">las noticias = the news (plural)</span>	A1::vocab A1::ocio
+The house is big.	La casa es grande.<br><span style="color:#888;font-size:0.85em">grande keeps one form for both genders</span>	A1::vocab A1::adjetivos
+The car is small.	El coche es pequeño.<br><span style="color:#888;font-size:0.85em">coche (Spain) / carro (Latin America)</span>	A1::vocab A1::adjetivos
+My coffee is cold.	Mi café está frío.<br><span style="color:#888;font-size:0.85em">estar - it wasn't always cold</span>	A1::vocab A1::adjetivos
+The water is hot.	El agua está caliente.<br><span style="color:#888;font-size:0.85em">el agua is feminine: agua fría, but el agua</span>	A1::vocab A1::adjetivos
+This book is interesting.	Este libro es interesante.<br><span style="color:#888;font-size:0.85em">interesante has one form for both genders</span>	A1::vocab A1::adjetivos
+I'm tired.	Estoy cansado.<br><span style="color:#888;font-size:0.85em">cansada if you're female</span>	A1::vocab A1::adjetivos
+She's happy.	Ella está contenta.<br><span style="color:#888;font-size:0.85em">está contenta = mood right now</span>	A1::vocab A1::adjetivos
+The exercise is easy.	El ejercicio es fácil.<br><span style="color:#888;font-size:0.85em">fácil = easy, difícil = hard</span>	A1::vocab A1::adjetivos
+Spanish is difficult sometimes.	A veces el español es difícil.<br><span style="color:#888;font-size:0.85em">a veces goes at the front &middot; the language takes el</span>	A1::vocab A1::adjetivos
+The city is beautiful.	La ciudad es bonita.<br><span style="color:#888;font-size:0.85em">bonito/bonita = pretty</span>	A1::vocab A1::adjetivos
+My neighbor is very nice.	Mi vecino es muy simpático.<br><span style="color:#888;font-size:0.85em">el vecino = neighbour</span>	A1::vocab A1::adjetivos
+The movie is boring.	La película es aburrida.<br><span style="color:#888;font-size:0.85em">ser aburrido = boring; estar aburrido = bored</span>	A1::vocab A1::adjetivos
+I'm sick today.	Estoy enfermo hoy.<br><span style="color:#888;font-size:0.85em">estar enfermo = temporarily ill</span>	A1::vocab A1::adjetivos
+The store is open.	La tienda está abierta.<br><span style="color:#888;font-size:0.85em">abierta agrees with tienda</span>	A1::vocab A1::adjetivos
+This shirt is too expensive.	Esta camisa es demasiado cara.<br><span style="color:#888;font-size:0.85em">demasiado = too (much)</span>	A1::vocab A1::adjetivos
+The restaurant is cheap.	El restaurante es barato.<br><span style="color:#888;font-size:0.85em">barato = cheap</span>	A1::vocab A1::adjetivos
+My brother is tall.	Mi hermano es alto.<br><span style="color:#888;font-size:0.85em">ser for a lasting physical trait</span>	A1::vocab A1::adjetivos
+She has short hair.	Ella tiene el pelo corto.<br><span style="color:#888;font-size:0.85em">Spanish uses el, not 'her', for body parts</span>	A1::vocab A1::adjetivos
+The exam is long.	El examen es largo.<br><span style="color:#888;font-size:0.85em">largo = long (not 'large')</span>	A1::vocab A1::adjetivos
+I'm nervous.	Estoy nervioso.<br><span style="color:#888;font-size:0.85em">estar for a passing feeling</span>	A1::vocab A1::adjetivos
+The weather is nice today.	Hace buen tiempo hoy.<br><span style="color:#888;font-size:0.85em">weather uses hacer: hace frío, hace calor</span>	A1::vocab A1::adjetivos
+The room is dirty.	La habitación está sucia.<br><span style="color:#888;font-size:0.85em">sucio = dirty, limpio = clean</span>	A1::vocab A1::adjetivos
+I know her.	La conozco.<br><span style="color:#888;font-size:0.85em">conocer for people; la = her</span>	A1::vocab A1::verbos
+I know the answer.	Sé la respuesta.<br><span style="color:#888;font-size:0.85em">saber for facts; yo sé is irregular</span>	A1::vocab A1::verbos
+I'm going to the supermarket.	Voy al supermercado.<br><span style="color:#888;font-size:0.85em">ir a + place</span>	A1::vocab A1::verbos
+She's coming tomorrow.	Ella viene mañana.<br><span style="color:#888;font-size:0.85em">venir: yo vengo, tú vienes</span>	A1::vocab A1::verbos
+We're going to eat now.	Vamos a comer ahora.<br><span style="color:#888;font-size:0.85em">ir a + infinitive = near future</span>	A1::vocab A1::verbos
+I need help.	Necesito ayuda.<br><span style="color:#888;font-size:0.85em">la ayuda = help</span>	A1::vocab A1::verbos
+I'll bring the wine.	Traigo el vino.<br><span style="color:#888;font-size:0.85em">traer: yo traigo</span>	A1::vocab A1::verbos
+I give a gift to my mother.	Le doy un regalo a mi madre.<br><span style="color:#888;font-size:0.85em">dar: yo doy &middot; the le is not optional - Spanish doubles the indirect object</span>	A1::vocab A1::verbos
+I'm telling the truth.	Digo la verdad.<br><span style="color:#888;font-size:0.85em">decir: yo digo, tú dices</span>	A1::vocab A1::verbos
+I leave the house at eight.	Salgo de casa a las ocho.<br><span style="color:#888;font-size:0.85em">salir de = to leave (a place)</span>	A1::vocab A1::verbos
+I'm waiting for the bus.	Espero el autobús.<br><span style="color:#888;font-size:0.85em">esperar already includes 'for'</span>	A1::vocab A1::verbos
+I understand a little Spanish.	Entiendo un poco de español.<br><span style="color:#888;font-size:0.85em">un poco de = a little</span>	A1::vocab A1::verbos
+I think it's a good idea.	Creo que es una buena idea.<br><span style="color:#888;font-size:0.85em">creer que = to think that</span>	A1::vocab A1::verbos
+I open the window.	Abro la ventana.<br><span style="color:#888;font-size:0.85em">abrir = to open</span>	A1::vocab A1::verbos
+I'm wearing a black jacket.	Llevo una chaqueta negra.<br><span style="color:#888;font-size:0.85em">llevar = to wear as well as to carry</span>	A1::vocab A1::verbos
+I take the kids to school.	Llevo a los niños al colegio.<br><span style="color:#888;font-size:0.85em">personal a before a person object</span>	A1::vocab A1::verbos
+I put on my shoes.	Me pongo los zapatos.<br><span style="color:#888;font-size:0.85em">ponerse = to put on (clothing)</span>	A1::vocab A1::verbos
+I see my friends on Saturday.	Veo a mis amigos el sábado.<br><span style="color:#888;font-size:0.85em">personal a again</span>	A1::vocab A1::verbos
+I speak a little Spanish.	Hablo un poco de español.<br><span style="color:#888;font-size:0.85em">hablar = to speak</span>	A1::vocab A1::verbos
+He likes chocolate.	Le gusta el chocolate.<br><span style="color:#888;font-size:0.85em">le = to him/her</span>	A1::vocab A1::verbos
+We like movies.	Nos gustan las películas.<br><span style="color:#888;font-size:0.85em">plural thing liked -> gustan</span>	A1::vocab A1::verbos

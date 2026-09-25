@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>30 Most Used Spanish Verbs — Near Future</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4 portrait; margin: 0; }
+  :root{
+    --navy:#151d38;
+    --orange:#f4642a;
+    --muted:#7b8194;
+    --band:#f4f5f8;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{ width:210mm; height:297mm; overflow:hidden; }
+  body{
+    font-family:'Poppins','Helvetica Neue',Arial,sans-serif;
+    color:var(--navy);
+    background:#fff;
+    -webkit-font-smoothing:antialiased;
+    display:flex; flex-direction:column;
+  }
+
+  header{
+    padding:10mm 12mm 4.5mm;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:8mm;
+  }
+  h1{
+    font-weight:800;
+    font-size:31pt;
+    line-height:1.02;
+    letter-spacing:-0.8pt;
+    text-transform:uppercase;
+  }
+  h1 .num{ color:var(--orange); }
+  .sub{
+    margin-top:3.5mm;
+    color:var(--orange);
+    font-weight:700;
+    font-size:14pt;
+    letter-spacing:-0.2pt;
+  }
+  .rule{
+    flex:0 0 75mm;
+    border:0.5mm solid var(--navy);
+    border-radius:2mm;
+    padding:4mm 4.5mm;
+  }
+  .rule-h{
+    font-size:7pt; font-weight:700; text-transform:uppercase;
+    letter-spacing:0.6pt; color:var(--orange);
+  }
+  .rule-b{ margin-top:2mm; font-size:11pt; font-weight:500; line-height:1.3; }
+  .rule-b b{ font-weight:700; color:var(--orange); }
+  .rule-n{ margin-top:2.5mm; font-size:6.8pt; line-height:1.45; color:var(--muted); }
+
+  /* the engine of the tense */
+  .hero{
+    background:var(--navy);
+    color:#fff;
+    padding:4mm 12mm 4.5mm;
+  }
+  .hero-label{
+    font-size:6.8pt; font-weight:500; letter-spacing:0.4pt;
+    text-transform:uppercase; color:#95a0bd;
+  }
+  .hero-label b{ color:var(--orange); font-weight:700; }
+  .hero-forms{
+    margin-top:3mm;
+    display:flex;
+    align-items:baseline;
+    gap:4mm;
+  }
+  .hero-forms .f{ flex:1; }
+  .hero-forms .f .p{
+    display:block;
+    font-size:6.4pt; color:#95a0bd; font-weight:400;
+    margin-bottom:0.4mm;
+  }
+  .hero-forms .f .v{
+    font-size:13pt; font-weight:700; color:#fff; letter-spacing:-0.2pt;
+  }
+  .hero-forms .tail{
+    flex:0 0 auto;
+    font-size:12pt; font-weight:600; color:var(--orange);
+    white-space:nowrap;
+    border-left:0.35mm solid rgba(255,255,255,0.25);
+    padding-left:5mm;
+  }
+  .hero-forms .tail i{ font-style:italic; font-weight:500; }
+
+  main{ flex:1; display:flex; flex-direction:column; }
+  .band{
+    flex:1;
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    padding:0 12mm;
+    align-items:start;
+  }
+  .band.alt{ background:var(--band); }
+
+  .verb{ padding:3.2mm 3.5mm 3.2mm 0; }
+  .verb h2{
+    font-weight:700; font-size:11pt; letter-spacing:-0.3pt; line-height:1.1;
+  }
+  .verb .en{
+    font-weight:400; font-size:7.8pt; color:#4a5165; margin-top:0.5mm;
+  }
+  .verb .es{
+    margin-top:2.2mm;
+    font-size:8pt;
+    font-weight:600;
+    line-height:1.35;
+  }
+  .verb .es b{ color:var(--orange); font-weight:700; }
+  .verb .tr{
+    margin-top:1.2mm;
+    font-size:6.6pt;
+    font-weight:400;
+    line-height:1.4;
+    color:var(--muted);
+  }
+
+  footer{
+    display:flex; justify-content:space-between; align-items:flex-end;
+    gap:8mm; padding:3mm 12mm 5mm;
+    font-size:6.8pt; line-height:1.45; color:var(--muted);
+  }
+  footer .note b{ color:var(--navy); font-weight:600; }
+  footer .tag{ text-align:right; white-space:nowrap; }
+  footer .tag strong{ color:var(--navy); font-weight:700; }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1><span class="num">30</span> Most Used<br>Spanish Verbs</h1>
+    <div class="sub">in the near future:</div>
+  </div>
+  <div class="rule">
+    <div class="rule-h">The whole tense in one rule</div>
+    <div class="rule-b"><b>ir</b> + <b>a</b> + infinitive</div>
+    <div class="rule-n">This is how people actually talk about plans &mdash; far more common in speech than the <i>futuro simple</i>. You only ever conjugate <b>ir</b>; the second verb stays in the infinitive and never changes.</div>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="hero-label">Conjugate only <b>ir</b> &mdash; then bolt on any infinitive</div>
+  <div class="hero-forms" id="hero"></div>
+</div>
+
+<main id="grid"></main>
+
+<footer>
+  <div class="note">
+    <b>haber</b> is impersonal here: <i>va a haber</i> = there is going to be &mdash; always singular, even with plurals.<br>
+    Object pronouns may sit either side: <i>te voy a decir</i> and <i>voy a decirte</i> are both correct.
+  </div>
+  <div class="tag">Futuro próximo<br><strong>Rows 1–4 = the 20 core A1 verbs</strong></div>
+</footer>
+
+<script>
+const IR = [['yo','voy'],['tú','vas'],['él / ella','va'],
+            ['nosotros','vamos'],['vosotros','vais'],['ellos','van']];
+const hero = document.getElementById('hero');
+hero.insertAdjacentHTML('beforeend', IR.map(([p, v]) =>
+  `<div class="f"><span class="p">${p}</span><span class="v">${v}</span></div>`).join(''));
+hero.insertAdjacentHTML('beforeend',
+  `<div class="tail">+ a + <i>infinitivo</i></div>`);
+
+// [infinitive, gloss, ir-form + a, rest of sentence, english]
+const V = [
+ // Rows 1-4: the 20 core A1 verbs (same set and order as the other two posters)
+ ['Ser','to be','Va a','ser un día largo.','It’s going to be a long day.'],
+ ['Estar','to be','Voy a','estar en casa esta noche.','I’m going to be home tonight.'],
+ ['Tener','to have','Vamos a','tener una reunión.','We’re going to have a meeting.'],
+ ['Haber','there to be','Va a','haber mucha gente.','There are going to be a lot of people.'],
+ ['Hacer','to do / make','¿Qué vas a','hacer mañana?','What are you going to do tomorrow?'],
+
+ ['Ir','to go','Voy a','ir al médico.','I’m going to go to the doctor.'],
+ ['Venir','to come','Mis padres van a','venir el sábado.','My parents are coming on Saturday.'],
+ ['Querer','to want','No va a','querer esperar.','He isn’t going to want to wait.'],
+ ['Poder','to be able to','No voy a','poder ir.','I’m not going to be able to go.'],
+ ['Saber','to know','Pronto vamos a','saber la respuesta.','We’ll know the answer soon.'],
+
+ ['Conocer','to meet','Vas a','conocer a mi familia.','You’re going to meet my family.'],
+ ['Gustar','to like','Te va a','gustar esta película.','You’re going to like this movie.'],
+ ['Hablar','to speak','Voy a','hablar con el jefe.','I’m going to speak with the boss.'],
+ ['Comer','to eat','¿Dónde vamos a','comer hoy?','Where are we going to eat today?'],
+ ['Vivir','to live','Van a','vivir en Madrid.','They’re going to live in Madrid.'],
+
+ ['Trabajar','to work','Voy a','trabajar hasta tarde.','I’m going to work late.'],
+ ['Necesitar','to need','Vas a','necesitar un abrigo.','You’re going to need a coat.'],
+ ['Llevar','to take / wear','Voy a','llevar a los niños.','I’m going to take the kids.'],
+ ['Poner','to put','Voy a','poner la mesa.','I’m going to set the table.'],
+ ['Ver','to see','Vamos a','ver una película.','We’re going to watch a movie.'],
+
+ // Rows 5-6: ten more high-frequency verbs
+ ['Decir','to say','Te voy a','decir la verdad.','I’m going to tell you the truth.'],
+ ['Dar','to give','Le voy a','dar un regalo.','I’m going to give them a gift.'],
+ ['Salir','to go out','Vamos a','salir esta noche.','We’re going out tonight.'],
+ ['Dormir','to sleep','Voy a','dormir ocho horas.','I’m going to sleep eight hours.'],
+ ['Buscar','to look for','Voy a','buscar un piso nuevo.','I’m going to look for a new flat.'],
+
+ ['Encontrar','to find','Vas a','encontrar trabajo pronto.','You’re going to find a job soon.'],
+ ['Perder','to lose / miss','Vamos a','perder el tren.','We’re going to miss the train.'],
+ ['Traer','to bring','Voy a','traer el postre.','I’m going to bring dessert.'],
+ ['Beber','to drink','No voy a','beber alcohol hoy.','I’m not going to drink today.'],
+ ['Tocar','to play','Va a','tocar la guitarra.','He’s going to play the guitar.']
+];
+
+const grid = document.getElementById('grid');
+for (let r = 0; r < 6; r++) {
+  const band = document.createElement('div');
+  band.className = 'band' + (r % 2 === 0 ? ' alt' : '');
+  for (let c = 0; c < 5; c++) {
+    const [inf, en, head, rest, tr] = V[r * 5 + c];
+    band.insertAdjacentHTML('beforeend',
+      `<div class="verb"><h2>${inf}</h2><div class="en">${en}</div>` +
+      `<div class="es"><b>${head}</b> ${rest}</div>` +
+      `<div class="tr">${tr}</div></div>`);
+  }
+  grid.appendChild(band);
+}
+</script>
+</body>
+</html>

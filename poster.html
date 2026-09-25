@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>45 Most Used Spanish Verbs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4 portrait; margin: 0; }
+  :root{
+    --navy:#151d38;
+    --orange:#f4642a;
+    --muted:#7b8194;
+    --band:#f4f5f8;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html,body{ width:210mm; height:297mm; overflow:hidden; }
+  body{
+    font-family:'Poppins','Helvetica Neue',Arial,sans-serif;
+    color:var(--navy);
+    background:#fff;
+    -webkit-font-smoothing:antialiased;
+    display:flex; flex-direction:column;
+  }
+
+  header{ padding:7mm 12mm 3mm; }
+  h1{
+    font-weight:800;
+    font-size:27pt;
+    line-height:1.02;
+    letter-spacing:-0.8pt;
+    text-transform:uppercase;
+  }
+  h1 .num{ color:var(--orange); }
+  .sub{
+    margin-top:2.5mm;
+    color:var(--orange);
+    font-weight:700;
+    font-size:11.5pt;
+    letter-spacing:-0.2pt;
+  }
+
+  main{ flex:1; display:flex; flex-direction:column; }
+  .band{
+    flex:1;
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    padding:0 12mm;
+    align-items:start;
+  }
+  .band.alt{ background:var(--band); }
+
+  .verb{ padding:1mm 3mm 1mm 0; }
+  .verb h2{
+    font-weight:700;
+    font-size:9.8pt;
+    letter-spacing:-0.3pt;
+    line-height:1.1;
+  }
+  .verb .en{
+    font-weight:400;
+    font-size:7pt;
+    color:#4a5165;
+    margin-top:0.6mm;
+  }
+  table{
+    margin-top:1.4mm;
+    margin-left:auto;
+    border-collapse:collapse;
+    font-size:5.9pt;
+    line-height:1.24;
+  }
+  td{ padding:0; white-space:nowrap; vertical-align:baseline; }
+  td.p{ text-align:right; color:var(--muted); font-weight:400; padding-right:1.1mm; }
+  td.c{ text-align:right; color:var(--orange); font-weight:600; }
+
+  footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:8mm;
+    padding:2.4mm 12mm 4mm;
+    font-size:6.4pt;
+    line-height:1.4;
+    color:var(--muted);
+  }
+  footer .note b{ color:var(--navy); font-weight:600; }
+  footer .tag{ text-align:right; white-space:nowrap; }
+  footer .tag strong{ color:var(--navy); font-weight:700; }
+</style>
+</head>
+<body>
+<header>
+  <h1><span class="num">45</span> Most Used<br>Spanish Verbs</h1>
+  <div class="sub">in the present tense:</div>
+</header>
+<main id="grid"></main>
+<footer><div class="note"><b>haber</b> is the auxiliary (<i>he hablado</i> = I have spoken); on its own it is <b>hay</b> = there is / there are.<br><b>gustar</b> works backwards: <i>me gusta</i> + singular, <i>me gustan</i> + plural.</div><div class="tag">Present indicative<br><strong>Rows 1–4 = the 20 core A1 verbs</strong><br>Row 7 = stem-changers: the stem changes in all but nosotros / vosotros</div></footer>
+
+<script>
+const P = ['yo','tú','él / ella','nosotros','vosotros','ellos'];
+const G = ['me','te','le','nos','os','les'];
+const V = [
+ // Rows 1-4: the 20 core A1 verbs (same set as the Anki verb deck)
+ ['Ser','to be',['soy','eres','es','somos','sois','son']],
+ ['Estar','to be',['estoy','estás','está','estamos','estáis','están']],
+ ['Tener','to have',['tengo','tienes','tiene','tenemos','tenéis','tienen']],
+ ['Haber','to have (aux.)',['he','has','ha','hemos','habéis','han']],
+ ['Hacer','to do / make',['hago','haces','hace','hacemos','hacéis','hacen']],
+
+ ['Ir','to go',['voy','vas','va','vamos','vais','van']],
+ ['Venir','to come',['vengo','vienes','viene','venimos','venís','vienen']],
+ ['Querer','to want',['quiero','quieres','quiere','queremos','queréis','quieren']],
+ ['Poder','to be able to',['puedo','puedes','puede','podemos','podéis','pueden']],
+ ['Saber','to know (facts)',['sé','sabes','sabe','sabemos','sabéis','saben']],
+
+ ['Conocer','to know (people)',['conozco','conoces','conoce','conocemos','conocéis','conocen']],
+ ['Gustar','to like',['gusta','gusta','gusta','gusta','gusta','gusta'], G],
+ ['Hablar','to speak',['hablo','hablas','habla','hablamos','habláis','hablan']],
+ ['Comer','to eat',['como','comes','come','comemos','coméis','comen']],
+ ['Vivir','to live',['vivo','vives','vive','vivimos','vivís','viven']],
+
+ ['Trabajar','to work',['trabajo','trabajas','trabaja','trabajamos','trabajáis','trabajan']],
+ ['Necesitar','to need',['necesito','necesitas','necesita','necesitamos','necesitáis','necesitan']],
+ ['Llevar','to carry / wear',['llevo','llevas','lleva','llevamos','lleváis','llevan']],
+ ['Poner','to put',['pongo','pones','pone','ponemos','ponéis','ponen']],
+ ['Ver','to see',['veo','ves','ve','vemos','veis','ven']],
+
+ // Rows 5-6: ten more high-frequency verbs
+ ['Decir','to say',['digo','dices','dice','decimos','decís','dicen']],
+ ['Dar','to give',['doy','das','da','damos','dais','dan']],
+ ['Salir','to go out',['salgo','sales','sale','salimos','salís','salen']],
+ ['Dormir','to sleep',['duermo','duermes','duerme','dormimos','dormís','duermen']],
+ ['Buscar','to look for',['busco','buscas','busca','buscamos','buscáis','buscan']],
+
+ ['Encontrar','to find',['encuentro','encuentras','encuentra','encontramos','encontráis','encuentran']],
+ ['Perder','to lose',['pierdo','pierdes','pierde','perdemos','perdéis','pierden']],
+ ['Traer','to bring',['traigo','traes','trae','traemos','traéis','traen']],
+ ['Beber','to drink',['bebo','bebes','bebe','bebemos','bebéis','beben']],
+ ['Tocar','to touch / play',['toco','tocas','toca','tocamos','tocáis','tocan']],
+
+ // Row 7: stem-changers (o→ue, e→ie, u→ue, e→i)
+ ['Volver','to come back',['vuelvo','vuelves','vuelve','volvemos','volvéis','vuelven']],
+ ['Empezar','to start',['empiezo','empiezas','empieza','empezamos','empezáis','empiezan']],
+ ['Jugar','to play (games)',['juego','juegas','juega','jugamos','jugáis','juegan']],
+ ['Pensar','to think',['pienso','piensas','piensa','pensamos','pensáis','piensan']],
+ ['Pedir','to ask for / order',['pido','pides','pide','pedimos','pedís','piden']],
+
+ // Rows 8-9: ten more everyday verbs
+ ['Correr','to run',['corro','corres','corre','corremos','corréis','corren']],
+ ['Nadar','to swim',['nado','nadas','nada','nadamos','nadáis','nadan']],
+ ['Llamar','to call',['llamo','llamas','llama','llamamos','llamáis','llaman']],
+ ['Llegar','to arrive',['llego','llegas','llega','llegamos','llegáis','llegan']],
+ ['Mirar','to look at',['miro','miras','mira','miramos','miráis','miran']],
+
+ ['Creer','to believe',['creo','crees','cree','creemos','creéis','creen']],
+ ['Aprender','to learn',['aprendo','aprendes','aprende','aprendemos','aprendéis','aprenden']],
+ ['Oír','to hear',['oigo','oyes','oye','oímos','oís','oyen']],
+ ['Seguir','to follow / keep on',['sigo','sigues','sigue','seguimos','seguís','siguen']],
+ ['Leer','to read',['leo','lees','lee','leemos','leéis','leen']]
+];
+
+const grid = document.getElementById('grid');
+for (let r = 0; r < 9; r++) {
+  const band = document.createElement('div');
+  band.className = 'band' + (r % 2 === 0 ? ' alt' : '');
+  for (let c = 0; c < 5; c++) {
+    const [inf, en, forms, pro] = V[r * 5 + c];
+    const pron = pro || P;
+    const rows = forms.map((f, i) =>
+      `<tr><td class="p">${pron[i]}</td><td class="c">${f}</td></tr>`).join('');
+    band.insertAdjacentHTML('beforeend',
+      `<div class="verb"><h2>${inf}</h2><div class="en">${en}</div><table>${rows}</table></div>`);
+  }
+  grid.appendChild(band);
+}
+</script>
+</body>
+</html>

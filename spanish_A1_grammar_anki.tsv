@@ -1,0 +1,137 @@
+#separator:tab
+#html:true
+Yo vivo en Estocolmo. &rarr; <b>él</b>	Él vive en Estocolmo.<br><span style="color:#888;font-size:0.85em">He lives in Stockholm &middot; -ir verbs: yo vivo, él vive</span>	A1::grammar A1::persona
+Yo hablo español. &rarr; <b>nosotros</b>	Nosotros hablamos español.<br><span style="color:#888;font-size:0.85em">We speak Spanish &middot; -ar nosotros ending: -amos</span>	A1::grammar A1::persona
+Tú comes pan. &rarr; <b>ellos</b>	Ellos comen pan.<br><span style="color:#888;font-size:0.85em">They eat bread &middot; -er ellos ending: -en</span>	A1::grammar A1::persona
+Yo tengo frío. &rarr; <b>ella</b>	Ella tiene frío.<br><span style="color:#888;font-size:0.85em">She's cold &middot; tener: tengo but tiene</span>	A1::grammar A1::persona
+Nosotros trabajamos aquí. &rarr; <b>yo</b>	Yo trabajo aquí.<br><span style="color:#888;font-size:0.85em">I work here &middot; -ar yo ending: -o</span>	A1::grammar A1::persona
+Yo soy sueco. &rarr; <b>ellos</b>	Ellos son suecos.<br><span style="color:#888;font-size:0.85em">They're Swedish &middot; the adjective pluralises too</span>	A1::grammar A1::persona
+Él está cansado. &rarr; <b>nosotros</b>	Nosotros estamos cansados.<br><span style="color:#888;font-size:0.85em">We're tired &middot; cansado &rarr; cansados</span>	A1::grammar A1::persona
+Yo voy al cine. &rarr; <b>tú</b>	Tú vas al cine.<br><span style="color:#888;font-size:0.85em">You go to the cinema &middot; ir: voy, vas, va</span>	A1::grammar A1::persona
+Tú quieres café. &rarr; <b>yo</b>	Yo quiero café.<br><span style="color:#888;font-size:0.85em">I want coffee &middot; querer: e &rarr; ie in yo/tú/él</span>	A1::grammar A1::persona
+Nosotros podemos ayudar. &rarr; <b>él</b>	Él puede ayudar.<br><span style="color:#888;font-size:0.85em">He can help &middot; podemos has no stem change, puede does</span>	A1::grammar A1::persona
+Yo hago la cena. &rarr; <b>ella</b>	Ella hace la cena.<br><span style="color:#888;font-size:0.85em">She makes dinner &middot; hacer: hago but hace</span>	A1::grammar A1::persona
+Ella sabe la respuesta. &rarr; <b>yo</b>	Yo sé la respuesta.<br><span style="color:#888;font-size:0.85em">I know the answer &middot; saber: yo sé is irregular</span>	A1::grammar A1::persona
+Yo veo la tele. &rarr; <b>nosotros</b>	Nosotros vemos la tele.<br><span style="color:#888;font-size:0.85em">We watch TV &middot; ver: veo, ves, ve, vemos</span>	A1::grammar A1::persona
+Tú vienes mañana. &rarr; <b>ellos</b>	Ellos vienen mañana.<br><span style="color:#888;font-size:0.85em">They're coming tomorrow &middot; venir: vienes, vienen</span>	A1::grammar A1::persona
+Yo pongo la mesa. &rarr; <b>tú</b>	Tú pones la mesa.<br><span style="color:#888;font-size:0.85em">You set the table &middot; poner: pongo but pones</span>	A1::grammar A1::persona
+Nosotros necesitamos dinero. &rarr; <b>yo</b>	Yo necesito dinero.<br><span style="color:#888;font-size:0.85em">I need money &middot; regular -ar verb</span>	A1::grammar A1::persona
+Él conoce a María. &rarr; <b>yo</b>	Yo conozco a María.<br><span style="color:#888;font-size:0.85em">I know María &middot; conocer: yo conozco (-zco)</span>	A1::grammar A1::persona
+Yo me levanto temprano. &rarr; <b>ella</b>	Ella se levanta temprano.<br><span style="color:#888;font-size:0.85em">She gets up early &middot; the reflexive pronoun changes too: me &rarr; se</span>	A1::grammar A1::persona
+Yo llevo gafas. &rarr; <b>él</b>	Él lleva gafas.<br><span style="color:#888;font-size:0.85em">He wears glasses &middot; regular -ar verb</span>	A1::grammar A1::persona
+Nosotros vivimos en Madrid. &rarr; <b>vosotros</b>	Vosotros vivís en Madrid.<br><span style="color:#888;font-size:0.85em">You all live in Madrid &middot; -ir vosotros ending: -ís</span>	A1::grammar A1::persona
+Tengo un hermano. &rarr; <b>negativo</b>	No tengo un hermano.<br><span style="color:#888;font-size:0.85em">I don't have a brother &middot; no goes straight before the verb; 'No tengo hermanos' is more natural</span>	A1::grammar A1::negacion
+Hablo francés. &rarr; <b>negativo</b>	No hablo francés.<br><span style="color:#888;font-size:0.85em">I don't speak French &middot; just add no</span>	A1::grammar A1::negacion
+Ella es española. &rarr; <b>negativo</b>	Ella no es española.<br><span style="color:#888;font-size:0.85em">She isn't Spanish &middot; no sits between subject and verb</span>	A1::grammar A1::negacion
+Estamos en casa. &rarr; <b>negativo</b>	No estamos en casa.<br><span style="color:#888;font-size:0.85em">We aren't at home &middot; no + estamos</span>	A1::grammar A1::negacion
+Me gusta el café. &rarr; <b>negativo</b>	No me gusta el café.<br><span style="color:#888;font-size:0.85em">I don't like coffee &middot; no goes before the pronoun me</span>	A1::grammar A1::negacion
+Hay pan. &rarr; <b>negativo</b>	No hay pan.<br><span style="color:#888;font-size:0.85em">There isn't any bread &middot; no hay = there isn't any</span>	A1::grammar A1::negacion
+Puedo ir. &rarr; <b>negativo</b>	No puedo ir.<br><span style="color:#888;font-size:0.85em">I can't go &middot; no + conjugated verb only</span>	A1::grammar A1::negacion
+Siempre llego tarde. &rarr; <b>nunca</b>	Nunca llego tarde.<br><span style="color:#888;font-size:0.85em">I'm never late &middot; nunca before the verb needs no 'no'</span>	A1::grammar A1::negacion
+Hay algo en la mesa. &rarr; <b>negativo</b>	No hay nada en la mesa.<br><span style="color:#888;font-size:0.85em">There's nothing on the table &middot; algo &rarr; nada, and Spanish keeps the double negative</span>	A1::grammar A1::negacion
+Conozco a alguien aquí. &rarr; <b>negativo</b>	No conozco a nadie aquí.<br><span style="color:#888;font-size:0.85em">I don't know anyone here &middot; alguien &rarr; nadie</span>	A1::grammar A1::negacion
+Quiero salir. &rarr; <b>negativo</b>	No quiero salir.<br><span style="color:#888;font-size:0.85em">I don't want to go out &middot; no + querer</span>	A1::grammar A1::negacion
+Trabajo los sábados. &rarr; <b>negativo</b>	No trabajo los sábados.<br><span style="color:#888;font-size:0.85em">I don't work on Saturdays &middot; no + trabajo</span>	A1::grammar A1::negacion
+Yo también voy. &rarr; <b>tampoco</b>	Yo tampoco voy.<br><span style="color:#888;font-size:0.85em">I'm not going either &middot; también &rarr; tampoco = not ... either</span>	A1::grammar A1::negacion
+Sé cocinar. &rarr; <b>negativo</b>	No sé cocinar.<br><span style="color:#888;font-size:0.85em">I can't cook &middot; no sé = I don't know how</span>	A1::grammar A1::negacion
+Tenemos tiempo. &rarr; <b>negativo</b>	No tenemos tiempo.<br><span style="color:#888;font-size:0.85em">We don't have time &middot; no + tenemos</span>	A1::grammar A1::negacion
+Tienes hermanos. &rarr; <b>pregunta</b>	¿Tienes hermanos?<br><span style="color:#888;font-size:0.85em">Do you have any brothers or sisters? &middot; word order is unchanged - only the ¿ ? marks change</span>	A1::grammar A1::preguntas
+Ask <b>where she lives</b>.	¿Dónde vive?<br><span style="color:#888;font-size:0.85em">dónde carries an accent in questions</span>	A1::grammar A1::preguntas
+Ask <b>what time the class starts</b>.	¿A qué hora empieza la clase?<br><span style="color:#888;font-size:0.85em">a qué hora = at what time</span>	A1::grammar A1::preguntas
+Ask <b>how much it costs</b>.	¿Cuánto cuesta?<br><span style="color:#888;font-size:0.85em">cuánto = how much</span>	A1::grammar A1::preguntas
+Ask <b>why he isn't coming</b>.	¿Por qué no viene?<br><span style="color:#888;font-size:0.85em">por qué (two words) asks; porque (one) answers</span>	A1::grammar A1::preguntas
+Ask <b>what his name is</b>.	¿Cómo se llama?<br><span style="color:#888;font-size:0.85em">lit. how does he call himself</span>	A1::grammar A1::preguntas
+Ask <b>where they are from</b>.	¿De dónde son?<br><span style="color:#888;font-size:0.85em">de dónde = from where</span>	A1::grammar A1::preguntas
+Ask <b>when the train leaves</b>.	¿Cuándo sale el tren?<br><span style="color:#888;font-size:0.85em">cuándo = when</span>	A1::grammar A1::preguntas
+Ask <b>which one she wants</b>.	¿Cuál quiere?<br><span style="color:#888;font-size:0.85em">cuál = which one</span>	A1::grammar A1::preguntas
+Ask <b>who that is</b>.	¿Quién es?<br><span style="color:#888;font-size:0.85em">quién = who (singular)</span>	A1::grammar A1::preguntas
+Ask <b>how you are</b> (informal).	¿Cómo estás?<br><span style="color:#888;font-size:0.85em">estar, not ser, for how you feel</span>	A1::grammar A1::preguntas
+Ask <b>what he is doing</b>.	¿Qué hace?<br><span style="color:#888;font-size:0.85em">qué = what</span>	A1::grammar A1::preguntas
+Ask <b>if there is a bathroom here</b>.	¿Hay un baño aquí?<br><span style="color:#888;font-size:0.85em">hay for existence</span>	A1::grammar A1::preguntas
+Ask <b>how many people there are</b>.	¿Cuántas personas hay?<br><span style="color:#888;font-size:0.85em">cuántas agrees with personas</span>	A1::grammar A1::preguntas
+Ask <b>what she does for work</b>.	¿A qué se dedica?<br><span style="color:#888;font-size:0.85em">dedicarse a = to do for a living</span>	A1::grammar A1::preguntas
+el libro rojo &rarr; <b>plural</b>	los libros rojos<br><span style="color:#888;font-size:0.85em">the red books &middot; article, noun and adjective all pluralise</span>	A1::grammar A1::genero
+la casa blanca &rarr; <b>plural</b>	las casas blancas<br><span style="color:#888;font-size:0.85em">the white houses &middot; feminine plural: las ... -as</span>	A1::grammar A1::genero
+un coche nuevo &rarr; <b>plural</b>	unos coches nuevos<br><span style="color:#888;font-size:0.85em">some new cars &middot; un &rarr; unos = some</span>	A1::grammar A1::genero
+el profesor &rarr; <b>femenino</b>	la profesora<br><span style="color:#888;font-size:0.85em">the teacher (female) &middot; -or &rarr; -ora</span>	A1::grammar A1::genero
+mi amigo español &rarr; <b>femenino</b>	mi amiga española<br><span style="color:#888;font-size:0.85em">my Spanish friend (female) &middot; nationality adjectives on -ol add -a</span>	A1::grammar A1::genero
+la ciudad grande &rarr; <b>plural</b>	las ciudades grandes<br><span style="color:#888;font-size:0.85em">the big cities &middot; consonant ending adds -es</span>	A1::grammar A1::genero
+el hombre joven &rarr; <b>plural</b>	los hombres jóvenes<br><span style="color:#888;font-size:0.85em">the young men &middot; joven gains an accent as jóvenes</span>	A1::grammar A1::genero
+un problema difícil &rarr; <b>plural</b>	unos problemas difíciles<br><span style="color:#888;font-size:0.85em">some difficult problems &middot; problema is masculine despite the -a</span>	A1::grammar A1::genero
+la mano &rarr; <b>plural</b>	las manos<br><span style="color:#888;font-size:0.85em">the hands &middot; mano is feminine despite the -o</span>	A1::grammar A1::genero
+el día largo &rarr; <b>plural</b>	los días largos<br><span style="color:#888;font-size:0.85em">the long days &middot; día is masculine</span>	A1::grammar A1::genero
+una chica alta &rarr; <b>plural</b>	unas chicas altas<br><span style="color:#888;font-size:0.85em">some tall girls &middot; una &rarr; unas</span>	A1::grammar A1::genero
+el país pequeño &rarr; <b>plural</b>	los países pequeños<br><span style="color:#888;font-size:0.85em">the small countries &middot; país loses its accent as países</span>	A1::grammar A1::genero
+Translate: <b>I am Swedish.</b>	Soy sueco.<br><span style="color:#888;font-size:0.85em">ser for identity and origin</span>	A1::grammar A1::ser-estar
+Translate: <b>I am in Madrid.</b>	Estoy en Madrid.<br><span style="color:#888;font-size:0.85em">estar for location</span>	A1::grammar A1::ser-estar
+Translate: <b>The soup is cold.</b>	La sopa está fría.<br><span style="color:#888;font-size:0.85em">estar - it's a current condition</span>	A1::grammar A1::ser-estar
+Translate: <b>She is a doctor.</b>	Ella es médica.<br><span style="color:#888;font-size:0.85em">ser for profession, no article</span>	A1::grammar A1::ser-estar
+___ las tres de la tarde. <b>(ser / estar)</b>	Son<br><span style="color:#888;font-size:0.85em">It's three in the afternoon &middot; clock time always uses ser</span>	A1::grammar A1::ser-estar
+Mi hermana ___ enferma hoy. <b>(ser / estar)</b>	está<br><span style="color:#888;font-size:0.85em">My sister is ill today &middot; illness is a passing state</span>	A1::grammar A1::ser-estar
+El libro ___ de mi padre. <b>(ser / estar)</b>	es<br><span style="color:#888;font-size:0.85em">The book is my father's &middot; ser de = possession</span>	A1::grammar A1::ser-estar
+Nosotros ___ cansados. <b>(ser / estar)</b>	estamos<br><span style="color:#888;font-size:0.85em">We're tired &middot; tiredness is temporary</span>	A1::grammar A1::ser-estar
+La fiesta ___ en mi casa. <b>(ser / estar)</b>	es<br><span style="color:#888;font-size:0.85em">The party is at my house &middot; events take ser even though it looks like a location</span>	A1::grammar A1::ser-estar
+Translate: <b>I am tired but I am happy.</b>	Estoy cansado pero estoy feliz.<br><span style="color:#888;font-size:0.85em">both are states &rarr; estar</span>	A1::grammar A1::ser-estar
+Madrid ___ en España. <b>(ser / estar)</b>	está<br><span style="color:#888;font-size:0.85em">Madrid is in Spain &middot; physical location &rarr; estar</span>	A1::grammar A1::ser-estar
+Ellos ___ muy simpáticos. <b>(ser / estar)</b>	son<br><span style="color:#888;font-size:0.85em">They're very nice &middot; personality &rarr; ser</span>	A1::grammar A1::ser-estar
+La puerta ___ abierta. <b>(ser / estar)</b>	está<br><span style="color:#888;font-size:0.85em">The door is open &middot; estar + participle = resulting state</span>	A1::grammar A1::ser-estar
+Hoy ___ lunes. <b>(ser / estar)</b>	es<br><span style="color:#888;font-size:0.85em">Today is Monday &middot; days of the week take ser</span>	A1::grammar A1::ser-estar
+Translate: <b>My brother is 20 years old.</b>	Mi hermano tiene veinte años.<br><span style="color:#888;font-size:0.85em">age uses tener, not ser or estar</span>	A1::grammar A1::ser-estar
+___ un banco en esta calle. <b>(hay / está)</b>	Hay<br><span style="color:#888;font-size:0.85em">There's a bank on this street &middot; introducing something new &rarr; hay</span>	A1::grammar A1::hay-estar
+El banco ___ en esta calle. <b>(hay / está)</b>	está<br><span style="color:#888;font-size:0.85em">The bank is on this street &middot; a specific known thing &rarr; estar</span>	A1::grammar A1::hay-estar
+¿___ un supermercado cerca? <b>(hay / está)</b>	Hay<br><span style="color:#888;font-size:0.85em">Is there a supermarket nearby? &middot; hay + un/una</span>	A1::grammar A1::hay-estar
+¿Dónde ___ el supermercado? <b>(hay / está)</b>	está<br><span style="color:#888;font-size:0.85em">Where's the supermarket? &middot; el + known thing &rarr; estar</span>	A1::grammar A1::hay-estar
+En mi clase ___ veinte estudiantes. <b>(hay / están)</b>	hay<br><span style="color:#888;font-size:0.85em">There are twenty students in my class &middot; counting things &rarr; hay</span>	A1::grammar A1::hay-estar
+Los estudiantes ___ en clase. <b>(hay / están)</b>	están<br><span style="color:#888;font-size:0.85em">The students are in class &middot; los + known group &rarr; estar</span>	A1::grammar A1::hay-estar
+Translate: <b>There are two bathrooms.</b>	Hay dos baños.<br><span style="color:#888;font-size:0.85em">hay never changes for plural</span>	A1::grammar A1::hay-estar
+Translate: <b>The bathroom is upstairs.</b>	El baño está arriba.<br><span style="color:#888;font-size:0.85em">arriba = upstairs</span>	A1::grammar A1::hay-estar
+Translate: <b>I like coffee.</b>	Me gusta el café.<br><span style="color:#888;font-size:0.85em">lit. coffee pleases me; keep el</span>	A1::grammar A1::gustar
+Translate: <b>I like movies.</b>	Me gustan las películas.<br><span style="color:#888;font-size:0.85em">plural thing liked &rarr; gustan</span>	A1::grammar A1::gustar
+Translate: <b>He likes to run.</b>	Le gusta correr.<br><span style="color:#888;font-size:0.85em">infinitive counts as singular</span>	A1::grammar A1::gustar
+Translate: <b>We like this restaurant.</b>	Nos gusta este restaurante.<br><span style="color:#888;font-size:0.85em">nos = to us</span>	A1::grammar A1::gustar
+Translate: <b>Do you like Spanish?</b>	¿Te gusta el español?<br><span style="color:#888;font-size:0.85em">te = to you (informal)</span>	A1::grammar A1::gustar
+Me gusta el libro. &rarr; <b>los libros</b>	Me gustan los libros.<br><span style="color:#888;font-size:0.85em">I like the books &middot; the verb agrees with the thing liked</span>	A1::grammar A1::gustar
+Translate: <b>They like to travel.</b>	Les gusta viajar.<br><span style="color:#888;font-size:0.85em">les = to them</span>	A1::grammar A1::gustar
+Translate: <b>I don't like fish.</b>	No me gusta el pescado.<br><span style="color:#888;font-size:0.85em">no comes before me</span>	A1::grammar A1::gustar
+Translate: <b>I like it a lot.</b>	Me gusta mucho.<br><span style="color:#888;font-size:0.85em">mucho follows the verb</span>	A1::grammar A1::gustar
+Translate: <b>My friends like the music.</b>	A mis amigos les gusta la música.<br><span style="color:#888;font-size:0.85em">a + person is doubled by les</span>	A1::grammar A1::gustar
+Como en casa. &rarr; <b>ir a + infinitivo</b>	Voy a comer en casa.<br><span style="color:#888;font-size:0.85em">I'm going to eat at home &middot; ir a + infinitive = going to</span>	A1::grammar A1::perifrasis
+Translate: <b>We're going to travel in July.</b>	Vamos a viajar en julio.<br><span style="color:#888;font-size:0.85em">vamos a + infinitive</span>	A1::grammar A1::perifrasis
+Translate: <b>I have to study tonight.</b>	Tengo que estudiar esta noche.<br><span style="color:#888;font-size:0.85em">tener que + infinitive = have to</span>	A1::grammar A1::perifrasis
+Translate: <b>You have to wait.</b>	Tienes que esperar.<br><span style="color:#888;font-size:0.85em">the que is obligatory</span>	A1::grammar A1::perifrasis
+Translate: <b>Can I ask a question?</b>	¿Puedo hacer una pregunta?<br><span style="color:#888;font-size:0.85em">hacer una pregunta = to ask a question</span>	A1::grammar A1::perifrasis
+Translate: <b>I want to go home.</b>	Quiero ir a casa.<br><span style="color:#888;font-size:0.85em">querer + infinitive, no preposition</span>	A1::grammar A1::perifrasis
+Estudio español. &rarr; <b>ir a + infinitivo</b>	Voy a estudiar español.<br><span style="color:#888;font-size:0.85em">I'm going to study Spanish &middot; voy a + infinitive</span>	A1::grammar A1::perifrasis
+Translate: <b>She's going to work tomorrow.</b>	Ella va a trabajar mañana.<br><span style="color:#888;font-size:0.85em">va a + infinitive</span>	A1::grammar A1::perifrasis
+Translate: <b>We have to leave now.</b>	Tenemos que salir ahora.<br><span style="color:#888;font-size:0.85em">tenemos que + infinitive</span>	A1::grammar A1::perifrasis
+Translate: <b>They can't come.</b>	No pueden venir.<br><span style="color:#888;font-size:0.85em">poder + infinitive</span>	A1::grammar A1::perifrasis
+Translate: <b>I want to speak with Ana.</b>	Quiero hablar con Ana.<br><span style="color:#888;font-size:0.85em">hablar con = to speak with</span>	A1::grammar A1::perifrasis
+Translate: <b>What are you going to do?</b>	¿Qué vas a hacer?<br><span style="color:#888;font-size:0.85em">vas a + hacer</span>	A1::grammar A1::perifrasis
+Translate: <b>my parents</b>	mis padres<br><span style="color:#888;font-size:0.85em">mi &rarr; mis before a plural noun</span>	A1::grammar A1::determinantes
+Translate: <b>our house</b>	nuestra casa<br><span style="color:#888;font-size:0.85em">nuestro/nuestra agrees with the noun</span>	A1::grammar A1::determinantes
+Translate: <b>your books</b> (tú)	tus libros<br><span style="color:#888;font-size:0.85em">tu &rarr; tus</span>	A1::grammar A1::determinantes
+Translate: <b>his car</b>	su coche<br><span style="color:#888;font-size:0.85em">su covers his, her, your (usted) and their</span>	A1::grammar A1::determinantes
+Translate: <b>this table</b>	esta mesa<br><span style="color:#888;font-size:0.85em">este/esta = this</span>	A1::grammar A1::determinantes
+Translate: <b>that man over there</b>	aquel hombre<br><span style="color:#888;font-size:0.85em">aquel = that one further away</span>	A1::grammar A1::determinantes
+Translate: <b>these shoes</b>	estos zapatos<br><span style="color:#888;font-size:0.85em">estos = these (masculine plural)</span>	A1::grammar A1::determinantes
+Voy ___ supermercado. <b>(a + el)</b>	al<br><span style="color:#888;font-size:0.85em">I'm going to the supermarket &middot; a + el contracts to al</span>	A1::grammar A1::determinantes
+Vengo ___ oficina. <b>(de + la)</b>	de la<br><span style="color:#888;font-size:0.85em">I'm coming from the office &middot; de + la does not contract</span>	A1::grammar A1::determinantes
+Es el coche ___ profesor. <b>(de + el)</b>	del<br><span style="color:#888;font-size:0.85em">It's the teacher's car &middot; de + el contracts to del</span>	A1::grammar A1::determinantes
+Translate: <b>I get up at seven.</b>	Me levanto a las siete.<br><span style="color:#888;font-size:0.85em">levantarse is reflexive</span>	A1::grammar A1::reflexivos
+Translate: <b>I shower in the morning.</b>	Me ducho por la mañana.<br><span style="color:#888;font-size:0.85em">ducharse = to shower</span>	A1::grammar A1::reflexivos
+Me llamo Pierre. &rarr; <b>él</b>	Se llama Pierre.<br><span style="color:#888;font-size:0.85em">His name is Pierre &middot; me &rarr; se</span>	A1::grammar A1::reflexivos
+Translate: <b>What's your name?</b> (informal)	¿Cómo te llamas?<br><span style="color:#888;font-size:0.85em">te llamas = you call yourself</span>	A1::grammar A1::reflexivos
+Translate: <b>We go to bed late.</b>	Nos acostamos tarde.<br><span style="color:#888;font-size:0.85em">acostarse: o &rarr; ue, but not in nosotros</span>	A1::grammar A1::reflexivos
+Nos levantamos temprano. &rarr; <b>yo</b>	Me levanto temprano.<br><span style="color:#888;font-size:0.85em">I get up early &middot; nos &rarr; me</span>	A1::grammar A1::reflexivos
+Translate: <b>He shaves every day.</b>	Se afeita todos los días.<br><span style="color:#888;font-size:0.85em">afeitarse = to shave</span>	A1::grammar A1::reflexivos
+Translate: <b>I put on my coat.</b>	Me pongo el abrigo.<br><span style="color:#888;font-size:0.85em">ponerse; use el, not 'my'</span>	A1::grammar A1::reflexivos
+Translate: <b>very tired</b>	muy cansado<br><span style="color:#888;font-size:0.85em">muy modifies an adjective</span>	A1::grammar A1::cantidad
+Translate: <b>I work a lot.</b>	Trabajo mucho.<br><span style="color:#888;font-size:0.85em">mucho after a verb never changes</span>	A1::grammar A1::cantidad
+Translate: <b>a lot of work</b>	mucho trabajo<br><span style="color:#888;font-size:0.85em">mucho before a noun agrees with it</span>	A1::grammar A1::cantidad
+Translate: <b>many friends</b>	muchos amigos<br><span style="color:#888;font-size:0.85em">muchos agrees with amigos</span>	A1::grammar A1::cantidad
+Translate: <b>My brother is taller than me.</b>	Mi hermano es más alto que yo.<br><span style="color:#888;font-size:0.85em">más ... que = more ... than</span>	A1::grammar A1::cantidad
+Translate: <b>This is less expensive.</b>	Esto es menos caro.<br><span style="color:#888;font-size:0.85em">menos = less</span>	A1::grammar A1::cantidad
+Translate: <b>I'm better now.</b>	Estoy mejor ahora.<br><span style="color:#888;font-size:0.85em">mejor = better (no 'más bueno')</span>	A1::grammar A1::cantidad
+Translate: <b>It's the best restaurant.</b>	Es el mejor restaurante.<br><span style="color:#888;font-size:0.85em">el mejor = the best</span>	A1::grammar A1::cantidad
+Translate: <b>too much coffee</b>	demasiado café<br><span style="color:#888;font-size:0.85em">demasiado = too much</span>	A1::grammar A1::cantidad
+Translate: <b>a little bread</b>	un poco de pan<br><span style="color:#888;font-size:0.85em">un poco de + noun</span>	A1::grammar A1::cantidad

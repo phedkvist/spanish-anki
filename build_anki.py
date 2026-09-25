@@ -1050,6 +1050,61 @@ TOPICS = [
     vocab("The course starts in 2026.", "El curso empieza en dos mil veintiséis.", "dos mil veintiséis &middot; veintiséis keeps its accent", "A1::topics A1::fechas"),
     vocab("My daughter was born on the 3rd of May 2010.", "Mi hija nació el tres de mayo de dos mil diez.", "a full date is el + number + de + month + de + year &middot; months are lowercase", "A1::topics A1::fechas"),
     vocab("In the nineties there was no internet.", "En los años noventa no había internet.", "los años noventa = the nineties &middot; había = there was / there were", "A1::topics A1::fechas"),
+
+    # ---- object pronouns in use ------------------------------------------
+    vocab("Do you see the book? - Yes, I see it.", "¿Ves el libro? - Sí, lo veo.", "lo stands in for el libro &middot; the pronoun goes before the verb", "A1::topics A1::pronombres-objeto"),
+    vocab("Do you have the keys? - Yes, I have them.", "¿Tienes las llaves? - Sí, las tengo.", "las llaves is feminine plural &rarr; las", "A1::topics A1::pronombres-objeto"),
+    vocab("Do you buy the newspaper? - Yes, I buy it every day.", "¿Compras el periódico? - Sí, lo compro todos los días.", "lo = el periódico &middot; it never disappears the way English drops it", "A1::topics A1::pronombres-objeto"),
+    vocab("I don't know her.", "No la conozco.", "no goes first, then the pronoun, then the verb", "A1::topics A1::pronombres-objeto"),
+    vocab("She calls me every Sunday.", "Me llama todos los domingos.", "me = me &middot; still in front of the verb", "A1::topics A1::pronombres-objeto"),
+    vocab("Do you eat meat? - No, I don't eat it.", "¿Comes carne? - No, no la como.", "la = la carne &middot; the gender comes from the noun, not from the thing", "A1::topics A1::pronombres-objeto"),
+    vocab("Do you know my sister? - Yes, I know her.", "¿Conoces a mi hermana? - Sí, la conozco.", "the personal a in the question, la for her in the answer", "A1::topics A1::pronombres-objeto"),
+    vocab("I'm going to do it tomorrow.", "Voy a hacerlo mañana.", "with an infinitive you may also say lo voy a hacer - both are correct", "A1::topics A1::pronombres-objeto"),
+    vocab("Can you call me tomorrow?", "¿Puedes llamarme mañana?", "attached to the infinitive: llamarme &middot; ¿me puedes llamar? works just as well", "A1::topics A1::pronombres-objeto"),
+    vocab("I don't want to see it.", "No quiero verlo.", "no + conjugated verb, and the pronoun rides on the infinitive", "A1::topics A1::pronombres-objeto"),
+    vocab("Where are the tickets? I don't have them.", "¿Dónde están las entradas? No las tengo.", "la entrada = ticket &middot; las tengo, never tengo las", "A1::topics A1::pronombres-objeto"),
+    vocab("I give him the book.", "Le doy el libro.", "le is for the person receiving it", "A1::topics A1::pronombres-objeto"),
+    vocab("I give it to him.", "Se lo doy.", "le + lo is impossible, so le becomes se: se lo doy", "A1::topics A1::pronombres-objeto"),
+    vocab("They invite us to the party.", "Nos invitan a la fiesta.", "nos = us", "A1::topics A1::pronombres-objeto"),
+    vocab("I'm listening to you.", "Te escucho.", "escuchar takes the object directly: no a, no to", "A1::topics A1::pronombres-objeto"),
+
+    # ---- where things are -------------------------------------------------
+    vocab("The book is on the table.", "El libro está encima de la mesa.", "encima de = on top of &middot; sobre la mesa works too", "A1::topics A1::lugar"),
+    vocab("The cat is under the chair.", "El gato está debajo de la silla.", "debajo de = under", "A1::topics A1::lugar"),
+    vocab("The pharmacy is next to the bank.", "La farmacia está al lado del banco.", "al lado de + el &rarr; del", "A1::topics A1::lugar"),
+    vocab("The supermarket is opposite the school.", "El supermercado está enfrente del colegio.", "enfrente de = opposite, facing", "A1::topics A1::lugar"),
+    vocab("My house is between the park and the church.", "Mi casa está entre el parque y la iglesia.", "entre takes no de", "A1::topics A1::lugar"),
+    vocab("The car is in front of the house.", "El coche está delante de la casa.", "delante de = in front of", "A1::topics A1::lugar"),
+    vocab("The garden is behind the house.", "El jardín está detrás de la casa.", "detrás de = behind", "A1::topics A1::lugar"),
+    vocab("The bathroom is at the end of the corridor.", "El baño está al final del pasillo.", "al final de = at the end of &middot; el pasillo = corridor", "A1::topics A1::lugar"),
+    vocab("The station is far from the centre.", "La estación está lejos del centro.", "lejos de &harr; cerca de", "A1::topics A1::lugar"),
+    vocab("The keys are inside the bag.", "Las llaves están dentro del bolso.", "dentro de = inside &middot; el bolso = bag", "A1::topics A1::lugar"),
+    vocab("The children are outside.", "Los niños están fuera.", "fuera on its own needs no de", "A1::topics A1::lugar"),
+    vocab("Is there a pharmacy near here?", "¿Hay una farmacia por aquí cerca?", "hay to ask whether something exists &middot; por aquí cerca = round here", "A1::topics A1::lugar"),
+
+    # ---- health ------------------------------------------------------------
+    vocab("My head hurts.", "Me duele la cabeza.", "doler works backwards like gustar &middot; la cabeza, not mi cabeza", "A1::topics A1::salud"),
+    vocab("My feet hurt.", "Me duelen los pies.", "a plural body part &rarr; duelen", "A1::topics A1::salud"),
+    vocab("I have a sore throat.", "Me duele la garganta.", "Spanish says the throat hurts me", "A1::topics A1::salud"),
+    vocab("My stomach hurts.", "Me duele el estómago.", "el estómago keeps its accent", "A1::topics A1::salud"),
+    vocab("I have a temperature.", "Tengo fiebre.", "tener + fiebre, with no article", "A1::topics A1::salud"),
+    vocab("I have a cold.", "Estoy resfriado/a.", "estar for a passing state &middot; resfriada if you're female", "A1::topics A1::salud"),
+    vocab("I don't feel well.", "No me encuentro bien.", "encontrarse = to feel &middot; no me siento bien also works", "A1::topics A1::salud"),
+    vocab("How are you feeling?", "¿Cómo te encuentras?", "the everyday question when someone is ill", "A1::topics A1::salud"),
+    vocab("What's wrong?", "¿Qué te pasa?", "lit. what happens to you", "A1::topics A1::salud"),
+    vocab("I need to go to the doctor.", "Necesito ir al médico.", "ir al médico = to go to the doctor's", "A1::topics A1::salud"),
+
+    # ---- colours -----------------------------------------------------------
+    vocab("I have a red car.", "Tengo un coche rojo.", "the colour follows the noun and agrees with it", "A1::topics A1::colores"),
+    vocab("She's wearing a white shirt.", "Lleva una camisa blanca.", "blanco &rarr; blanca for a feminine noun", "A1::topics A1::colores"),
+    vocab("I have two white cats.", "Tengo dos gatos blancos.", "masculine plural: blancos", "A1::topics A1::colores"),
+    vocab("The walls are green.", "Las paredes son verdes.", "verde has no separate feminine: just add -s", "A1::topics A1::colores"),
+    vocab("I like blue shoes.", "Me gustan los zapatos azules.", "azul &rarr; azules &middot; gustan for a plural thing", "A1::topics A1::colores"),
+    vocab("The house is grey.", "La casa es gris.", "gris is the same for both genders", "A1::topics A1::colores"),
+    vocab("I want a brown coat.", "Quiero un abrigo marrón.", "marrón &rarr; marrones in the plural", "A1::topics A1::colores"),
+    vocab("The black trousers are on the bed.", "Los pantalones negros están encima de la cama.", "pantalones is plural in Spanish &rarr; negros", "A1::topics A1::colores"),
+    vocab("My favourite colour is yellow.", "Mi color favorito es el amarillo.", "a colour on its own takes el: el amarillo", "A1::topics A1::colores"),
+    vocab("What colour is your car?", "¿De qué color es tu coche?", "de qué color, with de", "A1::topics A1::colores"),
 ]
 
 

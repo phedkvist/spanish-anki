@@ -1,6 +1,8 @@
 # Spanish A1 — Anki deck system
 
-Four `.tsv` files, all the same shape as the original verb deck:
+`content.md` tracks what's covered and what to add when your course reaches it.
+
+Six `.tsv` files, all the same shape as the original verb deck:
 
 ```
 Front <TAB> Back <TAB> Tags
@@ -12,16 +14,18 @@ Front <TAB> Back <TAB> Tags
 | `spanish_A1_vocab_anki.tsv` | 201 | 1. Core vocabulary | **EN → ES** (production) |
 | `spanish_A1_grammar_anki.tsv` | 135 | 3. Transformations | instruction → ES |
 | `spanish_A1_sentences_anki.tsv` | 152 | 4. Understand the sentence | **ES → EN** + breakdown |
-| `spanish_A1_topics_anki.tsv` | 90 | 1. Core vocabulary (topic sets) | **EN → ES** (production) |
+| `spanish_A1_topics_anki.tsv` | 137 | 1. Core vocabulary (topic sets) | **EN → ES** (production) |
 | `spanish_A2_pasado_anki.tsv` | 79 | 2. Verb drills (pretérito) | fill-in-the-blank + EN→ES |
-| | **826** | | |
+| | **873** | | |
 
-`spanish_A1_topics_anki.tsv` is nine themed blocks of ten, meant to be
+`spanish_A1_topics_anki.tsv` is thirteen themed blocks, meant to be
 imported as one batch: `A1::clima` (weather), `A1::numeros-100` (0–100),
 `A1::numeros-grandes` (100–1,000,000), `A1::hora` (time of day), `A1::cafe` (ordering at a cafe or restaurant),
 `A1::expresiones-tiempo` (now, soon, always, never...), `A1::asignaturas`
-(school subjects), `A1::gustar-personas` (a mis amigos les gusta...) and
-`A1::fechas` (years and dates).
+(school subjects), `A1::gustar-personas` (a mis amigos les gusta...),
+`A1::fechas` (years and dates), `A1::pronombres-objeto` (lo veo, las tengo),
+`A1::lugar` (encima de, al lado de...), `A1::salud` (me duele la cabeza) and
+`A1::colores`.
 
 Every card follows the production-first rule: the three generated decks are
 English-prompt → Spanish-answer, except the sentence deck, which is
@@ -54,6 +58,7 @@ A1::grammar    A1::persona A1::negacion A1::preguntas A1::genero
 A1::topics     A1::clima A1::numeros-100 A1::numeros-grandes
                A1::hora A1::cafe A1::expresiones-tiempo
                A1::asignaturas A1::gustar-personas A1::fechas
+               A1::pronombres-objeto A1::lugar A1::salud A1::colores
 A1::sentences  A1::saludos A1::opiniones A1::rutina A1::compras
                A1::restaurante A1::viajes A1::salud A1::clase
                A1::planes A1::practico A1::movil A1::expresiones

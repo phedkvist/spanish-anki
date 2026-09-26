@@ -44,7 +44,7 @@ Field order matters — it's how the columns map on import:
 <hr id=answer>
 
 <div class="es">{{Back}}</div>
-{{tts es_ES voices=Apple_Mónica:Back}}
+{{tts es_ES voices=Apple_Mónica,Apple_Monica:Back}}
 
 <div class="note">{{Note}}</div>
 ```
@@ -57,7 +57,7 @@ The Spanish is the question here, so the speaker moves to the front.
 
 ```html
 <div class="es">{{Front}}</div>
-{{tts es_ES voices=Apple_Mónica:Front}}
+{{tts es_ES voices=Apple_Mónica,Apple_Monica:Front}}
 ```
 
 **Back template**
@@ -106,8 +106,13 @@ The grey gloss is now one CSS rule instead of an inline `<span>` on 873 cards.
 <details class="note"><summary>why</summary>{{Note}}</details>
 ```
 
-**A different voice** — `Apple_Paulina` for Mexico, or drop `voices=` entirely
-and let Anki pick the system default for `es_ES`. On AnkiMobile and AnkiDroid
+**Two spellings on purpose.** Anki tries the `voices=` list in order and takes
+the first that exists, so the accentless spelling is there as a fallback. Drop
+`voices=` entirely and Anki picks any installed `es_ES` voice — which ignores
+your macOS System Voice setting, and is usually not the one you wanted.
+
+**A different voice** — `Apple_Paulina` for Mexico. `say -v '?' | grep es_`
+lists what is installed. On AnkiMobile and AnkiDroid
 the same tag works with their own voices.
 
 **Replay** — the speaker icon replays; `R` does it from the keyboard.

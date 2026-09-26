@@ -5,10 +5,10 @@
 - Playlist: <https://www.youtube.com/playlist?list=PLeA5t3dWTWvvwf5fw0Nl7mVk0OUjP1Ln2>
 - App, SoundCloud and audio downloads: <https://www.languagetransfer.org/complete-spanish>
 
-Every track is titled *Complete Spanish, Track N — Language Transfer, The
-Thinking Method*, so the number is all you need.
+Every track is titled _Complete Spanish, Track N — Language Transfer, The
+Thinking Method_, so the number is all you need.
 
-**How to listen.** Pause when he asks a question and answer *out loud* before
+**How to listen.** Pause when he asks a question and answer _out loud_ before
 he does. The whole method rests on that pause. Don't take notes and don't
 rewind to memorise — anything that hasn't stuck comes back later by design.
 
@@ -22,12 +22,12 @@ Topics are filled in for the first few. Write your own in as you go: a phrase
 is enough (`ser vs estar`, `the -ísimo trick`). That line is worth more later
 than any summary, and it shows which blocks the deck still needs.
 
-## Tracks 1–10  ·  84 min
+## Tracks 1–10 · 84 min
 
-- [ ] **1** [▶ 5:36](https://youtu.be/6OZbL91GXGI) — the method itself, no Spanish yet
-- [ ] **2** [▶ 8:00](https://youtu.be/qP8YV5Dh250) — Latin cognates, vowel sounds, `es`, words ending `-al`
-- [ ] **3** [▶ 6:17](https://youtu.be/WBGAC6wTcRc) — `-ant/-ent` → `-e`, `-mente` adverbs, the `j` sound, `-able/-ible`
-- [ ] **4** [▶ 8:30](https://youtu.be/z-PlstP09ek) — `quiero`, negation, `-ción` nouns and stress, reflexive `me`
+- [x] **1** [▶ 5:36](https://youtu.be/6OZbL91GXGI) — the method itself, no Spanish yet
+- [x] **2** [▶ 8:00](https://youtu.be/qP8YV5Dh250) — Latin cognates, vowel sounds, `es`, words ending `-al`
+- [x] **3** [▶ 6:17](https://youtu.be/WBGAC6wTcRc) — `-ant/-ent` → `-e`, `-mente` adverbs, the `j` sound, `-able/-ible`
+- [x] **4** [▶ 8:30](https://youtu.be/z-PlstP09ek) — `quiero`, negation, `-ción` nouns and stress, reflexive `me`
 - [ ] **5** [▶ 9:26](https://youtu.be/ZXJW3iIFxpM) — `yo` for emphasis, object pronouns `te` and `lo`, `-encia/-ancia`
 - [ ] **6** [▶ 7:06](https://youtu.be/BoIOy-k82cM) — `intento`, silent `h`, `ahora`, `voy`, how `v` is pronounced
 - [ ] **7** [▶ 10:16](https://youtu.be/t7hyqp3mfdw) — `voy a` + infinitive, "it", `algo`, movement verbs taking `a`
@@ -35,7 +35,7 @@ than any summary, and it shows which blocks the deck still needs.
 - [ ] **9** [▶ 9:11](https://youtu.be/xh-LtZuh0mc)
 - [ ] **10** [▶ 12:29](https://youtu.be/mPP_8p6GzPg)
 
-## Tracks 11–20  ·  102 min
+## Tracks 11–20 · 102 min
 
 - [ ] **11** [▶ 10:53](https://youtu.be/0lvUGk9IQbk)
 - [ ] **12** [▶ 13:55](https://youtu.be/YJ2BKSOKZRg)
@@ -48,7 +48,7 @@ than any summary, and it shows which blocks the deck still needs.
 - [ ] **19** [▶ 7:03](https://youtu.be/13dALUWp3KU)
 - [ ] **20** [▶ 9:23](https://youtu.be/VfMQwRTF86A)
 
-## Tracks 21–30  ·  97 min
+## Tracks 21–30 · 97 min
 
 - [ ] **21** [▶ 12:14](https://youtu.be/IidJvT1X6eo)
 - [ ] **22** [▶ 13:13](https://youtu.be/wE8nL3yHr48)
@@ -61,7 +61,7 @@ than any summary, and it shows which blocks the deck still needs.
 - [ ] **29** [▶ 8:48](https://youtu.be/iCBoJ_WTf5Y)
 - [ ] **30** [▶ 7:32](https://youtu.be/-DO9Z_wYde0)
 
-## Tracks 31–40  ·  97 min
+## Tracks 31–40 · 97 min
 
 - [ ] **31** [▶ 7:01](https://youtu.be/tSYf2xRyiqc)
 - [ ] **32** [▶ 9:41](https://youtu.be/XJDpM_JvubQ)
@@ -74,7 +74,7 @@ than any summary, and it shows which blocks the deck still needs.
 - [ ] **39** [▶ 10:36](https://youtu.be/PS4mSPDkr48)
 - [ ] **40** [▶ 12:41](https://youtu.be/Y9cBGabBPak)
 
-## Tracks 41–50  ·  104 min
+## Tracks 41–50 · 104 min
 
 - [ ] **41** [▶ 13:07](https://youtu.be/L9lTKPBarxA)
 - [ ] **42** [▶ 7:05](https://youtu.be/PNkInBKRovI)
@@ -87,7 +87,7 @@ than any summary, and it shows which blocks the deck still needs.
 - [ ] **49** [▶ 10:50](https://youtu.be/FidbOzbYMxs)
 - [ ] **50** [▶ 9:24](https://youtu.be/JqLsj1OgdwQ)
 
-## Tracks 51–60  ·  113 min
+## Tracks 51–60 · 113 min
 
 - [ ] **51** [▶ 12:22](https://youtu.be/Yt_-phn2QvM)
 - [ ] **52** [▶ 14:31](https://youtu.be/VrhaaDyTRZo)
@@ -100,7 +100,7 @@ than any summary, and it shows which blocks the deck still needs.
 - [ ] **59** [▶ 10:44](https://youtu.be/T2HXOcjZ54Y)
 - [ ] **60** [▶ 8:27](https://youtu.be/rHwhJ7-H2CM)
 
-## Tracks 61–70  ·  98 min
+## Tracks 61–70 · 98 min
 
 - [ ] **61** [▶ 8:01](https://youtu.be/417AEDlVhBc)
 - [ ] **62** [▶ 11:54](https://youtu.be/eMDySqRiuK8)
@@ -113,7 +113,7 @@ than any summary, and it shows which blocks the deck still needs.
 - [ ] **69** [▶ 9:31](https://youtu.be/_oFk-KM5UcI)
 - [ ] **70** [▶ 10:59](https://youtu.be/OIyAZyqWMa4)
 
-## Tracks 71–80  ·  91 min
+## Tracks 71–80 · 91 min
 
 - [ ] **71** [▶ 12:41](https://youtu.be/ylvf9dAHexM)
 - [ ] **72** [▶ 13:03](https://youtu.be/ROJsBjnGwSc)
@@ -126,7 +126,7 @@ than any summary, and it shows which blocks the deck still needs.
 - [ ] **79** [▶ 7:11](https://youtu.be/vUcGn5NY4Pc)
 - [ ] **80** [▶ 7:11](https://youtu.be/xIMO4ziJRCc)
 
-## Tracks 81–90  ·  83 min
+## Tracks 81–90 · 83 min
 
 - [ ] **81** [▶ 11:57](https://youtu.be/sDbE2iO5e-8)
 - [ ] **82** [▶ 6:46](https://youtu.be/l4iCe46k1JA)

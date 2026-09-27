@@ -48,6 +48,7 @@ and the filename, never in a separate deck, so reviews stay mixed.
 | Where things are (encima de, al lado de …) | `A1::lugar` | 12 |
 | Health (me duele …) | `A1::salud` | 10 |
 | Colours | `A1::colores` | 10 |
+| School timetable (asking and answering) | `A1::horario` | 12 |
 
 Plus the broader vocabulary deck (201 cards): family, house, food, clothes,
 transport, places in town, work, travel, shopping, hobbies, adjectives — and
@@ -97,11 +98,10 @@ transport, places in town, clothes, days of the week, connectors (pero,
 porque, también), numbers, telling the time, weather, questions, negation,
 ser / estar / hay, gustar, possessives, reflexives, ir a + infinitive.
 
-## Two things worth doing that aren't cards
+## Habits, not cards
 
-1. **Turn on TTS.** One template edit (see README → Audio). The whole
-   collection is silent, so listening lags behind production. Biggest gain per
-   minute spent of anything on this page.
+1. **Audio is on** — `{{tts es_ES voices=Apple_Mónica…}}` on both note types
+   since the migration, so every card speaks. Nothing to do here any more.
 2. **Grade generously on production cards.** Several answers are often
    correct: *I have lived here since 2019* accepts both *Vivo aquí desde…* and
    *He vivido…*. If what you said was good Spanish, press **Good**, even when

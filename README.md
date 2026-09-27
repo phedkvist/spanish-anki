@@ -29,18 +29,18 @@ English explanation after it. See `notetypes/`.
 | `spanish_A1_vocab_anki.tsv` | 201 | 1. Core vocabulary | **EN → ES** (production) |
 | `spanish_A1_grammar_anki.tsv` | 135 | 3. Transformations | instruction → ES |
 | `spanish_A1_sentences_anki.tsv` | 152 | 4. Understand the sentence | **ES → EN** + breakdown |
-| `spanish_A1_topics_anki.tsv` | 137 | 1. Core vocabulary (topic sets) | **EN → ES** (production) |
+| `spanish_A1_topics_anki.tsv` | 149 | 1. Core vocabulary (topic sets) | **EN → ES** (production) |
 | `spanish_A2_pasado_anki.tsv` | 79 | 2. Verb drills (pretérito) | fill-in-the-blank + EN→ES |
-| | **873** | | |
+| | **885** | | |
 
-`spanish_A1_topics_anki.tsv` is thirteen themed blocks, meant to be
+`spanish_A1_topics_anki.tsv` is fourteen themed blocks, meant to be
 imported as one batch: `A1::clima` (weather), `A1::numeros-100` (0–100),
 `A1::numeros-grandes` (100–1,000,000), `A1::hora` (time of day), `A1::cafe` (ordering at a cafe or restaurant),
 `A1::expresiones-tiempo` (now, soon, always, never...), `A1::asignaturas`
 (school subjects), `A1::gustar-personas` (a mis amigos les gusta...),
 `A1::fechas` (years and dates), `A1::pronombres-objeto` (lo veo, las tengo),
 `A1::lugar` (encima de, al lado de...), `A1::salud` (me duele la cabeza) and
-`A1::colores`.
+`A1::colores` and `A1::horario` (the school timetable).
 
 Every card follows the production-first rule: the three generated decks are
 English-prompt → Spanish-answer, except the sentence deck, which is
@@ -72,6 +72,7 @@ A1::topics     A1::clima A1::numeros-100 A1::numeros-grandes
                A1::hora A1::cafe A1::expresiones-tiempo
                A1::asignaturas A1::gustar-personas A1::fechas
                A1::pronombres-objeto A1::lugar A1::salud A1::colores
+               A1::horario
 A1::sentences  A1::saludos A1::opiniones A1::rutina A1::compras
                A1::restaurante A1::viajes A1::salud A1::clase
                A1::planes A1::practico A1::movil A1::expresiones

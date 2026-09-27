@@ -1113,6 +1113,20 @@ TOPICS = [
     vocab("The black trousers are on the bed.", "Los pantalones negros están encima de la cama.", "pantalones is plural in Spanish &rarr; negros", "A1::topics A1::colores"),
     vocab("My favourite colour is yellow.", "Mi color favorito es el amarillo.", "a colour on its own takes el: el amarillo", "A1::topics A1::colores"),
     vocab("What colour is your car?", "¿De qué color es tu coche?", "de qué color, with de", "A1::topics A1::colores"),
+
+    # ---- the school timetable: asking and answering ----------------------
+    vocab("What time do you start your first class on Monday?", "¿A qué hora empiezas la primera clase el lunes?", "a qué hora = at what time &middot; el lunes = this coming Monday; los lunes = every Monday", "A1::topics A1::horario"),
+    vocab("My first class starts at a quarter past eight.", "Mi primera clase empieza a las ocho y cuarto.", "empezar: e &rarr; ie &middot; y cuarto = quarter past", "A1::topics A1::horario"),
+    vocab("How many minutes is one lesson?", "¿Cuántos minutos dura una clase?", "durar = to last, the natural verb here - Spanish asks how long a class lasts, not how many minutes it is", "A1::topics A1::horario"),
+    vocab("Each class lasts fifty minutes.", "Cada clase dura cincuenta minutos.", "cada + singular noun, never cada clases", "A1::topics A1::horario"),
+    vocab("Which subjects do you have this year?", "¿Qué asignaturas tienes este año?", "qué + noun for which &middot; este año = this year", "A1::topics A1::horario"),
+    vocab("How many Spanish classes do you have a week?", "¿Cuántas clases de español tienes a la semana?", "cuántas agrees with clases &middot; a la semana = per week (por semana works too)", "A1::topics A1::horario"),
+    vocab("I have three Spanish classes a week.", "Tengo tres clases de español a la semana.", "clase de + subject, and the subject stays lowercase", "A1::topics A1::horario"),
+    vocab("Which subject is your favourite?", "¿Cuál es tu asignatura favorita?", "cuál + ser to pick one out of a set &middot; ¿qué asignatura...? also works", "A1::topics A1::horario"),
+    vocab("My favourite subject is history.", "Mi asignatura favorita es la historia.", "the subject keeps its article after es: la historia", "A1::topics A1::horario"),
+    vocab("What time do you usually finish?", "¿A qué hora terminas normalmente?", "terminar = to finish (acabar works the same) &middot; normalmente sits after the verb", "A1::topics A1::horario"),
+    vocab("I usually finish at half past two.", "Normalmente termino a las dos y media.", "normalmente can also open the sentence &middot; y media = half past", "A1::topics A1::horario"),
+    vocab("Classes finish at three in the afternoon.", "Las clases terminan a las tres de la tarde.", "de la tarde with a clock time; por la tarde without one", "A1::topics A1::horario"),
 ]
 
 

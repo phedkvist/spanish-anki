@@ -9,6 +9,12 @@ before being listed. Some appear once or twice in an unrelated card — *pasar*
 shows up four times, *quedar* three — but an incidental mention is not the same
 as being drilled, so they stay on the list until they have cards of their own.
 
+**Where the collection stands.** 909 distinct Spanish word forms across the
+decks — roughly 600 headwords once inflections collapse, against a usual A1
+target of 500–600. So size is not the problem. Two things are: 53% of those
+forms appear on exactly one card, and the missing vocabulary clusters into
+whole themes rather than scattering (see *Nouns, by theme* below).
+
 **Frequency comes from** Mark Davies, *A Frequency Dictionary of Spanish*
 (Routledge, 2nd ed.), built on a 100M-word corpus. Two facts from it shape the
 order below: the twelve most frequent verbs are all irregular, and the most
@@ -83,6 +89,84 @@ Sentence glue: cheap to learn, and they make short sentences sound like speech.
 
 ---
 
+## Nouns, by theme
+
+Measured against a 191-word A1 thematic list: **154 covered (80%)**, and the
+37 below missing. Family, house and places came back fully covered, so these
+are the genuine holes rather than a general thinness.
+
+Best added as blocks of ten rather than as a word list, so each noun arrives in
+a sentence with its article attached — that's what makes the gender stick.
+
+### The body — 8/14 · the biggest hole
+
+`A1::salud` teaches *me duele la cabeza* but stops at the head.
+
+- [ ] **el cuerpo** — body
+- [ ] **el ojo** — eye · *me duelen los ojos*
+- [ ] **el brazo** — arm
+- [ ] **la pierna** — leg
+- [ ] **la espalda** — back
+- [ ] **la medicina** — medicine
+
+### Weather and nature — 8/15 · the second hole
+
+`A1::clima` has the *hace* expressions but almost none of the nouns.
+
+- [ ] **la lluvia** — rain · *está lloviendo*
+- [ ] **la nieve** — snow · *está nevando*
+- [ ] **la nube** — cloud · *está nublado*
+- [ ] **la montaña** — mountain
+- [ ] **el río** — river
+- [ ] **el árbol** — tree
+- [ ] **la flor** — flower
+
+### Food and shopping — 20/26
+
+- [ ] **la manzana** — apple
+- [ ] **la naranja** — orange
+- [ ] **la patata** — potato (*la papa* in Latin America)
+- [ ] **la ensalada** — salad
+- [ ] **el azúcar** — sugar
+- [ ] **el aceite** — oil · *el aceite de oliva*
+
+### Seasons — 17/20
+
+Months and days are covered; the seasons aren't.
+
+- [ ] **el invierno** — winter
+- [ ] **la primavera** — spring
+- [ ] **el otoño** — autumn
+
+### Clothes — 8/11
+
+- [ ] **el pantalón / los pantalones** — trousers, usually plural
+- [ ] **la falda** — skirt
+- [ ] **el vestido** — dress
+
+### School and work — 12/16
+
+- [ ] **los deberes** — homework · plural, pairs with `A1::asignaturas`
+- [ ] **el cuaderno** — notebook
+- [ ] **el bolígrafo** — pen (*el boli* in speech)
+- [ ] **el sueldo** — salary
+
+### Abstract everyday nouns — 14/19
+
+- [ ] **la vida** — life
+- [ ] **el mundo** — world
+- [ ] **el precio** — price
+- [ ] **la manera** — way · *de esta manera*
+- [ ] **el ejemplo** — example · *por ejemplo*
+
+### City and transport — 28/31
+
+- [ ] **la universidad** — university
+- [ ] **el museo** — museum
+- [ ] **la bicicleta** — bicycle · *ir en bici*
+
+---
+
 ## How to use this
 
 When a block is being written — because a course lesson landed, or a gap turned
@@ -92,10 +176,12 @@ over.
 
 Order to spend on, if there's no other signal:
 
-1. The five top-frequency verbs — highest frequency, most idiomatic
-2. Adjectives for people — the thinnest area, and immediately usable in conversation
-3. Connectors — they make what you can already say sound less like a textbook
-4. The everyday verbs — useful, but regular and easier to absorb from input
+1. The body and weather/nature nouns — whole themes missing, and both are
+   standard A1 units that a course will reach
+2. The five top-frequency verbs — highest frequency, most idiomatic
+3. Adjectives for people — the thinnest word class, and immediately usable
+4. Connectors — they make what you can already say sound less like a textbook
+5. The everyday verbs — useful, but regular and easier to absorb from input
 
 See `CONTENT.MD` for grammar blocks queued by course order. This file is about
 vocabulary; that one is about structures.

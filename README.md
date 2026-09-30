@@ -6,6 +6,7 @@
 build_anki.py        one source of truth for every card; run it to rebuild
 CONTENT.MD           what's covered, and what to add when the course gets there
 LANGUAGE_TRANSFER.MD checklist for the 90-track Complete Spanish audio course
+WORDBANK.MD          words the collection is missing, to pull from when adding cards
 decks/               the .tsv files you import into Anki
 notetypes/           the two note types: fields, templates, styling
 posters/             wall charts: .html source next to its .pdf and .png

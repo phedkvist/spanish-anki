@@ -89,6 +89,10 @@ Ordered by how soon they're likely to come up.
 Later (B1): subjunctive, object pronoun combinations beyond *se lo*, passive
 and impersonal *se*.
 
+See `WORDBANK.MD` for the vocabulary queue — verbs and words the collection is
+missing, to pull from whenever a new block is written. This file is structures;
+that one is words.
+
 ---
 
 ## Not needed

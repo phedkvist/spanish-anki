@@ -22,6 +22,7 @@ Requires Anki running with the AnkiConnect add-on (code 2055492159).
 """
 import argparse
 import glob
+import html
 import json
 import os
 import sys
@@ -90,6 +91,16 @@ def call(action, **params):
     return res["result"]
 
 
+def key(front):
+    """Match on the front with entities decoded.
+
+    Editing a note in Anki rewrites &rarr; as a literal arrow, so a card
+    edited during review would otherwise stop matching its row and be added
+    a second time.
+    """
+    return html.unescape(front).strip()
+
+
 def read_decks():
     """Every row of every .tsv, keyed by Front."""
     cards = {}
@@ -101,7 +112,7 @@ def read_decks():
             if line.startswith("#") or "\t" not in line:
                 continue
             front, back, note, tags = line.rstrip("\n").split("\t")
-            cards[front] = {"back": back, "note": note,
+            cards[key(front)] = {"front": front, "back": back, "note": note,
                             "tags": tags.split(), "notetype": notetype,
                             "file": os.path.basename(path)}
     return cards
@@ -131,6 +142,12 @@ def ensure_models(dry):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--add-missing", metavar="DECK",
+                    help="also add cards that aren't in the collection yet, "
+                         "into this deck")
+    ap.add_argument("--skip-level", default="A2",
+                    help="don't add cards tagged with this level "
+                         "(default: A2; pass none to add everything)")
     args = ap.parse_args()
     dry = args.dry_run
     if dry:
@@ -149,8 +166,8 @@ def main():
     by_front = {}
     for n in info:
         fields = n["fields"]
-        first = next(iter(fields.values()))["value"]
-        by_front[first] = n
+        first = fields.get("Front", next(iter(fields.values())))["value"]
+        by_front[key(first)] = n
     print(f"  {len(info)} notes, {len(by_front)} distinct first fields")
 
     convert, update, missing = [], [], []
@@ -193,9 +210,27 @@ def main():
         })
     print(f"rewrote {len(update)} notes' fields")
 
-    if missing:
-        print(f"\n{len(missing)} cards still need a home deck - tell Claude which "
-              "deck each file should go to and they can be added.")
+    if missing and not args.add_missing:
+        print(f"\n{len(missing)} cards are not in the collection - pass "
+              "--add-missing DECK to add them.")
+    elif missing:
+        skip = args.skip_level if args.skip_level != "none" else None
+        to_add = [f for f in missing
+                  if not (skip and any(t.startswith(skip + "::") for t in cards[f]["tags"]))]
+        held = len(missing) - len(to_add)
+        notes = [{"deckName": args.add_missing,
+                  "modelName": cards[f]["notetype"],
+                  "fields": {"Front": cards[f]["front"], "Back": cards[f]["back"],
+                             "Note": cards[f]["note"]},
+                  "tags": cards[f]["tags"],
+                  "options": {"allowDuplicate": False}}
+                 for f in to_add]
+        added = call("addNotes", notes=notes)
+        ok = sum(1 for a in added if a)
+        print(f"\nadded {ok} cards to '{args.add_missing}'"
+              + (f", held back {held} tagged {skip}" if held else ""))
+        if ok != len(notes):
+            print(f"  {len(notes) - ok} were refused (duplicate first field)")
 
 
 if __name__ == "__main__":

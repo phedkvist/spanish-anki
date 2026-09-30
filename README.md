@@ -27,11 +27,11 @@ English explanation after it. See `notetypes/`.
 |---|---|---|---|
 | `spanish_A1_verbs_anki.tsv` | 169 | 2. Verb drills | fill-in-the-blank + EN→ES |
 | `spanish_A1_vocab_anki.tsv` | 201 | 1. Core vocabulary | **EN → ES** (production) |
-| `spanish_A1_grammar_anki.tsv` | 135 | 3. Transformations | instruction → ES |
+| `spanish_A1_grammar_anki.tsv` | 161 | 3. Transformations | instruction → ES |
 | `spanish_A1_sentences_anki.tsv` | 152 | 4. Understand the sentence | **ES → EN** + breakdown |
-| `spanish_A1_topics_anki.tsv` | 149 | 1. Core vocabulary (topic sets) | **EN → ES** (production) |
+| `spanish_A1_topics_anki.tsv` | 155 | 1. Core vocabulary (topic sets) | **EN → ES** (production) |
 | `spanish_A2_pasado_anki.tsv` | 79 | 2. Verb drills (pretérito) | fill-in-the-blank + EN→ES |
-| | **885** | | |
+| | **917** | | |
 
 `spanish_A1_topics_anki.tsv` is fourteen themed blocks, meant to be
 imported as one batch: `A1::clima` (weather), `A1::numeros-100` (0–100),
@@ -67,7 +67,7 @@ A1::vocab      A1::numeros A1::tiempo A1::familia A1::comida A1::casa
                A1::trabajo A1::viajes A1::ocio A1::adjetivos A1::verbos
 A1::grammar    A1::persona A1::negacion A1::preguntas A1::genero
                A1::ser-estar A1::hay-estar A1::gustar A1::perifrasis
-               A1::determinantes A1::reflexivos A1::cantidad
+               A1::determinantes A1::reflexivos A1::cantidad A1::perfecto
 A1::topics     A1::clima A1::numeros-100 A1::numeros-grandes
                A1::hora A1::cafe A1::expresiones-tiempo
                A1::asignaturas A1::gustar-personas A1::fechas

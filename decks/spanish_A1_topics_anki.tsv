@@ -107,6 +107,12 @@ I give him the book.	Le doy el libro.	le is for the person receiving it	A1::topi
 I give it to him.	Se lo doy.	le + lo is impossible, so le becomes se: se lo doy	A1::topics A1::pronombres-objeto
 They invite us to the party.	Nos invitan a la fiesta.	nos = us	A1::topics A1::pronombres-objeto
 I'm listening to you.	Te escucho.	escuchar takes the object directly: no a, no to	A1::topics A1::pronombres-objeto
+I always tell her the truth.	Siempre le digo la verdad.	le = to her &middot; decir takes the person as le, the thing as the object	A1::topics A1::pronombres-objeto
+The teacher explains the lesson to us.	El profesor nos explica la lección.	nos = to us &middot; explicar works like decir	A1::topics A1::pronombres-objeto
+I'm buying you a present.	Te compro un regalo.	te = for you &middot; Spanish needs no word for for here	A1::topics A1::pronombres-objeto
+She writes to them every week.	Les escribe todas las semanas.	les = to them, even though the people aren't named	A1::topics A1::pronombres-objeto
+Can you lend me ten euros?	¿Me prestas diez euros?	prestar = to lend &middot; me = to me	A1::topics A1::pronombres-objeto
+My parents send us money.	Mis padres nos mandan dinero.	mandar / enviar = to send	A1::topics A1::pronombres-objeto
 The book is on the table.	El libro está encima de la mesa.	encima de = on top of &middot; sobre la mesa works too	A1::topics A1::lugar
 The cat is under the chair.	El gato está debajo de la silla.	debajo de = under	A1::topics A1::lugar
 The pharmacy is next to the bank.	La farmacia está al lado del banco.	al lado de + el &rarr; del	A1::topics A1::lugar

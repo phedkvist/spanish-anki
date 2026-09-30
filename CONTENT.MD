@@ -31,7 +31,8 @@ and the filename, never in a separate deck, so reviews stay mixed.
 | Articles, possessives, demonstratives, al / del | `A1::determinantes` | 10 |
 | Reflexive verbs | `A1::reflexivos` | 8 |
 | muy / mucho, comparatives | `A1::cantidad` | 10 |
-| Object pronouns lo / la / los / las / me / te / nos | `A1::pronombres-objeto` | 15 |
+| Object pronouns lo / la / los / las / me / te / le / nos / les | `A1::pronombres-objeto` | 21 |
+| **Pretérito perfecto** (he comido, ¿has visto?) | `A1::perfecto` | 26 |
 
 ### Vocabulary and topics
 
@@ -71,20 +72,19 @@ Ordered by how soon they're likely to come up.
 
 | # | Block | Tag | Cards | What it covers |
 |---|---|---|---|---|
-| 1 | **Pretérito perfecto** | `A1::perfecto` | ~20 | *he comido, ¿has visto?, hemos llegado* — with hoy / esta semana / ya / todavía no. In Spain this is the everyday past for anything recent, so it usually lands before the indefinido. **The biggest A1 gap.** |
-| 2 | **estar + gerundio** | `A1::gerundio` | ~10 | *estoy trabajando*, and the trap: Spanish uses the plain present where English uses -ing (*mañana voy*, not *estoy yendo*). |
-| 3 | **Imperative (affirmative tú)** | `A1::imperativo` | ~10 | *perdona, oye, mira, dime, toma, ven* — the handful of forms you need to get someone's attention politely. |
-| 4 | **por vs para** | `A1::por-para` | ~15 | Only incidental coverage now. A top-five confusion for English speakers. |
-| 5 | **Noun gender drills** | `A1::genero-nombres` | ~30 | *la mesa, el problema, la mano* — only if agreement is still shaky. Currently gender is absorbed from sentences, which is slow. |
+| 1 | **estar + gerundio** | `A1::gerundio` | ~10 | *estoy trabajando*, and the trap: Spanish uses the plain present where English uses -ing (*mañana voy*, not *estoy yendo*). |
+| 2 | **Imperative (affirmative tú)** | `A1::imperativo` | ~10 | *perdona, oye, mira, dime, toma, ven* — the handful of forms you need to get someone's attention politely. |
+| 3 | **por vs para** | `A1::por-para` | ~15 | Only incidental coverage now. A top-five confusion for English speakers. |
+| 4 | **Noun gender drills** | `A1::genero-nombres` | ~30 | *la mesa, el problema, la mano* — only if agreement is still shaky. Currently gender is absorbed from sentences, which is slow. |
 
 ## Add when the course gets there — A2
 
 | # | Block | Tag | Cards | What it covers |
 |---|---|---|---|---|
-| 6 | **Imperfecto** | `A2::imperfecto` | ~20 | *era, tenía, había, estaba* — only three irregulars in the whole tense (ser, ir, ver). |
-| 7 | **Indefinido vs imperfecto** | `A2::pasados` | ~20 | *fue* vs *era*, *tuve* vs *tenía*. The central A2 decision, and it needs block 6 first. |
-| 8 | **Futuro simple** | `A2::futuro` | ~15 | *hablaré, tendré, habrá*. The poster exists already; the cards don't. |
-| 9 | **Condicional** | `A2::condicional` | ~10 | *me gustaría, ¿podrías?, querría* — mostly politeness, immediately usable. |
+| 5 | **Imperfecto** | `A2::imperfecto` | ~20 | *era, tenía, había, estaba* — only three irregulars in the whole tense (ser, ir, ver). |
+| 6 | **Indefinido vs imperfecto** | `A2::pasados` | ~20 | *fue* vs *era*, *tuve* vs *tenía*. The central A2 decision, and it needs block 5 first. |
+| 7 | **Futuro simple** | `A2::futuro` | ~15 | *hablaré, tendré, habrá*. The poster exists already; the cards don't. |
+| 8 | **Condicional** | `A2::condicional` | ~10 | *me gustaría, ¿podrías?, querría* — mostly politeness, immediately usable. |
 
 Later (B1): subjunctive, object pronoun combinations beyond *se lo*, passive
 and impersonal *se*.

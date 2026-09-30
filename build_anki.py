@@ -768,6 +768,37 @@ GRAMMAR = [
     grammar("Translate: <b>It's the best restaurant.</b>", "Es el mejor restaurante.", "el mejor = the best", "A1::grammar A1::cantidad"),
     grammar("Translate: <b>too much coffee</b>", "demasiado café", "demasiado = too much", "A1::grammar A1::cantidad"),
     grammar("Translate: <b>a little bread</b>", "un poco de pan", "un poco de + noun", "A1::grammar A1::cantidad"),
+
+    # ---- pretérito perfecto: he / has / ha + participle -------------------
+    grammar("Hoy ___ comido en casa. <b>(haber — yo)</b>", "he", "Today I've eaten at home &middot; he + participle, and nothing may come between them", "A1::grammar A1::perfecto"),
+    grammar("¿___ visto esta película? <b>(haber — tú)</b>", "Has", "Have you seen this film? &middot; has visto", "A1::grammar A1::perfecto"),
+    grammar("Esta mañana ___ llegado tarde. <b>(haber — nosotros)</b>", "hemos", "This morning we arrived late &middot; esta mañana is still today, so the perfecto", "A1::grammar A1::perfecto"),
+    grammar("Mis padres ___ llamado dos veces. <b>(haber)</b>", "han", "My parents have called twice", "A1::grammar A1::perfecto"),
+    grammar("¿___ estado alguna vez en México? <b>(haber — vosotros)</b>", "Habéis", "Have you all ever been to Mexico? &middot; alguna vez = ever", "A1::grammar A1::perfecto"),
+
+    grammar("hablar &rarr; <b>participio</b>", "hablado", "-ar verbs take -ado", "A1::grammar A1::perfecto"),
+    grammar("comer &rarr; <b>participio</b>", "comido", "-er and -ir verbs take -ido", "A1::grammar A1::perfecto"),
+    grammar("vivir &rarr; <b>participio</b>", "vivido", "-ir behaves like -er here: vivido", "A1::grammar A1::perfecto"),
+    grammar("ver &rarr; <b>participio</b>", "visto", "irregular &middot; he visto", "A1::grammar A1::perfecto"),
+    grammar("hacer &rarr; <b>participio</b>", "hecho", "irregular &middot; ¿qué has hecho?", "A1::grammar A1::perfecto"),
+    grammar("decir &rarr; <b>participio</b>", "dicho", "irregular &middot; me ha dicho que sí", "A1::grammar A1::perfecto"),
+    grammar("escribir &rarr; <b>participio</b>", "escrito", "irregular &middot; he escrito una carta", "A1::grammar A1::perfecto"),
+    grammar("poner &rarr; <b>participio</b>", "puesto", "irregular &middot; he puesto la mesa", "A1::grammar A1::perfecto"),
+    grammar("volver &rarr; <b>participio</b>", "vuelto", "irregular &middot; ha vuelto a casa", "A1::grammar A1::perfecto"),
+    grammar("abrir &rarr; <b>participio</b>", "abierto", "irregular &middot; han abierto la tienda", "A1::grammar A1::perfecto"),
+
+    grammar("Ella ha ___ la carta. <b>(escribir)</b>", "escrito", "She has written the letter &middot; the participle never agrees here: escrito, not escrita", "A1::grammar A1::perfecto"),
+    grammar("Ayer comí paella. &rarr; <b>hoy</b>", "Hoy he comido paella.", "ayer takes the indefinido, hoy takes the perfecto - in Spain the day you're still in uses he comido", "A1::grammar A1::perfecto"),
+    grammar("He comido. &rarr; <b>negativo</b>", "No he comido.", "no goes before haber, never between haber and the participle", "A1::grammar A1::perfecto"),
+    grammar("Me levanto a las siete. &rarr; <b>pretérito perfecto</b>", "Me he levantado a las siete.", "the reflexive pronoun sits in front of haber", "A1::grammar A1::perfecto"),
+    grammar("Lo veo. &rarr; <b>pretérito perfecto</b>", "Lo he visto.", "object pronouns also go in front of haber: lo he visto", "A1::grammar A1::perfecto"),
+
+    grammar("Translate: <b>I've already finished.</b>", "Ya he terminado.", "ya = already, and it usually comes first", "A1::grammar A1::perfecto"),
+    grammar("Translate: <b>I haven't eaten yet.</b>", "Todavía no he comido.", "todavía no = not yet &middot; aún no works the same", "A1::grammar A1::perfecto"),
+    grammar("Translate: <b>Have you ever been to Spain?</b>", "¿Has estado alguna vez en España?", "alguna vez = ever &middot; estar, not ir, for having been somewhere", "A1::grammar A1::perfecto"),
+    grammar("Translate: <b>This week we have worked a lot.</b>", "Esta semana hemos trabajado mucho.", "esta semana is unfinished time &rarr; perfecto", "A1::grammar A1::perfecto"),
+    grammar("Translate: <b>What have you done today?</b>", "¿Qué has hecho hoy?", "the everyday question in Spain, and the reason hecho is worth knowing cold", "A1::grammar A1::perfecto"),
+    grammar("Translate: <b>She has never been to Madrid.</b>", "Nunca ha estado en Madrid.", "nunca before the verb needs no second no", "A1::grammar A1::perfecto"),
 ]
 
 
@@ -1075,6 +1106,12 @@ TOPICS = [
     vocab("I give it to him.", "Se lo doy.", "le + lo is impossible, so le becomes se: se lo doy", "A1::topics A1::pronombres-objeto"),
     vocab("They invite us to the party.", "Nos invitan a la fiesta.", "nos = us", "A1::topics A1::pronombres-objeto"),
     vocab("I'm listening to you.", "Te escucho.", "escuchar takes the object directly: no a, no to", "A1::topics A1::pronombres-objeto"),
+    vocab("I always tell her the truth.", "Siempre le digo la verdad.", "le = to her &middot; decir takes the person as le, the thing as the object", "A1::topics A1::pronombres-objeto"),
+    vocab("The teacher explains the lesson to us.", "El profesor nos explica la lección.", "nos = to us &middot; explicar works like decir", "A1::topics A1::pronombres-objeto"),
+    vocab("I'm buying you a present.", "Te compro un regalo.", "te = for you &middot; Spanish needs no word for for here", "A1::topics A1::pronombres-objeto"),
+    vocab("She writes to them every week.", "Les escribe todas las semanas.", "les = to them, even though the people aren't named", "A1::topics A1::pronombres-objeto"),
+    vocab("Can you lend me ten euros?", "¿Me prestas diez euros?", "prestar = to lend &middot; me = to me", "A1::topics A1::pronombres-objeto"),
+    vocab("My parents send us money.", "Mis padres nos mandan dinero.", "mandar / enviar = to send", "A1::topics A1::pronombres-objeto"),
 
     # ---- where things are -------------------------------------------------
     vocab("The book is on the table.", "El libro está encima de la mesa.", "encima de = on top of &middot; sobre la mesa works too", "A1::topics A1::lugar"),

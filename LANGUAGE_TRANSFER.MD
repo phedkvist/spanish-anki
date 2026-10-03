@@ -28,10 +28,10 @@ than any summary, and it shows which blocks the deck still needs.
 - [x] **2** [▶ 8:00](https://youtu.be/qP8YV5Dh250) — Latin cognates, vowel sounds, `es`, words ending `-al`
 - [x] **3** [▶ 6:17](https://youtu.be/WBGAC6wTcRc) — `-ant/-ent` → `-e`, `-mente` adverbs, the `j` sound, `-able/-ible`
 - [x] **4** [▶ 8:30](https://youtu.be/z-PlstP09ek) — `quiero`, negation, `-ción` nouns and stress, reflexive `me`
-- [ ] **5** [▶ 9:26](https://youtu.be/ZXJW3iIFxpM) — `yo` for emphasis, object pronouns `te` and `lo`, `-encia/-ancia`
-- [ ] **6** [▶ 7:06](https://youtu.be/BoIOy-k82cM) — `intento`, silent `h`, `ahora`, `voy`, how `v` is pronounced
-- [ ] **7** [▶ 10:16](https://youtu.be/t7hyqp3mfdw) — `voy a` + infinitive, "it", `algo`, movement verbs taking `a`
-- [ ] **8** [▶ 7:34](https://youtu.be/RqT515476Mc)
+- [x] **5** [▶ 9:26](https://youtu.be/ZXJW3iIFxpM) — `yo` for emphasis, object pronouns `te` and `lo`, `-encia/-ancia`
+- [x] **6** [▶ 7:06](https://youtu.be/BoIOy-k82cM) — `intento`, silent `h`, `ahora`, `voy`, how `v` is pronounced
+- [x] **7** [▶ 10:16](https://youtu.be/t7hyqp3mfdw) — `voy a` + infinitive, "it", `algo`, movement verbs taking `a`
+- [x] **8** [▶ 7:34](https://youtu.be/RqT515476Mc)
 - [ ] **9** [▶ 9:11](https://youtu.be/xh-LtZuh0mc)
 - [ ] **10** [▶ 12:29](https://youtu.be/mPP_8p6GzPg)
 

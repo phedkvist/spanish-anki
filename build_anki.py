@@ -823,6 +823,7 @@ GRAMMAR = [
     grammar("Translate: <b>This week we have worked a lot.</b>", "Esta semana hemos trabajado mucho.", "esta semana is unfinished time &rarr; perfecto", "A1::grammar A1::perfecto"),
     grammar("Translate: <b>What have you done today?</b>", "¿Qué has hecho hoy?", "the everyday question in Spain, and the reason hecho is worth knowing cold", "A1::grammar A1::perfecto"),
     grammar("Translate: <b>She has never been to Madrid.</b>", "Nunca ha estado en Madrid.", "nunca before the verb needs no second no", "A1::grammar A1::perfecto"),
+    grammar("Translate: <b>Today I played padel at lunchtime.</b>", "Hoy he jugado al pádel a la hora de comer.", "hoy &rarr; perfecto, not jugué &middot; jugar al + sport &middot; in Spain lunch is la comida, so la hora de comer; el almuerzo is mostly Latin America", "A1::grammar A1::perfecto"),
 ]
 
 
@@ -1174,6 +1175,10 @@ TOPICS = [
     vocab("The black trousers are on the bed.", "Los pantalones negros están encima de la cama.", "pantalones is plural in Spanish &rarr; negros", "A1::topics A1::colores"),
     vocab("My favourite colour is yellow.", "Mi color favorito es el amarillo.", "a colour on its own takes el: el amarillo", "A1::topics A1::colores"),
     vocab("What colour is your car?", "¿De qué color es tu coche?", "de qué color, with de", "A1::topics A1::colores"),
+
+    # ---- colloquial Spain ------------------------------------------------
+    vocab("He drives like a maniac.", "Va hecho un fitipaldi.", "from Emerson Fittipaldi, F1 champion in 1972 and 1974, spelt the Spanish way with one t &middot; someone who goes fast, happily and a bit madly - it's affectionate, not a warning", "A1::topics A1::coloquial"),
+    vocab("Slow down, you're not a racing driver!", "¡Más despacio, que no eres fitipaldi!", "que opens a friendly reproach and barely translates &middot; más despacio = slower", "A1::topics A1::coloquial"),
 
     # ---- the school timetable: asking and answering ----------------------
     vocab("What time do you start your first class on Monday?", "¿A qué hora empiezas la primera clase el lunes?", "a qué hora = at what time &middot; el lunes = this coming Monday; los lunes = every Monday", "A1::topics A1::horario"),

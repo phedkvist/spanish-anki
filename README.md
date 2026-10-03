@@ -29,11 +29,11 @@ English explanation after it. See `notetypes/`.
 |---|---|---|---|
 | `spanish_A1_verbs_anki.tsv` | 188 | 2. Verb drills | fill-in-the-blank + EN→ES |
 | `spanish_A1_vocab_anki.tsv` | 201 | 1. Core vocabulary | **EN → ES** (production) |
-| `spanish_A1_grammar_anki.tsv` | 161 | 3. Transformations | instruction → ES |
+| `spanish_A1_grammar_anki.tsv` | 162 | 3. Transformations | instruction → ES |
 | `spanish_A1_sentences_anki.tsv` | 152 | 4. Understand the sentence | **ES → EN** + breakdown |
-| `spanish_A1_topics_anki.tsv` | 155 | 1. Core vocabulary (topic sets) | **EN → ES** (production) |
+| `spanish_A1_topics_anki.tsv` | 157 | 1. Core vocabulary (topic sets) | **EN → ES** (production) |
 | `spanish_A2_pasado_anki.tsv` | 79 | 2. Verb drills (pretérito) | fill-in-the-blank + EN→ES |
-| | **936** | | |
+| | **939** | | |
 
 `spanish_A1_topics_anki.tsv` is fourteen themed blocks, meant to be
 imported as one batch: `A1::clima` (weather), `A1::numeros-100` (0–100),
@@ -74,7 +74,7 @@ A1::topics     A1::clima A1::numeros-100 A1::numeros-grandes
                A1::hora A1::cafe A1::expresiones-tiempo
                A1::asignaturas A1::gustar-personas A1::fechas
                A1::pronombres-objeto A1::lugar A1::salud A1::colores
-               A1::horario
+               A1::horario A1::coloquial
 A1::sentences  A1::saludos A1::opiniones A1::rutina A1::compras
                A1::restaurante A1::viajes A1::salud A1::clase
                A1::planes A1::practico A1::movil A1::expresiones

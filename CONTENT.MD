@@ -50,6 +50,7 @@ and the filename, never in a separate deck, so reviews stay mixed.
 | Health (me duele …) | `A1::salud` | 10 |
 | Colours | `A1::colores` | 10 |
 | School timetable (asking and answering) | `A1::horario` | 12 |
+| Colloquial Spain (fitipaldi…) | `A1::coloquial` | 2 |
 
 Plus the broader vocabulary deck (201 cards): family, house, food, clothes,
 transport, places in town, work, travel, shopping, hobbies, adjectives — and

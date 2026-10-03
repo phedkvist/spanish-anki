@@ -163,3 +163,4 @@ Translate: <b>Have you ever been to Spain?</b>	¿Has estado alguna vez en Españ
 Translate: <b>This week we have worked a lot.</b>	Esta semana hemos trabajado mucho.	esta semana is unfinished time &rarr; perfecto	A1::grammar A1::perfecto
 Translate: <b>What have you done today?</b>	¿Qué has hecho hoy?	the everyday question in Spain, and the reason hecho is worth knowing cold	A1::grammar A1::perfecto
 Translate: <b>She has never been to Madrid.</b>	Nunca ha estado en Madrid.	nunca before the verb needs no second no	A1::grammar A1::perfecto
+Translate: <b>Today I played padel at lunchtime.</b>	Hoy he jugado al pádel a la hora de comer.	hoy &rarr; perfecto, not jugué &middot; jugar al + sport &middot; in Spain lunch is la comida, so la hora de comer; el almuerzo is mostly Latin America	A1::grammar A1::perfecto

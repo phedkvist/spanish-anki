@@ -80,6 +80,37 @@
     color:var(--muted);
   }
 
+
+  /* how the tense is built, worked through once per verb class */
+  .hero{
+    background:var(--navy);
+    color:#fff;
+    padding:3.4mm 12mm 4mm;
+  }
+  .hero-label{
+    font-size:6.8pt; font-weight:500; letter-spacing:0.4pt;
+    text-transform:uppercase; color:#95a0bd;
+  }
+  .hero-label b{ color:var(--orange); font-weight:700; }
+  .hero-cols{
+    margin-top:2.6mm;
+    display:grid; grid-template-columns:repeat(3,1fr); gap:0 7mm;
+  }
+  .hcol .step{
+    font-size:10.5pt; font-weight:700; letter-spacing:-0.2pt; white-space:nowrap;
+  }
+  .hcol .step b{ color:var(--orange); font-weight:700; }
+  .hcol .step i{ font-style:normal; color:#95a0bd; font-weight:500; }
+  .hcol .ends{
+    margin-top:1.4mm;
+    font-size:7.4pt; line-height:1.5; color:#fff; font-weight:500;
+  }
+  .hcol .ends b{ color:var(--orange); font-weight:700; }
+  .hcol .eg{
+    margin-top:1mm; font-size:6.6pt; color:#95a0bd; line-height:1.4;
+  }
+  .hcol .eg i{ color:#fff; font-style:normal; font-weight:600; }
+
   main{ flex:1; display:flex; flex-direction:column; }
   .band{
     flex:1;
@@ -149,6 +180,26 @@
   </div>
 </header>
   
+  <div class="hero">
+  <div class="hero-label">How to build it &mdash; keep the <b>whole infinitive</b> and add the ending</div>
+  <div class="hero-cols">
+    <div class="hcol">
+      <div class="step">hablar + <b>é</b> &rarr; hablar<b>é</b></div>
+      <div class="ends">comer + <b>é</b> &rarr; comer<b>é</b><br>vivir + <b>é</b> &rarr; vivir<b>é</b></div>
+      <div class="eg">nothing is cut off &middot; the <b>-r</b> of the infinitive always survives</div>
+    </div>
+    <div class="hcol">
+      <div class="step">one set for all three</div>
+      <div class="ends">+ <b>é&nbsp; ás&nbsp; á&nbsp; emos&nbsp; éis&nbsp; án</b></div>
+      <div class="eg"><i>hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán</i></div>
+    </div>
+    <div class="hcol">
+      <div class="step">ten verbs shorten first</div>
+      <div class="ends">tener &rarr; <b>tendr-</b> &middot; hacer &rarr; <b>har-</b><br>decir &rarr; <b>dir-</b> &middot; salir &rarr; <b>saldr-</b></div>
+      <div class="eg">marked in orange below &middot; the endings never change: <i>tendré, haré</i></div>
+    </div>
+  </div>
+</div>
   <main class="grid" id="g1"></main>
   <footer>
   <div class="note">
@@ -270,7 +321,7 @@ for (let r = 0; r < 10; r++) {
     band.insertAdjacentHTML('beforeend',
       `<div class="verb"><h2>${inf}</h2><div class="en">${gloss}</div><table>${rows}</table></div>`);
   }
-  grids[r < 5 ? 0 : 1].appendChild(band);
+  grids[r < 4 ? 0 : 1].appendChild(band);
 }
 </script>
 </body>

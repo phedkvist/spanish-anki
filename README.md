@@ -142,7 +142,7 @@ meant 5.9pt tables, which is too small to read off a wall:
 | File | Tense | Structure |
 |---|---|---|
 | `posters/poster.pdf` / `.png` | present indicative | 50 conjugation tables, 2 pages |
-| `posters/poster-futuro.pdf` / `.png` | futuro simple | 50 conjugation tables, 2 pages |
+| `posters/poster-futuro.pdf` / `.png` | futuro simple | 50 conjugation tables + a worked build-up, 2 pages |
 | `posters/poster-futuro-proximo.pdf` / `.png` | futuro próximo | `ir` conjugated once + 50 example sentences, 2 pages |
 | `posters/poster-pasado.pdf` / `.png` | pretérito indefinido | 50 conjugation tables + a worked -ar/-er/-ir example, 2 pages |
 | `posters/poster-pronombres.pdf` / `.png` | — | articles and pronouns: el/los, me/nos/le, lo/la, se |

@@ -3,6 +3,7 @@
 `CONTENT.MD` tracks what's covered and what to add when your course reaches it.
 
 ```
+CLAUDE.md            house style for writing cards (read by Claude Code)
 build_anki.py        one source of truth for every card; run it to rebuild
 CONTENT.MD           what's covered, and what to add when the course gets there
 LANGUAGE_TRANSFER.MD checklist for the 90-track Complete Spanish audio course

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>45 Most Used Spanish Verbs — Future</title>
+<title>50 Most Used Spanish Verbs — Future</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -15,14 +15,20 @@
     --band:#f4f5f8;
   }
   *{ box-sizing:border-box; margin:0; padding:0; }
-  html,body{ width:210mm; height:297mm; overflow:hidden; }
+  html{ width:210mm; }
   body{
+    width:210mm;
     font-family:'Poppins','Helvetica Neue',Arial,sans-serif;
     color:var(--navy);
     background:#fff;
     -webkit-font-smoothing:antialiased;
-    display:flex; flex-direction:column;
   }
+  .page{
+    width:210mm; height:297mm; overflow:hidden;
+    display:flex; flex-direction:column;
+    page-break-after:always; break-after:page;
+  }
+  .page:last-child{ page-break-after:auto; break-after:auto; }
 
   header{
     padding:6.5mm 12mm 3mm;
@@ -54,7 +60,7 @@
     padding:3mm 3.6mm;
   }
   .rule-h{
-    font-size:7pt;
+    font-size:8.3pt;
     font-weight:700;
     text-transform:uppercase;
     letter-spacing:0.6pt;
@@ -84,16 +90,16 @@
   }
   .band.alt{ background:var(--band); }
 
-  .verb{ padding:1mm 3mm 1mm 0; }
+  .verb{ padding:3.2mm 3mm 3.2mm 0; }
   .verb h2{
     font-weight:700;
-    font-size:9.8pt;
+    font-size:11.8pt;
     letter-spacing:-0.3pt;
     line-height:1.1;
   }
   .verb .en{
     font-weight:400;
-    font-size:7pt;
+    font-size:8.3pt;
     color:#4a5165;
     margin-top:0.6mm;
   }
@@ -105,8 +111,8 @@
     margin-top:1mm;
     margin-left:auto;
     border-collapse:collapse;
-    font-size:5.9pt;
-    line-height:1.24;
+    font-size:6.8pt;
+    line-height:1.38;
   }
   td{ padding:0; white-space:nowrap; vertical-align:baseline; }
   td.p{ text-align:right; color:var(--muted); font-weight:400; padding-right:1.1mm; }
@@ -129,10 +135,12 @@
 </style>
 </head>
 <body>
-<header>
+
+<section class="page">
+  <header>
   <div>
-    <h1><span class="num">45</span> Most Used<br>Spanish Verbs</h1>
-    <div class="sub">in the future tense:</div>
+    <h1><span class="num">50</span> Most Used<br>Spanish Verbs</h1>
+    <div class="sub">in the future tense &mdash; part 1 of 2:</div>
   </div>
   <div class="rule">
     <div class="rule-h">The whole tense in one rule</div>
@@ -140,14 +148,38 @@
     <div class="rule-n">The same six endings for <b>-ar</b>, <b>-er</b> and <b>-ir</b> verbs &mdash; no exceptions. You keep the full infinitive and just add them: <i>hablar</i> &rarr; <i>hablaré</i>. Only the ten verbs marked in orange (all in rows 1&ndash;6) swap the infinitive for a short stem first.</div>
   </div>
 </header>
-<main id="grid"></main>
-<footer>
+  
+  <main class="grid" id="g1"></main>
+  <footer>
   <div class="note">
     <b>ser, estar, ir, ver</b> and <b>dar</b> are wildly irregular in the present, but perfectly regular here.<br>
     <b>haber</b>: <i>habrá</i> = there will be. &nbsp;&middot;&nbsp; <b>gustar</b>: <i>me gustará</i> + singular, <i>me gustarán</i> + plural.
   </div>
   <div class="tag">Futuro simple<br><strong>Rows 1–4 = the 20 core A1 verbs</strong></div>
 </footer>
+</section>
+
+<section class="page">
+  <header>
+  <div>
+    <h1><span class="num">50</span> Most Used<br>Spanish Verbs</h1>
+    <div class="sub">in the future tense &mdash; part 2 of 2:</div>
+  </div>
+  <div class="rule">
+    <div class="rule-h">The whole tense in one rule</div>
+    <div class="rule-b">infinitive + <b>é&nbsp; ás&nbsp; á&nbsp; emos&nbsp; éis&nbsp; án</b></div>
+    <div class="rule-n">The same six endings for <b>-ar</b>, <b>-er</b> and <b>-ir</b> verbs &mdash; no exceptions. You keep the full infinitive and just add them: <i>hablar</i> &rarr; <i>hablaré</i>. Only the ten verbs marked in orange (all in rows 1&ndash;6) swap the infinitive for a short stem first.</div>
+  </div>
+</header>
+  <main class="grid" id="g2"></main>
+  <footer>
+  <div class="note">
+    <b>ser, estar, ir, ver</b> and <b>dar</b> are wildly irregular in the present, but perfectly regular here.<br>
+    <b>haber</b>: <i>habrá</i> = there will be. &nbsp;&middot;&nbsp; <b>gustar</b>: <i>me gustará</i> + singular, <i>me gustarán</i> + plural.
+  </div>
+  <div class="tag">Futuro simple<br><strong>Rows 1–4 = the 20 core A1 verbs</strong></div>
+</footer>
+</section>
 
 <script>
 const P = ['yo','tú','él / ella','nosotros','vosotros','ellos'];
@@ -212,11 +244,18 @@ const V = [
  ['Aprender','to learn',null],
  ['Oír','to hear',null],
  ['Seguir','to follow / keep on',null],
- ['Leer','to read',null]
+ ['Leer','to read',null],
+
+ // Row 10: the five most frequent verbs the collection was missing
+ ['Pasar','to happen / spend',null],
+ ['Dejar','to leave / let',null],
+ ['Quedar','to arrange / be left',null],
+ ['Parecer','to seem',null],
+ ['Deber','must / to owe',null]
 ];
 
-const grid = document.getElementById('grid');
-for (let r = 0; r < 9; r++) {
+const grids = [document.getElementById('g1'), document.getElementById('g2')];
+for (let r = 0; r < 10; r++) {
   const band = document.createElement('div');
   band.className = 'band' + (r % 2 === 0 ? ' alt' : '');
   for (let c = 0; c < 5; c++) {
@@ -231,7 +270,7 @@ for (let r = 0; r < 9; r++) {
     band.insertAdjacentHTML('beforeend',
       `<div class="verb"><h2>${inf}</h2><div class="en">${gloss}</div><table>${rows}</table></div>`);
   }
-  grid.appendChild(band);
+  grids[r < 5 ? 0 : 1].appendChild(band);
 }
 </script>
 </body>

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>45 Most Used Spanish Verbs — Near Future</title>
+<title>50 Most Used Spanish Verbs — Near Future</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -15,14 +15,20 @@
     --band:#f4f5f8;
   }
   *{ box-sizing:border-box; margin:0; padding:0; }
-  html,body{ width:210mm; height:297mm; overflow:hidden; }
+  html{ width:210mm; }
   body{
+    width:210mm;
     font-family:'Poppins','Helvetica Neue',Arial,sans-serif;
     color:var(--navy);
     background:#fff;
     -webkit-font-smoothing:antialiased;
-    display:flex; flex-direction:column;
   }
+  .page{
+    width:210mm; height:297mm; overflow:hidden;
+    display:flex; flex-direction:column;
+    page-break-after:always; break-after:page;
+  }
+  .page:last-child{ page-break-after:auto; break-after:auto; }
 
   header{
     padding:6mm 12mm 2.8mm;
@@ -53,7 +59,7 @@
     padding:4mm 4.5mm;
   }
   .rule-h{
-    font-size:7pt; font-weight:700; text-transform:uppercase;
+    font-size:8.3pt; font-weight:700; text-transform:uppercase;
     letter-spacing:0.6pt; color:var(--orange);
   }
   .rule-b{ margin-top:2mm; font-size:11pt; font-weight:500; line-height:1.3; }
@@ -105,25 +111,25 @@
   }
   .band.alt{ background:var(--band); }
 
-  .verb{ padding:1.1mm 3.5mm 1.1mm 0; }
+  .verb{ padding:3.2mm 3.5mm 3.2mm 0; }
   .verb h2{
-    font-weight:700; font-size:9.4pt; letter-spacing:-0.3pt; line-height:1.1;
+    font-weight:700; font-size:11pt; letter-spacing:-0.3pt; line-height:1.1;
   }
   .verb .en{
-    font-weight:400; font-size:6.6pt; color:#4a5165; margin-top:0.4mm;
+    font-weight:400; font-size:7.8pt; color:#4a5165; margin-top:0.5mm;
   }
   .verb .es{
-    margin-top:1.2mm;
-    font-size:6.8pt;
+    margin-top:2.2mm;
+    font-size:8pt;
     font-weight:600;
     line-height:1.35;
   }
   .verb .es b{ color:var(--orange); font-weight:700; }
   .verb .tr{
-    margin-top:0.8mm;
-    font-size:5.7pt;
+    margin-top:1.2mm;
+    font-size:6.6pt;
     font-weight:400;
-    line-height:1.3;
+    line-height:1.4;
     color:var(--muted);
   }
 
@@ -138,10 +144,12 @@
 </style>
 </head>
 <body>
-<header>
+
+<section class="page">
+  <header>
   <div>
-    <h1><span class="num">45</span> Most Used<br>Spanish Verbs</h1>
-    <div class="sub">in the near future:</div>
+    <h1><span class="num">50</span> Most Used<br>Spanish Verbs</h1>
+    <div class="sub">in the near future &mdash; part 1 of 2:</div>
   </div>
   <div class="rule">
     <div class="rule-h">The whole tense in one rule</div>
@@ -149,21 +157,42 @@
     <div class="rule-n">This is how people actually talk about plans &mdash; far more common in speech than the <i>futuro simple</i>. You only ever conjugate <b>ir</b>; the second verb stays in the infinitive and never changes.</div>
   </div>
 </header>
-
-<div class="hero">
+  
+  <div class="hero">
   <div class="hero-label">Conjugate only <b>ir</b> &mdash; then bolt on any infinitive</div>
   <div class="hero-forms" id="hero"></div>
 </div>
-
-<main id="grid"></main>
-
-<footer>
+  <main class="grid" id="g1"></main>
+  <footer>
   <div class="note">
     <b>haber</b> is impersonal here: <i>va a haber</i> = there is going to be &mdash; always singular, even with plurals.<br>
     Object pronouns may sit either side: <i>te voy a decir</i> and <i>voy a decirte</i> are both correct.
   </div>
   <div class="tag">Futuro próximo<br><strong>Rows 1–4 = the 20 core A1 verbs</strong></div>
 </footer>
+</section>
+
+<section class="page">
+  <header>
+  <div>
+    <h1><span class="num">50</span> Most Used<br>Spanish Verbs</h1>
+    <div class="sub">in the near future &mdash; part 2 of 2:</div>
+  </div>
+  <div class="rule">
+    <div class="rule-h">The whole tense in one rule</div>
+    <div class="rule-b"><b>ir</b> + <b>a</b> + infinitive</div>
+    <div class="rule-n">This is how people actually talk about plans &mdash; far more common in speech than the <i>futuro simple</i>. You only ever conjugate <b>ir</b>; the second verb stays in the infinitive and never changes.</div>
+  </div>
+</header>
+  <main class="grid" id="g2"></main>
+  <footer>
+  <div class="note">
+    <b>haber</b> is impersonal here: <i>va a haber</i> = there is going to be &mdash; always singular, even with plurals.<br>
+    Object pronouns may sit either side: <i>te voy a decir</i> and <i>voy a decirte</i> are both correct.
+  </div>
+  <div class="tag">Futuro próximo<br><strong>Rows 1–4 = the 20 core A1 verbs</strong></div>
+</footer>
+</section>
 
 <script>
 const IR = [['yo','voy'],['tú','vas'],['él / ella','va'],
@@ -232,11 +261,18 @@ const V = [
  ['Aprender','to learn','Vas a','aprender mucho aquí.','You’re going to learn a lot here.'],
  ['Oír','to hear','No vas a','oír nada desde aquí.','You’re not going to hear anything from here.'],
  ['Seguir','to keep on','Voy a','seguir estudiando.','I’m going to keep studying.'],
- ['Leer','to read','Voy a','leer este libro.','I’m going to read this book.']
+ ['Leer','to read','Voy a','leer este libro.','I’m going to read this book.'],
+
+ // Row 10: the five most frequent verbs the collection was missing
+ ['Pasar','to spend (time)','Vamos a','pasar el fin de semana en Madrid.','We’re going to spend the weekend in Madrid.'],
+ ['Dejar','to leave / let','Te voy a','dejar las llaves.','I’m going to leave you the keys.'],
+ ['Quedar','to arrange to meet','¿Cuándo vamos a','quedar?','When are we going to meet up?'],
+ ['Parecer','to seem','Te va a','parecer muy fácil.','It’s going to seem very easy to you.'],
+ ['Deber','to owe','No le vas a','deber nada.','You’re not going to owe them anything.']
 ];
 
-const grid = document.getElementById('grid');
-for (let r = 0; r < 9; r++) {
+const grids = [document.getElementById('g1'), document.getElementById('g2')];
+for (let r = 0; r < 10; r++) {
   const band = document.createElement('div');
   band.className = 'band' + (r % 2 === 0 ? ' alt' : '');
   for (let c = 0; c < 5; c++) {
@@ -246,7 +282,7 @@ for (let r = 0; r < 9; r++) {
       `<div class="es"><b>${head}</b> ${rest}</div>` +
       `<div class="tr">${tr}</div></div>`);
   }
-  grid.appendChild(band);
+  grids[r < 5 ? 0 : 1].appendChild(band);
 }
 </script>
 </body>

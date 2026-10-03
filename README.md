@@ -27,13 +27,13 @@ English explanation after it. See `notetypes/`.
 
 | File | Cards | Card type | Direction |
 |---|---|---|---|
-| `spanish_A1_verbs_anki.tsv` | 169 | 2. Verb drills | fill-in-the-blank + EN→ES |
+| `spanish_A1_verbs_anki.tsv` | 188 | 2. Verb drills | fill-in-the-blank + EN→ES |
 | `spanish_A1_vocab_anki.tsv` | 201 | 1. Core vocabulary | **EN → ES** (production) |
 | `spanish_A1_grammar_anki.tsv` | 161 | 3. Transformations | instruction → ES |
 | `spanish_A1_sentences_anki.tsv` | 152 | 4. Understand the sentence | **ES → EN** + breakdown |
 | `spanish_A1_topics_anki.tsv` | 155 | 1. Core vocabulary (topic sets) | **EN → ES** (production) |
 | `spanish_A2_pasado_anki.tsv` | 79 | 2. Verb drills (pretérito) | fill-in-the-blank + EN→ES |
-| | **917** | | |
+| | **936** | | |
 
 `spanish_A1_topics_anki.tsv` is fourteen themed blocks, meant to be
 imported as one batch: `A1::clima` (weather), `A1::numeros-100` (0–100),
@@ -129,18 +129,22 @@ whenever cards are added.
 
 ## Posters
 
-Five A4 wall charts. The four verb charts carry the same 45 verbs in the same
-grid order, so they read as a set: rows 1–4 are the 20 core A1 verbs, rows 5–6
-ten more high-frequency ones, row 7 the stem-changers (volver, empezar, jugar,
-pensar, pedir) and rows 8–9 ten everyday verbs (correr, nadar, llamar, llegar,
-mirar, creer, aprender, oír, seguir, leer):
+Five wall charts. The four verb charts carry the same 50 verbs in the same grid
+order, so they read as a set: rows 1–4 are the 20 core A1 verbs, rows 5–6 ten
+more high-frequency ones, row 7 the stem-changers (volver, empezar, jugar,
+pensar, pedir), rows 8–9 ten everyday verbs (correr, nadar, llamar, llegar,
+mirar, creer, aprender, oír, seguir, leer) and row 10 the five most frequent
+verbs the collection was missing (pasar, dejar, quedar, parecer, deber).
+
+Each verb chart prints as **two A4 pages** of five rows — one page of 50 verbs
+meant 5.9pt tables, which is too small to read off a wall:
 
 | File | Tense | Structure |
 |---|---|---|
-| `posters/poster.pdf` / `.png` | present indicative | 45 conjugation tables |
-| `posters/poster-futuro.pdf` / `.png` | futuro simple | 45 conjugation tables |
-| `posters/poster-futuro-proximo.pdf` / `.png` | futuro próximo | `ir` conjugated once + 45 example sentences |
-| `posters/poster-pasado.pdf` / `.png` | pretérito indefinido | 45 conjugation tables |
+| `posters/poster.pdf` / `.png` | present indicative | 50 conjugation tables, 2 pages |
+| `posters/poster-futuro.pdf` / `.png` | futuro simple | 50 conjugation tables, 2 pages |
+| `posters/poster-futuro-proximo.pdf` / `.png` | futuro próximo | `ir` conjugated once + 50 example sentences, 2 pages |
+| `posters/poster-pasado.pdf` / `.png` | pretérito indefinido | 50 conjugation tables + a worked -ar/-er/-ir example, 2 pages |
 | `posters/poster-pronombres.pdf` / `.png` | — | articles and pronouns: el/los, me/nos/le, lo/la, se |
 
 The near-future poster is deliberately shaped differently: that tense has no
@@ -154,9 +158,11 @@ Re-render after editing a `.html`:
 ./render_posters.sh poster-pasado  # just one
 ```
 
-The script writes the `.pdf` and `.png` next to the source and reports the page
-count, so a poster that has outgrown A4 shows up as `SPILLS TO 2 PAGES` instead
-of quietly losing its footer.
+The script writes the `.pdf` and `.png` next to the source and checks two
+things: the page count matches the number of `<section class="page">` blocks in
+the file, and the grid actually rendered. The second check exists because the
+grids are built by JavaScript — a thrown exception leaves pages that are the
+right size and completely empty.
 
 Each page is sized to fill A4 exactly with no slack — add a verb or lengthen
 a gloss and it spills to a second page. Pull it back by reducing `.verb`

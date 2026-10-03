@@ -281,6 +281,30 @@ VERBS = [
     verb("I can't hear you.", "No te oigo.", "no can needed: no te oigo says it", "A1::translation A1::oir"),
     verb("I keep studying every day.", "Sigo estudiando todos los días.", "seguir + gerund = to keep on doing", "A1::translation A1::seguir"),
     verb("I read before going to sleep.", "Leo antes de dormir.", "antes de + infinitive", "A1::translation A1::leer"),
+
+    # ---- pasar / dejar / quedar / parecer / deber ------------------------
+    # the five highest-frequency verbs the collection was missing; each is
+    # worth cards for its idioms rather than for its conjugation
+    verb("¿Qué ___? (pasar)", "pasa", "What's going on? &middot; ¿qué pasa? is the everyday phrase, and ¿qué te pasa? asks what's wrong", "A1::verbs A1::pasar"),
+    verb("El autobús ___ por aquí. (pasar)", "pasa", "The bus comes by here &middot; pasar por = to pass by a place", "A1::verbs A1::pasar"),
+    verb("Yo ___ el fin de semana en Madrid. (pasar)", "paso", "I spend the weekend in Madrid &middot; pasar = to spend time, never gastar, which is money", "A1::verbs A1::pasar"),
+    verb("___ las llaves en la mesa. (dejar — yo)", "Dejo", "I leave the keys on the table &middot; dejar = leave something behind; salir = leave a place", "A1::verbs A1::dejar"),
+    verb("Mi hermano ___ de fumar. (dejar)", "deja", "My brother is giving up smoking &middot; dejar de + infinitive = to stop doing something", "A1::verbs A1::dejar"),
+    verb("¿___ mañana a las ocho? (quedar — nosotros)", "Quedamos", "Shall we meet tomorrow at eight? &middot; quedar = to arrange to meet, the normal way to make a plan", "A1::verbs A1::quedar"),
+    verb("___ dos semanas para las vacaciones. (quedar)", "Quedan", "There are two weeks left until the holidays &middot; quedar = to be left, agreeing with the thing remaining", "A1::verbs A1::quedar"),
+    verb("Esta noche yo me ___ en casa. (quedarse)", "quedo", "Tonight I'm staying at home &middot; quedarse = to stay, and the pronoun changes the meaning", "A1::verbs A1::quedar"),
+    verb("Me ___ bien. (parecer)", "parece", "It seems fine to me &middot; parecer works backwards like gustar", "A1::verbs A1::parecer"),
+    verb("¿Qué te ___ la película? (parecer)", "parece", "What do you think of the film? &middot; lit. how does it seem to you - the standard way to ask an opinion", "A1::verbs A1::parecer"),
+    verb("Estas casas ___ nuevas. (parecer)", "parecen", "These houses look new &middot; a plural subject &rarr; parecen", "A1::verbs A1::parecer"),
+    verb("___ estudiar más. (deber — yo)", "Debo", "I should study more &middot; deber + infinitive = ought to", "A1::verbs A1::deber"),
+    verb("Me ___ diez euros. (deber — tú)", "debes", "You owe me ten euros &middot; deber with money is the literal sense", "A1::verbs A1::deber"),
+    verb("No ___ llegar tarde. (deber — nosotros)", "debemos", "We mustn't arrive late", "A1::verbs A1::deber"),
+
+    verb("Nothing's wrong.", "No pasa nada.", "also it doesn't matter / never mind - one of the most useful phrases in Spain", "A1::translation A1::pasar"),
+    verb("My parents let me go out on Fridays.", "Mis padres me dejan salir los viernes.", "dejar + infinitive = to let someone do something", "A1::translation A1::dejar"),
+    verb("We're meeting my friends on Saturday.", "Quedamos con mis amigos el sábado.", "quedar con + person &middot; no reflexive here", "A1::translation A1::quedar"),
+    verb("You look tired.", "Pareces cansado.", "parecer + adjective = to look or seem &middot; cansada if you're female", "A1::translation A1::parecer"),
+    verb("You should speak with the teacher.", "Debes hablar con el profesor.", "deber = advice; tener que = obligation", "A1::translation A1::deber"),
 ]
 
 

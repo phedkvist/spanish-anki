@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>45 Most Used Spanish Verbs — Past</title>
+<title>50 Most Used Spanish Verbs — Past</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -15,14 +15,20 @@
     --band:#f4f5f8;
   }
   *{ box-sizing:border-box; margin:0; padding:0; }
-  html,body{ width:210mm; height:297mm; overflow:hidden; }
+  html{ width:210mm; }
   body{
+    width:210mm;
     font-family:'Poppins','Helvetica Neue',Arial,sans-serif;
     color:var(--navy);
     background:#fff;
     -webkit-font-smoothing:antialiased;
-    display:flex; flex-direction:column;
   }
+  .page{
+    width:210mm; height:297mm; overflow:hidden;
+    display:flex; flex-direction:column;
+    page-break-after:always; break-after:page;
+  }
+  .page:last-child{ page-break-after:auto; break-after:auto; }
 
   header{
     padding:5.5mm 12mm 2.6mm;
@@ -54,7 +60,7 @@
     padding:2.6mm 3.4mm;
   }
   .rule-h{
-    font-size:7pt;
+    font-size:8.3pt;
     font-weight:700;
     text-transform:uppercase;
     letter-spacing:0.6pt;
@@ -67,7 +73,7 @@
     line-height:1.45;
   }
   .rule-b b{ font-weight:700; color:var(--orange); letter-spacing:0.3pt; }
-  .rule-b .lab{ color:var(--muted); font-weight:400; font-size:7pt; }
+  .rule-b .lab{ color:var(--muted); font-weight:400; font-size:8.3pt; }
   .rule-n{
     margin-top:1.4mm;
     font-size:6pt;
@@ -75,6 +81,37 @@
     color:var(--muted);
   }
   .rule-n b{ color:var(--orange); font-weight:600; }
+
+
+  /* how the tense is built, worked through once per verb class */
+  .hero{
+    background:var(--navy);
+    color:#fff;
+    padding:3.4mm 12mm 4mm;
+  }
+  .hero-label{
+    font-size:6.8pt; font-weight:500; letter-spacing:0.4pt;
+    text-transform:uppercase; color:#95a0bd;
+  }
+  .hero-label b{ color:var(--orange); font-weight:700; }
+  .hero-cols{
+    margin-top:2.6mm;
+    display:grid; grid-template-columns:repeat(3,1fr); gap:0 7mm;
+  }
+  .hcol .step{
+    font-size:10.5pt; font-weight:700; letter-spacing:-0.2pt; white-space:nowrap;
+  }
+  .hcol .step s{ color:#7b8194; text-decoration-color:var(--orange); }
+  .hcol .step b{ color:var(--orange); font-weight:700; }
+  .hcol .ends{
+    margin-top:1.4mm;
+    font-size:7.4pt; line-height:1.5; color:#fff; font-weight:500;
+  }
+  .hcol .ends b{ color:var(--orange); font-weight:700; }
+  .hcol .eg{
+    margin-top:1mm; font-size:6.6pt; color:#95a0bd; line-height:1.4;
+  }
+  .hcol .eg i{ color:#fff; font-style:normal; font-weight:600; }
 
   main{ flex:1; display:flex; flex-direction:column; }
   .band{
@@ -86,16 +123,16 @@
   }
   .band.alt{ background:var(--band); }
 
-  .verb{ padding:1mm 3mm 1mm 0; }
+  .verb{ padding:3.2mm 3mm 3.2mm 0; }
   .verb h2{
     font-weight:700;
-    font-size:9.8pt;
+    font-size:11.8pt;
     letter-spacing:-0.3pt;
     line-height:1.1;
   }
   .verb .en{
     font-weight:400;
-    font-size:7pt;
+    font-size:8.3pt;
     color:#4a5165;
     margin-top:0.6mm;
   }
@@ -107,8 +144,8 @@
     margin-top:1mm;
     margin-left:auto;
     border-collapse:collapse;
-    font-size:5.9pt;
-    line-height:1.24;
+    font-size:6.8pt;
+    line-height:1.38;
   }
   td{ padding:0; white-space:nowrap; vertical-align:baseline; }
   td.p{ text-align:right; color:var(--muted); font-weight:400; padding-right:1.1mm; }
@@ -131,10 +168,12 @@
 </style>
 </head>
 <body>
-<header>
+
+<section class="page">
+  <header>
   <div>
-    <h1><span class="num">45</span> Most Used<br>Spanish Verbs</h1>
-    <div class="sub">in the past tense:</div>
+    <h1><span class="num">50</span> Most Used<br>Spanish Verbs</h1>
+    <div class="sub">in the past tense &mdash; part 1 of 2:</div>
   </div>
   <div class="rule">
     <div class="rule-h">The whole tense in two ending sets</div>
@@ -145,14 +184,61 @@
     <div class="rule-n">Drop the <i>-ar / -er / -ir</i> and add them: <i>hablar</i> &rarr; <i>hablé</i>. The stress lands on the ending, which is what makes it sound like the past. The verbs marked <b>orange</b> swap to a short stem and take a third set with <b>no accents</b>: <i>e iste o imos isteis ieron</i> &mdash; <i>tuve</i>, never <i>tuvé</i>.</div>
   </div>
 </header>
-<main id="grid"></main>
-<footer>
+  
+  <div class="hero">
+  <div class="hero-label">How to build it &mdash; cut the infinitive, add the <b>stressed</b> ending</div>
+  <div class="hero-cols">
+    <div class="hcol">
+      <div class="step">habl<s>ar</s> &rarr; habl<b>-</b></div>
+      <div class="ends">+ <b>é&nbsp; aste&nbsp; ó&nbsp; amos&nbsp; asteis&nbsp; aron</b></div>
+      <div class="eg">ayer <i>hablé</i> con Ana &middot; ella <i>habló</i> conmigo</div>
+    </div>
+    <div class="hcol">
+      <div class="step">com<s>er</s> &rarr; com<b>-</b></div>
+      <div class="ends">+ <b>í&nbsp; iste&nbsp; ió&nbsp; imos&nbsp; isteis&nbsp; ieron</b></div>
+      <div class="eg">ayer <i>comí</i> paella &middot; ella <i>comió</i> en casa</div>
+    </div>
+    <div class="hcol">
+      <div class="step">viv<s>ir</s> &rarr; viv<b>-</b></div>
+      <div class="ends">+ <b>í&nbsp; iste&nbsp; ió&nbsp; imos&nbsp; isteis&nbsp; ieron</b></div>
+      <div class="eg"><b>-er</b> and <b>-ir</b> share one set &middot; <i>viví</i> dos años allí</div>
+    </div>
+  </div>
+</div>
+  <main class="grid" id="g1"></main>
+  <footer>
   <div class="note">
     <b>ser</b> and <b>ir</b> share one past tense: <i>fui, fuiste, fue</i> &mdash; only the sentence tells you which. &nbsp;&middot;&nbsp; <b>dar</b> and <b>ver</b> take the <i>-er/-ir</i> endings with no accents: <i>di, dio &middot; vi, vio</i>.<br>
     <b>haber</b>: <i>hubo</i> = there was / there were. &nbsp;&middot;&nbsp; <b>gustar</b>: <i>me gustó</i> + singular, <i>me gustaron</i> + plural. &nbsp;&middot;&nbsp; <b>creer, leer, oír</b>: i &rarr; y in él and ellos (<i>creyó, leyeron, oyó</i>), accent elsewhere (<i>creíste, leímos</i>). &nbsp;&middot;&nbsp; Forms in full orange break their own pattern.
   </div>
   <div class="tag">Pretérito indefinido &mdash; the finished past<br><strong>Rows 1–4 = the 20 core A1 verbs</strong></div>
 </footer>
+</section>
+
+<section class="page">
+  <header>
+  <div>
+    <h1><span class="num">50</span> Most Used<br>Spanish Verbs</h1>
+    <div class="sub">in the past tense &mdash; part 2 of 2:</div>
+  </div>
+  <div class="rule">
+    <div class="rule-h">The whole tense in two ending sets</div>
+    <div class="rule-b">
+      <span class="lab">-ar</span> <b>é&nbsp; aste&nbsp; ó&nbsp; amos&nbsp; asteis&nbsp; aron</b><br>
+      <span class="lab">-er / -ir</span> <b>í&nbsp; iste&nbsp; ió&nbsp; imos&nbsp; isteis&nbsp; ieron</b>
+    </div>
+    <div class="rule-n">Drop the <i>-ar / -er / -ir</i> and add them: <i>hablar</i> &rarr; <i>hablé</i>. The stress lands on the ending, which is what makes it sound like the past. The verbs marked <b>orange</b> swap to a short stem and take a third set with <b>no accents</b>: <i>e iste o imos isteis ieron</i> &mdash; <i>tuve</i>, never <i>tuvé</i>.</div>
+  </div>
+</header>
+  <main class="grid" id="g2"></main>
+  <footer>
+  <div class="note">
+    <b>ser</b> and <b>ir</b> share one past tense: <i>fui, fuiste, fue</i> &mdash; only the sentence tells you which. &nbsp;&middot;&nbsp; <b>dar</b> and <b>ver</b> take the <i>-er/-ir</i> endings with no accents: <i>di, dio &middot; vi, vio</i>.<br>
+    <b>haber</b>: <i>hubo</i> = there was / there were. &nbsp;&middot;&nbsp; <b>gustar</b>: <i>me gustó</i> + singular, <i>me gustaron</i> + plural. &nbsp;&middot;&nbsp; <b>creer, leer, oír</b>: i &rarr; y in él and ellos (<i>creyó, leyeron, oyó</i>), accent elsewhere (<i>creíste, leímos</i>). &nbsp;&middot;&nbsp; Forms in full orange break their own pattern.
+  </div>
+  <div class="tag">Pretérito indefinido &mdash; the finished past<br><strong>Rows 1–4 = the 20 core A1 verbs</strong></div>
+</footer>
+</section>
 
 <script>
 const P = ['yo','tú','él / ella','nosotros','vosotros','ellos'];
@@ -222,7 +308,14 @@ const V = [
  ['Aprender','to learn','reg'],
  ['Oír','to hear','odd',['oí','oíste','oyó','oímos','oísteis','oyeron']],
  ['Seguir','to follow / keep on','reg',null,{2:'siguió',5:'siguieron'}],
- ['Leer','to read','odd',['leí','leíste','leyó','leímos','leísteis','leyeron']]
+ ['Leer','to read','odd',['leí','leíste','leyó','leímos','leísteis','leyeron']],
+
+ // Row 10: the five most frequent verbs the collection was missing
+ ['Pasar','to happen / spend','reg'],
+ ['Dejar','to leave / let','reg'],
+ ['Quedar','to arrange / be left','reg'],
+ ['Parecer','to seem','reg'],
+ ['Deber','must / to owe','reg']
 ];
 
 // root + ending, with the root in navy so the shared endings stand out;
@@ -240,8 +333,8 @@ function cells(v) {
   return end.map((e, i) => ov[i] || `<i>${root}</i>${e}`);
 }
 
-const grid = document.getElementById('grid');
-for (let r = 0; r < 9; r++) {
+const grids = [document.getElementById('g1'), document.getElementById('g2')];
+for (let r = 0; r < 10; r++) {
   const band = document.createElement('div');
   band.className = 'band' + (r % 2 === 0 ? ' alt' : '');
   for (let c = 0; c < 5; c++) {
@@ -256,7 +349,7 @@ for (let r = 0; r < 9; r++) {
     band.insertAdjacentHTML('beforeend',
       `<div class="verb"><h2>${inf}</h2><div class="en">${gloss}</div><table>${rows}</table></div>`);
   }
-  grid.appendChild(band);
+  grids[r < 4 ? 0 : 1].appendChild(band);
 }
 </script>
 </body>

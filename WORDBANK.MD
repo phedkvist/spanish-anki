@@ -29,11 +29,11 @@ once the pattern is known.
 Five of the 24 highest-frequency verbs in the corpus have no cards. All five
 are idiomatic, which is exactly why knowing the conjugation isn't enough.
 
-- [ ] **pasar** — to happen, to pass, to spend time · *¿qué pasa?* · *pasar el fin de semana*
-- [ ] **dejar** — to leave (something), to let · *deja las llaves* · *déjame en paz*
-- [ ] **quedar** — to arrange to meet, to be left, to suit · *quedamos a las ocho* · *quedan dos*
-- [ ] **parecer** — to seem · *me parece bien* · works backwards like *gustar*
-- [ ] **deber** — must, ought to, to owe · *debo estudiar* · *me debes diez euros*
+- [x] **pasar** — `A1::pasar`, 3–4 cards + poster row 10 — to happen, to pass, to spend time · *¿qué pasa?* · *pasar el fin de semana*
+- [x] **dejar** — `A1::dejar`, 3–4 cards + poster row 10 — to leave (something), to let · *deja las llaves* · *déjame en paz*
+- [x] **quedar** — `A1::quedar`, 3–4 cards + poster row 10 — to arrange to meet, to be left, to suit · *quedamos a las ocho* · *quedan dos*
+- [x] **parecer** — `A1::parecer`, 3–4 cards + poster row 10 — to seem · *me parece bien* · works backwards like *gustar*
+- [x] **deber** — `A1::deber`, 3–4 cards + poster row 10 — must, ought to, to owe · *debo estudiar* · *me debes diez euros*
 
 ## Verbs — everyday second tier
 

@@ -23,10 +23,17 @@ fi
 status=0
 for html in "${targets[@]}"; do
   base="${html%.html}"
+
+  # a poster declares its own length: one <section class="page"> per A4 sheet,
+  # or none at all for the single-page ones
+  want=$(grep -c 'class="page"' "$html" || true)
+  [ "$want" -eq 0 ] && want=1
+  height=$((1123 * want))
+
   "$CHROME" --headless --disable-gpu --no-pdf-header-footer \
     --virtual-time-budget=8000 --print-to-pdf="$base.pdf" "$html" 2>/dev/null
   "$CHROME" --headless --disable-gpu --hide-scrollbars \
-    --virtual-time-budget=8000 --window-size=794,1123 \
+    --virtual-time-budget=8000 --window-size=794,$height \
     --force-device-scale-factor=2 --screenshot="$base.png" "$html" 2>/dev/null
 
   pages=$(python3 -c "
@@ -34,11 +41,23 @@ import re,sys
 d=open('$base.pdf','rb').read()
 print(len(re.findall(rb'/Type\s*/Page[^s]',d)))")
 
-  if [ "$pages" = "1" ]; then
-    printf '%-26s ok\n' "$base"
-  else
-    printf '%-26s SPILLS TO %s PAGES - reduce .verb padding or table line-height\n' "$base" "$pages"
+  # the grids are built by JS, so a thrown exception leaves a page that is the
+  # right size and completely empty - count what actually rendered
+  cells=$("$CHROME" --headless --disable-gpu --virtual-time-budget=8000 \
+            --dump-dom "$html" 2>/dev/null \
+            | { grep -o 'class="verb"' || true; } | wc -l | tr -d ' ')
+  builds_grid=$(grep -c 'const V = \[' "$html" || true)
+
+  if [ "$pages" != "$want" ]; then
+    printf '%-26s WANTED %s PAGES, GOT %s - reduce .verb padding or table line-height\n' \
+      "$base" "$want" "$pages"
     status=1
+  elif [ "$builds_grid" -gt 0 ] && [ "$cells" -eq 0 ]; then
+    printf '%-26s EMPTY - the page script threw; check the browser console\n' "$base"
+    status=1
+  else
+    printf '%-26s ok  (%s page%s, %s verbs)\n' "$base" "$pages" \
+      "$([ "$pages" = 1 ] || echo s)" "$cells"
   fi
 done
 exit $status

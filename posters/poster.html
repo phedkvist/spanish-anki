@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>45 Most Used Spanish Verbs</title>
+<title>50 Most Used Spanish Verbs</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -15,19 +15,25 @@
     --band:#f4f5f8;
   }
   *{ box-sizing:border-box; margin:0; padding:0; }
-  html,body{ width:210mm; height:297mm; overflow:hidden; }
+  html{ width:210mm; }
   body{
+    width:210mm;
     font-family:'Poppins','Helvetica Neue',Arial,sans-serif;
     color:var(--navy);
     background:#fff;
     -webkit-font-smoothing:antialiased;
-    display:flex; flex-direction:column;
   }
+  .page{
+    width:210mm; height:297mm; overflow:hidden;
+    display:flex; flex-direction:column;
+    page-break-after:always; break-after:page;
+  }
+  .page:last-child{ page-break-after:auto; break-after:auto; }
 
-  header{ padding:7mm 12mm 3mm; }
+  header{ padding:10mm 12mm 5mm; }
   h1{
     font-weight:800;
-    font-size:27pt;
+    font-size:30pt;
     line-height:1.02;
     letter-spacing:-0.8pt;
     text-transform:uppercase;
@@ -37,7 +43,7 @@
     margin-top:2.5mm;
     color:var(--orange);
     font-weight:700;
-    font-size:11.5pt;
+    font-size:13.5pt;
     letter-spacing:-0.2pt;
   }
 
@@ -51,16 +57,16 @@
   }
   .band.alt{ background:var(--band); }
 
-  .verb{ padding:1mm 3mm 1mm 0; }
+  .verb{ padding:3.4mm 3mm 3.4mm 0; }
   .verb h2{
     font-weight:700;
-    font-size:9.8pt;
+    font-size:11.8pt;
     letter-spacing:-0.3pt;
     line-height:1.1;
   }
   .verb .en{
     font-weight:400;
-    font-size:7pt;
+    font-size:8.3pt;
     color:#4a5165;
     margin-top:0.6mm;
   }
@@ -68,8 +74,8 @@
     margin-top:1.4mm;
     margin-left:auto;
     border-collapse:collapse;
-    font-size:5.9pt;
-    line-height:1.24;
+    font-size:6.8pt;
+    line-height:1.38;
   }
   td{ padding:0; white-space:nowrap; vertical-align:baseline; }
   td.p{ text-align:right; color:var(--muted); font-weight:400; padding-right:1.1mm; }
@@ -80,9 +86,9 @@
     justify-content:space-between;
     align-items:flex-end;
     gap:8mm;
-    padding:2.4mm 12mm 4mm;
-    font-size:6.4pt;
-    line-height:1.4;
+    padding:3.5mm 12mm 6mm;
+    font-size:6.8pt;
+    line-height:1.45;
     color:var(--muted);
   }
   footer .note b{ color:var(--navy); font-weight:600; }
@@ -91,12 +97,30 @@
 </style>
 </head>
 <body>
-<header>
-  <h1><span class="num">45</span> Most Used<br>Spanish Verbs</h1>
-  <div class="sub">in the present tense:</div>
-</header>
-<main id="grid"></main>
-<footer><div class="note"><b>haber</b> is the auxiliary (<i>he hablado</i> = I have spoken); on its own it is <b>hay</b> = there is / there are.<br><b>gustar</b> works backwards: <i>me gusta</i> + singular, <i>me gustan</i> + plural.</div><div class="tag">Present indicative<br><strong>Rows 1–4 = the 20 core A1 verbs</strong><br>Row 7 = stem-changers: the stem changes in all but nosotros / vosotros</div></footer>
+
+<section class="page">
+  <header>
+    <h1><span class="num">50</span> Most Used<br>Spanish Verbs</h1>
+    <div class="sub">in the present tense &mdash; part 1 of 2:</div>
+  </header>
+  <main class="grid" id="g1"></main>
+  <footer>
+    <div class="note"><b>haber</b> is the auxiliary (<i>he hablado</i> = I have spoken); on its own it is <b>hay</b> = there is / there are.<br><b>gustar</b> works backwards: <i>me gusta</i> + singular, <i>me gustan</i> + plural.</div>
+    <div class="tag">Present indicative<br><strong>Rows 1&ndash;4 = the 20 core A1 verbs</strong></div>
+  </footer>
+</section>
+
+<section class="page">
+  <header>
+    <h1><span class="num">50</span> Most Used<br>Spanish Verbs</h1>
+    <div class="sub">in the present tense &mdash; part 2 of 2:</div>
+  </header>
+  <main class="grid" id="g2"></main>
+  <footer>
+    <div class="note">Row 7 are the <b>stem-changers</b>: the stem changes in every form but <i>nosotros</i> and <i>vosotros</i>.<br>Row 10 are the five most frequent verbs in the corpus that this set was missing &mdash; all of them idiomatic.</div>
+    <div class="tag">Present indicative<br><strong>Rows 8&ndash;10 = everyday verbs</strong></div>
+  </footer>
+</section>
 
 <script>
 const P = ['yo','tú','él / ella','nosotros','vosotros','ellos'];
@@ -158,11 +182,18 @@ const V = [
  ['Aprender','to learn',['aprendo','aprendes','aprende','aprendemos','aprendéis','aprenden']],
  ['Oír','to hear',['oigo','oyes','oye','oímos','oís','oyen']],
  ['Seguir','to follow / keep on',['sigo','sigues','sigue','seguimos','seguís','siguen']],
- ['Leer','to read',['leo','lees','lee','leemos','leéis','leen']]
+ ['Leer','to read',['leo','lees','lee','leemos','leéis','leen']],
+
+ // Row 10: the five most frequent verbs the collection was missing
+ ['Pasar','to happen / spend',['paso','pasas','pasa','pasamos','pasáis','pasan']],
+ ['Dejar','to leave / let',['dejo','dejas','deja','dejamos','dejáis','dejan']],
+ ['Quedar','to arrange / be left',['quedo','quedas','queda','quedamos','quedáis','quedan']],
+ ['Parecer','to seem',['parezco','pareces','parece','parecemos','parecéis','parecen']],
+ ['Deber','must / to owe',['debo','debes','debe','debemos','debéis','deben']]
 ];
 
-const grid = document.getElementById('grid');
-for (let r = 0; r < 9; r++) {
+const grids = [document.getElementById('g1'), document.getElementById('g2')];
+for (let r = 0; r < 10; r++) {
   const band = document.createElement('div');
   band.className = 'band' + (r % 2 === 0 ? ' alt' : '');
   for (let c = 0; c < 5; c++) {
@@ -173,7 +204,7 @@ for (let r = 0; r < 9; r++) {
     band.insertAdjacentHTML('beforeend',
       `<div class="verb"><h2>${inf}</h2><div class="en">${en}</div><table>${rows}</table></div>`);
   }
-  grid.appendChild(band);
+  grids[r < 5 ? 0 : 1].appendChild(band);
 }
 </script>
 </body>

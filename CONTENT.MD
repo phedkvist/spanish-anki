@@ -26,7 +26,7 @@ and the filename, never in a separate deck, so reviews stay mixed.
 | Gender and number agreement | `A1::genero` | 12 |
 | ser vs estar | `A1::ser-estar` | 15 |
 | hay vs está | `A1::hay-estar` | 8 |
-| gustar, all six pronouns, gusta/gustan, + infinitive | `A1::gustar`, `A1::gustar-personas` | 48 |
+| gustar: six pronouns, gusta/gustan, + infinitive, a mí / a ti / a Elena | `A1::gustar`, `A1::gustar-personas` | 62 |
 | ir a + infinitive, tener que, poder, querer | `A1::perifrasis` | 12 |
 | Articles, possessives, demonstratives, al / del | `A1::determinantes` | 10 |
 | Reflexive verbs | `A1::reflexivos` | 8 |

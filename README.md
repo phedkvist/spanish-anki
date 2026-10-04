@@ -31,9 +31,9 @@ English explanation after it. See `notetypes/`.
 | `spanish_A1_vocab_anki.tsv` | 201 | 1. Core vocabulary | **EN → ES** (production) |
 | `spanish_A1_grammar_anki.tsv` | 162 | 3. Transformations | instruction → ES |
 | `spanish_A1_sentences_anki.tsv` | 152 | 4. Understand the sentence | **ES → EN** + breakdown |
-| `spanish_A1_topics_anki.tsv` | 157 | 1. Core vocabulary (topic sets) | **EN → ES** (production) |
+| `spanish_A1_topics_anki.tsv` | 162 | 1. Core vocabulary (topic sets) | **EN → ES** (production) |
 | `spanish_A2_pasado_anki.tsv` | 79 | 2. Verb drills (pretérito) | fill-in-the-blank + EN→ES |
-| | **939** | | |
+| | **944** | | |
 
 `spanish_A1_topics_anki.tsv` is fourteen themed blocks, meant to be
 imported as one batch: `A1::clima` (weather), `A1::numeros-100` (0–100),

@@ -52,6 +52,11 @@ and the filename, never in a separate deck, so reviews stay mixed.
 | School timetable (asking and answering) | `A1::horario` | 12 |
 | Colloquial Spain (fitipaldi…) | `A1::coloquial` | 2 |
 
+`video_leones_anki.tsv` (25 cards, tag `video::leones`) is a different kind of
+deck: vocabulary mined from a nature documentary, to drill the day before
+watching it. Spanish → English, because those words arrive through the ears.
+Suspend the tag once the film has been watched.
+
 Plus the broader vocabulary deck (201 cards): family, house, food, clothes,
 transport, places in town, work, travel, shopping, hobbies, adjectives — and
 152 Spanish → English sentences for comprehension.

@@ -405,6 +405,38 @@ PAST = [
 ]
 
 
+# Vocabulary mined from a documentary, to drill the day before watching it.
+# Comprehension direction on purpose: these words arrive through the ears.
+# Counts are how often each word is spoken in the film.
+VIDEO_LEONES = [
+    sentence("la manada", "the pride (of lions)", "also a herd of buffalo or a pack of wolves &middot; said 70 times in the film", "video::leones"),
+    sentence("el macho / la hembra", "the male / the female", "el macho stays masculine even for a female animal's mate", "video::leones"),
+    sentence("el cachorro", "the cub", "also a puppy &middot; los cachorros", "video::leones"),
+    sentence("el león / la leona", "the lion / the lioness", "león drops its accent in the plural: los leones", "video::leones"),
+    sentence("el búfalo", "the buffalo", "stressed on the first syllable, hence the accent", "video::leones"),
+    sentence("la jirafa", "the giraffe", "the j sounds like the ch in Scottish loch", "video::leones"),
+    sentence("el toro", "the bull", "la vaca = cow", "video::leones"),
+    sentence("el bosque", "the woods, the forest", "la selva = jungle &middot; el bosque is temperate woodland", "video::leones"),
+    sentence("el territorio", "the territory", "the film's theme: whose land this is", "video::leones"),
+    sentence("la caza", "the hunt, hunting", "cazar = to hunt &middot; el cazador = hunter", "video::leones"),
+    sentence("la sangre", "blood", "feminine despite the -e ending", "video::leones"),
+    sentence("el peligro", "the danger", "peligroso = dangerous &middot; ¡peligro! on a sign", "video::leones"),
+    sentence("la sombra", "the shade, the shadow", "one word for both &middot; a la sombra = in the shade", "video::leones"),
+    sentence("la naturaleza", "nature", "la naturaleza, always with the article", "video::leones"),
+    sentence("la supervivencia", "survival", "sobrevivir = to survive", "video::leones"),
+    sentence("la generación", "the generation", "every -ción noun is feminine", "video::leones"),
+    sentence("el líder", "the leader", "la líder for a woman &middot; liderar = to lead", "video::leones"),
+    sentence("exiliado", "exiled, an exile", "el exiliado &middot; a lion driven out of its pride", "video::leones"),
+    sentence("el adulto / el adolescente", "the adult / the adolescent", "both work as nouns and adjectives", "video::leones"),
+    sentence("la oportunidad", "the opportunity, the chance", "every -dad noun is feminine", "video::leones"),
+    sentence("fuerte", "strong", "one form for both genders &middot; fuertes in the plural", "video::leones"),
+    sentence("mantenerse", "to keep, to stay (in a state)", "mantener = to maintain &middot; mantenerse fuerte = to keep strong", "video::leones"),
+    sentence("la vida", "life", "also on the word bank: la vida, toda la vida = all your life", "video::leones"),
+    sentence("la manera", "the way, the manner", "de esta manera = this way &middot; also on the word bank", "video::leones"),
+    sentence("último", "last, final", "el último = the last one &middot; also on the word bank", "video::leones"),
+]
+
+
 VOCAB = [
     # ---- numbers ---------------------------------------------------------
     vocab("I have two brothers.", "Tengo dos hermanos.", "dos = two", "A1::vocab A1::numeros"),
@@ -1224,4 +1256,5 @@ if __name__ == "__main__":
     total += write("spanish_A1_sentences_anki.tsv", SENTENCES, COMPREHENSION)
     total += write("spanish_A1_topics_anki.tsv", TOPICS, PRODUCTION)
     total += write("spanish_A2_pasado_anki.tsv", PAST, PRODUCTION)
+    total += write("video_leones_anki.tsv", VIDEO_LEONES, COMPREHENSION)
     print(f"total: {total} cards")

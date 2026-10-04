@@ -83,7 +83,7 @@ Sentence glue: cheap to learn, and they make short sentences sound like speech.
 ## Quantity and comparison
 
 - [ ] **varios** — several
-- [ ] **último** — last · pairs with *primero*
+- [x] **último** — `video::leones` — last · pairs with *primero*
 - [ ] **siguiente / próximo** — next
 - [ ] **peor** — worse · *mejor* has cards, its opposite doesn't
 
@@ -153,10 +153,10 @@ Months and days are covered; the seasons aren't.
 
 ### Abstract everyday nouns — 14/19
 
-- [ ] **la vida** — life
+- [x] **la vida** — `video::leones` — life
 - [ ] **el mundo** — world
 - [ ] **el precio** — price
-- [ ] **la manera** — way · *de esta manera*
+- [x] **la manera** — `video::leones` — way · *de esta manera*
 - [ ] **el ejemplo** — example · *por ejemplo*
 
 ### City and transport — 28/31

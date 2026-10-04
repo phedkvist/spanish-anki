@@ -33,7 +33,8 @@ English explanation after it. See `notetypes/`.
 | `spanish_A1_sentences_anki.tsv` | 152 | 4. Understand the sentence | **ES → EN** + breakdown |
 | `spanish_A1_topics_anki.tsv` | 176 | 1. Core vocabulary (topic sets) | **EN → ES** (production) |
 | `spanish_A2_pasado_anki.tsv` | 79 | 2. Verb drills (pretérito) | fill-in-the-blank + EN→ES |
-| | **958** | | |
+| `video_leones_anki.tsv` | 25 | 5. Pre-watch vocabulary | **ES → EN** (comprehension) |
+| | **983** | | |
 
 `spanish_A1_topics_anki.tsv` is fourteen themed blocks, meant to be
 imported as one batch: `A1::clima` (weather), `A1::numeros-100` (0–100),
@@ -118,7 +119,7 @@ Edit `build_anki.py` and re-run:
 python3 build_anki.py
 ```
 
-It regenerates all six files in `decks/`, the verb deck included. The verb deck
+It regenerates all seven files in `decks/`, the verb deck included. The verb deck
 is written first, and any later card whose Front repeats one of its Fronts is skipped, so
 the decks can't collide.
 The posters live in `posters/` and are rendered by `./render_posters.sh`.

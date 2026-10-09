@@ -145,9 +145,10 @@ def main():
     ap.add_argument("--add-missing", metavar="DECK",
                     help="also add cards that aren't in the collection yet, "
                          "into this deck")
-    ap.add_argument("--skip-level", default="A2",
-                    help="don't add cards tagged with this level "
-                         "(default: A2; pass none to add everything)")
+    ap.add_argument("--skip-level", default="A2,video",
+                    help="comma-separated tag prefixes not to add "
+                         "(default: A2,video - those go in their own decks; "
+                         "pass none to add everything)")
     args = ap.parse_args()
     dry = args.dry_run
     if dry:
@@ -214,9 +215,10 @@ def main():
         print(f"\n{len(missing)} cards are not in the collection - pass "
               "--add-missing DECK to add them.")
     elif missing:
-        skip = args.skip_level if args.skip_level != "none" else None
+        skips = [] if args.skip_level == "none" else args.skip_level.split(",")
         to_add = [f for f in missing
-                  if not (skip and any(t.startswith(skip + "::") for t in cards[f]["tags"]))]
+                  if not any(t.startswith(p + "::") for p in skips
+                             for t in cards[f]["tags"])]
         held = len(missing) - len(to_add)
         notes = [{"deckName": args.add_missing,
                   "modelName": cards[f]["notetype"],
@@ -228,7 +230,7 @@ def main():
         added = call("addNotes", notes=notes)
         ok = sum(1 for a in added if a)
         print(f"\nadded {ok} cards to '{args.add_missing}'"
-              + (f", held back {held} tagged {skip}" if held else ""))
+              + (f", held back {held} tagged {'/'.join(skips)}" if held else ""))
         if ok != len(notes):
             print(f"  {len(notes) - ok} were refused (duplicate first field)")
 

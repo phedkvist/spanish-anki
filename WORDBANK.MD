@@ -167,6 +167,56 @@ Months and days are covered; the seasons aren't.
 
 ---
 
+## Verified gaps from the topic audits
+
+Twenty topics checked with `audit_coverage.py`, which looks at the Spanish side
+of cards only and matches whole words and their inflections. Everything below
+came back absent under that test. Two topics came back complete and are not
+listed: daily routine, and hobbies & free time.
+
+An earlier pass used a five-character prefix instead, and it lied in both
+directions — it matched *pantalla* to *pantalones* and *descargar* to
+*descanso*, while missing *los ojos* for *el ojo*. Use the script, not grep.
+
+### People — the biggest single hole
+- [ ] **casado / soltero** — married / single
+- [ ] **moreno / rubio** — dark-haired / fair-haired
+- [ ] **guapo** · **amable** · **inteligente**
+
+### Feelings — 6/11 on the audit
+- [ ] **triste** · **enfadado** · **preocupado** · **sorprendido**
+- [ ] **tener ganas de** — to feel like · one of the most-used phrases in speech
+
+### The body and the chemist
+- [ ] **el cuerpo** · **el brazo** · **la pierna**
+- [ ] **la medicina** · **la receta** — prescription
+
+### Shopping and paying
+- [ ] **el precio** · **en efectivo** · **el descuento** · **las rebajas**
+- [ ] **quisiera** — the polite "I would like"
+
+### Quantities
+- [ ] **el litro** · **una botella** · **un paquete** · **la lata** · **la panadería**
+
+### Nature
+- [ ] **el pájaro** · **el árbol** · **la montaña** · **el cielo** · **la isla**
+
+### Technology — 6/12, the surprising one
+- [ ] **el mensaje** · **la pantalla** · **el enlace**
+- [ ] **descargar** · **apagar / encender**
+
+### Odds and ends
+- [ ] **la parada** · **cruzar** — bus stop, to cross (directions)
+- [ ] **la empresa** · **el sueldo** · **el horario** — work
+- [ ] **la tapa** · **una caña** — the Spain layer of a bar order
+- [ ] **vestirse** — to get dressed · the one routine verb missing
+- [ ] **el pasaporte** · **reservar una habitación doble**
+- [ ] **¿te apetece?** — do you fancy · **por supuesto** · **en mi opinión**
+- [ ] **probarse** — to try on · **la moda**
+- [ ] **feo** · **útil** · **importante** · **parecido**
+
+---
+
 ## How to use this
 
 When a block is being written — because a course lesson landed, or a gap turned

@@ -12,6 +12,7 @@ decks/               the .tsv files you import into Anki
 notetypes/           the two note types: fields, templates, styling
 posters/             wall charts: .html source next to its .pdf and .png
 render_posters.sh    re-renders the posters and checks they still fit A4
+audit_coverage.py    checks whether words are really covered: python3 audit_coverage.py triste árbol
 backups/             point-in-time Anki collection exports (scheduling)
 ```
 

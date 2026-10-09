@@ -58,7 +58,11 @@
   "inteligente",
   "guapo",
   "barba",
-  "pelo"
+  "pelo",
+  "delgado",
+  "gordo",
+  "pelo liso",
+  "pelo rizado"
  ],
  "daily routine & reflexives": [
   "me levanto",
@@ -133,7 +137,15 @@
   "brazo",
   "pierna",
   "ojo",
-  "espalda"
+  "espalda",
+  "boca",
+  "nariz",
+  "oreja",
+  "cuello",
+  "rodilla",
+  "pie",
+  "mano",
+  "dedo"
  ],
  "work, school & plans": [
   "trabajo",
@@ -147,7 +159,11 @@
   "asignatura",
   "horario",
   "voy a",
-  "tengo que"
+  "tengo que",
+  "lápiz",
+  "papel",
+  "escritorio",
+  "impresora"
  ],
  "hobbies & free time": [
   "deporte",
@@ -334,5 +350,17 @@
   "edificio",
   "calle",
   "vecino"
+ ],
+ "personality": [
+  "divertido",
+  "trabajador",
+  "perezoso",
+  "tímido",
+  "paciente",
+  "serio",
+  "valiente",
+  "aburrido",
+  "atlético",
+  "débil"
  ]
 }

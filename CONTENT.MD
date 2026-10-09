@@ -108,7 +108,12 @@ Later (B1): subjunctive, object pronoun combinations beyond *se lo*, passive
 and impersonal *se*.
 
 `audit_coverage.py --level a1` scores the collection against
-`syllabus/a1.json`: **A1 is at 100%** — all 286 items across 25 topics.
+`syllabus/a1.json`: **A1 is at 93%** — 291 of 312 items across 26 topics.
+
+It read 100% until the checklist was compared against an outside A1 list, which
+put four of the same topics between 34% and 52%. Ours asks "can you say what
+hurts", theirs asks "can you name the parts". The 21 items that gap is now
+short are the queue at the top of `WORDBANK.MD`, in the order to take them.
 
 How that checklist was built, and what it is worth: the topic structure follows
 the Instituto Cervantes *Plan Curricular* inventory of specific notions for

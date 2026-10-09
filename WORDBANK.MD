@@ -217,12 +217,75 @@ directions — it matched *pantalla* to *pantalones* and *descargar* to
 
 ---
 
+## The queue — what to pick from next
+
+Ordered. When a block is due (see the rules in `CLAUDE.md`), take the top group
+that fits what the class has covered, and tick the lines off here.
+
+These came from checking the collection against an outside A1 list, which is a
+useful corrective: our own `syllabus/a1.json` read 100% while an external list
+pitched at the same level put four topics between 34% and 52%. Not because
+either is wrong — ours asks "can you say what hurts", theirs asks "can you name
+the parts". The entries below are the ones judged worth the review time; the
+rest of what that comparison turned up was deliberately left out, noted at the
+bottom.
+
+### 1. Personality — 10 cards
+
+The thinnest area in the collection, and the most conversational. All are
+everyday adjectives, and several pair into opposites, which makes a tight block.
+
+- [ ] **divertido** — fun, funny · pairs with **aburrido**
+- [ ] **trabajador** — hard-working · pairs with **perezoso** (lazy)
+- [ ] **tímido** — shy · **paciente** / impaciente
+- [ ] **serio** — serious · **valiente** — brave (already on a video card)
+- [ ] **atlético** · **débil** — weak, pairs with *fuerte*
+
+### 2. The body — 8 cards
+
+`A1::cuerpo` stops at the parts that hurt. These are the ones you'd need to name
+at a doctor's, in a clothes shop, or watching sport.
+
+- [ ] **la boca** · **la nariz** · **la oreja** · **el cuello**
+- [ ] **la rodilla** · **el pie** · **la mano** · **el dedo**
+
+### 3. Describing people — 4 cards
+
+Completes `A1::personas`, which has colouring but no build.
+
+- [ ] **delgado / gordo** — thin / fat
+- [ ] **el pelo liso / rizado** — straight / curly hair
+
+### 4. The desk — 4 cards
+
+Only the physical objects. The digital half is already covered by
+`A1::tecnologia`.
+
+- [ ] **el lápiz** · **el papel** · **el escritorio** · **la impresora**
+
+### Deliberately skipped
+
+Named here so the same words don't get re-proposed every time an audit runs:
+
+- **Fine-grained anatomy** — *codo, muñeca, uña, pulgar, mejilla, hombro, tobillo,
+  labio, diente*. Add if a sport or an injury makes one of them matter.
+- **Appearance detail** — *hoyuelos, pecas, bronceado, canas*.
+- **Office hardware** — *maletín, carpeta, grapadora, calculadora, marcador*, and
+  a fax machine. The list that produced these is showing its age.
+- **Low-frequency character words** — *mezquino, ingenuo, sofisticado, esnob,
+  imparcial, cobarde*. B1 material in an A1 coat.
+
+---
+
 ## How to use this
 
 When a block is being written — because a course lesson landed, or a gap turned
 up — check here first. A block of ten built around words already on this list is
 worth more than ten fresh sentences about things the deck covers three times
 over.
+
+The queue above is the ordered answer when a block is due. The groups below are
+the older, un-ordered backlog, still valid but lower priority.
 
 Order to spend on, if there's no other signal:
 

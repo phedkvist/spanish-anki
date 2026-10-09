@@ -13,6 +13,7 @@ notetypes/           the two note types: fields, templates, styling
 posters/             wall charts: .html source next to its .pdf and .png
 render_posters.sh    re-renders the posters and checks they still fit A4
 audit_coverage.py    coverage report per level: python3 audit_coverage.py --level a1
+deck_health.py       checks and balances - run before adding a block
 syllabus/            one .json checklist per level - add b1.json to audit B1
 backups/             point-in-time Anki collection exports (scheduling)
 ```

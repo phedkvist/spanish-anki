@@ -54,9 +54,32 @@ accents, whether an expression is current in Spain:
 If two sources disagree about Spain vs Latin America, say so in the gloss
 (*la patata* / *la papa*).
 
+## Before adding cards — the checks
+
+Run `python3 deck_health.py` first and read what it says. It exists because
+coverage audits are good at finding gaps and bad at knowing when to stop: a
+run of blocks written straight off an audit put 499 unseen cards in the
+collection, months ahead of the course.
+
+A new block needs **a reason that isn't "the audit found a gap"**:
+
+1. **A lesson covered it** — the user says so. This is the best reason.
+2. **A word keeps failing** — a second card in a new sentence beats a new word.
+3. **The level is genuinely short** — coverage below 95% on that level.
+
+And three stop signs, all of which the script reports:
+
+- **Unseen backlog over ~350.** Clearing the queue beats adding to it.
+- **Level over budget** (A1 1000, A2 600). Past that, add depth, not topics.
+- **Level coverage at 95%+.** The syllabus is satisfied; reasons 1 and 2 only.
+
+When a gap turns up but no reason applies, it goes in `WORDBANK.MD` and waits.
+That file is the buffer between finding something and carding it.
+
 ## After adding cards
 
-1. `python3 build_anki.py` and confirm counts and no duplicate fronts.
+1. `python3 build_anki.py`, then `python3 deck_health.py` - no errors, and no
+   new warnings that the block itself caused.
 2. Update `CONTENT.MD` (structures) and tick off `WORDBANK.MD` (words).
 3. Update the card counts in `README.md`.
 4. Commit. Push if the user asked for it.

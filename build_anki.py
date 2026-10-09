@@ -1260,6 +1260,93 @@ TOPICS = [
     vocab("He has dark green eyes.", "Tiene los ojos verde oscuro.", "claro and oscuro freeze the colour: verde oscuro, never verdes oscuros &middot; Spanish says los ojos, not sus ojos", "A1::topics A1::colores"),
 
     # ---- colloquial Spain ------------------------------------------------
+
+    # ---- describing people -----------------------------------------------
+    vocab("My brother is married.", "Mi hermano está casado.", "estar for marital status &middot; ser casado is also heard, estar is safer", "A1::topics A1::personas"),
+    vocab("My sister is single.", "Mi hermana es soltera.", "soltero / soltera agrees &middot; both ser and estar are used here", "A1::topics A1::personas"),
+    vocab("He's dark-haired and tall.", "Es moreno y alto.", "moreno covers dark hair and dark skin &middot; ser for what someone is like", "A1::topics A1::personas"),
+    vocab("My mother is fair-haired.", "Mi madre es rubia.", "rubio &rarr; rubia &middot; never una rubia unless you mean a blonde woman", "A1::topics A1::personas"),
+    vocab("Our neighbour is very kind.", "Nuestro vecino es muy amable.", "amable has one form for both genders", "A1::topics A1::personas"),
+    vocab("His girlfriend is really intelligent.", "Su novia es muy inteligente.", "inteligente, also one form for both &middot; su = his, her or their", "A1::topics A1::personas"),
+    vocab("Your sister is very pretty.", "Tu hermana es muy guapa.", "guapo / guapa works for men and women alike in Spain", "A1::topics A1::personas"),
+    vocab("What's he like?", "¿Cómo es?", "ser asks about character; ¿cómo está? asks how he's feeling", "A1::topics A1::personas"),
+    vocab("He has a beard.", "Tiene barba.", "tener for features, with no article: tiene barba, tiene bigote", "A1::topics A1::personas"),
+    vocab("He has long dark hair.", "Tiene el pelo largo y moreno.", "el pelo, not su pelo &middot; moreno describes hair as well as a person", "A1::topics A1::personas"),
+
+    # ---- feelings ----------------------------------------------------------
+    vocab("I'm sad today.", "Hoy estoy triste.", "estar for how you feel &middot; triste has one form for both genders", "A1::topics A1::sentimientos"),
+    vocab("My boss is angry.", "Mi jefe está enfadado.", "enfadado in Spain, enojado in Latin America &middot; el jefe = boss", "A1::topics A1::sentimientos"),
+    vocab("I'm worried about the exam.", "Estoy preocupado por el examen.", "preocupado por + what worries you", "A1::topics A1::sentimientos"),
+    vocab("We're surprised.", "Estamos sorprendidos.", "the adjective agrees with us: sorprendidos", "A1::topics A1::sentimientos"),
+    vocab("I fancy a coffee.", "Me apetece un café.", "apetecer works backwards like gustar &middot; the single most Spanish way to say you want something", "A1::topics A1::sentimientos"),
+    vocab("Do you fancy going out tonight?", "¿Te apetece salir esta noche?", "te apetece + infinitive &middot; the standard way to invite someone", "A1::topics A1::sentimientos"),
+    vocab("I feel like travelling.", "Tengo ganas de viajar.", "tener ganas de + infinitive = to feel like &middot; stronger than me apetece", "A1::topics A1::sentimientos"),
+    vocab("The film is boring. I'm bored.", "La película es aburrida. Estoy aburrido.", "the ser/estar pair that changes the meaning: es aburrido = boring, está aburrido = bored", "A1::topics A1::sentimientos"),
+    vocab("I'm scared of dogs.", "Tengo miedo a los perros.", "tener miedo a (or de) &middot; fear is something you have, not something you are", "A1::topics A1::sentimientos"),
+    vocab("Are you all right? You look worried.", "¿Estás bien? Pareces preocupado.", "parecer + adjective to say how someone looks", "A1::topics A1::sentimientos"),
+
+    # ---- the body ----------------------------------------------------------
+    vocab("My arm hurts.", "Me duele el brazo.", "one arm &rarr; duele &middot; el brazo, never mi brazo", "A1::topics A1::cuerpo"),
+    vocab("My legs hurt after running.", "Me duelen las piernas después de correr.", "two legs &rarr; duelen &middot; después de + infinitive", "A1::topics A1::cuerpo"),
+    vocab("My back hurts from the computer.", "Me duele la espalda del ordenador.", "la espalda = back &middot; de + el contracts to del", "A1::topics A1::cuerpo"),
+    vocab("My eyes hurt from the screen.", "Me duelen los ojos de la pantalla.", "la pantalla = screen", "A1::topics A1::cuerpo"),
+    vocab("The human body.", "El cuerpo humano.", "el cuerpo &middot; the adjective follows the noun", "A1::topics A1::cuerpo"),
+    vocab("I need medicine for my throat.", "Necesito medicina para la garganta.", "medicina with no article after necesito", "A1::topics A1::cuerpo"),
+    vocab("The doctor has given me a prescription.", "El médico me ha dado una receta.", "la receta is both a prescription and a recipe &middot; ha dado, the perfecto", "A1::topics A1::cuerpo"),
+    vocab("I wash my hands before eating.", "Me lavo las manos antes de comer.", "the reflexive carries the my: me lavo las manos, not mis manos", "A1::topics A1::cuerpo"),
+
+    # ---- shopping and paying ----------------------------------------------
+    vocab("How much is it altogether?", "¿Cuánto es todo?", "¿cuánto es? at the till; ¿cuánto cuesta? about one item", "A1::topics A1::compras-dinero"),
+    vocab("The price is too high.", "El precio es demasiado alto.", "el precio &middot; demasiado = too much", "A1::topics A1::compras-dinero"),
+    vocab("I'd like a white coffee, please.", "Quisiera un café con leche, por favor.", "quisiera is the polite I would like &middot; softer than quiero", "A1::topics A1::compras-dinero"),
+    vocab("Can I pay by card?", "¿Puedo pagar con tarjeta?", "con tarjeta, with no article", "A1::topics A1::compras-dinero"),
+    vocab("I'll pay cash.", "Pago en efectivo.", "en efectivo = in cash &middot; the present tense does the job of I'll", "A1::topics A1::compras-dinero"),
+    vocab("There's a twenty percent discount.", "Hay un descuento del veinte por ciento.", "un descuento del + number &middot; por ciento = percent", "A1::topics A1::compras-dinero"),
+    vocab("The sales start in January.", "Las rebajas empiezan en enero.", "las rebajas, always plural &middot; months are lowercase", "A1::topics A1::compras-dinero"),
+    vocab("Can I try it on?", "¿Puedo probármelo?", "probarse + lo, both stuck on the infinitive &middot; ¿me lo puedo probar? works too", "A1::topics A1::compras-dinero"),
+
+    # ---- quantities --------------------------------------------------------
+    vocab("A litre of milk, please.", "Un litro de leche, por favor.", "quantity + de + the thing, with no article", "A1::topics A1::cantidades"),
+    vocab("A bottle of water.", "Una botella de agua.", "agua is feminine but takes el: el agua, una botella de agua", "A1::topics A1::cantidades"),
+    vocab("A packet of biscuits.", "Un paquete de galletas.", "las galletas = biscuits", "A1::topics A1::cantidades"),
+    vocab("A tin of tomatoes.", "Una lata de tomates.", "la lata = tin &middot; also what you call something annoying: ¡qué lata!", "A1::topics A1::cantidades"),
+    vocab("Half a kilo of cheese.", "Medio kilo de queso.", "medio, with no un in front", "A1::topics A1::cantidades"),
+    vocab("Two beers, please.", "Dos cañas, por favor.", "una caña is a small draught beer, the default order in a Spanish bar", "A1::topics A1::cantidades"),
+    vocab("I'm going to the bakery.", "Voy a la panadería.", "the -ería ending names the shop: panadería, frutería, librería", "A1::topics A1::cantidades"),
+
+    # ---- nature ------------------------------------------------------------
+    vocab("There are birds in the tree.", "Hay pájaros en el árbol.", "el árbol &rarr; los árboles &middot; hay for existence", "A1::topics A1::naturaleza"),
+    vocab("We're going to the mountains this weekend.", "Vamos a la montaña este fin de semana.", "la montaña, singular, where English uses the plural", "A1::topics A1::naturaleza"),
+    vocab("The sky is very blue today.", "Hoy el cielo está muy azul.", "estar because it's how the sky looks today", "A1::topics A1::naturaleza"),
+    vocab("Mallorca is an island.", "Mallorca es una isla.", "la isla &middot; ser for what something permanently is", "A1::topics A1::naturaleza"),
+    vocab("I like walking in the countryside.", "Me gusta pasear por el campo.", "pasear = to stroll &middot; por = around, through", "A1::topics A1::naturaleza"),
+    vocab("The flowers in the garden are beautiful.", "Las flores del jardín son preciosas.", "de + el = del &middot; precioso is stronger than bonito", "A1::topics A1::naturaleza"),
+
+    # ---- phone and computer ------------------------------------------------
+    vocab("I'll send you a message.", "Te mando un mensaje.", "mandar or enviar &middot; the present covers I'll", "A1::topics A1::tecnologia"),
+    vocab("The screen is broken.", "La pantalla está rota.", "estar for the state &middot; roto / rota from romper", "A1::topics A1::tecnologia"),
+    vocab("I'm going to download the app.", "Voy a descargar la aplicación.", "descargar = to download &middot; la app is said too", "A1::topics A1::tecnologia"),
+    vocab("Can you send me the link?", "¿Me mandas el enlace?", "el enlace = link &middot; el link is also heard", "A1::topics A1::tecnologia"),
+    vocab("I turn the computer off at seven.", "Apago el ordenador a las siete.", "apagar &harr; encender &middot; el ordenador in Spain", "A1::topics A1::tecnologia"),
+    vocab("My phone won't turn on.", "Mi móvil no se enciende.", "se enciende: the phone turns itself on, so Spanish makes it reflexive", "A1::topics A1::tecnologia"),
+    vocab("What's the wifi password?", "¿Cuál es la contraseña del wifi?", "la contraseña &middot; cuál, not qué, to pick out the one you mean", "A1::topics A1::tecnologia"),
+    vocab("I've got no battery left.", "No me queda batería.", "quedar again: no me queda = I have none left", "A1::topics A1::tecnologia"),
+
+    # ---- odds and ends the audit turned up ---------------------------------
+    vocab("Where's the bus stop?", "¿Dónde está la parada del autobús?", "la parada &middot; de + el = del", "A1::topics A1::varios"),
+    vocab("You have to cross the street.", "Tienes que cruzar la calle.", "cruzar &middot; c &rarr; c, but crucé in the past", "A1::topics A1::varios"),
+    vocab("What's the train timetable?", "¿Cuál es el horario del tren?", "el horario = timetable, and also working hours", "A1::topics A1::varios"),
+    vocab("The salary is good.", "El sueldo es bueno.", "el sueldo = salary &middot; el salario is the formal word", "A1::topics A1::varios"),
+    vocab("I get dressed quickly in the morning.", "Me visto rápido por la mañana.", "vestirse: e &rarr; i, me visto, te vistes, se viste", "A1::topics A1::varios"),
+    vocab("I need my passport to travel.", "Necesito el pasaporte para viajar.", "el pasaporte, with the article where English says my", "A1::topics A1::varios"),
+    vocab("Of course!", "¡Por supuesto!", "also claro and desde luego &middot; all three mean of course", "A1::topics A1::varios"),
+    vocab("In my opinion, it's important.", "En mi opinión, es importante.", "en mi opinión &middot; creo que is the everyday alternative", "A1::topics A1::varios"),
+    vocab("This app is very useful.", "Esta aplicación es muy útil.", "útil keeps one form for both genders &middot; inútil = useless", "A1::topics A1::varios"),
+    vocab("I have a missed call.", "Tengo una llamada perdida.", "la llamada from llamar &middot; perdida = missed, literally lost", "A1::topics A1::varios"),
+    vocab("Are you free on Friday?", "¿Estás libre el viernes?", "estar libre = to be free &middot; ser libre is about liberty", "A1::topics A1::varios"),
+    vocab("That coat is very fashionable.", "Ese abrigo está muy de moda.", "estar de moda = to be in fashion &middot; la moda = fashion", "A1::topics A1::varios"),
+    vocab("That bag is ugly.", "Ese bolso es feo.", "feo &rarr; fea &middot; ese for something near the person you're talking to", "A1::topics A1::varios"),
+
     vocab("He drives like a maniac.", "Va hecho un fitipaldi.", "from Emerson Fittipaldi, F1 champion in 1972 and 1974, spelt the Spanish way with one t &middot; someone who goes fast, happily and a bit madly - it's affectionate, not a warning", "A1::topics A1::coloquial"),
     vocab("Slow down, you're not a racing driver!", "¡Más despacio, que no eres fitipaldi!", "que opens a friendly reproach and barely translates &middot; más despacio = slower", "A1::topics A1::coloquial"),
 

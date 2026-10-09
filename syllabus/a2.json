@@ -1,0 +1,69 @@
+{
+ "past narration": [
+  "ayer",
+  "anoche",
+  "la semana pasada",
+  "hace dos años",
+  "de repente",
+  "mientras",
+  "entonces",
+  "era",
+  "estaba",
+  "había"
+ ],
+ "connectors": [
+  "sin embargo",
+  "en cambio",
+  "por lo tanto",
+  "de hecho",
+  "o sea",
+  "mientras que",
+  "así que",
+  "aunque",
+  "además",
+  "incluso"
+ ],
+ "chunks & idioms": [
+  "darse cuenta",
+  "tener ganas de",
+  "echar de menos",
+  "ponerse de acuerdo",
+  "hacer caso",
+  "dar igual",
+  "merecer la pena",
+  "estar a punto de"
+ ],
+ "abstract nouns": [
+  "experiencia",
+  "costumbre",
+  "consejo",
+  "ambiente",
+  "motivo",
+  "oportunidad",
+  "resultado",
+  "ventaja",
+  "desventaja",
+  "esfuerzo"
+ ],
+ "pronominal verbs": [
+  "quejarse",
+  "acordarse",
+  "olvidarse",
+  "atreverse",
+  "parecerse",
+  "irse",
+  "dormirse",
+  "ponerse",
+  "volverse",
+  "hacerse"
+ ],
+ "opinions & argument": [
+  "estoy a favor",
+  "estoy en contra",
+  "por un lado",
+  "por otro lado",
+  "en resumen",
+  "lo bueno es que",
+  "lo malo es que"
+ ]
+}

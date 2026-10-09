@@ -12,7 +12,8 @@ decks/               the .tsv files you import into Anki
 notetypes/           the two note types: fields, templates, styling
 posters/             wall charts: .html source next to its .pdf and .png
 render_posters.sh    re-renders the posters and checks they still fit A4
-audit_coverage.py    checks whether words are really covered: python3 audit_coverage.py triste árbol
+audit_coverage.py    coverage report per level: python3 audit_coverage.py --level a1
+syllabus/            one .json checklist per level - add b1.json to audit B1
 backups/             point-in-time Anki collection exports (scheduling)
 ```
 
@@ -32,10 +33,10 @@ English explanation after it. See `notetypes/`.
 | `spanish_A1_vocab_anki.tsv` | 201 | 1. Core vocabulary | **EN → ES** (production) |
 | `spanish_A1_grammar_anki.tsv` | 162 | 3. Transformations | instruction → ES |
 | `spanish_A1_sentences_anki.tsv` | 152 | 4. Understand the sentence | **ES → EN** + breakdown |
-| `spanish_A1_topics_anki.tsv` | 184 | 1. Core vocabulary (topic sets) | **EN → ES** (production) |
+| `spanish_A1_topics_anki.tsv` | 254 | 1. Core vocabulary (topic sets) | **EN → ES** (production) |
 | `spanish_A2_pasado_anki.tsv` | 79 | 2. Verb drills (pretérito) | fill-in-the-blank + EN→ES |
 | `video_leones_anki.tsv` | 25 | 5. Pre-watch vocabulary | **ES → EN** (comprehension) |
-| | **1013** | | |
+| | **1083** | | |
 
 `spanish_A1_topics_anki.tsv` is fourteen themed blocks, meant to be
 imported as one batch: `A1::clima` (weather), `A1::numeros-100` (0–100),

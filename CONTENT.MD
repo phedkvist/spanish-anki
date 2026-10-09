@@ -49,6 +49,14 @@ and the filename, never in a separate deck, so reviews stay mixed.
 | Where things are (encima de, al lado de …) | `A1::lugar` | 12 |
 | Health (me duele …) | `A1::salud` | 10 |
 | Colours, incl. the ones that don't agree | `A1::colores` | 18 |
+| Describing people | `A1::personas` | 10 |
+| Feelings, me apetece, tener ganas de | `A1::sentimientos` | 10 |
+| The body and the chemist | `A1::cuerpo` | 8 |
+| Shopping and paying | `A1::compras-dinero` | 8 |
+| Quantities | `A1::cantidades` | 7 |
+| Animals and nature | `A1::naturaleza` | 6 |
+| Phone and computer | `A1::tecnologia` | 8 |
+| Odds and ends the audit found | `A1::varios` | 13 |
 | School timetable (asking and answering) | `A1::horario` | 12 |
 | Colloquial Spain (fitipaldi…) | `A1::coloquial` | 2 |
 
@@ -94,6 +102,10 @@ Ordered by how soon they're likely to come up.
 
 Later (B1): subjunctive, object pronoun combinations beyond *se lo*, passive
 and impersonal *se*.
+
+`audit_coverage.py --level a1` scores the collection against
+`syllabus/a1.json`: **A1 is at 98%**. A2 sits at 50%, and B1 becomes a matter
+of adding `syllabus/b1.json`.
 
 See `WORDBANK.MD` for the vocabulary queue — verbs and words the collection is
 missing, to pull from whenever a new block is written. This file is structures;

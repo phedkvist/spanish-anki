@@ -409,7 +409,7 @@ PAST = [
 # Comprehension direction on purpose: these words arrive through the ears.
 # Counts are how often each word is spoken in the film.
 VIDEO_LEONES = [
-    sentence("la manada", "the pride (of lions)", "also a herd of buffalo or a pack of wolves &middot; said 70 times in the film", "video::leones"),
+    sentence("la manada", "the pride (of lions)", "also a herd of buffalo or a pack of wolves &middot; the most repeated noun in the film, said about 23 times", "video::leones"),
     sentence("el macho / la hembra", "the male / the female", "el macho stays masculine even for a female animal's mate", "video::leones"),
     sentence("el cachorro", "the cub", "also a puppy &middot; los cachorros", "video::leones"),
     sentence("el león / la leona", "the lion / the lioness", "león drops its accent in the plural: los leones", "video::leones"),
@@ -434,6 +434,30 @@ VIDEO_LEONES = [
     sentence("la vida", "life", "also on the word bank: la vida, toda la vida = all your life", "video::leones"),
     sentence("la manera", "the way, the manner", "de esta manera = this way &middot; also on the word bank", "video::leones"),
     sentence("último", "last, final", "el último = the last one &middot; also on the word bank", "video::leones"),
+
+    # second tier: everything else said more than once in the film
+    sentence("el río", "the river", "also on the word bank &middot; los ríos", "video::leones"),
+    sentence("los carroñeros", "the scavengers", "la carroña = carrion &middot; hyenas and vultures in this film", "video::leones"),
+    sentence("los rivales", "the rivals", "la rivalidad = rivalry &middot; it is in the film's title", "video::leones"),
+    sentence("la prueba", "the test, the proof", "poner a prueba = to put to the test", "video::leones"),
+    sentence("la fuerza", "the strength, the force", "fuerte = strong &middot; a la fuerza = by force", "video::leones"),
+    sentence("el miedo", "the fear", "tener miedo = to be afraid, with tener, never estar", "video::leones"),
+    sentence("la muerte", "the death", "morir = to die &middot; muerto = dead", "video::leones"),
+    sentence("las heridas", "the wounds, the injuries", "herido = wounded &middot; herir = to wound", "video::leones"),
+    sentence("la seguridad", "the safety, the security", "seguro = safe, and also sure", "video::leones"),
+    sentence("el rastro", "the trail, the track", "seguir el rastro = to follow the trail", "video::leones"),
+    sentence("la señal", "the sign, the signal", "feminine despite the consonant ending &middot; las señales", "video::leones"),
+    sentence("la compañía", "the company, the companionship", "el compañero = companion, the word for a colleague too", "video::leones"),
+    sentence("la temporada", "the season, the period", "a stretch of time, not a season of the year, which is la estación", "video::leones"),
+    sentence("la arena", "the sand", "also the sand of an arena - the English word comes from this", "video::leones"),
+    sentence("la energía", "the energy", "the g sounds like the j of jirafa", "video::leones"),
+    sentence("el resto", "the rest, the remainder", "el resto de la manada = the rest of the pride", "video::leones"),
+    sentence("solitario", "solitary, lone", "el solitario = a loner &middot; solo = alone", "video::leones"),
+    sentence("hambriento", "hungry, starving", "stronger than tener hambre &middot; el hambre = hunger", "video::leones"),
+    sentence("prohibido", "forbidden", "prohibir = to forbid &middot; prohibido on a sign = no entry", "video::leones"),
+    sentence("valiente", "brave", "one form for both genders, like fuerte", "video::leones"),
+    sentence("unirse", "to join, to band together", "unir = to unite &middot; unirse a la manada", "video::leones"),
+    sentence("gran", "great, big (before a noun)", "grande shortens to gran before any singular noun: un gran macho, una gran manada", "video::leones"),
 ]
 
 
@@ -1226,6 +1250,14 @@ TOPICS = [
     vocab("The black trousers are on the bed.", "Los pantalones negros están encima de la cama.", "pantalones is plural in Spanish &rarr; negros", "A1::topics A1::colores"),
     vocab("My favourite colour is yellow.", "Mi color favorito es el amarillo.", "a colour on its own takes el: el amarillo", "A1::topics A1::colores"),
     vocab("What colour is your car?", "¿De qué color es tu coche?", "de qué color, with de", "A1::topics A1::colores"),
+    vocab("What's your favourite colour?", "¿Cuál es tu color favorito?", "cuál + ser to pick one out of a set", "A1::topics A1::colores"),
+    vocab("I want an orange T-shirt.", "Quiero una camiseta naranja.", "colours borrowed from fruit don't agree: naranja, rosa and violeta stay as they are", "A1::topics A1::colores"),
+    vocab("She has pink shoes.", "Tiene unos zapatos rosa.", "rosa doesn't change for number either &middot; zapatos rosas is heard, but rosa is the careful form", "A1::topics A1::colores"),
+    vocab("The purple flowers are beautiful.", "Las flores moradas son bonitas.", "morado agrees like any other adjective &middot; violeta, the other word for purple, does not", "A1::topics A1::colores"),
+    vocab("The red door is open.", "La puerta roja está abierta.", "rojo &rarr; roja for a feminine noun &middot; estar for the state of being open", "A1::topics A1::colores"),
+    vocab("The yellow houses are old.", "Las casas amarillas son viejas.", "amarillo has all four forms: amarillo, amarilla, amarillos, amarillas", "A1::topics A1::colores"),
+    vocab("I like light blue.", "Me gusta el azul claro.", "claro = light, oscuro = dark &middot; el azul claro as a noun takes el", "A1::topics A1::colores"),
+    vocab("He has dark green eyes.", "Tiene los ojos verde oscuro.", "claro and oscuro freeze the colour: verde oscuro, never verdes oscuros &middot; Spanish says los ojos, not sus ojos", "A1::topics A1::colores"),
 
     # ---- colloquial Spain ------------------------------------------------
     vocab("He drives like a maniac.", "Va hecho un fitipaldi.", "from Emerson Fittipaldi, F1 champion in 1972 and 1974, spelt the Spanish way with one t &middot; someone who goes fast, happily and a bit madly - it's affectionate, not a warning", "A1::topics A1::coloquial"),

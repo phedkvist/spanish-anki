@@ -48,7 +48,7 @@ and the filename, never in a separate deck, so reviews stay mixed.
 | Years and dates | `A1::fechas` | 10 |
 | Where things are (encima de, al lado de …) | `A1::lugar` | 12 |
 | Health (me duele …) | `A1::salud` | 10 |
-| Colours | `A1::colores` | 10 |
+| Colours, incl. the ones that don't agree | `A1::colores` | 18 |
 | School timetable (asking and answering) | `A1::horario` | 12 |
 | Colloquial Spain (fitipaldi…) | `A1::coloquial` | 2 |
 

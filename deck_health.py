@@ -121,8 +121,10 @@ def check_reinforcement():
     freq = collections.Counter(re.findall(r"[a-záéíóúñü]+", text))
     once = sum(1 for c in freq.values() if c == 1)
     pct = 100 * once // len(freq)
+    # card spread, not exposure count: a word on one well-reviewed card may be
+    # seen more often than one spread over three cards barely started
     line = (f"{pct}% of Spanish word forms appear on exactly one card "
-            f"({once} of {len(freq)})")
+            f"({once} of {len(freq)}) - a spread measure, not an exposure count")
     (warnings if pct > MAX_ONCE_ONLY else notes).append(
         line + (" - new blocks should reuse known words, not only introduce new ones"
                 if pct > MAX_ONCE_ONLY else ""))

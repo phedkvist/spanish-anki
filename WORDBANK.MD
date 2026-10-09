@@ -5,9 +5,19 @@ instead of being invented from scratch. Tick a line when it lands in a deck,
 and note which tag it went into.
 
 **How this list was built.** Every entry was checked against `decks/*.tsv`
-before being listed. Some appear once or twice in an unrelated card — *pasar*
-shows up four times, *quedar* three — but an incidental mention is not the same
-as being drilled, so they stay on the list until they have cards of their own.
+before being listed. Some appear once or twice inside a card about something
+else, which raises the fair question of whether that is already enough.
+
+The test is the sense, not the count. A word inside a card you review is seen
+every time that card comes up — twenty times a year is normal — and for
+**recognition** that is plenty. What it does not give is **production**: on that
+card you are asked to produce something else, so the word itself is never
+retrieved. Card it when you need to say it unprompted, or when the existing
+appearance carries a different meaning — *quedan dos días* (to be left) teaches
+nothing about *quedamos a las ocho* (to arrange to meet).
+
+By that test some entries here are weaker than others, and a word that appears
+in a card meaning the same thing can simply be struck off.
 
 **Where the collection stands.** 909 distinct Spanish word forms across the
 decks — roughly 600 headwords once inflections collapse, against a usual A1

@@ -1347,6 +1347,48 @@ TOPICS = [
     vocab("That coat is very fashionable.", "Ese abrigo está muy de moda.", "estar de moda = to be in fashion &middot; la moda = fashion", "A1::topics A1::varios"),
     vocab("That bag is ugly.", "Ese bolso es feo.", "feo &rarr; fea &middot; ese for something near the person you're talking to", "A1::topics A1::varios"),
 
+
+    # ---- personal data and forms -------------------------------------------
+    vocab("What's your surname?", "¿Cuál es tu apellido?", "Spaniards carry two: the father's first, the mother's second, and neither is dropped on marriage", "A1::topics A1::datos-personales"),
+    vocab("My nationality is Swedish.", "Mi nacionalidad es sueca.", "la nacionalidad is feminine, so sueca agrees with it, not with you", "A1::topics A1::datos-personales"),
+    vocab("What's your date of birth?", "¿Cuál es tu fecha de nacimiento?", "la fecha de nacimiento &middot; written day/month/year in Spain", "A1::topics A1::datos-personales"),
+    vocab("How old are you? (formal)", "¿Qué edad tiene usted?", "la edad = age &middot; ¿cuántos años tienes? is the everyday version", "A1::topics A1::datos-personales"),
+    vocab("Marital status: married.", "Estado civil: casado.", "the phrase you meet on every form", "A1::topics A1::datos-personales"),
+    vocab("I have to fill in this form.", "Tengo que rellenar este formulario.", "rellenar = to fill in &middot; el formulario", "A1::topics A1::datos-personales"),
+    vocab("You have to sign here.", "Tienes que firmar aquí.", "firmar &middot; la firma = signature", "A1::topics A1::datos-personales"),
+    vocab("I need my ID card.", "Necesito mi documento de identidad.", "el DNI in Spain, and everyone says deneí", "A1::topics A1::datos-personales"),
+    vocab("What's your email address?", "¿Cuál es tu correo electrónico?", "el correo electrónico, or just el correo &middot; arroba = the @ sign", "A1::topics A1::datos-personales"),
+    vocab("My address is Calle Mayor, five.", "Mi dirección es calle Mayor, cinco.", "the number goes after the street name in Spanish addresses", "A1::topics A1::datos-personales"),
+
+    # ---- post, bank, emergencies -------------------------------------------
+    vocab("I need a stamp for this letter.", "Necesito un sello para esta carta.", "el sello &middot; correos is the post office", "A1::topics A1::servicios"),
+    vocab("Where can I withdraw money?", "¿Dónde puedo sacar dinero?", "sacar dinero = to take money out", "A1::topics A1::servicios"),
+    vocab("There's a cash machine on the corner.", "Hay un cajero en la esquina.", "el cajero automático, shortened to el cajero", "A1::topics A1::servicios"),
+    vocab("I'm going to call the police.", "Voy a llamar a la policía.", "la policía = the force, el policía = an officer &middot; the personal a before people", "A1::topics A1::servicios"),
+    vocab("Where's the emergency department?", "¿Dónde está urgencias?", "urgencias, plural and with no article, is what the sign says", "A1::topics A1::servicios"),
+    vocab("It's an emergency.", "Es una emergencia.", "the number for all of them in Spain is 112", "A1::topics A1::servicios"),
+    vocab("I want to open a bank account.", "Quiero abrir una cuenta en el banco.", "la cuenta is both a bank account and the bill in a bar", "A1::topics A1::servicios"),
+    vocab("I'm going to send a parcel to Sweden.", "Voy a enviar un paquete a Suecia.", "enviar or mandar &middot; countries take no article here", "A1::topics A1::servicios"),
+
+    # ---- celebrations -------------------------------------------------------
+    vocab("Happy birthday!", "¡Feliz cumpleaños!", "feliz has one form for both genders &middot; felices in the plural", "A1::topics A1::celebraciones"),
+    vocab("Congratulations!", "¡Felicidades!", "¡enhorabuena! for an achievement, ¡felicidades! for a birthday or occasion", "A1::topics A1::celebraciones"),
+    vocab("We're celebrating my sister's wedding.", "Celebramos la boda de mi hermana.", "la boda &middot; possession is de, there is no apostrophe-s", "A1::topics A1::celebraciones"),
+    vocab("At Christmas we eat as a family.", "En Navidad comemos en familia.", "Navidad is capitalised &middot; en familia = together as a family", "A1::topics A1::celebraciones"),
+    vocab("They've invited me to a party.", "Me han invitado a una fiesta.", "invitar a &middot; han invitado, the perfecto", "A1::topics A1::celebraciones"),
+    vocab("What a lovely present!", "¡Qué regalo tan bonito!", "qué + noun + tan + adjective is the standard exclamation", "A1::topics A1::celebraciones"),
+
+    # ---- town and countryside ----------------------------------------------
+    vocab("I live in a quiet neighbourhood.", "Vivo en un barrio tranquilo.", "el barrio &middot; tranquilo = quiet, calm", "A1::topics A1::ciudad-campo"),
+    vocab("They live on the outskirts.", "Viven en las afueras.", "las afueras is always plural", "A1::topics A1::ciudad-campo"),
+    vocab("The village is in the countryside.", "El pueblo está en el campo.", "el pueblo = village or small town &middot; estar for location", "A1::topics A1::ciudad-campo"),
+    vocab("My building has eight floors.", "Mi edificio tiene ocho plantas.", "la planta = storey &middot; la planta baja is the ground floor", "A1::topics A1::ciudad-campo"),
+
+    # ---- the three the audit still flagged ----------------------------------
+    vocab("In spring there are flowers everywhere.", "En primavera hay flores por todas partes.", "en primavera, with no article &middot; por todas partes = everywhere", "A1::topics A1::fechas"),
+    vocab("I have to do my homework.", "Tengo que hacer los deberes.", "hacer los deberes, always plural and with the article", "A1::topics A1::horario"),
+    vocab("I love Spanish food.", "Me encanta la comida española.", "encantar is gustar turned up &middot; never muy with it: me encanta, not me gusta muy", "A1::topics A1::gustar-personas"),
+
     vocab("He drives like a maniac.", "Va hecho un fitipaldi.", "from Emerson Fittipaldi, F1 champion in 1972 and 1974, spelt the Spanish way with one t &middot; someone who goes fast, happily and a bit madly - it's affectionate, not a warning", "A1::topics A1::coloquial"),
     vocab("Slow down, you're not a racing driver!", "¡Más despacio, que no eres fitipaldi!", "que opens a friendly reproach and barely translates &middot; más despacio = slower", "A1::topics A1::coloquial"),
 

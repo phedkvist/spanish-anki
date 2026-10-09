@@ -57,6 +57,10 @@ and the filename, never in a separate deck, so reviews stay mixed.
 | Animals and nature | `A1::naturaleza` | 6 |
 | Phone and computer | `A1::tecnologia` | 8 |
 | Odds and ends the audit found | `A1::varios` | 13 |
+| Personal data and forms | `A1::datos-personales` | 10 |
+| Post, bank, emergencies | `A1::servicios` | 8 |
+| Celebrations | `A1::celebraciones` | 6 |
+| Town and countryside | `A1::ciudad-campo` | 4 |
 | School timetable (asking and answering) | `A1::horario` | 12 |
 | Colloquial Spain (fitipaldi…) | `A1::coloquial` | 2 |
 
@@ -104,7 +108,7 @@ Later (B1): subjunctive, object pronoun combinations beyond *se lo*, passive
 and impersonal *se*.
 
 `audit_coverage.py --level a1` scores the collection against
-`syllabus/a1.json`: **A1 is at 92%**.
+`syllabus/a1.json`: **A1 is at 100%** — all 286 items across 25 topics.
 
 How that checklist was built, and what it is worth: the topic structure follows
 the Instituto Cervantes *Plan Curricular* inventory of specific notions for

@@ -287,5 +287,52 @@
   "morado",
   "claro",
   "oscuro"
+ ],
+ "personal identity & documents": [
+  "nombre",
+  "apellido",
+  "dirección",
+  "nacionalidad",
+  "edad",
+  "estado civil",
+  "documento",
+  "pasaporte",
+  "correo electrónico",
+  "firmar",
+  "rellenar"
+ ],
+ "services: post, bank, emergency": [
+  "correos",
+  "sello",
+  "paquete",
+  "banco",
+  "cuenta",
+  "sacar dinero",
+  "cajero",
+  "policía",
+  "urgencias",
+  "ayuda"
+ ],
+ "celebrations & events": [
+  "fiesta",
+  "cumpleaños",
+  "navidad",
+  "regalo",
+  "felicidades",
+  "boda",
+  "celebrar",
+  "invitar"
+ ],
+ "town & countryside": [
+  "ciudad",
+  "pueblo",
+  "barrio",
+  "centro",
+  "afueras",
+  "campo",
+  "plaza",
+  "edificio",
+  "calle",
+  "vecino"
  ]
 }

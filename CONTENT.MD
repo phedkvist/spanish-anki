@@ -104,7 +104,19 @@ Later (B1): subjunctive, object pronoun combinations beyond *se lo*, passive
 and impersonal *se*.
 
 `audit_coverage.py --level a1` scores the collection against
-`syllabus/a1.json`: **A1 is at 98%**. A2 sits at 50%, and B1 becomes a matter
+`syllabus/a1.json`: **A1 is at 92%**.
+
+How that checklist was built, and what it is worth: the topic structure follows
+the Instituto Cervantes *Plan Curricular* inventory of specific notions for
+A1-A2, whose 20 thematic areas were used as a scaffold. The individual items
+under each topic are written here, not taken from theirs. Cross-checking that
+way turned up four areas the first draft had missed entirely - personal
+identity and documents, services (post, bank, emergencies), celebrations, and
+town versus countryside - and dropped the score from 98% to 92%.
+
+The score still has a built-in bias worth remembering: the same hand writes the
+checklist and the cards, so it measures internal consistency more than external
+validity. The Cervantes structure limits that, it does not remove it. A2 sits at 50%, and B1 becomes a matter
 of adding `syllabus/b1.json`.
 
 See `WORDBANK.MD` for the vocabulary queue — verbs and words the collection is

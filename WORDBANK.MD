@@ -287,6 +287,119 @@ Named here so the same words don't get re-proposed every time an audit runs:
 
 ---
 
+## From reading — *La criatura*, cap. 2 "La búsqueda" (pp. 37–41)
+
+Five pages of a graded reader, photographed 10 Oct 2026. Different provenance
+from everything above: these are words that actually blocked a page, not words
+an audit inferred were missing. That makes them better candidates than most of
+the audit list — but the reader narrates in *indefinido* + *imperfecto* +
+*pluscuamperfecto*, so most of what it needs is A2, and a good share of it
+waits on tenses the course hasn't reached (see `CONTENT.MD`).
+
+67 of the ~120 content words on those pages have no card. Grouped by when
+they'd be worth one.
+
+### A1 — ordinary words, usable the moment they're carded
+
+- [ ] **adiós** — goodbye · genuinely absent, which is a hole · *decir adiós con la mano* = to wave
+- [ ] **decidir** — to decide · *decidió esperar*
+- [ ] **intentar** — to try · *intentó llamar* · pairs with *probar* = to try out
+- [ ] **visitar** — to visit
+- [ ] **vender** — to sell · the other half of *comprar*, already queued above
+- [ ] **responder** / **contestar** — to answer · *no respondió nadie* · *contestar al teléfono*
+- [ ] **el camarero** — waiter · belongs in `A1::cafe`, which has the ordering but not the person
+- [ ] **raro** — strange, odd · *algo raro estaba pasando* · also means rare
+- [ ] **diferente** — different
+- [ ] **siguiente** — next · *al día siguiente* · vs *próximo*
+- [ ] **anterior** — previous · *el día anterior*
+- [ ] **varios** — several
+- [ ] **entero** — whole · *familias enteras*
+- [ ] **propio** — own · *garaje propio* · follows the noun
+- [ ] **hacia** — towards · vs *hasta* = as far as
+- [ ] **ningún / ninguno** — not any · *no tengo ningún mensaje*
+- [ ] **cercano** — nearby · *el restaurante más cercano* · *cerca* has a card, the adjective doesn't
+- [ ] **hermoso** — beautiful · a step up from *bonito*
+- [ ] **tonto** — silly, daft · *qué tonto eres a veces*
+- [ ] **el anciano** — elderly person · the polite noun; *viejo* about people is blunt
+- [ ] **el conductor** / **el taxista** — driver / taxi driver
+- [ ] **la madera** — wood · *una casa de madera*
+- [ ] **el lago** — lake · goes with the weather/nature hole above
+- [ ] **el garaje** — garage
+
+### A2 — narration, reactions, idiom
+
+The connectors first: they are what makes the page hang together, and they
+cost nothing grammatically.
+
+- [ ] **de repente** — suddenly · the most useful word on these five pages
+- [ ] **en cambio** — on the other hand
+- [ ] **por fin** — finally · *por fin llegó el taxi*
+- [ ] **en fin** — anyway, well then · one letter from *por fin* and nothing like it
+- [ ] **tal vez** — maybe · alongside *quizás*, which has a card
+
+Then the verbs:
+
+- [ ] **aparecer** / **desaparecer** — to turn up / to vanish · *seguía sin aparecer*
+- [ ] **acercarse a** — to approach · *se acercó al camarero*
+- [ ] **dirigirse a** — to head for
+- [ ] **regresar** — to go back · *volver* is covered; *regresar* is the more formal, written one
+- [ ] **separarse** — to split up · *tenemos que separarnos*
+- [ ] **ponerse a** + infinitive — to start doing · *se puso a pensar*
+- [ ] **ponerse nervioso** — to get nervous · *ponerse* + adjective = to become
+- [ ] **sonar** — to ring · o &rarr; ue, *el teléfono suena* · the trap: *soñar* = to dream, same change
+- [ ] **marcar** — to dial · *marcó el número*
+- [ ] **oler a** — to smell of · *olía a desayuno* · o &rarr; hue: *huele*
+- [ ] **arrancar** — to start up (a car)
+- [ ] **sonreír** — to smile · *le sonrió*
+- [ ] **saltar** — to jump · *saltó el contestador* = the machine kicked in
+- [ ] **oscurecer** — to get dark · *estaba oscureciendo*
+- [ ] **explorar** — to explore
+- [ ] **fotografiar** — to photograph
+- [ ] **bromear** — to joke · *¿estás bromeando?*
+
+And the nouns and adjectives:
+
+- [ ] **la búsqueda** — the search · from *buscar*
+- [ ] **la criatura** — creature
+- [ ] **la broma** — joke · *todo una broma*
+- [ ] **la señal** — signal · *el teléfono no dio ninguna señal*
+- [ ] **el contestador (automático)** — answering machine
+- [ ] **la pared** — wall · the inside kind; *el muro* is outdoors
+- [ ] **la huella** — footprint, track
+- [ ] **el pensamiento** — thought
+- [ ] **animado** — lively · *el pueblo estaba muy animado*
+- [ ] **extraño** — strange · near-miss with *raro*, worth pairing on adjacent cards
+- [ ] **espeso** — thick, dense
+- [ ] **suelto** — loose, on the loose · from *soltar*
+- [ ] **hablador** — talkative
+- [ ] **detenidamente** — carefully, at length
+- [ ] **¡qué envidia!** — lucky you! · literally *what envy*
+- [ ] **¿qué desea?** — the formal *what would you like?* in a shop or bar
+- [ ] **sentir sueño** — to feel sleepy · *sueño* is both sleep and dream
+
+### Same word, a different sense
+
+These came back "covered" against `decks/*.tsv`, but the card teaches the other
+meaning, so by the sense test at the top of this file they still earn one.
+
+- [ ] **el banco** — bench · *se sentó en un banco de la calle* · the deck has only the money kind
+- [ ] **la vuelta** — the change · *quédese con la vuelta* = keep the change · the deck has *ida y vuelta*
+- [ ] **sentarse** — to sit down · e &rarr; ie, *me siento* · the deck has *lo siento* and *me siento bien*, both the other verb
+- [ ] **quedarse dormido** — to fall asleep · the deck has *dormir*
+- [ ] **estar apagado** — to be switched off · *los móviles estaban apagados* · the deck has *apago el ordenador*
+
+### Skipped from these pages
+
+- **la arboleda** (grove), **ubicado** (located) — scenery and estate-agent
+  Spanish; *estar en* does the job.
+- **hubiese llamado**, **habría llamado**, **que tengas un buen día** —
+  subjunctive and conditional perfect. B1, and the reader leans on them more
+  than an A1 reader should.
+- **jovencita** — how the waiter addresses Silvia. Dated, and not something to
+  reproduce.
+
+---
+
 ## How to use this
 
 When a block is being written — because a course lesson landed, or a gap turned
@@ -305,6 +418,8 @@ Order to spend on, if there's no other signal:
 3. Adjectives for people — the thinnest word class, and immediately usable
 4. Connectors — they make what you can already say sound less like a textbook
 5. The everyday verbs — useful, but regular and easier to absorb from input
+6. The reading list — out of order on purpose: pull from it while that book
+   is being read, when the words have a page behind them, not before
 
 See `CONTENT.MD` for grammar blocks queued by course order. This file is about
 vocabulary; that one is about structures.

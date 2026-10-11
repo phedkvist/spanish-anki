@@ -287,17 +287,23 @@ Named here so the same words don't get re-proposed every time an audit runs:
 
 ---
 
-## From reading — *La criatura*, cap. 2 "La búsqueda" (pp. 37–41)
+## From reading — *La criatura* (pp. 37–48, chapters 2 and 3)
 
-Five pages of a graded reader, photographed 10 Oct 2026. Different provenance
-from everything above: these are words that actually blocked a page, not words
-an audit inferred were missing. That makes them better candidates than most of
-the audit list — but the reader narrates in *indefinido* + *imperfecto* +
-*pluscuamperfecto*, so most of what it needs is A2, and a good share of it
-waits on tenses the course hasn't reached (see `CONTENT.MD`).
+A graded reader, photographed 10–11 Oct 2026: cap. 2 *La búsqueda* and cap. 3
+*La sorpresa*, which finishes the story. Different provenance from everything
+above — these are words that actually blocked a page, not words an audit
+inferred were missing. That makes them better candidates than most of the audit
+list. But the reader narrates in *indefinido* + *imperfecto* +
+*pluscuamperfecto*, so most of what it needs is A2, and a good share of it waits
+on tenses the course hasn't reached (see `CONTENT.MD`).
 
-67 of the ~120 content words on those pages have no card. Grouped by when
-they'd be worth one.
+About 110 of the ~230 content words across those twelve pages have no card.
+Grouped by when they'd be worth one, not by chapter — the book is one source.
+
+Chapter 3 pulls harder towards the everyday than chapter 2 did: it ends on a
+surprise birthday party, so it brings *cantar*, *la canción*, *el pastel*, *la
+vela*, *llorar*, *reírse* — ordinary A1 words the collection simply never
+happened to cover.
 
 ### A1 — ordinary words, usable the moment they're carded
 
@@ -325,6 +331,20 @@ they'd be worth one.
 - [ ] **la madera** — wood · *una casa de madera*
 - [ ] **el lago** — lake · goes with the weather/nature hole above
 - [ ] **el garaje** — garage
+
+From chapter 3 — the party half of the story, and the most everyday batch here:
+
+- [ ] **cantar** — to sing · and **la canción** — song · neither has a card, which is a real gap
+- [ ] **el pastel** — cake · **la vela** — candle · both belong in `A1::celebraciones`, which has the greetings but not the table
+- [ ] **llorar** — to cry · pair it on an adjacent card with **reírse** — to laugh
+- [ ] **gritar** — to shout · *Silvia gritó*
+- [ ] **el suelo** — floor, ground · **caerse** — to fall · *se cayó al suelo*
+- [ ] **la mochila** — backpack · school vocabulary the `A1::escuela` block missed
+- [ ] **quitarse** — to take off · the exact opposite of *ponerse*, and `A1::ropa` is thin at 8/11
+- [ ] **recordar** — to remember · o &rarr; ue · pairs with *olvidar*, already queued above
+- [ ] **el corazón** — heart · and what a Spanish parent calls their child
+- [ ] **loco** — mad, crazy · *¡estás loco!*
+- [ ] **el grupo** — group · *en grupos de cuatro*
 
 ### A2 — narration, reactions, idiom
 
@@ -377,6 +397,46 @@ And the nouns and adjectives:
 - [ ] **¿qué desea?** — the formal *what would you like?* in a shop or bar
 - [ ] **sentir sueño** — to feel sleepy · *sueño* is both sleep and dream
 
+And from chapter 3. The reactions first — these are what a character says out
+loud, which makes them the most immediately usable things on the page:
+
+- [ ] **¡Menos mal!** — thank goodness, just as well · one of the most-said phrases in Spain
+- [ ] **¡No me lo puedo creer!** — I can't believe it
+- [ ] **¿Qué ocurre?** — what's going on · a notch more serious than *¿qué pasa?*
+- [ ] **cambiar de parecer** — to change one's mind · *parecer* again, in a third job
+- [ ] **de nuevo** — again · alongside *otra vez*, which has a card
+
+Then the verbs:
+
+- [ ] **asustar(se)** — to frighten / to get a fright · *no quería asustarme*
+- [ ] **alcanzar** — to catch up with, to reach
+- [ ] **soltar(se)** — to let go, to get free · o &rarr; ue · *no se podía soltar*
+- [ ] **pelearse con** — to fight, to have a row with
+- [ ] **rodear** — to go round, to surround · *rodeó la casa*
+- [ ] **notar** — to notice · *notó movimiento*
+- [ ] **permanecer** — to remain, to stay put
+- [ ] **planear** — to plan · *habíamos planeado la fiesta*
+- [ ] **añadir** — to add · also what a speaker does: *&mdash;añadió su padre*
+- [ ] **aplaudir** — to applaud
+- [ ] **merecer** — to deserve · *un merecido descanso*
+- [ ] **morirse** — to die · and the one you'll actually use: *mi móvil se murió*, the battery died
+- [ ] **ir a buscar a alguien** — to go and fetch someone · *vamos a ir a buscar a Jorge*
+- [ ] **hacerse de noche** — to get dark · *se estaba haciendo de noche*
+- [ ] **sacudir la cabeza** — to shake one's head
+
+And the nouns and adjectives:
+
+- [ ] **la oscuridad** — darkness
+- [ ] **el movimiento** — movement
+- [ ] **el pánico** — panic
+- [ ] **el alivio** — relief · *llorar de alivio*
+- [ ] **la preocupación** — worry · *con cara de preocupación*
+- [ ] **el disfraz** — costume, disguise · **disfrazarse** — to dress up
+- [ ] **maravilloso** — wonderful
+- [ ] **la bienvenida** — welcome · *dar la bienvenida a alguien*
+- [ ] **alrededor de** — around · *a su alrededor* = all around her
+- [ ] **no me cuadra** — it doesn't add up · *aquí hay algo que no me cuadra*
+
 ### Same word, a different sense
 
 These came back "covered" against `decks/*.tsv`, but the card teaches the other
@@ -387,6 +447,10 @@ meaning, so by the sense test at the top of this file they still earn one.
 - [ ] **sentarse** — to sit down · e &rarr; ie, *me siento* · the deck has *lo siento* and *me siento bien*, both the other verb
 - [ ] **quedarse dormido** — to fall asleep · the deck has *dormir*
 - [ ] **estar apagado** — to be switched off · *los móviles estaban apagados* · the deck has *apago el ordenador*
+- [ ] **contar** — to tell, to count · the deck has only *la cuenta*, the bill. Already queued under *Verbs — everyday second tier*; chapter 3 confirms it (*ahora te lo contamos*)
+- [ ] **reírse** — to laugh · the audit reports *río* as covered, but that is *el río*, the river, from the `video::leones` deck. Nothing to do with laughing
+- [ ] **gastar una broma** — to play a prank · *gastar* otherwise means to spend
+- [ ] **volverse** — to turn round · *se volvió para verla* · the deck has *volver*, to go back
 
 ### Skipped from these pages
 
@@ -397,6 +461,13 @@ meaning, so by the sense test at the top of this file they still earn one.
   than an A1 reader should.
 - **jovencita** — how the waiter addresses Silvia. Dated, and not something to
   reproduce.
+- **patalear** (to kick about), **peludo** (hairy), **la cumpleañera** (the
+  birthday girl) — the book bolds these as new vocabulary, but they exist to
+  serve this plot.
+- **remodelar**, **la casa de veraneo** — also bolded, also property-brochure
+  Spanish.
+- **quizás estén**, **espero que sepa**, **queríamos que recordaras** — present
+  and imperfect subjunctive. B1, and chapter 3 uses them freely.
 
 ---
 

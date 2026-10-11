@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>A, de, por, para — the small words that follow a word</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4 portrait; margin: 0; }
+  :root{
+    --navy:#151d38;
+    --orange:#f4642a;
+    --muted:#7b8194;
+    --band:#f4f5f8;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  i{ padding-right:0.35mm; }   /* synthesized italic overhangs the space after it */
+  html{ width:210mm; }
+  body{
+    width:210mm;
+    font-family:'Poppins','Helvetica Neue',Arial,sans-serif;
+    color:var(--navy);
+    background:#fff;
+    -webkit-font-smoothing:antialiased;
+  }
+  .page{
+    width:210mm; height:297mm; overflow:hidden;
+    display:flex; flex-direction:column;
+    page-break-after:always; break-after:page;
+  }
+  .page:last-child{ page-break-after:auto; break-after:auto; }
+
+  header{ padding:8mm 12mm 3.4mm; }
+  h1{
+    font-weight:800;
+    font-size:26pt;
+    line-height:1.02;
+    letter-spacing:-0.8pt;
+    text-transform:uppercase;
+  }
+  h1 .num{ color:var(--orange); }
+  .sub{
+    margin-top:2.2mm;
+    color:var(--orange);
+    font-weight:700;
+    font-size:12pt;
+    letter-spacing:-0.2pt;
+  }
+
+  main{ flex:1; display:flex; flex-direction:column; }
+  .band{
+    flex:1;
+    padding:3.2mm 12mm;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:0 9mm;
+    align-content:start;
+  }
+  .band.alt{ background:var(--band); }
+  .band.one{ grid-template-columns:1fr; }
+
+  h2{
+    grid-column:1 / -1;
+    font-weight:700;
+    font-size:11pt;
+    letter-spacing:-0.3pt;
+    margin-bottom:1.6mm;
+  }
+  h2 .n{ color:var(--orange); }
+  h2 .what{ font-weight:400; font-size:8pt; color:#4a5165; }
+
+  table{ border-collapse:collapse; font-size:7.3pt; line-height:1.45; }
+  td,th{ padding:0 2.6mm 0.5mm 0; text-align:left; vertical-align:baseline; white-space:nowrap; }
+  td.k{ color:var(--orange); font-weight:600; }
+  td.g{ color:var(--muted); font-weight:400; }
+  table.wide{ width:100%; }
+  table.wide td{ white-space:normal; }
+
+  ul{ list-style:none; font-size:7.3pt; line-height:1.5; }
+  li{ margin-bottom:0.5mm; }
+  li b{ color:var(--orange); font-weight:600; }
+  li .g{ color:var(--muted); }
+
+  .eg{ font-size:7.3pt; line-height:1.5; }
+  .eg b{ color:var(--orange); font-weight:600; }
+  .eg .g{ color:var(--muted); }
+
+  .split{
+    grid-column:1 / -1;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:0 7mm;
+    margin-top:0.8mm;
+  }
+  .split.two{ grid-template-columns:1fr 1fr; }
+  .card{
+    border-left:0.9mm solid var(--orange);
+    padding-left:2.6mm;
+  }
+  .card .big{ font-weight:700; font-size:9.5pt; letter-spacing:-0.2pt; line-height:1.2; }
+  .card .lab{ font-size:6.9pt; color:var(--muted); line-height:1.42; margin-top:0.6mm; }
+  .card .lab b{ color:var(--navy); font-weight:600; }
+
+  .rule{
+    grid-column:1 / -1;
+    margin-top:1.4mm;
+    padding:1.8mm 2.8mm;
+    background:var(--navy);
+    color:#fff;
+    font-size:7.3pt;
+    line-height:1.48;
+    border-radius:0.8mm;
+  }
+  .rule b{ color:var(--orange); font-weight:700; }
+  .rule .dim{ color:#9aa0b2; }
+  .band.alt .rule{ background:#fff; color:var(--navy); }
+  .band.alt .rule .dim{ color:var(--muted); }
+
+  .arrow{
+    font-size:8pt; font-weight:700; color:var(--orange);
+    letter-spacing:-0.2pt; margin-bottom:1mm;
+  }
+
+  footer{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:8mm;
+    padding:2.6mm 12mm 4.5mm;
+    font-size:6.7pt;
+    line-height:1.42;
+    color:var(--muted);
+  }
+  footer .note b{ color:var(--navy); font-weight:600; }
+  footer .tag{ text-align:right; white-space:nowrap; }
+  footer .tag strong{ color:var(--navy); font-weight:700; }
+</style>
+</head>
+<body>
+
+<!-- ======================= PAGE 1 — the words themselves ==================== -->
+<section class="page">
+
+<header>
+  <h1><span class="num">A &middot; De<br>Por &middot; Para</span><br>The Small Words</h1>
+  <div class="sub">which one goes where &mdash; and what it does to <i>el</i></div>
+</header>
+
+<main>
+
+  <div class="band alt one">
+    <h2><span class="n">1.</span> Spanish has exactly <b>two</b> contractions <span class="what">both need <i>el</i> — nothing else ever joins up</span></h2>
+    <div class="split two">
+      <div class="card">
+        <div class="big">a + el &rarr; al</div>
+        <div class="lab">Voy <b>al</b> cine. &middot; Llamo <b>al</b> médico. &middot; Vamos <b>al</b> campo.</div>
+      </div>
+      <div class="card">
+        <div class="big">de + el &rarr; del</div>
+        <div class="lab">el coche <b>del</b> profesor &middot; la parada <b>del</b> autobús &middot; las flores <b>del</b> jardín</div>
+      </div>
+    </div>
+    <div class="eg" style="margin-top:1.6mm">
+      <span class="g">Everything else stays in two words. There is nothing to learn here — they simply don't merge:</span><br>
+      Voy <b>a la</b> playa. &middot; Voy <b>a los</b> Alpes. &middot; la casa <b>de la</b> profesora. &middot; el nombre <b>de las</b> calles.
+    </div>
+    <div class="rule">
+      So <b>del</b> and <b>de la</b> are not a choice you make. They are the same word <i>de</i>, standing in front of a masculine or a feminine noun. If the noun takes <i>la</i>, you write <b>de la</b>; the only reason <b>del</b> looks different is that <i>de el</i> may not be said out loud.<br>
+      <span class="dim">The one exception: <b>él</b> with an accent is the person <i>he</i>, and it never contracts — <i>se lo doy a él</i>, <i>el libro es de él</i>.</span>
+    </div>
+  </div>
+
+  <div class="band one">
+    <h2><span class="n">2.</span> <b>de</b> &mdash; the all-purpose <i>of</i> <span class="what">six jobs, and English only uses <i>of</i> for two of them</span></h2>
+    <table class="wide">
+      <tr><td class="g" style="width:29mm">whose it is</td><td class="k" style="width:42mm">el coche <b>de</b> Juan</td><td class="g">Juan's car &middot; there is no apostrophe-s in Spanish, so it flips round</td></tr>
+      <tr><td class="g">where it's from</td><td class="k">el queso es <b>de</b> España</td><td class="g">mi profesora es <b>de</b> Argentina &middot; this is the <i>ser de</i> of origin</td></tr>
+      <tr><td class="g">what it's made of</td><td class="k">una casa <b>de</b> madera</td><td class="g">a wooden house</td></tr>
+      <tr><td class="g">how much of it</td><td class="k">un litro <b>de</b> leche</td><td class="g">una botella <b>de</b> agua &middot; a quantity takes no article after <i>de</i></td></tr>
+      <tr><td class="g">what kind of thing</td><td class="k">clase <b>de</b> español</td><td class="g">zumo <b>de</b> naranja &middot; billete <b>de</b> tren &middot; fin <b>de</b> semana</td></tr>
+      <tr><td class="g">what it's about</td><td class="k">un libro <b>de</b> historia</td><td class="g">a history book</td></tr>
+    </table>
+    <div class="eg" style="margin-top:1.4mm">
+      <span class="g">And every word of place or time drags a <b>de</b> along behind it:</span><br>
+      antes <b>de</b> &middot; después <b>de</b> &middot; cerca <b>de</b> &middot; lejos <b>de</b> &middot; dentro <b>de</b> &middot; fuera <b>de</b> &middot; delante <b>de</b> &middot; detrás <b>de</b> &middot; al lado <b>de</b><br>
+      <span class="g">Vivo cerca <b>del</b> centro. &middot; Leo antes <b>de</b> dormir. &middot; Trabajo fuera <b>de</b> Estocolmo.</span>
+    </div>
+  </div>
+
+  <div class="band alt one">
+    <h2><span class="n">3.</span> <b>a</b> &mdash; movement, the clock, and people <span class="what">three unrelated jobs that happen to share one letter</span></h2>
+    <table class="wide">
+      <tr><td class="g" style="width:29mm">towards somewhere</td><td class="k" style="width:42mm">Voy <b>a</b> Madrid.</td><td class="g">Llego <b>a</b> casa. &middot; Salgo <b>a</b> la calle. &middot; movement, not position</td></tr>
+      <tr><td class="g">a time on the clock</td><td class="k"><b>A</b> las ocho.</td><td class="g">¿<b>A</b> qué hora empiezas? &middot; always <i>a</i> once an hour is named</td></tr>
+      <tr><td class="g">how often</td><td class="k">tres clases <b>a</b> la semana</td><td class="g">dos veces <b>al</b> día &middot; English <i>a week</i> is Spanish <i>a la semana</i></td></tr>
+      <tr><td class="g">how it's done</td><td class="k"><b>a</b> pie</td><td class="g"><b>a</b> mano &middot; <b>a la</b> derecha, <b>a la</b> izquierda</td></tr>
+      <tr><td class="g">in front of a person</td><td class="k">Veo <b>a</b> mis amigos.</td><td class="g">the personal <i>a</i>: Llamo <b>a</b> mi madre &middot; but <i>Veo la casa</i> — no person, no <i>a</i></td></tr>
+    </table>
+  </div>
+
+  <div class="band">
+    <h2><span class="n">4.</span> <b>por</b> vs <b>para</b> <span class="what">the one that takes longest — ask which way the sentence points</span></h2>
+    <div>
+      <div class="arrow">PARA &rarr; forwards, to the point of it</div>
+      <ul>
+        <li>who it's for — Este regalo es <b>para</b> ti.</li>
+        <li>what for — Estudio <b>para</b> aprender. ¿<b>Para</b> qué?</li>
+        <li>by when — Lo necesito <b>para</b> el lunes.</li>
+        <li>where you're headed — Salgo <b>para</b> Madrid.</li>
+        <li>in someone's view — <b>Para</b> mí, es demasiado caro.</li>
+      </ul>
+    </div>
+    <div>
+      <div class="arrow">POR &larr; backwards, to the reason or the route</div>
+      <ul>
+        <li>because of — Gracias <b>por</b> la ayuda. Lo hago <b>por</b> ti.</li>
+        <li>through, around — Paseo <b>por</b> el parque.</li>
+        <li>in exchange for — Lo compré <b>por</b> diez euros.</li>
+        <li>part of the day — <b>Por</b> la mañana. <b>Por</b> la noche.</li>
+        <li>by what means — <b>por</b> teléfono, <b>por</b> correo</li>
+      </ul>
+    </div>
+    <div class="rule">
+      <b>para</b> looks ahead at a goal; <b>por</b> looks back at a cause. <i>Un regalo <b>para</b> ti</i> = it's yours now. <i>Lo hago <b>por</b> ti</i> = I'm doing it because of you, for your sake.<br>
+      <span class="dim">Learn these whole — every one of them is <b>por</b>: por favor &middot; por supuesto &middot; por fin &middot; por ejemplo &middot; por eso &middot; por qué.</span>
+    </div>
+  </div>
+
+  <div class="band alt one">
+    <h2><span class="n">5.</span> Three near-misses <span class="what">one small word apart, and not the same sentence at all</span></h2>
+    <div class="split">
+      <div class="card">
+        <div class="big">¿Por qué? &middot; Porque&hellip;</div>
+        <div class="lab">Two words <b>ask</b> why, one word <b>answers</b> because. And <i>¿para qué?</i> is a third question — <b>what for</b>, to what end.</div>
+      </div>
+      <div class="card">
+        <div class="big">por la mañana</div>
+        <div class="lab">No hour stated. Name one and it turns into <i>de</i>: <b>a las ocho de la mañana</b>. Never <i>por las ocho</i>.</div>
+      </div>
+      <div class="card">
+        <div class="big">pensar en &middot; de</div>
+        <div class="lab">Pienso <b>en</b> ti — on my mind. ¿Qué piensas <b>de</b> esto? — your opinion. Pienso ir — I plan to, no preposition.</div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="note"><b>de</b> and <b>a</b> are not translations of <i>of</i> and <i>to</i>. They are the words that certain other words demand, so learn them stuck to the word in front — <i>cerca de</i>, <i>antes de</i>, <i>a las ocho</i> — as single items.</div>
+  <div class="tag">Prepositions, page 1 of 2<br><strong>A1 — sections 1 and 4 first</strong></div>
+</footer>
+</section>
+
+<!-- ================= PAGE 2 — what has to follow which word ================ -->
+<section class="page">
+
+<header>
+  <h1><span class="num">Es &middot; Está<br>Hay &middot; Que</span><br>What Must Follow</h1>
+  <div class="sub">the words that lock a preposition in place</div>
+</header>
+
+<main>
+
+  <div class="band alt one">
+    <h2><span class="n">6.</span> <b>es</b>, <b>está</b> or <b>hay</b> <span class="what">what it is, where it is, or that it's there at all</span></h2>
+    <div class="split">
+      <div class="card">
+        <div class="big">es &middot; son</div>
+        <div class="lab">What or who it is, and for good.<br><b>Es</b> mi hermano. &middot; <b>Es</b> profesor. &middot; <b>Es</b> alto. &middot; <b>Son</b> las tres. &middot; <b>Son</b> 9,50 €.</div>
+      </div>
+      <div class="card">
+        <div class="big">está &middot; están</div>
+        <div class="lab">Where it is, or how it is today.<br><b>Está</b> en la cocina. &middot; <b>Estoy</b> cansado. &middot; La pantalla <b>está</b> rota.</div>
+      </div>
+      <div class="card">
+        <div class="big">hay</div>
+        <div class="lab">That it exists at all. One form for singular and plural — never <i>hayn</i>.<br><b>Hay</b> un cajero. &middot; <b>Hay</b> muchas personas.</div>
+      </div>
+    </div>
+    <div class="rule">
+      <b>hay</b> introduces something new, so it goes with <i>un</i>, <i>dos</i>, <i>muchos</i> or nothing at all. <b>está</b> places something already named, so it goes with <i>el</i>, <i>la</i>, <i>mi</i>. First <i><b>Hay</b> un cajero en la esquina</i> — there's a cash machine round here somewhere. Then <i>El cajero <b>está</b> en la esquina</i> — the one we mean is on the corner.
+    </div>
+  </div>
+
+  <div class="band one">
+    <h2><span class="n">7.</span> <b>es de</b> &middot; <b>es para</b> &middot; <b>es por</b> <span class="what">the verb is identical — the small word carries the whole meaning</span></h2>
+    <div class="split">
+      <div class="card">
+        <div class="big">Es <b>de</b> Juan.</div>
+        <div class="lab">It's Juan<b>'s</b>. The same <i>es de</i> also gives origin — <i>es de España</i> — and material — <i>es de madera</i>.</div>
+      </div>
+      <div class="card">
+        <div class="big">Es <b>para</b> Juan.</div>
+        <div class="lab">It's <b>for</b> Juan. He's the one who ends up with it.</div>
+      </div>
+      <div class="card">
+        <div class="big">Es <b>por</b> Juan.</div>
+        <div class="lab">It's <b>because of</b> Juan. He's the reason, not the recipient.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="band alt">
+    <h2><span class="n">8.</span> Verbs that lock on <b>a</b> or <b>de</b> <span class="what">before a second verb — leaving it out is the commonest slip</span></h2>
+    <div>
+      <div class="arrow">&hellip; A + infinitive</div>
+      <ul>
+        <li>ir <b>a</b> — Voy <b>a</b> comer. <span class="g">the everyday future</span></li>
+        <li>empezar <b>a</b> — Empiezo <b>a</b> trabajar <b>a</b> las nueve.</li>
+        <li>aprender <b>a</b> — Aprendo <b>a</b> conducir.</li>
+        <li>volver <b>a</b> — Vuelvo <b>a</b> llamar. <span class="g">= to do it again</span></li>
+        <li>ayudar <b>a</b> &middot; enseñar <b>a</b> &middot; invitar <b>a</b></li>
+      </ul>
+    </div>
+    <div>
+      <div class="arrow">&hellip; DE + infinitive</div>
+      <ul>
+        <li>acabar <b>de</b> — Acabo <b>de</b> llegar. <span class="g">= I've just arrived</span></li>
+        <li>dejar <b>de</b> — Dejo <b>de</b> fumar. <span class="g">= to stop doing it</span></li>
+        <li>tener ganas <b>de</b> — Tengo ganas <b>de</b> viajar.</li>
+        <li>antes <b>de</b> / después <b>de</b> — Leo antes <b>de</b> dormir.</li>
+        <li>acordarse <b>de</b> &middot; olvidarse <b>de</b> &middot; depender <b>de</b></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="band">
+    <h2><span class="n">9.</span> <b>que</b>, <b>en</b> and <b>con</b> <span class="what">the other three that get locked to a word</span></h2>
+    <div>
+      <ul>
+        <li>tener <b>que</b> + verb — Tengo <b>que</b> estudiar. <span class="g">= I have to</span></li>
+        <li>hay <b>que</b> + verb — Hay <b>que</b> esperar. <span class="g">= one has to, nobody named</span></li>
+        <li>trabajar <b>en</b> — Trabajo <b>en</b> una oficina.</li>
+        <li>ir <b>en</b> — Voy <b>en</b> metro. <span class="g">but <i>a pie</i>, on foot</span></li>
+      </ul>
+    </div>
+    <div>
+      <ul>
+        <li>pensar <b>en</b> — Pienso <b>en</b> ti.</li>
+        <li>soñar <b>con</b> — Sueño <b>con</b> ir a España.</li>
+        <li>hablar <b>con</b> — Hablo <b>con</b> mi jefe.</li>
+        <li>estar de acuerdo <b>con</b> — Estoy de acuerdo <b>contigo</b>. <span class="g">con + ti = contigo</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="band alt">
+    <h2><span class="n">10.</span> Where the two languages disagree <span class="what">half the mistakes live here — a preposition that is there in one and not the other</span></h2>
+    <div>
+      <div class="arrow">English has one, Spanish has none</div>
+      <ul>
+        <li><b>buscar</b> algo — to look <i>for</i> &middot; Busco mis llaves.</li>
+        <li><b>escuchar</b> música — to listen <i>to</i></li>
+        <li><b>mirar</b> la tele — to look <i>at</i>, to watch</li>
+        <li><b>esperar</b> el autobús — to wait <i>for</i></li>
+        <li><b>pedir</b> un café &middot; <b>pagar</b> la cuenta — to ask <i>for</i>, to pay <i>for</i></li>
+      </ul>
+    </div>
+    <div>
+      <div class="arrow">Spanish demands one, English doesn't</div>
+      <ul>
+        <li>jugar <b>a</b> — Juego <b>al</b> fútbol. <span class="g">I play football</span></li>
+        <li>entrar <b>en</b> — Entro <b>en</b> casa. <span class="g">I enter the house</span></li>
+        <li>subir <b>a</b> / bajar <b>de</b> — Bajo <b>del</b> tren.</li>
+        <li>casarse <b>con</b> — Se casa <b>con</b> Ana. <span class="g">she's marrying Ana</span></li>
+      </ul>
+    </div>
+    <div class="rule">
+      <span class="dim">The one place the left column grows a preposition again: a <b>person</b> on the receiving end still takes the personal <i>a</i>. <i>Espero el autobús</i>, but <i>Espero <b>a</b> María</i>. <i>Miro la tele</i>, but <i>Miro <b>a</b> mi hermana</i>.</span>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="note">When a new verb turns up, write the preposition into the card with it — <b>acabar de</b>, not <i>acabar</i>. Nothing predicts which one a verb takes, and the two words learned together are one thing to remember instead of two.</div>
+  <div class="tag">Prepositions, page 2 of 2<br><strong>A1 — sections 6 and 8 first</strong></div>
+</footer>
+</section>
+
+</body>
+</html>

@@ -10,7 +10,7 @@ LANGUAGE_TRANSFER.MD checklist for the 90-track Complete Spanish audio course
 WORDBANK.MD          words the collection is missing, to pull from when adding cards
 decks/               the .tsv files you import into Anki
 notetypes/           the two note types: fields, templates, styling
-posters/             wall charts: .html source next to its .pdf and .png
+posters/             wall charts to print; .html sources in posters/src/
 render_posters.sh    re-renders the posters and checks they still fit A4
 audit_coverage.py    coverage report per level: python3 audit_coverage.py --level a1
 deck_health.py       checks and balances - run before adding a block
@@ -125,7 +125,8 @@ python3 build_anki.py
 It regenerates all seven files in `decks/`, the verb deck included. The verb deck
 is written first, and any later card whose Front repeats one of its Fronts is skipped, so
 the decks can't collide.
-The posters live in `posters/` and are rendered by `./render_posters.sh`.
+The posters are written in `posters/src/*.html` and rendered to `posters/*.pdf`
+by `./render_posters.sh`.
 
 `CONTENT.MD` is the running inventory: every block that exists, with its tag and
 card count, and the blocks queued up for when the course reaches them. Update it
@@ -133,7 +134,10 @@ whenever cards are added.
 
 ## Posters
 
-Five wall charts. The four verb charts carry the same 50 verbs in the same grid
+Six wall charts. The sources are `posters/src/*.html`; the printable PDFs land
+in `posters/`, so that folder is only the files you actually open.
+
+The four verb charts carry the same 50 verbs in the same grid
 order, so they read as a set: rows 1–4 are the 20 core A1 verbs, rows 5–6 ten
 more high-frequency ones, row 7 the stem-changers (volver, empezar, jugar,
 pensar, pedir), rows 8–9 ten everyday verbs (correr, nadar, llamar, llegar,
@@ -145,24 +149,25 @@ meant 5.9pt tables, which is too small to read off a wall:
 
 | File | Tense | Structure |
 |---|---|---|
-| `posters/poster.pdf` / `.png` | present indicative | 50 conjugation tables, 2 pages |
-| `posters/poster-futuro.pdf` / `.png` | futuro simple | 50 conjugation tables + a worked build-up, 2 pages |
-| `posters/poster-futuro-proximo.pdf` / `.png` | futuro próximo | `ir` conjugated once + 50 example sentences, 2 pages |
-| `posters/poster-pasado.pdf` / `.png` | pretérito indefinido | 50 conjugation tables + a worked -ar/-er/-ir example, 2 pages |
-| `posters/poster-pronombres.pdf` / `.png` | — | articles and pronouns: el/los, me/nos/le, lo/la, se |
+| `posters/poster.pdf` | present indicative | 50 conjugation tables, 2 pages |
+| `posters/poster-futuro.pdf` | futuro simple | 50 conjugation tables + a worked build-up, 2 pages |
+| `posters/poster-futuro-proximo.pdf` | futuro próximo | `ir` conjugated once + 50 example sentences, 2 pages |
+| `posters/poster-pasado.pdf` | pretérito indefinido | 50 conjugation tables + a worked -ar/-er/-ir example, 2 pages |
+| `posters/poster-pronombres.pdf` | — | articles and pronouns: el/los, me/nos/le, lo/la, se |
+| `posters/poster-preposiciones.pdf` | — | a, de, por/para, al/del, ser/estar/hay, and the verbs that lock a preposition, 2 pages |
 
 The near-future poster is deliberately shaped differently: that tense has no
 per-verb conjugation to learn (only `ir` changes), so the page spends its
 space on usage examples instead of thirty near-identical tables.
 
-Re-render after editing a `.html`:
+Re-render after editing a source in `posters/src/`:
 
 ```bash
 ./render_posters.sh                # all of them
 ./render_posters.sh poster-pasado  # just one
 ```
 
-The script writes the `.pdf` and `.png` next to the source and checks two
+The script writes the `.pdf` one level up, into `posters/`, and checks two
 things: the page count matches the number of `<section class="page">` blocks in
 the file, and the grid actually rendered. The second check exists because the
 grids are built by JavaScript — a thrown exception leaves pages that are the

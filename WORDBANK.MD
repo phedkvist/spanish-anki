@@ -451,6 +451,9 @@ meaning, so by the sense test at the top of this file they still earn one.
 - [ ] **reírse** — to laugh · the audit reports *río* as covered, but that is *el río*, the river, from the `video::leones` deck. Nothing to do with laughing
 - [ ] **gastar una broma** — to play a prank · *gastar* otherwise means to spend
 - [ ] **volverse** — to turn round · *se volvió para verla* · the deck has *volver*, to go back
+- [ ] **salir con alguien** — to be going out with someone, i.e. dating · the deck has *salgo con mis amigos*, which is the literal going-out-with; the two readings are not distinguished anywhere
+- [ ] **salir bien / mal** — to turn out well or badly · *el examen me salió bien* · nothing in the deck for this sense
+- [ ] **salir en las noticias** — to be on the news · what Jorge wanted out of the whole business in cap. 2
 
 ### Skipped from these pages
 

@@ -82,6 +82,11 @@ transport, places in town, work, travel, shopping, hobbies, adjectives — and
 Added ahead of the course. If it feels heavy, search `tag:A2::pasado`, select
 all and **Suspend** — scheduling is kept, and it comes back when you're ready.
 
+One gloss to widen when this block is unsuspended: the *trabajamos* card says
+*-ar nosotros is identical to the present*. That is true of **-ir** too —
+*salimos*, *vivimos*, *escribimos* are both tenses at once, and only the time
+word separates them. Only **-er** keeps them apart (*comemos* / *comimos*).
+
 ---
 
 ## Add when the course gets there — A1
@@ -91,7 +96,7 @@ Ordered by how soon they're likely to come up.
 | # | Block | Tag | Cards | What it covers |
 |---|---|---|---|---|
 | 1 | **estar + gerundio** | `A1::gerundio` | ~10 | *estoy trabajando*, and the trap: Spanish uses the plain present where English uses -ing (*mañana voy*, not *estoy yendo*). |
-| 2 | **Imperative (affirmative tú)** | `A1::imperativo` | ~10 | *perdona, oye, mira, dime, toma, ven* — the handful of forms you need to get someone's attention politely. |
+| 2 | **Imperative (affirmative tú)** | `A1::imperativo` | ~10 | *perdona, oye, mira, dime, toma, ven, sal* — the handful of forms you need to get someone's attention politely. The one-syllable irregulars go together: *ven, ten, pon, sal, haz, di*. |
 | 3 | **por vs para** | `A1::por-para` | ~15 | Only incidental coverage now. A top-five confusion for English speakers. |
 | 4 | **Noun gender drills** | `A1::genero-nombres` | ~30 | *la mesa, el problema, la mano* — only if agreement is still shaky. Currently gender is absorbed from sentences, which is slow. |
 

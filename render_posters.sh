@@ -18,8 +18,15 @@ CHROME="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 # headless process left over from an earlier render silently blocks this one.
 PROFILE="$(mktemp -d)"
 trap 'rm -rf "$PROFILE"' EXIT
-chrome(){ "$CHROME" --headless --disable-gpu --user-data-dir="$PROFILE" \
-                   --no-first-run --no-default-browser-check "$@"; }
+# Chrome often writes its output and then fails to exit, which hangs the run
+# for as long as you let it. Cap each launch - by the time it stops making
+# progress the file is already written, and the checks below catch a real
+# failure anyway.
+TIMEOUT="$(command -v timeout || command -v gtimeout || true)"
+if [ -n "$TIMEOUT" ]; then CAP=("$TIMEOUT" 20); else CAP=(); fi
+chrome(){ ${CAP[@]+"${CAP[@]}"} "$CHROME" --headless --disable-gpu \
+            --user-data-dir="$PROFILE" --no-first-run \
+            --no-default-browser-check "$@" || true; }
 
 cd "$(dirname "$0")/posters"
 mkdir -p src

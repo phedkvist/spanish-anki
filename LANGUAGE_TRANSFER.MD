@@ -32,8 +32,8 @@ than any summary, and it shows which blocks the deck still needs.
 - [x] **6** [▶ 7:06](https://youtu.be/BoIOy-k82cM) — `intento`, silent `h`, `ahora`, `voy`, how `v` is pronounced
 - [x] **7** [▶ 10:16](https://youtu.be/t7hyqp3mfdw) — `voy a` + infinitive, "it", `algo`, movement verbs taking `a`
 - [x] **8** [▶ 7:34](https://youtu.be/RqT515476Mc)
-- [ ] **9** [▶ 9:11](https://youtu.be/xh-LtZuh0mc)
-- [ ] **10** [▶ 12:29](https://youtu.be/mPP_8p6GzPg)
+- [x] **9** [▶ 9:11](https://youtu.be/xh-LtZuh0mc)
+- [x] **10** [▶ 12:29](https://youtu.be/mPP_8p6GzPg)
 
 ## Tracks 11–20 · 102 min
 

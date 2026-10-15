@@ -474,6 +474,131 @@ meaning, so by the sense test at the top of this file they still earn one.
 
 ---
 
+## From your own notes — class word lists (pasted 15 Oct 2026)
+
+Nine lists off your Excalidraw board. A third provenance, and by the gate in
+`CLAUDE.md` the **strongest** one: the audit infers what you might be missing,
+the reader shows what blocked a page, but these are what a class actually put in
+front of you. Reason 1 — *a lesson covered it* — applies to all of it.
+
+They also exposed holes nothing else had found.
+
+### The holes
+
+**Months — 7 of 12 have no card anywhere.** The deck has *enero, mayo, junio,
+julio, agosto*, all of them incidental (*mi cumpleaños es en enero*, *quince de
+mayo*). Missing outright:
+
+- [ ] **febrero** · **marzo** · **abril** · **septiembre** · **octubre** · **noviembre** · **diciembre**
+
+For a set this closed and this A1, half-coverage is the worst case: you can say
+your birthday is in January and nothing else. One block of twelve fixes it
+permanently. *(Your own list was missing octubre too.)*
+
+**Seasons — 2 of 4.** *primavera* and *verano* have cards; **otoño** and
+**invierno** do not.
+
+### Professions — `A1::trabajo`
+
+The deck has *profesor, médico, camarero, jefe*. Worth adding, in this order:
+
+- [ ] **ingeniero (de software)** — the one you actually need to answer *¿a qué te dedicas?*
+- [ ] **abogado / abogada** · **dentista** · **enfermero / enfermera**
+- [ ] **azafata** — flight attendant · also *auxiliar de vuelo*
+- [ ] **piloto** · **secretario / secretaria** · **recepcionista**
+
+Note the pattern worth one card of its own: *-ista* and *-ante* nouns have **one
+form for both genders** — *el dentista / la dentista*, *el estudiante / la
+estudiante* — while *-o/-a* ones change. That is the teaching point, not the
+individual words.
+
+### Reflexive verbs — `A1::rutina`
+
+Covered already: *levantarse, ducharse, bañarse, lavarse, acostarse, afeitarse,
+despertarse, dormirse, irse, vestirse*. Missing:
+
+- [ ] **peinarse** — to comb your hair · **maquillarse** — to put on makeup
+- [ ] **relajarse** — to relax
+- [ ] **portarse bien / mal** — to behave · only ever used with *bien* or *mal*
+- [ ] **alegrarse (de)** — to be glad · **enfadarse** — to get angry (the verb; the deck has only the adjective *enfadado*)
+
+### Adjectives for people
+
+*tímido* is already queued under **Personality** above — your list confirms it,
+which is the second-source test passing. New:
+
+- [ ] **considerado** — considerate · **decepcionado** — disappointed
+- [ ] **elegante** — elegant
+- [ ] **lento** — slow · pairs with *rápido*, which has a card
+
+### Clothes and food
+
+`A1::ropa` was already flagged thin at 8/11. These close it:
+
+- [ ] **el sombrero** — hat · vs **la gorra**, a cap
+- [ ] **el vestido** — dress · **la falda** — skirt
+- [ ] **los guantes** — gloves · **la bufanda** — scarf
+- [ ] **la harina** — flour · **el aceite** — oil
+
+### Place words — the *aquí / ahí / allí* three-way
+
+The deck has *aquí, encima de, dentro de, delante de, debajo de, fuera de,
+detrás de, entre, en medio de, al lado de*. The gap is the distance ladder,
+which English cannot express in one word each:
+
+- [ ] **aquí** (here, by me) · **ahí** (there, by you) · **allí** (there, away from both) · **allá** (over there, vaguer)
+- [ ] **junto a** — right next to · tighter than *al lado de*
+- [ ] **alrededor de** — around · already listed from the reader
+
+The three-way maps onto *este / ese / aquel*, so one card can teach both.
+
+### Desk, house, travel
+
+*el lápiz* and *el escritorio* are already in **The desk** queue above — confirmed
+by a second source. New:
+
+- [ ] **el cuaderno** — notebook · **el estante** — shelf · **el cajón** — drawer
+- [ ] **el reloj** — clock, watch · **el jarrón** — vase
+- [ ] **el refresco** — soft drink, *not* "refreshment"
+- [ ] **comenzar** — to begin · e &rarr; ie · a straight synonym of *empezar*, which has cards
+- [ ] **brillante** — bright, shiny · also *brilliant* about a person
+- [ ] **hacer senderismo** — to go hiking · **el albergue** — hostel · **el alojamiento** — accommodation
+
+### Corrections to the lists themselves
+
+Worth fixing in the Excalidraw before any of it becomes a card, because a wrong
+note becomes a wrong card that then has to be re-learned:
+
+- **camisa and camiseta are the wrong way round.** *La camisa* is a shirt
+  (skjorta); *la camiseta* is a t-shirt. Your note has them swapped.
+- **The weather phrasings are calques.** *Está soleado / lluvioso / ventoso* is
+  not how Spain says it: **hace sol**, **hace viento**, **está lloviendo** or
+  **llueve**, **está nevando** or **nieva**. Your deck already has the correct
+  forms (*hace sol y estamos a veinticinco grados*, *hay niebla y hace mucho
+  viento*, *mañana va a nevar*) — the notes are the thing that's wrong here, not
+  the cards. *Está nublado* is right, which is probably where the pattern came
+  from.
+- **Latin-American forms.** *enojarse / enojado* is LatAm; Spain says
+  **enfadarse / enfadado**, and your deck already carries that note. *Lindo* is
+  LatAm; Spain uses **bonito**, **mono** or **guapo**. *Chofer* is **chófer** in
+  Spain, and **conductor** is more usual. *Alergista* is **alergólogo**.
+- **doctor vs médico.** In Spain *médico* is the profession, *doctor* mostly the
+  title you address them with. The deck has *médico*.
+- **comerciante** is a trader or shopkeeper, not a businessman — that is
+  *empresario* or *hombre/mujer de negocios*.
+- Spelling: *despartarse* &rarr; **despertarse**, *dormise* &rarr; **dormirse**,
+  *Receptionista* &rarr; **recepcionista**, *marron* &rarr; **marrón**.
+
+### Skipped
+
+- **analista, nutricionista, comerciante, gerente, presidente, asistente,
+  alergista, chef** — profession lists pad easily. None of these is a word you
+  need before B1 unless it's your own job or someone's in the class.
+- **casa de alquiler** — *alquilar* and *el alquiler* are worth a card; the
+  compound isn't.
+
+---
+
 ## How to use this
 
 When a block is being written — because a course lesson landed, or a gap turned
@@ -494,6 +619,11 @@ Order to spend on, if there's no other signal:
 5. The everyday verbs — useful, but regular and easier to absorb from input
 6. The reading list — out of order on purpose: pull from it while that book
    is being read, when the words have a page behind them, not before
+
+The class word lists are the exception to all of the above. They jump the
+queue, because a lesson covering something is the best reason there is to card
+it. The months are the place to start: a closed set of twelve, more than half
+missing, and the course has already been there.
 
 See `CONTENT.MD` for grammar blocks queued by course order. This file is about
 vocabulary; that one is about structures.

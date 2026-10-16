@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ser vs Estar — what it is, or what state it's in</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4 portrait; margin: 0; }
+  :root{ --navy:#151d38; --orange:#f4642a; --muted:#7b8194; --band:#f4f5f8; }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  i{ padding-right:0.35mm; }
+  html,body{ width:210mm; height:297mm; overflow:hidden; }
+  body{ font-family:'Poppins','Helvetica Neue',Arial,sans-serif; color:var(--navy);
+        background:#fff; -webkit-font-smoothing:antialiased;
+        display:flex; flex-direction:column; }
+
+  header{ padding:7.5mm 12mm 3mm; }
+  h1{ font-weight:800; font-size:26pt; line-height:1.02; letter-spacing:-0.8pt;
+      text-transform:uppercase; }
+  h1 .num{ color:var(--orange); }
+  .sub{ margin-top:2.2mm; color:var(--orange); font-weight:700; font-size:12pt;
+        letter-spacing:-0.2pt; }
+
+  main{ flex:1; display:flex; flex-direction:column; }
+  .band{ flex:1; padding:2.9mm 12mm; display:grid; grid-template-columns:1fr 1fr;
+         gap:0 9mm; align-content:start; }
+  .band.alt{ background:var(--band); }
+  .band.one{ grid-template-columns:1fr; }
+
+  h2{ grid-column:1 / -1; font-weight:700; font-size:11pt; letter-spacing:-0.3pt;
+      margin-bottom:1.3mm; }
+  h2 .n{ color:var(--orange); }
+  h2 .what{ font-weight:400; font-size:8pt; color:#4a5165; }
+
+  table{ border-collapse:collapse; font-size:7.3pt; line-height:1.42; }
+  td,th{ padding:0 2.6mm 0.4mm 0; text-align:left; vertical-align:baseline; white-space:nowrap; }
+  th{ font-weight:600; font-size:6.5pt; color:var(--muted); text-transform:uppercase;
+      letter-spacing:0.3pt; padding-bottom:0.8mm; }
+  td.k{ color:var(--orange); font-weight:600; }
+  td.g{ color:var(--muted); }
+  .k{ color:var(--orange); font-weight:600; }   /* also on spans inside cells */
+  .g{ color:var(--muted); font-weight:400; }
+  td.w{ font-weight:700; }
+  table.wide{ width:100%; }
+  table.wide td{ white-space:normal; }
+
+  ul{ list-style:none; font-size:7.3pt; line-height:1.46; }
+  li{ margin-bottom:0.4mm; }
+  li b{ color:var(--orange); font-weight:600; }
+  li .g{ color:var(--muted); }
+  li .lab{ display:inline-block; width:17mm; color:var(--muted); font-size:6.6pt; }
+
+  .eg{ font-size:7.3pt; line-height:1.46; }
+  .eg b{ color:var(--orange); font-weight:600; }
+  .eg .g{ color:var(--muted); }
+
+  .split{ grid-column:1 / -1; display:grid; grid-template-columns:1fr 1fr; gap:0 9mm;
+          margin-top:0.6mm; }
+  .card{ border-left:1.1mm solid var(--orange); padding-left:3mm; }
+  .card .big{ font-weight:800; font-size:13pt; letter-spacing:-0.3pt; line-height:1.15;
+              text-transform:uppercase; }
+  .card .q{ color:var(--orange); font-weight:700; font-size:8.6pt; margin-top:0.5mm; }
+  .card .lab{ font-size:7pt; color:var(--muted); line-height:1.45; margin-top:0.8mm; }
+  .card .lab b{ color:var(--navy); font-weight:600; }
+
+  .rule{ grid-column:1 / -1; margin-top:1.3mm; padding:1.7mm 2.8mm; background:var(--navy);
+         color:#fff; font-size:7.3pt; line-height:1.46; border-radius:0.8mm; }
+  .rule b{ color:var(--orange); font-weight:700; }
+  .rule .dim{ color:#9aa0b2; }
+  .band.alt .rule{ background:#fff; color:var(--navy); }
+  .band.alt .rule .dim{ color:var(--muted); }
+
+  .no{ color:#b9bdc9; text-decoration:line-through; }
+
+  footer{ display:flex; justify-content:space-between; align-items:flex-end; gap:8mm;
+          padding:2.4mm 12mm 4.5mm; font-size:6.7pt; line-height:1.4; color:var(--muted); }
+  footer .note b{ color:var(--navy); font-weight:600; }
+  footer .tag{ text-align:right; white-space:nowrap; }
+  footer .tag strong{ color:var(--navy); font-weight:700; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1><span class="num">Ser o<br>Estar</span><br>Two Verbs, One Word</h1>
+  <div class="sub">not permanent vs temporary &mdash; that rule gets the hard ones backwards</div>
+</header>
+
+<main>
+
+  <div class="band alt one">
+    <h2><span class="n">1.</span> Ask one question <span class="what">and it is not &ldquo;how long will this last?&rdquo;</span></h2>
+    <div class="split">
+      <div class="card">
+        <div class="big">Ser</div>
+        <div class="q">¿Qué es? &mdash; what <i>is</i> it?</div>
+        <div class="lab">Identity, category, definition. The thing itself: who it is, what it's made of, where it's from, when it happens. <b>Ser classifies.</b></div>
+      </div>
+      <div class="card">
+        <div class="big">Estar</div>
+        <div class="q">¿Cómo está? &mdash; what state is it <i>in</i>?</div>
+        <div class="lab">Condition, position, the result of something that happened. Not what it is &mdash; how it currently stands. <b>Estar describes a state.</b></div>
+      </div>
+    </div>
+    <div class="rule">
+      <span class="dim">Why &ldquo;permanent vs temporary&rdquo; has to go &mdash; it gets all four of these the wrong way round:</span><br>
+      Madrid <b>está</b> en España <span class="dim">(a thousand years)</span> &middot; Hoy <b>es</b> lunes <span class="dim">(24 hours)</span> &middot; La fiesta <b>es</b> en mi casa <span class="dim">(one evening)</span> &middot; <b>Está</b> muerto <span class="dim">(forever)</span>
+    </div>
+  </div>
+
+  <div class="band">
+    <h2><span class="n">2.</span> <b>Ser</b> &mdash; what the thing is <span class="what">facts that define it</span></h2>
+    <ul>
+      <li><span class="lab">identity</span><b>Es</b> mi hermano. <b>Soy</b> Pierre.</li>
+      <li><span class="lab">origin</span><b>Soy</b> sueco. El queso <b>es</b> de España.</li>
+      <li><span class="lab">job</span><b>Es</b> médica. <span class="g">&mdash; no article after ser</span></li>
+      <li><span class="lab">whose</span>El libro <b>es</b> de mi padre.</li>
+      <li><span class="lab">material</span>La casa <b>es</b> de madera.</li>
+    </ul>
+    <ul>
+      <li><span class="lab">character</span><b>Es</b> alto. <b>Son</b> simpáticos.</li>
+      <li><span class="lab">clock, date</span><b>Son</b> las tres. Hoy <b>es</b> lunes.</li>
+      <li><span class="lab">the total</span><b>Son</b> 9,50 &euro;.</li>
+      <li><span class="lab">events</span>La fiesta <b>es</b> en mi casa.</li>
+      <li><span class="lab"></span>El examen <b>es</b> mañana.</li>
+    </ul>
+  </div>
+
+  <div class="band alt">
+    <h2><span class="n">3.</span> <b>Estar</b> &mdash; the state it is in <span class="what">where it stands, and how it is right now</span></h2>
+    <ul>
+      <li><span class="lab">location</span>Madrid <b>está</b> en España.</li>
+      <li><span class="lab"></span>¿Dónde <b>está</b> el baño?</li>
+      <li><span class="lab">condition</span>La sopa <b>está</b> fría. <b>Está</b> enfermo.</li>
+      <li><span class="lab">feeling</span><b>Estoy</b> cansado pero <b>estoy</b> feliz.</li>
+    </ul>
+    <ul>
+      <li><span class="lab">after a change</span>La puerta <b>está</b> abierta.</li>
+      <li><span class="lab">-ing, right now</span><b>Está</b> lloviendo. <b>Estoy</b> trabajando.</li>
+      <li><span class="lab">estar de</span><b>Está</b> de vacaciones.</li>
+      <li><span class="lab"></span><b>Está</b> de camarero. <span class="g">&mdash; working as one, for now</span></li>
+    </ul>
+  </div>
+
+  <div class="band one">
+    <h2><span class="n">4.</span> One adjective, two meanings <span class="what">here duration explains nothing at all &mdash; the verb <i>is</i> the meaning</span></h2>
+    <table class="wide">
+      <tr><th style="width:24mm"></th><th style="width:62mm">ser &mdash; what it is</th><th>estar &mdash; the state it's in</th></tr>
+      <tr><td class="w">aburrido</td><td><span class="k">es aburrido</span> <span class="g">&mdash; boring</span></td><td><span class="k">está aburrido</span> <span class="g">&mdash; bored</span></td></tr>
+      <tr><td class="w">listo</td><td><span class="k">es listo</span> <span class="g">&mdash; clever</span></td><td><span class="k">está listo</span> <span class="g">&mdash; ready</span></td></tr>
+      <tr><td class="w">rico</td><td><span class="k">es rico</span> <span class="g">&mdash; wealthy</span></td><td><span class="k">está rico</span> <span class="g">&mdash; it tastes good</span></td></tr>
+      <tr><td class="w">bueno</td><td><span class="k">es bueno</span> <span class="g">&mdash; a good person, good quality</span></td><td><span class="k">está bueno</span> <span class="g">&mdash; tasty &middot; of a person, good-looking</span></td></tr>
+      <tr><td class="w">malo</td><td><span class="k">es malo</span> <span class="g">&mdash; bad, wicked</span></td><td><span class="k">está malo</span> <span class="g">&mdash; ill &middot; of food, off</span></td></tr>
+      <tr><td class="w">verde</td><td><span class="k">es verde</span> <span class="g">&mdash; green, the colour</span></td><td><span class="k">está verde</span> <span class="g">&mdash; unripe</span></td></tr>
+      <tr><td class="w">vivo</td><td><span class="k">es vivo</span> <span class="g">&mdash; sharp, lively</span></td><td><span class="k">está vivo</span> <span class="g">&mdash; alive</span></td></tr>
+    </table>
+  </div>
+
+  <div class="band alt">
+    <h2><span class="n">5.</span> The two places it catches you <span class="what">both look like exceptions; neither is</span></h2>
+    <div>
+      <div class="eg">
+        <b>Location splits in two.</b><br>
+        A thing or a person sits somewhere &rarr; <b>estar</b><br>
+        <span class="g">¿Dónde <b>está</b> la casa? &middot; Madrid <b>está</b> en España.</span><br>
+        An event happens somewhere &rarr; <b>ser</b><br>
+        <span class="g">¿Dónde <b>es</b> la fiesta? &middot; El concierto <b>es</b> en el parque.</span><br>
+        <span class="g">The test: if English could say <i>takes place</i>, use <b>ser</b>.</span>
+      </div>
+    </div>
+    <div>
+      <div class="eg">
+        <b>estar + participle = the result.</b><br>
+        Someone did it; this is how it ended up.<br>
+        <span class="g">La puerta <b>está</b> abierta &middot; <b>está</b> roto &middot; <b>está</b> sentado &middot; <b>está</b> dormido</span><br>
+        <span class="g"><b>está</b> casado &middot; <b>está</b> muerto &mdash; the two that make "permanent" collapse</span><br>
+        <span class="g">These are states arrived at, which is why <i>estar</i> wins however long they last.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="band">
+    <h2><span class="n">6.</span> And sometimes it is neither <span class="what"><b>tener</b> takes over where English keeps saying <i>to be</i></span></h2>
+    <ul>
+      <li><b>Tengo</b> hambre &middot; <b>sed</b> <span class="g">&mdash; I'm hungry &middot; thirsty</span></li>
+      <li><b>Tengo</b> frío &middot; <b>calor</b> <span class="g">&mdash; I'm cold &middot; hot</span></li>
+      <li><b>Tengo</b> sueño <span class="g">&mdash; I'm sleepy</span></li>
+      <li><b>Tengo</b> miedo &middot; <b>prisa</b> <span class="g">&mdash; I'm afraid &middot; in a hurry</span></li>
+    </ul>
+    <ul>
+      <li><b>Tengo</b> veinte años <span class="g">&mdash; I'm twenty &middot; never <i>soy veinte</i></span></li>
+      <li><b>Tienes</b> razón <span class="g">&mdash; you're right</span></li>
+      <li><span class="g">and the weather is a third verb again:</span></li>
+      <li><b>Hace</b> frío <span class="g">&mdash; the air &middot; <b>tengo</b> frío &mdash; me &middot; <b>está</b> frío &mdash; my coffee</span></li>
+    </ul>
+  </div>
+
+</main>
+
+<footer>
+  <div class="note">If one line survives: <b>ser</b> says what a thing <b>is</b>, <b>estar</b> says what state it is <b>in</b>. Ask which you mean before you ask how long it lasts &mdash; <i>está muerto</i> lasts forever and <i>hoy es lunes</i> lasts a day.</div>
+  <div class="tag">Ser vs estar<br><strong>A1 &mdash; sections 1 and 4 first</strong></div>
+</footer>
+</body>
+</html>

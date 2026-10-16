@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Spanish numbers — 0 to 10.000</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4 portrait; margin: 0; }
+  :root{ --navy:#151d38; --orange:#f4642a; --muted:#7b8194; --band:#f4f5f8; }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  i{ padding-right:0.35mm; }
+  html{ width:210mm; }
+  body{ width:210mm; font-family:'Poppins','Helvetica Neue',Arial,sans-serif;
+        color:var(--navy); background:#fff; -webkit-font-smoothing:antialiased; }
+  .page{ width:210mm; height:297mm; overflow:hidden; display:flex; flex-direction:column;
+         page-break-after:always; break-after:page; }
+  .page:last-child{ page-break-after:auto; break-after:auto; }
+
+  header{ padding:7.5mm 12mm 3mm; }
+  h1{ font-weight:800; font-size:26pt; line-height:1.02; letter-spacing:-0.8pt;
+      text-transform:uppercase; }
+  h1 .num{ color:var(--orange); }
+  .sub{ margin-top:2mm; color:var(--orange); font-weight:700; font-size:12pt;
+        letter-spacing:-0.2pt; }
+
+  main{ flex:1; display:flex; flex-direction:column; }
+  .band{ flex:1; padding:3mm 12mm; display:grid; grid-template-columns:1fr 1fr;
+         gap:0 9mm; align-content:start; }
+  .band.alt{ background:var(--band); }
+  .band.one{ grid-template-columns:1fr; }
+
+  h2{ grid-column:1 / -1; font-weight:700; font-size:11pt; letter-spacing:-0.3pt;
+      margin-bottom:1.4mm; }
+  h2 .n{ color:var(--orange); }
+  h2 .what{ font-weight:400; font-size:8pt; color:#4a5165; }
+
+  table{ border-collapse:collapse; font-size:7.3pt; line-height:1.45; }
+  td{ padding:0 2.4mm 0.4mm 0; text-align:left; vertical-align:baseline; white-space:nowrap; }
+  td.n{ color:var(--muted); text-align:right; font-variant-numeric:tabular-nums;
+        padding-right:1.4mm; font-weight:500; }
+  td.k{ color:var(--orange); font-weight:600; }
+  td.g{ color:var(--muted); }
+  td.acc{ color:var(--orange); font-weight:600; }
+  td.irr{ font-weight:700; }
+
+  .numgrid{ grid-column:1 / -1; font-size:6.9pt; line-height:1.5; width:100%; }
+  .numgrid td{ padding:0 1.6mm 0.15mm 0; }
+  .numgrid td.n{ padding-right:1.1mm; }
+
+  ul{ list-style:none; font-size:7.3pt; line-height:1.5; }
+  li{ margin-bottom:0.5mm; }
+  li b{ color:var(--orange); font-weight:600; }
+  li .g{ color:var(--muted); }
+
+  .eg{ font-size:7.3pt; line-height:1.5; }
+  .eg b{ color:var(--orange); font-weight:600; }
+  .eg .g{ color:var(--muted); }
+
+  .split{ grid-column:1 / -1; display:grid; grid-template-columns:1fr 1fr 1fr;
+          gap:0 7mm; margin-top:0.8mm; }
+  .card{ border-left:0.9mm solid var(--orange); padding-left:2.6mm; }
+  .card .big{ font-weight:700; font-size:9.5pt; letter-spacing:-0.2pt; line-height:1.2; }
+  .card .lab{ font-size:6.9pt; color:var(--muted); line-height:1.42; margin-top:0.6mm; }
+  .card .lab b{ color:var(--navy); font-weight:600; }
+
+  .rule{ grid-column:1 / -1; margin-top:1.3mm; padding:1.7mm 2.8mm; background:var(--navy);
+         color:#fff; font-size:7.3pt; line-height:1.48; border-radius:0.8mm; }
+  .rule b{ color:var(--orange); font-weight:700; }
+  .rule .dim{ color:#9aa0b2; }
+  .band.alt .rule{ background:#fff; color:var(--navy); }
+  .band.alt .rule .dim{ color:var(--muted); }
+
+  footer{ display:flex; justify-content:space-between; align-items:flex-end; gap:8mm;
+          padding:2.4mm 12mm 4.5mm; font-size:6.7pt; line-height:1.42; color:var(--muted); }
+  footer .note b{ color:var(--navy); font-weight:600; }
+  footer .tag{ text-align:right; white-space:nowrap; }
+  footer .tag strong{ color:var(--navy); font-weight:700; }
+</style>
+</head>
+<body>
+
+<section class="page">
+<header>
+  <h1><span class="num">0 &ndash; 100</span><br>Los Números</h1>
+  <div class="sub">twenty-five words to learn, and a rule for the other seventy-five</div>
+</header>
+<main>
+
+  <div class="band alt one">
+    <h2><span class="n">1.</span> Three zones <span class="what">only the first two have to be memorised</span></h2>
+    <div class="split">
+      <div class="card">
+        <div class="big">0 &ndash; 15</div>
+        <div class="lab">Sixteen separate words. No pattern, no shortcut &mdash; <b>cero</b> to <b>quince</b>.</div>
+      </div>
+      <div class="card">
+        <div class="big">16 &ndash; 29</div>
+        <div class="lab">Written as <b>one word</b>: <i>dieciséis</i>, <i>veintiuno</i>. Four carry an accent &mdash; marked in orange below.</div>
+      </div>
+      <div class="card">
+        <div class="big">31 &ndash; 99</div>
+        <div class="lab">Three words, joined by <b>y</b>: <i>treinta y uno</i>. Never one word, never without the <i>y</i>.</div>
+      </div>
+    </div>
+    <div class="rule">
+      The join only exists from 31 up. <b>16&ndash;29 contract</b> (<i>dieci&middot;séis</i>, <i>veinti&middot;dós</i>) and <b>31&ndash;99 do not</b> (<i>treinta y seis</i>). There is no <i>veinte y uno</i> and no <i>treintaiuno</i>.
+    </div>
+  </div>
+
+  <div class="band one">
+    <h2><span class="n">2.</span> Every number to a hundred <span class="what">orange marks a written accent</span></h2>
+    <table class="numgrid">
+      <tr><td class="n">0</td><td>cero</td><td class="n">21</td><td>veintiuno</td><td class="n">41</td><td>cuarenta y uno</td><td class="n">61</td><td>sesenta y uno</td><td class="n">81</td><td>ochenta y uno</td></tr>
+      <tr><td class="n">1</td><td>uno</td><td class="n">22</td><td class="acc">veintidós</td><td class="n">42</td><td>cuarenta y dos</td><td class="n">62</td><td>sesenta y dos</td><td class="n">82</td><td>ochenta y dos</td></tr>
+      <tr><td class="n">2</td><td>dos</td><td class="n">23</td><td class="acc">veintitrés</td><td class="n">43</td><td>cuarenta y tres</td><td class="n">63</td><td>sesenta y tres</td><td class="n">83</td><td>ochenta y tres</td></tr>
+      <tr><td class="n">3</td><td>tres</td><td class="n">24</td><td>veinticuatro</td><td class="n">44</td><td>cuarenta y cuatro</td><td class="n">64</td><td>sesenta y cuatro</td><td class="n">84</td><td>ochenta y cuatro</td></tr>
+      <tr><td class="n">4</td><td>cuatro</td><td class="n">25</td><td>veinticinco</td><td class="n">45</td><td>cuarenta y cinco</td><td class="n">65</td><td>sesenta y cinco</td><td class="n">85</td><td>ochenta y cinco</td></tr>
+      <tr><td class="n">5</td><td>cinco</td><td class="n">26</td><td class="acc">veintiséis</td><td class="n">46</td><td>cuarenta y seis</td><td class="n">66</td><td>sesenta y seis</td><td class="n">86</td><td>ochenta y seis</td></tr>
+      <tr><td class="n">6</td><td>seis</td><td class="n">27</td><td>veintisiete</td><td class="n">47</td><td>cuarenta y siete</td><td class="n">67</td><td>sesenta y siete</td><td class="n">87</td><td>ochenta y siete</td></tr>
+      <tr><td class="n">7</td><td>siete</td><td class="n">28</td><td>veintiocho</td><td class="n">48</td><td>cuarenta y ocho</td><td class="n">68</td><td>sesenta y ocho</td><td class="n">88</td><td>ochenta y ocho</td></tr>
+      <tr><td class="n">8</td><td>ocho</td><td class="n">29</td><td>veintinueve</td><td class="n">49</td><td>cuarenta y nueve</td><td class="n">69</td><td>sesenta y nueve</td><td class="n">89</td><td>ochenta y nueve</td></tr>
+      <tr><td class="n">9</td><td>nueve</td><td class="n">30</td><td>treinta</td><td class="n">50</td><td>cincuenta</td><td class="n">70</td><td>setenta</td><td class="n">90</td><td>noventa</td></tr>
+      <tr><td class="n">10</td><td>diez</td><td class="n">31</td><td>treinta y uno</td><td class="n">51</td><td>cincuenta y uno</td><td class="n">71</td><td>setenta y uno</td><td class="n">91</td><td>noventa y uno</td></tr>
+      <tr><td class="n">11</td><td>once</td><td class="n">32</td><td>treinta y dos</td><td class="n">52</td><td>cincuenta y dos</td><td class="n">72</td><td>setenta y dos</td><td class="n">92</td><td>noventa y dos</td></tr>
+      <tr><td class="n">12</td><td>doce</td><td class="n">33</td><td>treinta y tres</td><td class="n">53</td><td>cincuenta y tres</td><td class="n">73</td><td>setenta y tres</td><td class="n">93</td><td>noventa y tres</td></tr>
+      <tr><td class="n">13</td><td>trece</td><td class="n">34</td><td>treinta y cuatro</td><td class="n">54</td><td>cincuenta y cuatro</td><td class="n">74</td><td>setenta y cuatro</td><td class="n">94</td><td>noventa y cuatro</td></tr>
+      <tr><td class="n">14</td><td>catorce</td><td class="n">35</td><td>treinta y cinco</td><td class="n">55</td><td>cincuenta y cinco</td><td class="n">75</td><td>setenta y cinco</td><td class="n">95</td><td>noventa y cinco</td></tr>
+      <tr><td class="n">15</td><td>quince</td><td class="n">36</td><td>treinta y seis</td><td class="n">56</td><td>cincuenta y seis</td><td class="n">76</td><td>setenta y seis</td><td class="n">96</td><td>noventa y seis</td></tr>
+      <tr><td class="n">16</td><td class="acc">dieciséis</td><td class="n">37</td><td>treinta y siete</td><td class="n">57</td><td>cincuenta y siete</td><td class="n">77</td><td>setenta y siete</td><td class="n">97</td><td>noventa y siete</td></tr>
+      <tr><td class="n">17</td><td>diecisiete</td><td class="n">38</td><td>treinta y ocho</td><td class="n">58</td><td>cincuenta y ocho</td><td class="n">78</td><td>setenta y ocho</td><td class="n">98</td><td>noventa y ocho</td></tr>
+      <tr><td class="n">18</td><td>dieciocho</td><td class="n">39</td><td>treinta y nueve</td><td class="n">59</td><td>cincuenta y nueve</td><td class="n">79</td><td>setenta y nueve</td><td class="n">99</td><td>noventa y nueve</td></tr>
+      <tr><td class="n">19</td><td>diecinueve</td><td class="n">40</td><td>cuarenta</td><td class="n">60</td><td>sesenta</td><td class="n">80</td><td>ochenta</td><td class="n">100</td><td>cien</td></tr>
+      <tr><td class="n">20</td><td>veinte</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+    </table>
+  </div>
+
+  <div class="band one">
+    <h2><span class="n">3.</span> First to tenth <span class="what">after that Spanish gives up and uses the ordinary numbers</span></h2>
+    <table>
+      <tr><td class="n">1&ordm;</td><td class="k">primero</td><td class="n">3&ordm;</td><td class="k">tercero</td><td class="n">5&ordm;</td><td class="k">quinto</td><td class="n">7&ordm;</td><td class="k">séptimo</td><td class="n">9&ordm;</td><td class="k">noveno</td></tr>
+      <tr><td class="n">2&ordm;</td><td class="k">segundo</td><td class="n">4&ordm;</td><td class="k">cuarto</td><td class="n">6&ordm;</td><td class="k">sexto</td><td class="n">8&ordm;</td><td class="k">octavo</td><td class="n">10&ordm;</td><td class="k">décimo</td></tr>
+    </table>
+    <div class="eg" style="margin-top:1.2mm">
+      <b>primero</b> &rarr; <b>primer</b> and <b>tercero</b> &rarr; <b>tercer</b> before a masculine noun, exactly like <i>uno</i> &rarr; <i>un</i>:<br>
+      el <b>primer</b> piso &middot; el <b>tercer</b> día &middot; <span class="g">but la <b>primera</b> vez, la <b>tercera</b> puerta &mdash; the feminine keeps its ending</span><br>
+      <span class="g">Past tenth, nobody bothers: <i>el piso veinte</i>, <i>el siglo veintiuno</i> &mdash; plain numbers, and they follow the noun.</span>
+    </div>
+  </div>
+
+  <div class="band alt">
+    <h2><span class="n">4.</span> <b>uno</b> is the one that changes <span class="what">it agrees with whatever it counts</span></h2>
+    <ul>
+      <li>un euro <span class="g">&mdash; <b>uno</b> &rarr; <b>un</b> before a masculine noun</span></li>
+      <li>una hora <span class="g">&mdash; and <b>una</b> before a feminine one</span></li>
+      <li>veinti<b>ún</b> días <span class="g">&mdash; <i>veintiuno</i> loses its <i>o</i> and gains an accent</span></li>
+      <li>treinta y <b>un</b> libros &middot; treinta y <b>una</b> chicas</li>
+    </ul>
+    <ul>
+      <li><b>Somos cuatro en casa.</b> <span class="g">&mdash; we are four, no word for <i>of us</i></span></li>
+      <li><b>Tiene veinte años.</b> <span class="g">&mdash; age is <i>tener</i>, never <i>ser</i></span></li>
+      <li><b>El resultado es dos a cero.</b> <span class="g">&mdash; scores take <i>a</i></span></li>
+      <li><b>una docena de huevos</b> <span class="g">&mdash; a quantity takes <i>de</i></span></li>
+    </ul>
+  </div>
+
+</main>
+<footer>
+  <div class="note">Count the memory load honestly: <b>0&ndash;15</b>, the <b>eight tens</b>, and <b>cien</b>. That is twenty-five words. Everything from 31 to 99 is built, not learned.</div>
+  <div class="tag">Numbers, page 1 of 2<br><strong>A1 &mdash; sections 1 and 4 first</strong></div>
+</footer>
+</section>
+
+<section class="page">
+<header>
+  <h1><span class="num">100 &ndash;<br>10.000</span><br>Los Números</h1>
+  <div class="sub">three irregular hundreds, and <i>mil</i>, which never changes</div>
+</header>
+<main>
+
+  <div class="band alt">
+    <h2><span class="n">5.</span> The hundreds <span class="what">three of the nine are irregular &mdash; those are the ones to drill</span></h2>
+    <table>
+      <tr><td class="n">100</td><td class="k">cien / ciento</td><td class="g"></td></tr>
+      <tr><td class="n">200</td><td class="k">doscientos</td><td class="g"></td></tr>
+      <tr><td class="n">300</td><td class="k">trescientos</td><td class="g"></td></tr>
+      <tr><td class="n">400</td><td class="k">cuatrocientos</td><td class="g"></td></tr>
+      <tr><td class="n">500</td><td class="k irr">quinientos</td><td class="g">irregular — not cincocientos</td></tr>
+      <tr><td class="n">600</td><td class="k">seiscientos</td><td class="g"></td></tr>
+      <tr><td class="n">700</td><td class="k irr">setecientos</td><td class="g">irregular — not sietecientos</td></tr>
+      <tr><td class="n">800</td><td class="k">ochocientos</td><td class="g"></td></tr>
+      <tr><td class="n">900</td><td class="k irr">novecientos</td><td class="g">irregular — not nuevecientos</td></tr>
+      
+    </table>
+    <div>
+      <div class="eg">
+        <b>cien</b> is exactly 100 &middot; <b>ciento</b> starts 101&ndash;199<br>
+        <span class="g">cien euros &middot; cien páginas &mdash; but ciento veinte personas</span><br><br>
+        <span class="g">and there is <b>no <i>y</i></b> after the hundred:</span><br>
+        ciento veinte <span class="g">(not <i>ciento y veinte</i>)</span><br>
+        doscientos treinta y cinco <span class="g">&mdash; the <i>y</i> belongs to 31&ndash;99, nowhere else</span>
+      </div>
+    </div>
+    <div class="rule">
+      The hundreds <b>agree in gender</b>, which the tens never do: <i>doscient<b>as</b> habitaciones</i>, <i>quinient<b>as</b> páginas</i>, <i>trescient<b>os</b> euros</i>. <span class="dim">Only <i>cien</i> and <i>mil</i> stay flat.</span>
+    </div>
+  </div>
+
+  <div class="band">
+    <h2><span class="n">6.</span> The thousands <span class="what">one word, and it never moves</span></h2>
+    <table>
+      <tr><td class="n">1.000</td><td class="k">mil</td></tr>
+      <tr><td class="n">2.000</td><td class="k">dos mil</td></tr>
+      <tr><td class="n">3.000</td><td class="k">tres mil</td></tr>
+      <tr><td class="n">4.000</td><td class="k">cuatro mil</td></tr>
+      <tr><td class="n">5.000</td><td class="k">cinco mil</td></tr>
+      <tr><td class="n">6.000</td><td class="k">seis mil</td></tr>
+      <tr><td class="n">7.000</td><td class="k">siete mil</td></tr>
+      <tr><td class="n">8.000</td><td class="k">ocho mil</td></tr>
+      <tr><td class="n">9.000</td><td class="k">nueve mil</td></tr>
+      <tr><td class="n">10.000</td><td class="k">diez mil</td></tr>
+      
+    </table>
+    <ul>
+      <li><b>mil</b>, never <i>un mil</i> <span class="g">&mdash; unlike English <i>one thousand</i></span></li>
+      <li><b>dos mil</b>, never <i>dos miles</i> <span class="g">&mdash; it does not pluralise as a number</span></li>
+      <li>mil quinientos euros <span class="g">&mdash; 1.500, built straight through</span></li>
+      <li>trescientos mil <span class="g">&mdash; 300.000, the hundreds come first</span></li>
+      <li><b>un millón</b> <span class="g">&mdash; this one <i>does</i> take <i>un</i></span></li>
+      <li>tres millones <b>de</b> habitantes <span class="g">&mdash; and always <i>de</i> before the noun</span></li>
+    </ul>
+  </div>
+
+  <div class="band alt">
+    <h2><span class="n">7.</span> About, almost, half <span class="what">you need these far more often than an exact figure</span></h2>
+    <ul>
+      <li><b>unos</b> veinte &middot; <b>unas</b> treinta personas <span class="g">&mdash; about twenty &middot; this is what <i>unos</i> is really for</span></li>
+      <li><b>más o menos</b> cien <span class="g">&mdash; a hundred or so</span></li>
+      <li><b>casi</b> mil <span class="g">&mdash; nearly a thousand</span></li>
+      <li><b>alrededor de</b> cincuenta <span class="g">&mdash; around fifty</span></li>
+      <li><b>más de</b> / <b>menos de</b> veinte <span class="g">&mdash; more / fewer than &middot; <i>de</i>, never <i>que</i>, before a number</span></li>
+    </ul>
+    <ul>
+      <li><b>la mitad</b> de la clase <span class="g">&mdash; half, as a noun</span></li>
+      <li><b>medio</b> kilo &middot; <b>media</b> hora <span class="g">&mdash; half, as an adjective, with no article</span></li>
+      <li>un <b>tercio</b> &middot; un <b>cuarto</b> <span class="g">&mdash; a third &middot; a quarter</span></li>
+      <li>el <b>doble</b> &middot; el <b>triple</b> <span class="g">&mdash; twice &middot; three times as much</span></li>
+      <li>el veinte <b>por ciento</b> <span class="g">&mdash; un descuento <b>del</b> veinte por ciento</span></li>
+    </ul>
+  </div>
+
+  <div class="band alt one">
+    <h2><span class="n">8.</span> Spain writes them the other way round <span class="what">the dot and the comma swap jobs</span></h2>
+    <div class="split">
+      <div class="card">
+        <div class="big">1.500</div>
+        <div class="lab">A <b>dot</b> marks thousands. English writes 1,500.</div>
+      </div>
+      <div class="card">
+        <div class="big">3,5</div>
+        <div class="lab">A <b>comma</b> marks the decimal, read <i>tres coma cinco</i>. English writes 3.5.</div>
+      </div>
+      <div class="card">
+        <div class="big">9,50 €</div>
+        <div class="lab">The symbol goes <b>after</b>, with a space: <i>nueve euros con cincuenta</i>.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="band">
+    <h2><span class="n">9.</span> Reading them out loud <span class="what">the places numbers actually turn up</span></h2>
+    <ul>
+      <li><b>2026</b> &mdash; dos mil veintiséis <span class="g">&mdash; years are read straight, not in pairs</span></li>
+      <li><b>1995</b> &mdash; mil novecientos noventa y cinco</li>
+      <li><b>el 15 de mayo de 2010</b> <span class="g">&mdash; plain numbers in dates, never <i>quince&ordm;</i></span></li>
+    </ul>
+    <ul>
+      <li><b>Son 9,50 €.</b> <span class="g">&mdash; nueve con cincuenta at the till</span></li>
+      <li><b>el cuarto piso</b> <span class="g">&mdash; ordinals only to about tenth, then plain: <i>el piso veinte</i></span></li>
+      <li><b>la habitación 200</b> <span class="g">&mdash; la doscientos, keeping the article</span></li>
+    </ul>
+  </div>
+
+</main>
+<footer>
+  <div class="note">The whole of 100&ndash;10.000 is three irregular words &mdash; <b>quinientos</b>, <b>setecientos</b>, <b>novecientos</b> &mdash; plus <i>cien/ciento</i> and the fact that <b>mil</b> never changes. Drill those five things and the rest assembles itself.</div>
+  <div class="tag">Numbers, page 2 of 2<br><strong>A1 &mdash; sections 5 and 6 first</strong></div>
+</footer>
+</section>
+
+</body>
+</html>

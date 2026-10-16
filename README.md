@@ -134,7 +134,7 @@ whenever cards are added.
 
 ## Posters
 
-Seven wall charts. The sources are `posters/src/*.html`; the printable PDFs land
+Eight wall charts. The sources are `posters/src/*.html`; the printable PDFs land
 in `posters/`, so that folder is only the files you actually open.
 
 The four verb charts carry the same 50 verbs in the same grid
@@ -156,6 +156,7 @@ meant 5.9pt tables, which is too small to read off a wall:
 | `posters/poster-pronombres.pdf` | — | articles and pronouns: el/los, me/nos/le, lo/la, se |
 | `posters/poster-preposiciones.pdf` | — | a, de, por/para, al/del, ser/estar/hay, and the verbs that lock a preposition, 2 pages |
 | `posters/poster-numeros.pdf` | — | 0–100 in full, ordinals, the three irregular hundreds, mil and millón, 2 pages |
+| `posters/poster-tiempo.pdf` | — | weather: which of hacer / estar / hay / llueve, and the three ways to say "it's cold" |
 
 The near-future poster is deliberately shaped differently: that tense has no
 per-verb conjugation to learn (only `ir` changes), so the page spends its

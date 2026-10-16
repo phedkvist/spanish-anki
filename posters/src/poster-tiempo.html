@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>¿Qué tiempo hace? — the four weather verbs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4 portrait; margin: 0; }
+  :root{ --navy:#151d38; --orange:#f4642a; --muted:#7b8194; --band:#f4f5f8; }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  i{ padding-right:0.35mm; }
+  html,body{ width:210mm; height:297mm; overflow:hidden; }
+  body{ font-family:'Poppins','Helvetica Neue',Arial,sans-serif; color:var(--navy);
+        background:#fff; -webkit-font-smoothing:antialiased;
+        display:flex; flex-direction:column; }
+
+  header{ padding:8mm 12mm 3.4mm; }
+  h1{ font-weight:800; font-size:26pt; line-height:1.02; letter-spacing:-0.8pt;
+      text-transform:uppercase; }
+  h1 .num{ color:var(--orange); }
+  .sub{ margin-top:2.2mm; color:var(--orange); font-weight:700; font-size:12pt;
+        letter-spacing:-0.2pt; }
+
+  main{ flex:1; display:flex; flex-direction:column; }
+  .band{ flex:1; padding:3mm 12mm; display:grid; grid-template-columns:1fr 1fr;
+         gap:0 9mm; align-content:start; }
+  .band.alt{ background:var(--band); }
+  .band.one{ grid-template-columns:1fr; }
+
+  h2{ grid-column:1 / -1; font-weight:700; font-size:11pt; letter-spacing:-0.3pt;
+      margin-bottom:1.4mm; }
+  h2 .n{ color:var(--orange); }
+  h2 .what{ font-weight:400; font-size:8pt; color:#4a5165; }
+
+  table{ border-collapse:collapse; font-size:7.3pt; line-height:1.45; }
+  td{ padding:0 2.6mm 0.4mm 0; text-align:left; vertical-align:baseline; white-space:nowrap; }
+  td.k{ color:var(--orange); font-weight:600; }
+  td.g{ color:var(--muted); }
+  table.wide{ width:100%; }
+  table.wide td{ white-space:normal; }
+
+  ul{ list-style:none; font-size:7.3pt; line-height:1.5; }
+  li{ margin-bottom:0.5mm; }
+  li b{ color:var(--orange); font-weight:600; }
+  li .g{ color:var(--muted); }
+
+  .eg{ font-size:7.3pt; line-height:1.5; }
+  .eg b{ color:var(--orange); font-weight:600; }
+  .eg .g{ color:var(--muted); }
+
+  .split{ grid-column:1 / -1; display:grid; grid-template-columns:1fr 1fr 1fr 1fr;
+          gap:0 6mm; margin-top:0.8mm; }
+  .split.three{ grid-template-columns:1fr 1fr 1fr; }
+  .card{ border-left:0.9mm solid var(--orange); padding-left:2.6mm; }
+  .card .big{ font-weight:700; font-size:9.5pt; letter-spacing:-0.2pt; line-height:1.2; }
+  .card .lab{ font-size:6.9pt; color:var(--muted); line-height:1.42; margin-top:0.6mm; }
+  .card .lab b{ color:var(--navy); font-weight:600; }
+
+  .rule{ grid-column:1 / -1; margin-top:1.3mm; padding:1.7mm 2.8mm; background:var(--navy);
+         color:#fff; font-size:7.3pt; line-height:1.48; border-radius:0.8mm; }
+  .rule b{ color:var(--orange); font-weight:700; }
+  .rule .dim{ color:#9aa0b2; }
+  .band.alt .rule{ background:#fff; color:var(--navy); }
+  .band.alt .rule .dim{ color:var(--muted); }
+
+  .no{ color:#b9bdc9; text-decoration:line-through; }
+
+  footer{ display:flex; justify-content:space-between; align-items:flex-end; gap:8mm;
+          padding:2.6mm 12mm 4.5mm; font-size:6.7pt; line-height:1.42; color:var(--muted); }
+  footer .note b{ color:var(--navy); font-weight:600; }
+  footer .tag{ text-align:right; white-space:nowrap; }
+  footer .tag strong{ color:var(--navy); font-weight:700; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1><span class="num">¿Qué tiempo<br>hace?</span><br>El Tiempo</h1>
+  <div class="sub">four verbs share the job &mdash; picking the wrong one is the whole difficulty</div>
+</header>
+
+<main>
+
+  <div class="band alt one">
+    <h2><span class="n">1.</span> Which verb <span class="what">English uses <i>it is</i> for all of these; Spanish uses four different things</span></h2>
+    <div class="split">
+      <div class="card">
+        <div class="big">hace + <b>noun</b></div>
+        <div class="lab">hace <b>frío</b>, hace <b>sol</b> &middot; the weather <i>does</i> it</div>
+      </div>
+      <div class="card">
+        <div class="big">está + <b>adjective</b></div>
+        <div class="lab">está <b>nublado</b> &middot; the state of the sky right now</div>
+      </div>
+      <div class="card">
+        <div class="big">hay + <b>noun</b></div>
+        <div class="lab">hay <b>niebla</b> &middot; the thing is simply there</div>
+      </div>
+      <div class="card">
+        <div class="big">llueve, nieva</div>
+        <div class="lab">one word, no subject &middot; the verb <i>is</i> the weather</div>
+      </div>
+    </div>
+    <div class="rule">
+      There is no rule that predicts which group a word falls into &mdash; <b>learn the pair, not the word</b>. <i>hace viento</i> and <i>está nublado</i> and <i>hay niebla</i> all mean &ldquo;it is &hellip;&rdquo;, and swapping the verbs gives you something no one says.
+    </div>
+  </div>
+
+  <div class="band">
+    <h2><span class="n">2.</span> <b>hacer</b> + noun <span class="what">the biggest group, and the one with the trap</span></h2>
+    <ul>
+      <li>Hace <b>frío</b>. <span class="g">&mdash; it's cold</span></li>
+      <li>Hace <b>calor</b>. <span class="g">&mdash; it's hot</span></li>
+      <li>Hace <b>sol</b>. <span class="g">&mdash; it's sunny</span></li>
+      <li>Hace <b>viento</b>. <span class="g">&mdash; it's windy</span></li>
+      <li>Hace <b>fresco</b>. <span class="g">&mdash; it's chilly, pleasantly cool</span></li>
+      <li>Hace <b>buen</b> / <b>mal tiempo</b>. <span class="g">&mdash; the weather is nice / bad</span></li>
+    </ul>
+    <div class="eg">
+      <b>Everything after <i>hace</i> is a noun</b>, so it takes <b>mucho</b>, never <i>muy</i>:<br>
+      Hace <b>mucho</b> frío. &middot; Hace <b>mucho</b> calor. &middot; Hace <b>mucho</b> viento.<br>
+      <span class="no">hace muy frío</span> &nbsp;<span class="no">hace muy calor</span><br><br>
+      <span class="g">The giveaway: you can count it. <i>un poco de frío</i>, <i>demasiado calor</i> &mdash; all noun behaviour.</span>
+    </div>
+  </div>
+
+  <div class="band alt">
+    <h2><span class="n">3.</span> <b>estar</b> + adjective, and <b>hay</b> + noun <span class="what">the sky's state, and what is simply present</span></h2>
+    <ul>
+      <li>Está <b>nublado</b>. <span class="g">&mdash; it's cloudy</span></li>
+      <li>Está <b>despejado</b>. <span class="g">&mdash; it's clear</span></li>
+      <li>Está <b>lloviendo</b>. <span class="g">&mdash; it's raining, right now</span></li>
+      <li>Está <b>nevando</b>. <span class="g">&mdash; it's snowing, right now</span></li>
+    </ul>
+    <ul>
+      <li>Hay <b>niebla</b>. <span class="g">&mdash; it's foggy</span></li>
+      <li>Hay <b>tormenta</b>. <span class="g">&mdash; there's a storm</span></li>
+      <li>Hay <b>nubes</b>. <span class="g">&mdash; there are clouds</span></li>
+      <li>Hay <b>hielo</b>. <span class="g">&mdash; it's icy</span></li>
+    </ul>
+    <div class="rule">
+      <span class="dim">The ones to unlearn, because English tempts you into them:</span>
+      <span class="no">está ventoso</span> &rarr; <b>hace viento</b> &nbsp;&middot;&nbsp;
+      <span class="no">está lluvioso</span> &rarr; <b>está lloviendo</b> or <b>llueve</b> &nbsp;&middot;&nbsp;
+      <span class="no">está caluroso</span> &rarr; <b>hace calor</b>.
+      <span class="dim"><i>Está soleado</i> exists but Spain says <b>hace sol</b>.</span>
+    </div>
+  </div>
+
+  <div class="band one">
+    <h2><span class="n">4.</span> The verbs with no subject <span class="what">third person singular, and nothing else, ever</span></h2>
+    <table class="wide">
+      <tr><td class="k" style="width:26mm">llueve</td><td class="g" style="width:34mm">it rains / it's raining</td><td class="g">llover, o &rarr; ue &middot; <i>va a llover</i> = it's going to rain</td></tr>
+      <tr><td class="k">nieva</td><td class="g">it snows / it's snowing</td><td class="g">nevar, e &rarr; ie &middot; <i>mañana va a nevar</i></td></tr>
+      <tr><td class="k">graniza</td><td class="g">it's hailing</td><td class="g">el granizo = hail</td></tr>
+      <tr><td class="k">truena</td><td class="g">it's thundering</td><td class="g">el trueno = thunder &middot; el relámpago = lightning</td></tr>
+    </table>
+    <div class="eg" style="margin-top:1mm">
+      <span class="g">There is no <i>yo</i> for these. <span class="no">yo lluevo</span> is not a mistake you can make in English, which is exactly why it slips out.</span>
+    </div>
+  </div>
+
+  <div class="band alt">
+    <h2><span class="n">5.</span> Degrees, and tomorrow <span class="what">temperature has its own verb again</span></h2>
+    <ul>
+      <li><b>Estamos a</b> veinticinco grados. <span class="g">&mdash; it's 25 degrees</span></li>
+      <li>¿<b>A cuántos grados estamos?</b> <span class="g">&mdash; what's the temperature?</span></li>
+      <li>Hace veinticinco grados. <span class="g">&mdash; also fine, with hacer</span></li>
+      <li>Estamos a cinco grados <b>bajo cero</b>. <span class="g">&mdash; &minus;5 &middot; sobre cero = above</span></li>
+      <li>La <b>máxima</b> es de 28. <span class="g">&mdash; the high &middot; la mínima = the low</span></li>
+    </ul>
+    <ul>
+      <li>¿<b>Qué tiempo hace</b> hoy? <span class="g">&mdash; what's the weather like?</span></li>
+      <li><b>Va a</b> llover. <span class="g">&mdash; it's going to rain</span></li>
+      <li>Hoy hace <b>más frío que</b> ayer. <span class="g">&mdash; colder than</span></li>
+      <li>En <b>primavera</b> &middot; en <b>verano</b> &middot; en <b>otoño</b> &middot; en <b>invierno</b> <span class="g">&mdash; no article</span></li>
+    </ul>
+  </div>
+
+  <div class="band one">
+    <h2><span class="n">6.</span> Three ways to say &ldquo;it's cold&rdquo; <span class="what">and they are not interchangeable</span></h2>
+    <div class="split three">
+      <div class="card">
+        <div class="big">Hace frío.</div>
+        <div class="lab">The <b>weather</b> is cold. Outside, in the world.</div>
+      </div>
+      <div class="card">
+        <div class="big">Tengo frío.</div>
+        <div class="lab">I <b>am</b> cold. A person <i>has</i> cold in Spanish &mdash; never <i>soy</i> or <i>estoy frío</i>.</div>
+      </div>
+      <div class="card">
+        <div class="big">Está frío.</div>
+        <div class="lab">The <b>thing</b> is cold. <i>Mi café está frío</i> &mdash; it wasn't always.</div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="note">Weather is the clearest case in the language of a meaning that belongs to a <b>pair</b>, not a word. <i>Frío</i> alone tells you nothing: <b>hace</b> frío is the air, <b>tengo</b> frío is you, <b>está</b> frío is your coffee.</div>
+  <div class="tag">Weather<br><strong>A1 &mdash; sections 1 and 6 first</strong></div>
+</footer>
+</body>
+</html>

@@ -3,3 +3,6 @@
 backups/*.colpkg
 backups/*.apkg
 .DS_Store
+
+# scratch notes, letters to the teacher, anything not part of the collection
+local-notes/

@@ -159,7 +159,7 @@ meant 5.9pt tables, which is too small to read off a wall:
 | `posters/poster-numeros.pdf` | — | 0–100 in full, ordinals, the three irregular hundreds, mil and millón, 2 pages |
 | `posters/poster-tiempo.pdf` | — | weather: which of hacer / estar / hay / llueve, and the three ways to say "it's cold" |
 | `posters/poster-ser-estar.pdf` | — | ser vs estar as classify-vs-state, the meaning-changing adjectives, and where tener takes over |
-| `posters/poster-lugar.pdf` | — | sixteen positions drawn rather than listed, the aquí/ahí/allí ladder, and when the *de* appears |
+| `posters/poster-lugar.pdf` | — | twelve positions drawn as opposed pairs, the aquí/ahí/allí ladder, and when the *de* appears |
 
 The near-future poster is deliberately shaped differently: that tense has no
 per-verb conjugation to learn (only `ir` changes), so the page spends its

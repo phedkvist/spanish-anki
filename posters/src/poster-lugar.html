@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>¿Dónde está? — where things are</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4 portrait; margin: 0; }
+  :root{ --navy:#151d38; --orange:#f4642a; --muted:#7b8194; --band:#f4f5f8; }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  i{ padding-right:0.35mm; }
+  html,body{ width:210mm; height:297mm; overflow:hidden; }
+  body{ font-family:'Poppins','Helvetica Neue',Arial,sans-serif; color:var(--navy);
+        background:#fff; -webkit-font-smoothing:antialiased;
+        display:flex; flex-direction:column; }
+
+  header{ padding:5.6mm 12mm 2.2mm; }
+  h1{ font-weight:800; font-size:23pt; line-height:1.02; letter-spacing:-0.8pt;
+      text-transform:uppercase; }
+  h1 .num{ color:var(--orange); }
+  .sub{ margin-top:1.6mm; color:var(--orange); font-weight:700; font-size:11.5pt;
+        letter-spacing:-0.2pt; }
+
+  main{ flex:1; display:flex; flex-direction:column; }
+  .band{ padding:2.3mm 12mm; }
+  .band.alt{ background:var(--band); }
+  .band.grow{ flex:1; }
+
+  h2{ font-weight:700; font-size:10.5pt; letter-spacing:-0.3pt; margin-bottom:1.6mm; }
+  h2 .n{ color:var(--orange); }
+  h2 .what{ font-weight:400; font-size:7.8pt; color:#4a5165; }
+
+  .grid{ display:grid; grid-template-columns:repeat(4, 1fr); gap:1.5mm 3.4mm; }
+  .cell{ text-align:center; }
+  .pic{ background:#fff; border:0.3mm solid var(--band); border-radius:1.2mm;
+        padding:0.9mm 0.8mm 0.4mm; }
+  .band.alt .pic{ border-color:#e7e9ef; }
+  .pic svg{ width:100%; height:auto; display:block; }
+  .es{ font-weight:700; font-size:7.5pt; color:var(--orange); margin-top:0.7mm;
+       letter-spacing:-0.2pt; line-height:1.15; }
+  .en{ font-size:6.6pt; color:var(--muted); line-height:1.2; }
+
+  .ladder{ margin:0.6mm 0 0; }
+  .ladder svg{ width:100%; height:auto; display:block; }
+
+  ul{ list-style:none; font-size:7.3pt; line-height:1.48; }
+  li{ margin-bottom:0.4mm; }
+  li b{ color:var(--orange); font-weight:600; }
+  li .g{ color:var(--muted); }
+  .two{ display:grid; grid-template-columns:1fr 1fr; gap:0 9mm; }
+
+  .rule{ margin-top:1.3mm; padding:1.7mm 2.8mm; background:var(--navy); color:#fff;
+         font-size:7.3pt; line-height:1.46; border-radius:0.8mm; }
+  .rule b{ color:var(--orange); font-weight:700; }
+  .rule .dim{ color:#9aa0b2; }
+  .band.alt .rule{ background:#fff; color:var(--navy); }
+  .band.alt .rule .dim{ color:var(--muted); }
+
+  footer{ display:flex; justify-content:space-between; align-items:flex-end; gap:8mm;
+          padding:2.2mm 12mm 4.5mm; font-size:6.7pt; line-height:1.4; color:var(--muted); }
+  footer .note b{ color:var(--navy); font-weight:600; }
+  footer .tag{ text-align:right; white-space:nowrap; }
+  footer .tag strong{ color:var(--navy); font-weight:700; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1><span class="num">¿Dónde<br>está?</span><br>Where Things Are</h1>
+  <div class="sub">the grey box is the thing you are talking about &mdash; orange is what you are placing</div>
+</header>
+
+<main>
+
+  <div class="band alt grow">
+    <h2><span class="n">1.</span> Sixteen positions <span class="what">read the picture first, then the word</span></h2>
+    <div class="grid">
+      <div class="cell">
+        <div class="pic"><svg viewBox="0 0 104 62" xmlns="http://www.w3.org/2000/svg"><line x1="6" y1="54" x2="98" y2="54" stroke="#dfe2e9" stroke-width="2" stroke-linecap="round"/><rect x="32" y="26" width="40" height="28" rx="2.5" fill="none" stroke="#aeb3c0" stroke-width="2.6"/><circle cx="52" cy="17" r="8" fill="#f4642a"/></svg></div>
+        <div class="es">encima de</div>
+        <div class="en">on top of</div>
+      </div>
+      <div class="cell">
+        <div class="pic"><svg viewBox="0 0 104 62" xmlns="http://www.w3.org/2000/svg"><line x1="6" y1="54" x2="98" y2="54" stroke="#dfe2e9" stroke-width="2" stroke-linecap="round"/><rect x="32" y="14" width="40" height="26" rx="2.5" fill="none" stroke="#aeb3c0" stroke-width="2.6"/><circle cx="52" cy="48" r="8" fill="#f4642a"/></svg></div>
+        <div class="es">debajo de</div>
+        <div class="en">under</div>
+      </div>
+      <div class="cell">
+        <div class="pic"><svg viewBox="0 0 104 62" xmlns="http://www.w3.org/2000/svg"><line x1="6" y1="54" x2="98" y2="54" stroke="#dfe2e9" stroke-width="2" stroke-linecap="round"/><rect x="28" y="14" width="44" height="34" rx="2.5" fill="none" stroke="#aeb3c0" stroke-width="2.6"/><circle cx="50" cy="31" r="8" fill="#f4642a"/></svg></div>
+        <div class="es">dentro de</div>
+        <div class="en">inside</div>
+      </div>
+      <div class="cell">
+        <div class="pic"><svg viewBox="0 0 104 62" xmlns="http://www.w3.org/2000/svg"><line x1="6" y1="54" x2="98" y2="54" stroke="#dfe2e9" stroke-width="2" stroke-linecap="round"/><rect x="20" y="14" width="44" height="34" rx="2.5" fill="none" stroke="#aeb3c0" stroke-width="2.6"/><path d="M66 31 l10 0" stroke="#dfe2e9" stroke-width="2" stroke-dasharray="2 3"/><circle cx="86" cy="31" r="8" fill="#f4642a"/></svg></div>
+        <div class="es">fuera de</div>
+        <div class="en">outside</div>
+      </div>
+      <div class="cell">
+        <div class="pic"><svg viewBox="0 0 104 62" xmlns="http://www.w3.org/2000/svg"><line x1="6" y1="54" x2="98" y2="54" stroke="#dfe2e9" stroke-width="2" stroke-linecap="round"/><rect x="32" y="18" width="40" height="30" rx="2.5" fill="none" stroke="#aeb3c0" stroke-width="2.6"/><circle cx="52" cy="48" r="8" fill="#f4642a"/></svg></div>
+        <div class="es">delante de</div>
+        <div class="en">in front of</div>
+      </div>
+      <div class="cell">
+        <div class="pic"><svg viewBox="0 0 104 62" xmlns="http://www.w3.org/2000/svg"><line x1="6" y1="54" x2="98" y2="54" stroke="#dfe2e9" stroke-width="2" stroke-linecap="round"/><circle cx="52" cy="20" r="8" fill="#f4642a"/><rect x="32" y="24" width="40" height="30" rx="2.5" fill="#fff" stroke="#aeb3c0" stroke-width="2.6"/></svg></div>
+        <div class="es">detrás de</div>
+        <div class="en">behind</div>
+      </div>
+      <div class="cell">
+        <div class="pic"><svg viewBox="0 0 104 62" xmlns="http://www.w3.org/2000/svg"><line x1="6" y1="54" x2="98" y2="54" stroke="#dfe2e9" stroke-width="2" stroke-linecap="round"/><rect x="24" y="22" width="36" height="32" rx="2.5" fill="none" stroke="#aeb3c0" stroke-width="2.6"/><circle cx="80" cy="38" r="8" fill="#f4642a"/></svg></div>
+        <div class="es">al lado de</div>
+        <div class="en">next to</div>
+      </div>
+      <div class="cell">
+        <div class="pic"><svg viewBox="0 0 104 62" xmlns="http://www.w3.org/2000/svg"><line x1="6" y1="54" x2="98" y2="54" stroke="#dfe2e9" stroke-width="2" stroke-linecap="round"/><rect x="10" y="24" width="26" height="30" rx="2.5" fill="none" stroke="#aeb3c0" stroke-width="2.6"/><rect x="68" y="24" width="26" height="30" rx="2.5" fill="none" stroke="#aeb3c0" stroke-width="2.6"/><circle cx="52" cy="39" r="8" fill="#f4642a"/></svg></div>
+        <div class="es">entre</div>
+        <div class="en">between</div>
+      </div>
+      <div class="cell">
+        <div class="pic"><svg viewBox="0 0 104 62" xmlns="http://www.w3.org/2000/svg"><line x1="6" y1="54" x2="98" y2="54" stroke="#dfe2e9" stroke-width="2" stroke-linecap="round"/><rect x="14" y="22" width="34" height="32" rx="2.5" fill="none" stroke="#aeb3c0" stroke-width="2.6"/><circle cx="62" cy="38" r="8" fill="#f4642a"/></svg></div>
+        <div class="es">cerca de</div>
+        <div class="en">near</div>
+      </div>
+      <div class="cell">
+        <div class="pic"><svg viewBox="0 0 104 62" xmlns="http://www.w3.org/2000/svg"><line x1="6" y1="54" x2="98" y2="54" stroke="#dfe2e9" stroke-width="2" stroke-linecap="round"/><rect x="8" y="22" width="28" height="32" rx="2.5" fill="none" stroke="#aeb3c0" stroke-width="2.6"/><line x1="40" y1="38" x2="82" y2="38" stroke="#dfe2e9" stroke-width="2" stroke-dasharray="3 4"/><circle cx="92" cy="38" r="8" fill="#f4642a"/></svg></div>
+        <div class="es">lejos de</div>
+        <div class="en">far from</div>
+      </div>
+      <div class="cell">
+        <div class="pic"><svg viewBox="0 0 104 62" xmlns="http://www.w3.org/2000/svg"><line x1="6" y1="54" x2="98" y2="54" stroke="#dfe2e9" stroke-width="2" stroke-linecap="round"/><rect x="38" y="26" width="28" height="24" rx="2.5" fill="none" stroke="#aeb3c0" stroke-width="2.6"/><circle cx="28" cy="20" r="5" fill="#f4642a"/><circle cx="76" cy="20" r="5" fill="#f4642a"/><circle cx="28" cy="50" r="5" fill="#f4642a"/><circle cx="76" cy="50" r="5" fill="#f4642a"/></svg></div>
+        <div class="es">alrededor de</div>
+        <div class="en">around</div>
+      </div>
+      <div class="cell">
+        <div class="pic"><svg viewBox="0 0 104 62" xmlns="http://www.w3.org/2000/svg"><line x1="6" y1="54" x2="98" y2="54" stroke="#dfe2e9" stroke-width="2" stroke-linecap="round"/><rect x="10" y="22" width="30" height="32" rx="2.5" fill="none" stroke="#aeb3c0" stroke-width="2.6"/><rect x="64" y="22" width="30" height="32" rx="2.5" fill="none" stroke="#aeb3c0" stroke-width="2.6"/><line x1="44" y1="38" x2="60" y2="38" stroke="#f4642a" stroke-width="2.4" stroke-linecap="round"/></svg></div>
+        <div class="es">enfrente de</div>
+        <div class="en">opposite</div>
+      </div>
+      <div class="cell">
+        <div class="pic"><svg viewBox="0 0 104 62" xmlns="http://www.w3.org/2000/svg"><line x1="6" y1="54" x2="98" y2="54" stroke="#dfe2e9" stroke-width="2" stroke-linecap="round"/><rect x="52" y="22" width="34" height="32" rx="2.5" fill="none" stroke="#aeb3c0" stroke-width="2.6"/><circle cx="28" cy="38" r="8" fill="#f4642a"/></svg></div>
+        <div class="es">a la izquierda de</div>
+        <div class="en">to the left of</div>
+      </div>
+      <div class="cell">
+        <div class="pic"><svg viewBox="0 0 104 62" xmlns="http://www.w3.org/2000/svg"><line x1="6" y1="54" x2="98" y2="54" stroke="#dfe2e9" stroke-width="2" stroke-linecap="round"/><rect x="18" y="22" width="34" height="32" rx="2.5" fill="none" stroke="#aeb3c0" stroke-width="2.6"/><circle cx="76" cy="38" r="8" fill="#f4642a"/></svg></div>
+        <div class="es">a la derecha de</div>
+        <div class="en">to the right of</div>
+      </div>
+      <div class="cell">
+        <div class="pic"><svg viewBox="0 0 104 62" xmlns="http://www.w3.org/2000/svg"><line x1="6" y1="54" x2="98" y2="54" stroke="#dfe2e9" stroke-width="2" stroke-linecap="round"/><rect x="32" y="28" width="40" height="26" rx="2.5" fill="none" stroke="#aeb3c0" stroke-width="2.6"/><circle cx="52" cy="16" r="8" fill="#f4642a"/></svg></div>
+        <div class="es">sobre</div>
+        <div class="en">on, over</div>
+      </div>
+      <div class="cell">
+        <div class="pic"><svg viewBox="0 0 104 62" xmlns="http://www.w3.org/2000/svg"><line x1="6" y1="54" x2="98" y2="54" stroke="#dfe2e9" stroke-width="2" stroke-linecap="round"/><rect x="30" y="22" width="34" height="32" rx="2.5" fill="none" stroke="#aeb3c0" stroke-width="2.6"/><circle cx="74" cy="38" r="8" fill="#f4642a"/></svg></div>
+        <div class="es">junto a</div>
+        <div class="en">right beside</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="band">
+    <h2><span class="n">2.</span> <b>aquí &middot; ahí &middot; allí &middot; allá</b> <span class="what">English has two words for this; Spanish has four, and they measure distance from the speaker</span></h2>
+    <div class="ladder"><svg viewBox="0 0 480 66" xmlns="http://www.w3.org/2000/svg"><line x1="14" y1="33" x2="466" y2="33" stroke="#dfe2e9" stroke-width="2"/><circle cx="26" cy="18" r="5.5" fill="#151d38"/><path d="M19 40 q7 -15 14 0 z" fill="#151d38"/><text x="26" y="56" font-size="7.5" fill="#aeb3c0" text-anchor="middle" font-family="Poppins, sans-serif">yo</text><circle cx="110" cy="33" r="6" fill="#f4642a"/><text x="110" y="15" font-size="10" font-weight="700" fill="#f4642a" text-anchor="middle" font-family="Poppins, sans-serif">aquí</text><text x="110" y="56" font-size="7.5" fill="#aeb3c0" text-anchor="middle" font-family="Poppins, sans-serif">by me</text><circle cx="196" cy="18" r="5.5" fill="#151d38"/><path d="M189 40 q7 -15 14 0 z" fill="#151d38"/><text x="196" y="56" font-size="7.5" fill="#aeb3c0" text-anchor="middle" font-family="Poppins, sans-serif">tú</text><circle cx="276" cy="33" r="6" fill="#f4642a"/><text x="276" y="15" font-size="10" font-weight="700" fill="#f4642a" text-anchor="middle" font-family="Poppins, sans-serif">ahí</text><text x="276" y="56" font-size="7.5" fill="#aeb3c0" text-anchor="middle" font-family="Poppins, sans-serif">by you</text><circle cx="378" cy="33" r="6" fill="#f4642a"/><text x="378" y="15" font-size="10" font-weight="700" fill="#f4642a" text-anchor="middle" font-family="Poppins, sans-serif">allí</text><text x="378" y="56" font-size="7.5" fill="#aeb3c0" text-anchor="middle" font-family="Poppins, sans-serif">away from both</text><circle cx="466" cy="33" r="6" fill="#f4642a"/><text x="466" y="15" font-size="10" font-weight="700" fill="#f4642a" text-anchor="end" font-family="Poppins, sans-serif">allá</text><text x="466" y="56" font-size="7.5" fill="#aeb3c0" text-anchor="end" font-family="Poppins, sans-serif">vaguer</text></svg></div>
+    <div class="rule" style="margin-top:0.8mm">
+      They line up with <b>este &middot; ese &middot; aquel</b>: <i>este libro, aquí</i> &middot; <i>ese libro, ahí</i> &middot; <i>aquel libro, allí</i>. <span class="dim">Learn them as pairs and you get both sets for the price of one.</span>
+    </div>
+  </div>
+
+  <div class="band alt">
+    <h2><span class="n">3.</span> They nearly all need <b>de</b> <span class="what">and the two that don't are the ones you will get wrong</span></h2>
+    <div class="two">
+      <ul>
+        <li>encima <b>de</b> &middot; debajo <b>de</b> &middot; dentro <b>de</b> &middot; fuera <b>de</b></li>
+        <li>delante <b>de</b> &middot; detrás <b>de</b> &middot; al lado <b>de</b></li>
+        <li>cerca <b>de</b> &middot; lejos <b>de</b> &middot; enfrente <b>de</b> &middot; alrededor <b>de</b></li>
+        <li class="g">and <i>de + el</i> contracts: al lado <b>del</b> banco, lejos <b>del</b> centro</li>
+      </ul>
+      <ul>
+        <li><b>entre</b> la mesa y la silla <span class="g">&mdash; no <i>de</i>, and it takes <i>y</i></span></li>
+        <li><b>sobre</b> la mesa <span class="g">&mdash; no <i>de</i> &middot; same as <i>encima de</i></span></li>
+        <li>junto <b>a</b> la ventana <span class="g">&mdash; this one takes <i>a</i>, not <i>de</i></span></li>
+        <li><b>en</b> la mesa <span class="g">&mdash; the everyday catch-all</span></li>
+      </ul>
+    </div>
+    <div class="rule">
+      <b>The <i>de</i> only appears when something follows.</b> <i>El banco está <b>cerca</b>.</i> &mdash; nothing after it, so no <i>de</i>. <i>El banco está <b>cerca de</b> mi casa.</i> &mdash; a noun follows, so the <i>de</i> comes back. Same for <i>dentro</i>, <i>delante</i>, <i>detrás</i>, <i>encima</i>.
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <div class="note">All of these take <b>estar</b>, never <i>ser</i> &mdash; <i>el libro <b>está</b> encima de la mesa</i>. The one exception is an event: <i>la fiesta <b>es</b> en mi casa</i>. See <b>poster-ser-estar</b>, section 5.</div>
+  <div class="tag">Where things are<br><strong>A1 &mdash; section 3 is the one to learn</strong></div>
+</footer>
+</body>
+</html>

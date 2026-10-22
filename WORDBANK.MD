@@ -434,7 +434,7 @@ And the nouns and adjectives:
 - [ ] **el disfraz** — costume, disguise · **disfrazarse** — to dress up
 - [ ] **maravilloso** — wonderful
 - [ ] **la bienvenida** — welcome · *dar la bienvenida a alguien*
-- [ ] **alrededor de** — around · *a su alrededor* = all around her
+- [x] **alrededor de** — around · *a su alrededor* = all around her — `A1::lugar`
 - [ ] **no me cuadra** — it doesn't add up · *aquí hay algo que no me cuadra*
 
 ### Same word, a different sense
@@ -546,9 +546,9 @@ The deck has *aquí, encima de, dentro de, delante de, debajo de, fuera de,
 detrás de, entre, en medio de, al lado de*. The gap is the distance ladder,
 which English cannot express in one word each:
 
-- [ ] **aquí** (here, by me) · **ahí** (there, by you) · **allí** (there, away from both) · **allá** (over there, vaguer)
-- [ ] **junto a** — right next to · tighter than *al lado de*
-- [ ] **alrededor de** — around · already listed from the reader
+- [x] **aquí** (here, by me) · **ahí** (there, by you) · **allí** (there, away from both) · **allá** (over there, vaguer) — `A1::lugar`, 3 cards + `poster-lugar`
+- [x] **junto a** — right next to · tighter than *al lado de* — `A1::lugar`
+- [x] **alrededor de** — around · also listed from the reader — `A1::lugar`
 
 The three-way maps onto *este / ese / aquel*, so one card can teach both.
 

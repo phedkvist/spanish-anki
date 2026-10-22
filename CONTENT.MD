@@ -46,7 +46,7 @@ and the filename, never in a separate deck, so reviews stay mixed.
 | Time expressions (ahora mismo, siempre, a veces …) | `A1::expresiones-tiempo` | 10 |
 | School subjects | `A1::asignaturas` | 10 |
 | Years and dates | `A1::fechas` | 10 |
-| Where things are (encima de, al lado de …) | `A1::lugar` | 12 |
+| Where things are (encima de, al lado de …) | `A1::lugar` | 22 |
 | Health (me duele …) | `A1::salud` | 10 |
 | Colours, incl. the ones that don't agree | `A1::colores` | 18 |
 | Describing people | `A1::personas` | 10 |

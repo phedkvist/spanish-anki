@@ -35,10 +35,10 @@ English explanation after it. See `notetypes/`.
 | `spanish_A1_vocab_anki.tsv` | 201 | 1. Core vocabulary | **EN → ES** (production) |
 | `spanish_A1_grammar_anki.tsv` | 162 | 3. Transformations | instruction → ES |
 | `spanish_A1_sentences_anki.tsv` | 152 | 4. Understand the sentence | **ES → EN** + breakdown |
-| `spanish_A1_topics_anki.tsv` | 285 | 1. Core vocabulary (topic sets) | **EN → ES** (production) |
+| `spanish_A1_topics_anki.tsv` | 295 | 1. Core vocabulary (topic sets) | **EN → ES** (production) |
 | `spanish_A2_pasado_anki.tsv` | 79 | 2. Verb drills (pretérito) | fill-in-the-blank + EN→ES |
 | `video_leones_anki.tsv` | 25 | 5. Pre-watch vocabulary | **ES → EN** (comprehension) |
-| | **1114** | | |
+| | **1124** | | |
 
 `spanish_A1_topics_anki.tsv` is fourteen themed blocks, meant to be
 imported as one batch: `A1::clima` (weather), `A1::numeros-100` (0–100),
@@ -135,7 +135,7 @@ whenever cards are added.
 
 ## Posters
 
-Nine wall charts. The sources are `posters/src/*.html`; the printable PDFs land
+Ten wall charts. The sources are `posters/src/*.html`; the printable PDFs land
 in `posters/`, so that folder is only the files you actually open.
 
 The four verb charts carry the same 50 verbs in the same grid
@@ -159,6 +159,7 @@ meant 5.9pt tables, which is too small to read off a wall:
 | `posters/poster-numeros.pdf` | — | 0–100 in full, ordinals, the three irregular hundreds, mil and millón, 2 pages |
 | `posters/poster-tiempo.pdf` | — | weather: which of hacer / estar / hay / llueve, and the three ways to say "it's cold" |
 | `posters/poster-ser-estar.pdf` | — | ser vs estar as classify-vs-state, the meaning-changing adjectives, and where tener takes over |
+| `posters/poster-lugar.pdf` | — | sixteen positions drawn rather than listed, the aquí/ahí/allí ladder, and when the *de* appears |
 
 The near-future poster is deliberately shaped differently: that tense has no
 per-verb conjugation to learn (only `ir` changes), so the page spends its

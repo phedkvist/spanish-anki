@@ -1214,6 +1214,18 @@ TOPICS = [
     vocab("My parents send us money.", "Mis padres nos mandan dinero.", "mandar / enviar = to send", "A1::topics A1::pronombres-objeto"),
 
     # ---- where things are -------------------------------------------------
+    # ---- where things are: the distance ladder, and the bare adverbs -------
+    vocab("The keys are here and the book is there, by you.", "Las llaves están aquí y el libro está ahí.", "aquí = by me, ahí = by you &middot; Spanish has two words where English has one", "A1::topics A1::lugar"),
+    vocab("The station is over there.", "La estación está allí.", "allí = away from us both &middot; aquí &rarr; ahí &rarr; allí, by distance from the speaker", "A1::topics A1::lugar"),
+    vocab("My parents live over there, in Spain.", "Mis padres viven allá, en España.", "allá is vaguer than allí &middot; it goes with movement and large distances", "A1::topics A1::lugar"),
+    vocab("The chair is right beside the window.", "La silla está junto a la ventana.", "junto a takes a, not de &middot; tighter than al lado de", "A1::topics A1::lugar"),
+    vocab("There are trees around the house.", "Hay árboles alrededor de la casa.", "alrededor de = around &middot; hay for what exists", "A1::topics A1::lugar"),
+    vocab("The bathroom is downstairs.", "El baño está abajo.", "abajo &harr; arriba &middot; neither one takes de", "A1::topics A1::lugar"),
+    vocab("The bank is very near.", "El banco está muy cerca.", "cerca with nothing after it takes no de", "A1::topics A1::lugar"),
+    vocab("The bank is near my house.", "El banco está cerca de mi casa.", "a noun follows, so the de comes back &middot; cerca &rarr; cerca de", "A1::topics A1::lugar"),
+    vocab("I wait outside the shop.", "Espero fuera de la tienda.", "fuera de + noun &middot; on its own it is just fuera", "A1::topics A1::lugar"),
+    vocab("The cat is sleeping underneath.", "El gato duerme debajo.", "debajo alone &middot; debajo de la silla once something follows", "A1::topics A1::lugar"),
+
     vocab("The book is on the table.", "El libro está encima de la mesa.", "encima de = on top of &middot; sobre la mesa works too", "A1::topics A1::lugar"),
     vocab("The cat is under the chair.", "El gato está debajo de la silla.", "debajo de = under", "A1::topics A1::lugar"),
     vocab("The pharmacy is next to the bank.", "La farmacia está al lado del banco.", "al lado de + el &rarr; del", "A1::topics A1::lugar"),

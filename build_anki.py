@@ -867,6 +867,14 @@ GRAMMAR = [
     grammar("volver &rarr; <b>participio</b>", "vuelto", "irregular &middot; ha vuelto a casa", "A1::grammar A1::perfecto"),
     grammar("abrir &rarr; <b>participio</b>", "abierto", "irregular &middot; han abierto la tienda", "A1::grammar A1::perfecto"),
 
+    grammar("romper &rarr; <b>participio</b>", "roto", "irregular &middot; he roto el móvil &mdash; with estar it is the adjective: está roto", "A1::grammar A1::perfecto"),
+    grammar("morir &rarr; <b>participio</b>", "muerto", "irregular &middot; ha muerto &mdash; and muerto is also dead as an adjective", "A1::grammar A1::perfecto"),
+    grammar("ser &rarr; <b>participio</b>", "sido", "regular, despite the verb &middot; ser is irregular everywhere else, but sido is just -ido", "A1::grammar A1::perfecto"),
+    grammar("ir &rarr; <b>participio</b>", "ido", "regular too &middot; he ido al médico", "A1::grammar A1::perfecto"),
+    grammar("Translate: <b>I've broken the screen.</b>", "He roto la pantalla.", "he roto = I broke it &middot; la pantalla está rota describes the result, not who did it", "A1::grammar A1::perfecto"),
+    grammar("Translate: <b>I've been to the doctor this morning.</b>", "He ido al médico esta mañana.", "ir &rarr; ido &middot; esta mañana is today, so the perfecto", "A1::grammar A1::perfecto"),
+    grammar("Translate: <b>It has always been like this.</b>", "Siempre ha sido así.", "ser &rarr; sido &middot; así = like this", "A1::grammar A1::perfecto"),
+
     grammar("Ella ha ___ la carta. <b>(escribir)</b>", "escrito", "She has written the letter &middot; the participle never agrees here: escrito, not escrita", "A1::grammar A1::perfecto"),
     grammar("Ayer comí paella. &rarr; <b>hoy</b>", "Hoy he comido paella.", "ayer takes the indefinido, hoy takes the perfecto - in Spain the day you're still in uses he comido", "A1::grammar A1::perfecto"),
     grammar("He comido. &rarr; <b>negativo</b>", "No he comido.", "no goes before haber, never between haber and the participle", "A1::grammar A1::perfecto"),

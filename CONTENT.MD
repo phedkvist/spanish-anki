@@ -32,7 +32,7 @@ and the filename, never in a separate deck, so reviews stay mixed.
 | Reflexive verbs | `A1::reflexivos` | 8 |
 | muy / mucho, comparatives | `A1::cantidad` | 10 |
 | Object pronouns lo / la / los / las / me / te / le / nos / les | `A1::pronombres-objeto` | 21 |
-| **Pretérito perfecto** (he comido, ¿has visto?) | `A1::perfecto` | 26 |
+| **Pretérito perfecto** (he comido, ¿has visto?) | `A1::perfecto` | 33 |
 
 ### Vocabulary and topics
 

@@ -22,7 +22,11 @@ import urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 
-BUDGET = {"A1": 1000, "A2": 600}      # cards per level before we stop and think
+BUDGET = {"A1": 1100, "A2": 600}      # cards per level before we stop and think
+# A1 raised from 1000 on 24 Oct 2026. The cap was guarding daily review time,
+# and that is no longer the binding constraint: 209 unseen (was 499), 10.7s a
+# card, 97% retention, about 19 minutes a day. Raised to finish blocks already
+# in use rather than to start new topics.
 COVERED_ENOUGH = 95                   # % of a syllabus after which new cards need a reason
 MAX_UNSEEN = 350                      # unseen cards in Anki before adding more is unkind
 MAX_ONCE_ONLY = 55                    # % of word forms allowed to appear on a single card

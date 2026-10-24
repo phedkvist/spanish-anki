@@ -105,7 +105,7 @@
   </header>
   <main class="grid" id="g1"></main>
   <footer>
-    <div class="note"><b>haber</b> is the auxiliary (<i>he hablado</i> = I have spoken); on its own it is <b>hay</b> = there is / there are.<br><b>gustar</b> works backwards: <i>me gusta</i> + singular, <i>me gustan</i> + plural.</div>
+    <div class="note"><b>haber</b> is two verbs. As an auxiliary it is <i>he hablado</i> = I have spoken. On its own it is <b>hay</b> = there is / there are &mdash; impersonal, one form for singular and plural (<i>hay un cajero</i>, <i>hay muchas personas</i>). This is the only tense where that form is irregular: the future and past just use the third person, <i>habrá</i> and <i>hubo</i>.<br><b>gustar</b> works backwards: <i>me gusta</i> + singular, <i>me gustan</i> + plural.</div>
     <div class="tag">Present indicative<br><strong>Rows 1&ndash;4 = the 20 core A1 verbs</strong></div>
   </footer>
 </section>
@@ -125,12 +125,14 @@
 <script>
 const P = ['yo','tú','él / ella','nosotros','vosotros','ellos'];
 const G = ['me','te','le','nos','os','les'];
+// haber needs a seventh row: hay is not the el/ella form, it is impersonal
+const HB = ['yo','tú','él / ella','nosotros','vosotros','ellos','impers.'];
 const V = [
  // Rows 1-4: the 20 core A1 verbs (same set as the Anki verb deck)
  ['Ser','to be',['soy','eres','es','somos','sois','son']],
  ['Estar','to be',['estoy','estás','está','estamos','estáis','están']],
  ['Tener','to have',['tengo','tienes','tiene','tenemos','tenéis','tienen']],
- ['Haber','to have (aux.)',['he','has','ha','hemos','habéis','han']],
+ ['Haber','to have / there is',['he','has','ha','hemos','habéis','han','hay'], HB],
  ['Hacer','to do / make',['hago','haces','hace','hacemos','hacéis','hacen']],
 
  ['Ir','to go',['voy','vas','va','vamos','vais','van']],

@@ -41,19 +41,34 @@ The one that is guaranteed to come up, every time, forever.
 
 > Soy programador. Trabajo en una empresa tecnológica en Estocolmo.
 >
-> Empiezo a trabajar a las nueve y trabajo de lunes a viernes. [Voy al trabajo
-> en metro], pero a veces trabajo desde casa.
+> Empiezo a trabajar a las nueve y trabajo de lunes a viernes. Voy al trabajo
+> en metro, pero a veces trabajo desde casa.
 >
 > Escribo correos todos los días y tengo muchas reuniones. Mis compañeros
 > hablan inglés, pero yo quiero hablar español.
 >
 > Tengo mucho trabajo, pero me gusta.
+>
+> En mi trabajo creo nuevas funcionalidades y corrijo errores junto con mis colegas.
+> Me gusta resolver problemas junto con mis colegas.
 
 _reuniones_ is the only word here without its own card — the singular
 _una reunión_ has one.
 
-**Follow-ups you must survive:** _¿Y te gusta?_ · _¿Cuántas horas trabajas?_ ·
-_¿Trabajas con españoles?_ · _¿Es una empresa grande?_
+**Follow-ups you must survive:**
+
+¿Y te gusta?
+
+> Me gusta mi trabajo. Mi companeros estan muy simpaticos.
+
+¿Cuántas horas trabajas?
+
+> Trabajo ocho horas por dia. En una semana trabjo cuarenta horas totales.
+> A veces trabajo de guardia. En ese caso, tengo que estar listo para trabajar si surge una alerta.
+
+¿Trabajas con españoles?
+
+¿Es una empresa grande?
 
 ---
 
@@ -64,7 +79,7 @@ question is always about the cold and the dark.
 
 > Soy sueco. Soy de Estocolmo, en Suecia.
 >
-> En [invierno] hace mucho frío. Hace diez grados bajo cero y está nublado.
+> En invierno hace mucho frío. Hace diez grados bajo cero y está nublado.
 > No me gusta el frío, pero me gusta cuando nieva.
 >
 > En verano hace buen tiempo y los días son muy largos.
@@ -114,18 +129,18 @@ _¿Dónde estudias?_ · _¿Has estado en España?_
 > desarrollado una aplicación.
 
 **Corrected 21 Oct.** Fifteen fixes, all of them small — see the breakdown in
-the conversation. The three that are worth remembering: *viajar **por** España*
-(not *en*), *un **día*** (masculine despite the -a), and the accent on *a **mí***
-and *para **mí***, which is what separates the pronoun from the possessive.
+the conversation. The three that are worth remembering: _viajar **por** España_
+(not _en_), \*un **día\*** (masculine despite the -a), and the accent on \*a **mí\***
+and \*para **mí\***, which is what separates the pronoun from the possessive.
 
 Two things here are above A1 and should be held as fixed chunks rather than
-patterns you try to generate: *estaría genial* (conditional, block 8 in
-`CONTENT.MD`) and *dirijo un negocio* / *hemos desarrollado* (B1 vocabulary).
+patterns you try to generate: _estaría genial_ (conditional, block 8 in
+`CONTENT.MD`) and _dirijo un negocio_ / _hemos desarrollado_ (B1 vocabulary).
 They are correct and they are true of you, so keep them — just expect the
 follow-up question to come back at that level.
 
-**Follow-ups:** *¿Qué distancia corres?* · *¿Cuál es tu película favorita?* ·
-*¿Qué país te gustó más?* · *¿Qué hace tu empresa?*
+**Follow-ups:** _¿Qué distancia corres?_ · _¿Cuál es tu película favorita?_ ·
+_¿Qué país te gustó más?_ · _¿Qué hace tu empresa?_
 
 ## The queue — islands still to write
 

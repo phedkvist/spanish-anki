@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>50 Most Used Spanish Verbs &mdash; Present Perfect</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  @page { size: A4 portrait; margin: 0; }
+  :root{
+    --navy:#151d38;
+    --orange:#f4642a;
+    --muted:#7b8194;
+    --band:#f4f5f8;
+  }
+  *{ box-sizing:border-box; margin:0; padding:0; }
+  html{ width:210mm; }
+  body{
+    width:210mm;
+    font-family:'Poppins','Helvetica Neue',Arial,sans-serif;
+    color:var(--navy);
+    background:#fff;
+    -webkit-font-smoothing:antialiased;
+  }
+  .page{
+    width:210mm; height:297mm; overflow:hidden;
+    display:flex; flex-direction:column;
+    page-break-after:always; break-after:page;
+  }
+  .page:last-child{ page-break-after:auto; break-after:auto; }
+
+  header{
+    padding:6mm 12mm 2.8mm;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:8mm;
+  }
+  h1{
+    font-weight:800;
+    font-size:23pt;
+    line-height:1.02;
+    letter-spacing:-0.8pt;
+    text-transform:uppercase;
+  }
+  h1 .num{ color:var(--orange); }
+  .sub{
+    margin-top:3.5mm;
+    color:var(--orange);
+    font-weight:700;
+    font-size:11pt;
+    letter-spacing:-0.2pt;
+  }
+  .rule{
+    flex:0 0 75mm;
+    border:0.5mm solid var(--navy);
+    border-radius:2mm;
+    padding:4mm 4.5mm;
+  }
+  .rule-h{
+    font-size:8.3pt; font-weight:700; text-transform:uppercase;
+    letter-spacing:0.6pt; color:var(--orange);
+  }
+  .rule-b{ margin-top:2mm; font-size:11pt; font-weight:500; line-height:1.3; }
+  .rule-b b{ font-weight:700; color:var(--orange); }
+  .rule-n{ margin-top:2.5mm; font-size:6.8pt; line-height:1.45; color:var(--muted); }
+
+  /* the engine of the tense */
+  .hero{
+    background:var(--navy);
+    color:#fff;
+    padding:2.8mm 12mm 3.2mm;
+  }
+  .hero-label{
+    font-size:6.8pt; font-weight:500; letter-spacing:0.4pt;
+    text-transform:uppercase; color:#95a0bd;
+  }
+  .hero-label b{ color:var(--orange); font-weight:700; }
+  .hero-forms{
+    margin-top:2mm;
+    display:flex;
+    align-items:baseline;
+    gap:4mm;
+  }
+  .hero-forms .f{ flex:1; }
+  .hero-forms .f .p{
+    display:block;
+    font-size:6.4pt; color:#95a0bd; font-weight:400;
+    margin-bottom:0.4mm;
+  }
+  .hero-forms .f .v{
+    font-size:11pt; font-weight:700; color:#fff; letter-spacing:-0.2pt;
+  }
+  .hero-forms .tail{
+    flex:0 0 auto;
+    font-size:10.5pt; font-weight:600; color:var(--orange);
+    white-space:nowrap;
+    border-left:0.35mm solid rgba(255,255,255,0.25);
+    padding-left:5mm;
+  }
+  .hero-forms .tail i{ font-style:italic; font-weight:500; }
+
+  main{ flex:1; display:flex; flex-direction:column; }
+  .band{
+    flex:1;
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    padding:0 12mm;
+    align-items:start;
+  }
+  .band.alt{ background:var(--band); }
+
+  .verb{ padding:3.2mm 3.5mm 3.2mm 0; }
+  .verb h2{
+    font-weight:700; font-size:11pt; letter-spacing:-0.3pt; line-height:1.1;
+  }
+  .verb .en{
+    font-weight:400; font-size:7.8pt; color:#4a5165; margin-top:0.5mm;
+  }
+  .verb .part{
+    margin-top:1.6mm;
+    font-size:9.6pt; font-weight:800; color:var(--orange); letter-spacing:-0.3pt;
+  }
+  .verb .part .arrow{ color:#c3c8d4; font-weight:600; }
+  .verb .part .irr{ font-size:6pt; font-weight:700; color:var(--muted);
+                    text-transform:uppercase; letter-spacing:0.4pt; display:block; }
+  .verb .es{
+    margin-top:1.4mm;
+    font-size:8pt;
+    font-weight:600;
+    line-height:1.35;
+  }
+  .verb .es b{ color:var(--orange); font-weight:700; }
+  .verb .tr{
+    margin-top:1.2mm;
+    font-size:6.6pt;
+    font-weight:400;
+    line-height:1.4;
+    color:var(--muted);
+  }
+
+  footer{
+    display:flex; justify-content:space-between; align-items:flex-end;
+    gap:8mm; padding:2.4mm 12mm 4mm;
+    font-size:6.4pt; line-height:1.4; color:var(--muted);
+  }
+  footer .note b{ color:var(--navy); font-weight:600; }
+  footer .tag{ text-align:right; white-space:nowrap; }
+  footer .tag strong{ color:var(--navy); font-weight:700; }
+</style>
+</head>
+<body>
+
+<section class="page">
+  <header>
+  <div>
+    <h1><span class="num">50</span> Most Used<br>Spanish Verbs</h1>
+    <div class="sub">in the pretérito perfecto &mdash; part 1 of 2:</div>
+  </div>
+  <div class="rule">
+    <div class="rule-h">The whole tense in one rule</div>
+    <div class="rule-b"><b>haber</b> + <b>participio</b></div>
+    <div class="rule-n">Only <b>haber</b> changes. The participle is one frozen form &mdash; it never agrees with anybody and it never stem-changes, so <i>volver</i> gives <b>vuelto</b> but <i>encontrar</i> gives <b>encontrado</b>, not <i>encuentrado</i>.</div>
+  </div>
+</header>
+  <div class="hero">
+  <div class="hero-label">Conjugate only <b>haber</b> &mdash; then add the participle, unchanged</div>
+  <div class="hero-forms" id="hero1"></div>
+</div>
+  <main class="grid" id="g1"></main>
+  <footer>
+  <div class="note">
+    <b>Building the participle:</b> <i>-ar</i> &rarr; <b>-ado</b> (hablado) &middot; <i>-er</i> and <i>-ir</i> &rarr; <b>-ido</b> (comido, vivido).<br>
+    If the stem ends in a vowel the <i>i</i> takes an accent: <b>leído</b>, <b>creído</b>, <b>traído</b>, <b>oído</b>.
+  </div>
+  <div class="tag">Pretérito perfecto<br><strong>Rows 1&ndash;4 = the 20 core A1 verbs</strong></div>
+</footer>
+</section>
+
+<section class="page">
+  <header>
+  <div>
+    <h1><span class="num">50</span> Most Used<br>Spanish Verbs</h1>
+    <div class="sub">in the pretérito perfecto &mdash; part 2 of 2:</div>
+  </div>
+  <div class="rule">
+    <div class="rule-h">The whole tense in one rule</div>
+    <div class="rule-b"><b>haber</b> + <b>participio</b></div>
+    <div class="rule-n">Only <b>haber</b> changes. The participle is one frozen form &mdash; it never agrees with anybody and it never stem-changes, so <i>volver</i> gives <b>vuelto</b> but <i>encontrar</i> gives <b>encontrado</b>, not <i>encuentrado</i>.</div>
+  </div>
+</header>
+  <div class="hero">
+  <div class="hero-label">Conjugate only <b>haber</b> &mdash; then add the participle, unchanged</div>
+  <div class="hero-forms" id="hero2"></div>
+</div>
+  <main class="grid" id="g2"></main>
+  <footer>
+  <div class="note">
+    <b>Nine irregulars, and that is the whole list:</b> abierto &middot; dicho &middot; escrito &middot; hecho &middot; muerto &middot; puesto &middot; roto &middot; visto &middot; vuelto.<br>
+    In Spain this is the tense for <i>hoy</i>, <i>esta semana</i>, <i>este año</i>, <i>ya</i>, <i>todavía no</i>, <i>alguna vez</i>, <i>nunca</i>. For <i>ayer</i> or a finished date, use the <i>indefinido</i>.
+  </div>
+  <div class="tag">Pretérito perfecto<br><strong>Rows 1&ndash;4 = the 20 core A1 verbs</strong></div>
+</footer>
+</section>
+
+<script>
+const HB = [['yo','he'],['tú','has'],['él / ella','ha'],
+            ['nosotros','hemos'],['vosotros','habéis'],['ellos','han']];
+for (const id of ['hero1','hero2']) {
+  const h = document.getElementById(id);
+  h.insertAdjacentHTML('beforeend', HB.map(([p, v]) =>
+    `<div class="f"><span class="p">${p}</span><span class="v">${v}</span></div>`).join(''));
+  h.insertAdjacentHTML('beforeend', `<div class="tail">+ <i>participio</i></div>`);
+}
+
+const IRREG = new Set(['hecho','puesto','visto','dicho','vuelto']);
+
+// [infinitive, gloss, participle, haber-part of the sentence, the rest, english]
+const V = [
+ [
+  "Ser",
+  "to be",
+  "sido",
+  "Siempre ha",
+  "sido así.",
+  "It has always been like this."
+ ],
+ [
+  "Estar",
+  "to be",
+  "estado",
+  "¿Has",
+  "estado en España?",
+  "Have you been to Spain?"
+ ],
+ [
+  "Tener",
+  "to have",
+  "tenido",
+  "He",
+  "tenido un día largo.",
+  "I have had a long day."
+ ],
+ [
+  "Haber",
+  "there to be",
+  "habido",
+  "Ha",
+  "habido un problema.",
+  "There has been a problem."
+ ],
+ [
+  "Hacer",
+  "to do / make",
+  "hecho",
+  "¿Qué has",
+  "hecho hoy?",
+  "What have you done today?"
+ ],
+ [
+  "Ir",
+  "to go",
+  "ido",
+  "He",
+  "ido al médico.",
+  "I have been to the doctor."
+ ],
+ [
+  "Venir",
+  "to come",
+  "venido",
+  "No ha",
+  "venido nadie.",
+  "Nobody has come."
+ ],
+ [
+  "Querer",
+  "to want",
+  "querido",
+  "Siempre he",
+  "querido aprender.",
+  "I have always wanted to learn."
+ ],
+ [
+  "Poder",
+  "to be able to",
+  "podido",
+  "No he",
+  "podido dormir.",
+  "I have not been able to sleep."
+ ],
+ [
+  "Saber",
+  "to know (facts)",
+  "sabido",
+  "Siempre lo he",
+  "sabido.",
+  "I have always known it."
+ ],
+ [
+  "Conocer",
+  "to know (people)",
+  "conocido",
+  "He",
+  "conocido a su hermana.",
+  "I have met his sister."
+ ],
+ [
+  "Gustar",
+  "to like",
+  "gustado",
+  "Me ha",
+  "gustado mucho.",
+  "I liked it a lot."
+ ],
+ [
+  "Hablar",
+  "to speak",
+  "hablado",
+  "Hemos",
+  "hablado con el jefe.",
+  "We have spoken to the boss."
+ ],
+ [
+  "Comer",
+  "to eat",
+  "comido",
+  "Hoy he",
+  "comido en casa.",
+  "Today I have eaten at home."
+ ],
+ [
+  "Vivir",
+  "to live",
+  "vivido",
+  "He",
+  "vivido aquí dos años.",
+  "I have lived here two years."
+ ],
+ [
+  "Trabajar",
+  "to work",
+  "trabajado",
+  "Esta semana hemos",
+  "trabajado mucho.",
+  "We have worked a lot this week."
+ ],
+ [
+  "Necesitar",
+  "to need",
+  "necesitado",
+  "Nunca he",
+  "necesitado ayuda.",
+  "I have never needed help."
+ ],
+ [
+  "Llevar",
+  "to carry / wear",
+  "llevado",
+  "¿Quién ha",
+  "llevado las llaves?",
+  "Who has taken the keys?"
+ ],
+ [
+  "Poner",
+  "to put",
+  "puesto",
+  "He",
+  "puesto la mesa.",
+  "I have set the table."
+ ],
+ [
+  "Ver",
+  "to see",
+  "visto",
+  "¿Has",
+  "visto esta película?",
+  "Have you seen this film?"
+ ],
+ [
+  "Decir",
+  "to say",
+  "dicho",
+  "Me ha",
+  "dicho que sí.",
+  "He has said yes to me."
+ ],
+ [
+  "Dar",
+  "to give",
+  "dado",
+  "El médico me ha",
+  "dado una receta.",
+  "The doctor has given me a prescription."
+ ],
+ [
+  "Salir",
+  "to go out",
+  "salido",
+  "Ha",
+  "salido en las noticias.",
+  "It has been on the news."
+ ],
+ [
+  "Dormir",
+  "to sleep",
+  "dormido",
+  "No he",
+  "dormido bien.",
+  "I have not slept well."
+ ],
+ [
+  "Buscar",
+  "to look for",
+  "buscado",
+  "Te he",
+  "buscado por todas partes.",
+  "I have looked for you everywhere."
+ ],
+ [
+  "Encontrar",
+  "to find",
+  "encontrado",
+  "No he",
+  "encontrado las gafas.",
+  "I have not found my glasses."
+ ],
+ [
+  "Perder",
+  "to lose",
+  "perdido",
+  "He",
+  "perdido el tren.",
+  "I have missed the train."
+ ],
+ [
+  "Traer",
+  "to bring",
+  "traído",
+  "¿Has",
+  "traído el libro?",
+  "Have you brought the book?"
+ ],
+ [
+  "Beber",
+  "to drink",
+  "bebido",
+  "Solo he",
+  "bebido agua.",
+  "I have only drunk water."
+ ],
+ [
+  "Tocar",
+  "to touch / play",
+  "tocado",
+  "Nunca he",
+  "tocado la guitarra.",
+  "I have never played the guitar."
+ ],
+ [
+  "Volver",
+  "to come back",
+  "vuelto",
+  "Ha",
+  "vuelto a casa.",
+  "He has come back home."
+ ],
+ [
+  "Empezar",
+  "to start",
+  "empezado",
+  "Ya hemos",
+  "empezado.",
+  "We have already started."
+ ],
+ [
+  "Jugar",
+  "to play (games)",
+  "jugado",
+  "Hoy he",
+  "jugado al pádel.",
+  "Today I have played padel."
+ ],
+ [
+  "Pensar",
+  "to think",
+  "pensado",
+  "Lo he",
+  "pensado mucho.",
+  "I have thought about it a lot."
+ ],
+ [
+  "Pedir",
+  "to ask for / order",
+  "pedido",
+  "Hemos",
+  "pedido la cuenta.",
+  "We have asked for the bill."
+ ],
+ [
+  "Correr",
+  "to run",
+  "corrido",
+  "He",
+  "corrido diez kilómetros.",
+  "I have run ten kilometres."
+ ],
+ [
+  "Nadar",
+  "to swim",
+  "nadado",
+  "Esta mañana he",
+  "nadado.",
+  "I have swum this morning."
+ ],
+ [
+  "Llamar",
+  "to call",
+  "llamado",
+  "Mis padres han",
+  "llamado dos veces.",
+  "My parents have called twice."
+ ],
+ [
+  "Llegar",
+  "to arrive",
+  "llegado",
+  "Esta mañana hemos",
+  "llegado tarde.",
+  "We arrived late this morning."
+ ],
+ [
+  "Mirar",
+  "to look at",
+  "mirado",
+  "Lo he",
+  "mirado en internet.",
+  "I have looked it up online."
+ ],
+ [
+  "Creer",
+  "to believe",
+  "creído",
+  "Nunca lo he",
+  "creído.",
+  "I have never believed it."
+ ],
+ [
+  "Aprender",
+  "to learn",
+  "aprendido",
+  "He",
+  "aprendido mucho español.",
+  "I have learnt a lot of Spanish."
+ ],
+ [
+  "Oír",
+  "to hear",
+  "oído",
+  "No te he",
+  "oído.",
+  "I did not hear you."
+ ],
+ [
+  "Seguir",
+  "to follow / keep on",
+  "seguido",
+  "He",
+  "seguido tu consejo.",
+  "I have followed your advice."
+ ],
+ [
+  "Leer",
+  "to read",
+  "leído",
+  "He",
+  "leído dos capítulos.",
+  "I have read two chapters."
+ ],
+ [
+  "Pasar",
+  "to happen / spend",
+  "pasado",
+  "¿Qué ha",
+  "pasado?",
+  "What has happened?"
+ ],
+ [
+  "Dejar",
+  "to leave / let",
+  "dejado",
+  "He",
+  "dejado las llaves en casa.",
+  "I have left the keys at home."
+ ],
+ [
+  "Quedar",
+  "to stay / meet up",
+  "quedado",
+  "Me he",
+  "quedado en casa.",
+  "I have stayed at home."
+ ],
+ [
+  "Parecer",
+  "to seem",
+  "parecido",
+  "Me ha",
+  "parecido bien.",
+  "It seemed fine to me."
+ ],
+ [
+  "Deber",
+  "must / to owe",
+  "debido",
+  "No he",
+  "debido hacerlo.",
+  "I should not have done it."
+ ]
+];
+
+const grids = [document.getElementById('g1'), document.getElementById('g2')];
+for (let r = 0; r < 10; r++) {
+  const band = document.createElement('div');
+  band.className = 'band' + (r % 2 === 0 ? ' alt' : '');
+  for (let c = 0; c < 5; c++) {
+    const [inf, en, part, aux, rest, tr] = V[r * 5 + c];
+    const flag = IRREG.has(part) ? '<span class="irr">irregular</span>' : '';
+    band.insertAdjacentHTML('beforeend',
+      `<div class="verb"><h2>${inf}</h2><div class="en">${en}</div>` +
+      `<div class="part"><span class="arrow">&rarr;</span> ${part}${flag}</div>` +
+      `<div class="es">${aux} <b>${rest}</b></div>` +
+      `<div class="tr">${tr}</div></div>`);
+  }
+  grids[r < 5 ? 0 : 1].appendChild(band);
+}
+</script>
+</body>
+</html>

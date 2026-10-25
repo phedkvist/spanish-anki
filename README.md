@@ -135,10 +135,10 @@ whenever cards are added.
 
 ## Posters
 
-Ten wall charts. The sources are `posters/src/*.html`; the printable PDFs land
+Eleven wall charts. The sources are `posters/src/*.html`; the printable PDFs land
 in `posters/`, so that folder is only the files you actually open.
 
-The four verb charts carry the same 50 verbs in the same grid
+The five verb charts carry the same 50 verbs in the same grid
 order, so they read as a set: rows 1–4 are the 20 core A1 verbs, rows 5–6 ten
 more high-frequency ones, row 7 the stem-changers (volver, empezar, jugar,
 pensar, pedir), rows 8–9 ten everyday verbs (correr, nadar, llamar, llegar,
@@ -151,6 +151,7 @@ meant 5.9pt tables, which is too small to read off a wall:
 | File | Tense | Structure |
 |---|---|---|
 | `posters/poster-verbos.pdf` | present indicative | 50 conjugation tables, 2 pages |
+| `posters/poster-perfecto.pdf` | pretérito perfecto | `haber` conjugated once + 50 participles with examples, 2 pages |
 | `posters/poster-futuro.pdf` | futuro simple | 50 conjugation tables + a worked build-up, 2 pages |
 | `posters/poster-futuro-proximo.pdf` | futuro próximo | `ir` conjugated once + 50 example sentences, 2 pages |
 | `posters/poster-pasado.pdf` | pretérito indefinido | 50 conjugation tables + a worked -ar/-er/-ir example, 2 pages |

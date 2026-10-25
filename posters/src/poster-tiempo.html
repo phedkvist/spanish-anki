@@ -77,9 +77,20 @@
   footer .note b{ color:var(--navy); font-weight:600; }
   footer .tag{ text-align:right; white-space:nowrap; }
   footer .tag strong{ color:var(--navy); font-weight:700; }
+
+  /* level badge, top right of every page */
+  .level{
+    position:absolute; top:5mm; right:12mm; z-index:5;
+    background:var(--orange); color:#fff;
+    font-size:7.6pt; font-weight:800; letter-spacing:1.1pt;
+    padding:1.2mm 2.9mm 1mm; border-radius:1mm; line-height:1;
+    box-shadow:0 0 0 0.7mm #fff;
+  }
+  body{ position:relative; }
 </style>
 </head>
 <body>
+<div class="level">A1</div>
 
 <header>
   <h1><span class="num">¿Qué tiempo<br>hace?</span><br>El Tiempo</h1>

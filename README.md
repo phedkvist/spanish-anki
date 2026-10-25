@@ -138,6 +138,11 @@ whenever cards are added.
 Eleven wall charts. The sources are `posters/src/*.html`; the printable PDFs land
 in `posters/`, so that folder is only the files you actually open.
 
+Every page carries its CEFR level as a badge in the top-right corner, so a
+stack of printouts can be sorted without reading them. Nine are A1; the two A2
+ones are the *indefinido* and the *futuro simple*, both of which the deck also
+holds back.
+
 The five verb charts carry the same 50 verbs in the same grid
 order, so they read as a set: rows 1–4 are the 20 core A1 verbs, rows 5–6 ten
 more high-frequency ones, row 7 the stem-changers (volver, empezar, jugar,
